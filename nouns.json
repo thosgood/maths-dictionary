@@ -62,7 +62,8 @@
       },
       "24950538": {
         "DE": { "atom": "quasi-kompakt",  "pstn": "before" },
-        "EN": { "atom": "quasi-compact" , "pstn": "before" }
+        "EN": { "atom": "quasi-compact" , "pstn": "before" },
+        "FR": { "atom": "quasi-compact"  , "pstn": "after" }
       },
       "271a0557": {
         "EN": { "atom": "of finite type", "pstn": "after" },
@@ -127,7 +128,7 @@
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "ring" },
       "ES": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": ""  },
+      "FR": { "atom": "anneau", "gend": "masculin" },
       "IT": { "atom": "", "gend": ""  },
       "JA": { "atom": "" },
       "PT": { "atom": "", "gend": "" },
@@ -140,7 +141,7 @@
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "module" },
       "ES": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": ""  },
+      "FR": { "atom": "module", "gend": "masculin" },
       "IT": { "atom": "", "gend": ""  },
       "JA": { "atom": "" },
       "PT": { "atom": "", "gend": "" },
@@ -153,7 +154,7 @@
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "field" },
       "ES": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": ""  },
+      "FR": { "atom": "corps", "gend": "masculin"},
       "IT": { "atom": "", "gend": ""  },
       "JA": { "atom": "" },
       "PT": { "atom": "", "gend": "" },
@@ -166,7 +167,7 @@
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "category" },
       "ES": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": ""  },
+      "FR": { "atom": "catégorie", "gend": "féminin" },
       "IT": { "atom": "", "gend": ""  },
       "JA": { "atom": "" },
       "PT": { "atom": "", "gend": "" },
