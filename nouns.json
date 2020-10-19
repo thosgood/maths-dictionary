@@ -277,7 +277,7 @@
         "EN": { "atom": "clopen", "pstn": "before" },
         "ES": { "atom": "clopen", "pstn": "after" },
       },
-      "12ee03be: {
+      "12ee03be": {
         "EN": { "atom": "countable", "pstn": "before" },
         "ES": { "atom": "numberable", "pstn": "after" },
       },
