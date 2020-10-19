@@ -1,6 +1,7 @@
 {
   "08b50276": {
     "root": {
+      "CA": { "atom": "esquema", "gend": "masculí"   },
       "DE": { "atom": "Schema" , "gend": "neutral"   },
       "EN": { "atom": "scheme"                       },
       "ES": { "atom": "esquema", "gend": "masculino" },
@@ -13,6 +14,7 @@
     },
     "adjs": {
       "085e026a": {
+        "CA": { "atom": "afí"     , "pstn": "after"  },
         "DE": { "atom": "affines" , "pstn": "before" },
         "EN": { "atom": "affine"  , "pstn": "before" },
         "ES": { "atom": "afín"    , "pstn": "after"  },
@@ -22,6 +24,7 @@
         "RU": { "atom": "аффи́нная", "pstn": "before" },
       },
       "12a103b4": {
+        "CA": { "atom": "connex"          , "pstn": "after"  },
         "DE": { "atom": "zusammenhängend" , "pstn": "before" },
         "EN": { "atom": "connected"       , "pstn": "before" },
         "ES": { "atom": "conexo"          , "pstn": "after"  },
@@ -31,6 +34,7 @@
         "RU": { "atom": "связна́я"         , "pstn": "before" },
       },
       "15ed040e": {
+        "CA": { "atom": "noetherià"   , "pstn": "after"  },
         "DE": { "atom": "noethersches", "pstn": "before" },
         "EN": { "atom": "Noetherian"  , "pstn": "before" },
         "ES": { "atom": "noetheriano" , "pstn": "after"  },
@@ -40,6 +44,7 @@
         "RU": { "atom": "нётерова"    , "pstn": "before" },
       },
       "433b071e": {
+        "CA": { "atom": "localmentnoetherià"    , "pstn": "after"  },
         "DE": { "atom": "lokal noethersches"    , "pstn": "before" },
         "EN": { "atom": "locally Noetherian"    , "pstn": "before" },
         "ES": { "atom": "localmente noetheriano", "pstn": "after"  },
@@ -49,6 +54,7 @@
         "RU": { "atom": "лока́льно нётерова"     , "pstn": "before" },
       },
       "0ba202dd": {
+        "CA": { "atom": "reduït"     , "pstn": "after"  },
         "DE": { "atom": "reduziertes", "pstn": "before" },
         "EN": { "atom": "reduced"    , "pstn": "before" },
         "ES": { "atom": "reducido"   , "pstn": "after"  },
@@ -58,6 +64,7 @@
         "RU": { "atom": "приведённая", "pstn": "before" },
       },
       "0f230357": {
+        "CA": { "atom": "integral" , "pstn": "after"  },
         "DE": { "atom": "ganzes"   , "pstn": "before" },
         "EN": { "atom": "integral" , "pstn": "before" },
         "ES": { "atom": "íntegro"  , "pstn": "after"  },
@@ -67,6 +74,7 @@
         "RU": { "atom": "це́лая"    , "pstn": "before" },
       },
       "12da03ba": {
+        "CA": { "atom": "separat"    , "pstn": "after"  },
         "DE": { "atom": "separiertes", "pstn": "before" },
         "EN": { "atom": "separated"  , "pstn": "before" },
         "ES": { "atom": "separado"   , "pstn": "after"  },
@@ -76,6 +84,7 @@
         "RU": { "atom": "отдели́мая"  , "pstn": "before" },
       },
       "1b9c048b": {
+        "CA": { "atom": "irreduïble"  , "pstn": "after"  },
         "DE": { "atom": "irreduzibles", "pstn": "before" },
         "EN": { "atom": "irreducible" , "pstn": "before" },
         "ES": { "atom": "irreducible" , "pstn": "after"  },
@@ -85,6 +94,7 @@
         "RU": { "atom": "неприводи́мая", "pstn": "before" },
       },
       "0902028a": {
+        "CA": { "atom": "normal"    , "pstn": "after"  },
         "DE": { "atom": "normales"  , "pstn": "before" },
         "EN": { "atom": "normal"    , "pstn": "before" },
         "ES": { "atom": "normal"    , "pstn": "after"  },
@@ -94,6 +104,7 @@
         "RU": { "atom": "норма́льная", "pstn": "before" },
       },
       "24950538": {
+        "CA": { "atom": "quasi-compacte"  , "pstn": "after"  },
         "DE": { "atom": "quasi-kompaktes" , "pstn": "before" },
         "EN": { "atom": "quasi-compact"   , "pstn": "before" },
         "ES": { "atom": "cuasicompacto"   , "pstn": "after"  },
@@ -103,6 +114,7 @@
         "RU": { "atom": "квазикомпа́ктная" , "pstn": "before" },
       },
       "271a0557": {
+        "CA": { "atom": "de tipus finit", "pstn": "after"  },
         "EN": { "atom": "of finite type", "pstn": "after" },
         "ES": { "atom": "de tipo finito", "pstn": "after" },
         "FR": { "atom": "de type fini"  , "pstn": "after" },
@@ -113,7 +125,7 @@
     },
   },
   "0677022e": {
-    "root": {
+    "root": 
       "CA": { "atom": "grup"  , "gend": "masculí"   },
       "DE": { "atom": "Gruppe", "gend": "feminin"   },
       "EN": { "atom": "group"                       },
@@ -127,6 +139,7 @@
     },
     "adjs": {
       "0ba202dd": {
+        "CA": { "atom": "reduït"        , "pstn": "after"  }, 
         "EN": { "atom": "reduced"       , "pstn": "before" },
         "ES": { "atom": "reducido"      , "pstn": "after"  },
         "FR": { "atom": "réduit"        , "pstn": "after"  },
@@ -147,6 +160,7 @@
         "RU": { "atom": "а́белева" , "pstn": "before" },
       },
       "08b70280": {
+        "CA": { "atom": "finit"  , "pstn": "after"  },
         "DE": { "atom": "endliche", "pstn": "before" },
         "EN": { "atom": "finite"  , "pstn": "before" },
         "ES": { "atom": "finito"  , "pstn": "after"  },
@@ -158,17 +172,20 @@
       "08ba0278": {
         "CA": { "atom": "cíclic"  , "pstn": "after"  },
         "EN": { "atom": "cyclic"  , "pstn": "before" },
+        "ES": { "atom": "cíclico" , "pstn": "after"  },
         "FR": { "atom": "cyclique", "pstn": "after"  },
       },
       "07d70260": {
         "CA": { "atom": "de Galois", "pstn": "after"  },
         "EN": { "atom": "Galois"   , "pstn": "before" },
+        "ES": { "atom": "de Galois", "pstn": "after" },
         "FR": { "atom": "de Galois", "pstn": "after"  },
       },
     },
   },
   "3f1206ca": {
     "root": {
+      "CA": { "atom": "espai topològic"            , "gend": "masculí"  },
       "DE": { "atom": "topologischer Raum"         , "gend": "maskulin"  },
       "EN": { "atom": "topological space"                                },
       "ES": { "atom": "espacio topológico"         , "gend": "masculino" },
@@ -182,6 +199,7 @@
   },
   "1f8004c0": {
     "root": {
+      "CA": { "atom": "espai vectorial"       , "gend": "masculí"   },
       "DE": { "atom": "Vektorraum"            , "gend": "maskulin"  },
       "EN": { "atom": "vector space"                                },
       "ES": { "atom": "espacio vectorial"     , "gend": "masculino" },
@@ -194,7 +212,8 @@
     },
   },
   "044a01b1": {
-    "root": {
+    "root": {   
+      "CA": { "atom": "anell" , "gend": "masculí"   },
       "DE": { "atom": "Ring"  , "gend": "maskulin"  },
       "EN": { "atom": "ring"                        },
       "ES": { "atom": "anillo", "gend": "masculino" },
@@ -208,6 +227,7 @@
   },
   "08eb0287": {
     "root": {
+      "CA": { "atom": "mòdul" , "gend": "masculí"   },
       "DE": { "atom": "Modul" , "gend": "maskulin"  },
       "EN": { "atom": "module"                      },
       "ES": { "atom": "módulo", "gend": "masculino" },
@@ -221,6 +241,7 @@
   },
   "06120205": {
     "root": {
+      "CA": { "atom": "cos"   , "gend": "masculí"   },
       "DE": { "atom": "Körper", "gend": "maskulin"  },
       "EN": { "atom": "field"                       },
       "ES": { "atom": "cuerpo", "gend": "masculino" },
@@ -233,21 +254,28 @@
     },
     "adjs": {
       "08b70280": {
+        "CA": { "atom": "finit" , "pstn": "after"  },
         "EN": { "atom": "finite", "pstn": "before" },
+        "ES": { "atom": "finito" , "pstn": "after"  },
         "PT": { "atom": "finito", "pstn": "after"  },
       },
       "533c07e7": {
-        "EN": { "atom": "algebraically closed"  , "pstn": "before" },
-        "PT": { "atom": "algebricamente fechado", "pstn": "after"  },
+        "CA": { "atom": "algebraicament tancat"   , "pstn": "after"  },
+        "EN": { "atom": "algebraically closed"    , "pstn": "before" },
+        "ES": { "atom": "algebraicamente cerrado" , "pstn": "after"  },
+        "PT": { "atom": "algebricamente fechado"  , "pstn": "after"  },
       },
       "0bb002ea": {
-        "EN": { "atom": "perfect" , "pstn": "before" },
-        "PT": { "atom": "perfeito", "pstn": "after"  },
+        "CA": { "atom": "perfecte"  , "pstn": "after"  },
+        "EN": { "atom": "perfect"   , "pstn": "before" },
+        "ES": { "atom": "perfecto"  , "pstn": "after"  },
+        "PT": { "atom": "perfeito"  , "pstn": "after"  },
       },
     },
   },
   "0ebe035f": {
     "root": {
+      "CA": { "atom": "categoria", "gend": "femení"    },
       "DE": { "atom": "Kategorie", "gend": "feminin"   },
       "EN": { "atom": "category"                       },
       "ES": { "atom": "categoría", "gend": "femenino"  },
@@ -261,33 +289,40 @@
   },
   "029a014d": {
     "root": {
+      "CA": { "atom": "conjunt" , "gend": "masculí"   },
       "EN": { "atom": "set"                           },
       "ES": { "atom": "conjunto", "gend": "masculino" },
     },
     "adjs": {
       "08b7027b": {
-        "EN": { "atom": "closed", "pstn": "before" },
-        "ES": { "atom": "cerrado", "pstn": "after" },
+        "CA": { "atom": "tancat"  , "pstn": "after"   },
+        "EN": { "atom": "closed"  , "pstn": "before"  },
+        "ES": { "atom": "cerrado" , "pstn": "after"   },
       },
-      "044801b3": {
-        "EN": { "atom": "open", "pstn": "before" },
-        "ES": { "atom": "abierto", "pstn": "after" },
+      "044801b3": { 
+        "CA": { "atom": "obert"   , "pstn": "after"   },
+        "EN": { "atom": "open"    , "pstn": "before"  },
+        "ES": { "atom": "abierto" , "pstn": "after"   },
       },
-      "08b80282": {
-        "EN": { "atom": "clopen", "pstn": "before" },
-        "ES": { "atom": "clopen", "pstn": "after" },
+      "08b80282": { 
+        "CA": { "atom": "clopen"  , "pstn": "after"   },
+        "EN": { "atom": "clopen"  , "pstn": "before"  },
+        "ES": { "atom": "clopen"  , "pstn": "after"   },
       },
       "12ee03be": {
-        "EN": { "atom": "countable", "pstn": "before" },
-        "ES": { "atom": "numberable", "pstn": "after" },
+        "CA": { "atom": "numerable"   , "pstn": "after"   },
+        "EN": { "atom": "countable"   , "pstn": "before"  },
+        "ES": { "atom": "numberable"  , "pstn": "after"   },
       },
       "0f030357": {
-        "EN": { "atom": "infinite", "pstn": "before" },
-        "ES": { "atom": "infinito", "pstn": "after" },
+        "CA": { "atom": "infinit"    , "pstn": "after"  },
+        "EN": { "atom": "infinite"  , "pstn": "before"  },
+        "ES": { "atom": "infinito"  , "pstn": "after"   },
       },
       "08b70280": {
-        "EN": { "atom": "finite", "pstn": "before" },
-        "ES": { "atom": "finito", "pstn": "after" },
+        "CA": { "atom": "finit"   , "pstn": "after"   },
+        "EN": { "atom": "finite"  , "pstn": "before"  },
+        "ES": { "atom": "finito"  , "pstn": "after"   },
       },
     }
   },
