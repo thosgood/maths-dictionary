@@ -44,7 +44,7 @@
         "RU": { "atom": "нётерова"    , "pstn": "before" },
       },
       "433b071e": {
-        "CA": { "atom": "localmentnoetherià"    , "pstn": "after"  },
+        "CA": { "atom": "localment noetherià"    , "pstn": "after"  },
         "DE": { "atom": "lokal noethersches"    , "pstn": "before" },
         "EN": { "atom": "locally Noetherian"    , "pstn": "before" },
         "ES": { "atom": "localmente noetheriano", "pstn": "after"  },
@@ -125,7 +125,7 @@
     },
   },
   "0677022e": {
-    "root": 
+    "root": {
       "CA": { "atom": "grup"  , "gend": "masculí"   },
       "DE": { "atom": "Gruppe", "gend": "feminin"   },
       "EN": { "atom": "group"                       },
