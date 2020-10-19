@@ -10,4 +10,6 @@ If you would like to contribute a few words, then use [this form](https://docs.g
     + see [this](https://stackoverflow.com/questions/44279919/reading-json-file-from-github-pages-server-using-javascript)
 - fix errors with the `DE` entries
     + think about how to deal with grammatical case...
+- regional variations?
+    + especially with `ES`
 - add plurals of nouns (and thus adjectives)
