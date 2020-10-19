@@ -7,10 +7,10 @@
       "ES": { "atom": "esquema", "gend": "masculino" },
       "FR": { "atom": "schéma" , "gend": "masculin"  },
       "IT": { "atom": "schema" , "gend": "maschile"  },
-      "JA": { "atom": "概形"                         },
+      "JA": { "atom": "\u6982\u5f62"                         },
       "PT": { "atom": "esquema", "gend": "masculino" },
       "RU": { "atom": "cхе́ма"  , "gend": "женский"   },
-      "ZH": { "atom": "概形"                         },
+      "ZH": { "atom": "\u6982\u5f62"                         },
     },
     "adjs": {
       "085e026a": {
@@ -179,10 +179,10 @@
       "ES": { "atom": "espacio topológico"         , "gend": "masculino" },
       "FR": { "atom": "espace topologique"         , "gend": "masculin"  },
       "IT": { "atom": "spazio topologico"          , "gend": "maschile"  },
-      "JA": { "atom": "位相空間"                                         },
+      "JA": { "atom": "\u4f4d\u76f8\u7a7a\u9593"                                         },
       "PT": { "atom": "espaço topológico"          , "gend": "masculino" },
       "RU": { "atom": "топологи́ческое простра́нство", "gend": "средний"   },
-      "ZH": { "atom": "拓扑空间"                                         },
+      "ZH": { "atom": "\u62d3\u6251\u7a7a\u95f4"                                         },
     },
   },
   "1f8004c0": {
@@ -193,10 +193,10 @@
       "ES": { "atom": "espacio vectorial"     , "gend": "masculino" },
       "FR": { "atom": "espace vectoriel"      , "gend": "masculin"  },
       "IT": { "atom": "spazio vettoriale"     , "gend": "maschile"  },
-      "JA": { "atom": "ベクトル空間"                                },
+      "JA": { "atom": "\u30d9\u30af\u30c8\u30eb\u7a7a\u9593"                                },
       "PT": { "atom": "espaço vetorial"       , "gend": "masculino" },
       "RU": { "atom": "ве́кторное простра́нство", "gend": "средний"   },
-      "ZH": { "atom": "向量空间"                                    },
+      "ZH": { "atom": "\u5411\u91cf\u7a7a\u95f4"                                    },
     },
   },
   "044a01b1": {
