@@ -15,12 +15,14 @@
 
 <body>
 
-<script type="text/javascript" src="./jquery-3.5.1.min.js"></script>
-<script type="text/javascript">
-  $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
-    console.log(json);
-  });
-</script>
+  <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
+        console.log(json);
+      });
+    });
+  </script>
 
 </body>
 
