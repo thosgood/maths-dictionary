@@ -114,6 +114,7 @@
   },
   "0677022e": {
     "root": {
+      "CA": { "atom": "grup"  , "gend": "masculí"   },
       "DE": { "atom": "Gruppe", "gend": "feminin"   },
       "EN": { "atom": "group"                       },
       "ES": { "atom": "grupo" , "gend": "masculino" },
@@ -131,7 +132,12 @@
         "FR": { "atom": "réduit"        , "pstn": "after"  },
         "RU": { "atom": "редуци́рованная", "pstn": "before" },
       },
+      "0902028a": {
+        "CA": { "atom": "normal", "pstn": "after"  },
+        "EN": { "atom": "normal", "pstn": "before" },
+      },
       "0b0e02cd": {
+        "CA": { "atom": "abelià"  , "pstn": "after"  },
         "DE": { "atom": "abelsche", "pstn": "before" },
         "EN": { "atom": "abelian" , "pstn": "before" },
         "ES": { "atom": "abeliano", "pstn": "after"  },
@@ -150,12 +156,14 @@
         "RU": { "atom": "коне́чная", "pstn": "before" },
       },
       "08ba0278": {
-        "FR": {"atom": "cyclique", "pstn": "after"  },
-        "EN": {"atom": "cyclic"  , "pstn": "before" },
+        "CA": { "atom": "cíclic"  , "pstn": "after"  },
+        "EN": { "atom": "cyclic"  , "pstn": "before" },
+        "FR": { "atom": "cyclique", "pstn": "after"  },
       },
       "07d70260": {
-        "FR": {"atom": "de Galois", "pstn": "after"  },
-        "EN": {"atom": "Galois"   , "pstn": "before" },
+        "CA": { "atom": "de Galois", "pstn": "after"  },
+        "EN": { "atom": "Galois"   , "pstn": "before" },
+        "FR": { "atom": "de Galois", "pstn": "after"  },
       },
     },
   },
@@ -250,5 +258,37 @@
       "RU": { "atom": "катего́рия", "gend": "женский"   },
       "ZH": { "atom": "" },
     },
+  },
+  "029a014d": {
+    "root": {
+      "EN": { "atom": "set"                           },
+      "ES": { "atom": "conjunto", "gend": "masculino" },
+    },
+    "adjs": {
+      "08b7027b": {
+        "EN": { "atom": "closed", "pstn": "before" },
+        "ES": { "atom": "cerrado", "pstn": "after" },
+      },
+      "044801b3": {
+        "EN": { "atom": "open", "pstn": "before" },
+        "ES": { "atom": "abierto", "pstn": "after" },
+      },
+      "08b80282": {
+        "EN": { "atom": "clopen", "pstn": "before" },
+        "ES": { "atom": "clopen", "pstn": "after" },
+      },
+      "12ee03be: {
+        "EN": { "atom": "countable", "pstn": "before" },
+        "ES": { "atom": "numberable", "pstn": "after" },
+      },
+      "0f030357": {
+        "EN": { "atom": "infinite", "pstn": "before" },
+        "ES": { "atom": "infinito", "pstn": "after" },
+      },
+      "08b70280": {
+        "EN": { "atom": "finite", "pstn": "before" },
+        "ES": { "atom": "finito", "pstn": "after" },
+      },
+    }
   },
 }
