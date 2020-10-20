@@ -8,3 +8,8 @@ div#table_container {
   table-layout: fixed;
   width: 2500px;
 }
+
+div#language_selectors {
+  width: 300px;
+  margin: auto;
+}
