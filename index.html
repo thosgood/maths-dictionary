@@ -15,22 +15,14 @@
 
 <body>
 
-  <ul id="output"></ul>
+  <table id="table">
+    <tbody id="table_body">
+      <tr id="table_headers"></tr>
+    </tbody>
+  </table>
 
-  <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
-        var html_output = '';
-        $.each(json, function(i, item) {
-          html_output += '<li>';
-          html_output += item.root.EN.atom;
-          html_output += '</li>\n';
-        });
-        $(html_output).appendTo("#output");
-      });
-    });
-  </script>
+  <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="js/display_dictionary.js"></script>
 
 </body>
 
