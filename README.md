@@ -6,8 +6,6 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 ## Todo
 
-- make `index.html`
-    + see [this](https://stackoverflow.com/questions/44279919/reading-json-file-from-github-pages-server-using-javascript)
 - fix errors with the `DE` entries
     + think about how to deal with grammatical case...
 - regional variations?
