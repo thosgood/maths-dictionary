@@ -18,8 +18,12 @@ var update_table = function(data = dict) {
     var row = "<tr>";
     $.each(visible_langs, function(l, lang) {
       row += "<td>";
-      if (typeof item["root"][lang] !== 'undefined') {
-        row += item["root"][lang]["atom"];
+      var entry = item["root"][lang];
+      if (typeof entry !== 'undefined') {
+        row += `<span class="noun">${entry["atom"]}</span>`;
+        if (typeof entry["gend"] !== 'undefined') {
+          row += `<span class="gender">(${entry["gend"][0]})</span>`;
+        }
       };
       row += "</td>";
     });

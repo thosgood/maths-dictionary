@@ -43,3 +43,10 @@ div#table_container {
 #table tr#table_headers:hover {
   background-color: #fff;
 }
+
+/* Dictionary table entries */
+
+.gender {
+  padding-left: 4px;
+  font-style: italic;
+}
