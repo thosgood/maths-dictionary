@@ -13,3 +13,7 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 - regional variations?
     + especially with `ES`
 - add plurals of nouns (and thus adjectives)
+
+## Contributors
+
+TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre
