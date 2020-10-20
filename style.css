@@ -1,3 +1,12 @@
+/* Language selection boxes */
+
+#language_selectors {
+  width: 120px;
+  margin: auto;
+}
+
+/*The dictionary table*/
+
 div#table_container {
   width: 65%;
   margin: auto;
@@ -10,13 +19,27 @@ div#table_container {
   /*width: 100%;*/
 }
 
+#table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
 #table td,th {
   overflow: hidden;
   height: 30px;
   width: 210px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
-#language_selectors {
-  width: 120px;
-  margin: auto;
+#table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table tr:hover {
+  background-color: #daf0dc;
+}
+
+#table tr#table_headers:hover {
+  background-color: #fff;
 }
