@@ -67,8 +67,9 @@ var update_table = function(data = dict) {
           return true;
         };
         emptyAdjRow = false;
-        // TODO: add _____ before or after, depending on "pstn"
+        if (adjective["pstn"] === "after"){adjRow+="___ "};
         adjRow += adjective["atom"];
+        if (adjective["pstn"] === "before"){adjRow+=" ___"};
         adjRow += "</td>";
       }); // end $.each(visible_langs)
       adjRow += "</tr>";
