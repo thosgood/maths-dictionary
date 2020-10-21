@@ -19,7 +19,7 @@ var update_table = function(data = dict) {
   $.each(data, function(i, item) {
 
     var emptyEntryRow = true;
-    var entryRow = "<tr>";
+    var entryRow = "<tr class=\"noun\">";
 
     $.each(visible_langs, function(l, lang) {
 
@@ -40,7 +40,7 @@ var update_table = function(data = dict) {
         entryRow += `<span class="gender">(${entry["gend"][0]})</span>`;
       };
       entryRow += "</td>";
-    });
+    }); // end $.each(visible_langs)
 
     entryRow += "</tr>";
 
@@ -53,8 +53,29 @@ var update_table = function(data = dict) {
       return true;
     };
 
-    // TODO: do rows of adjectives!
-  });
+    // TODO: move this out to a separate function that gets called when we click
+    //       on a row: it will take the entry of that row as an argument
+    // do the same as we're currently doing with nouns, but now with adjectives
+    $.each(item["adjs"], function(a, adj) {
+      var emptyAdjRow = true;
+      var adjRow = "<tr class=\"adjective\">";
+      $.each(visible_langs, function(l, lang) {
+        adjRow += "<td>";
+        var adjective = adj[lang]
+        if (typeof adjective === "undefined" || adjective["atom"] === "") {
+          adjRow += "</td>";
+          return true;
+        };
+        emptyAdjRow = false;
+        // TODO: add _____ before or after, depending on "pstn"
+        adjRow += adjective["atom"];
+        adjRow += "</td>";
+      }); // end $.each(visible_langs)
+      adjRow += "</tr>";
+      if (!emptyAdjRow){$(adjRow).appendTo("#table_body");}
+    }); // end $.each(item["adjs"])
+
+  }); // end $.each(data)
 };
 
 

@@ -52,6 +52,7 @@ div#table_container {
   width: 210px;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP';
 }
 
 #table tr:nth-child(even) {
@@ -67,14 +68,18 @@ div#table_container {
 }
 
 
-/* Dictionary table entries */
+/* The dictionary table (fancy formatting) */
 
-#table td,th {
-  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP';
+#table tr.noun td {
+  font-weight: bold;
   text-align: left;
 }
 
-.gender {
+#table tr.adjective td {
+  text-align: right;
+}
+
+#table span.gender {
   padding-left: 4px;
   font-style: italic;
 }
