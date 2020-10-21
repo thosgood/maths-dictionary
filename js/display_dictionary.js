@@ -2,7 +2,9 @@ const langs = ["CA","DE","EN","ES","FR","IT","JA","PT","RU","ZH"]
 var visible_langs = ["EN"];
 var dict = {};
 
+
 var update_table = function(data = dict) {
+
   $("#table_body").empty();
   $("<tr id=\"table_headers\"></tr>").appendTo("#table_body")
 
@@ -15,30 +17,44 @@ var update_table = function(data = dict) {
   $(table_headers).appendTo("#table_headers")
 
   $.each(data, function(i, item) {
-    var notEmpty = false;
-    
-    var row = "<tr>";
+
+    var emptyEntryRow = true;
+    var entryRow = "<tr>";
 
     $.each(visible_langs, function(l, lang) {
-      row += "<td>";
+
+      entryRow += "<td>";
+
       var entry = item["root"][lang];
-      if (typeof entry !== "undefined" && entry["atom"] !== "") {
-        notEmpty = true;
-        row += `<span class="noun">${entry["atom"]}</span>`;
-        if (typeof entry["gend"] !== "undefined") {
-          row += `<span class="gender">(${entry["gend"][0]})</span>`;
-        };
+
+      // skip to next item in data if this entry doesn't exist or has empty atom
+      if (typeof entry === "undefined" || entry["atom"] === "") {
+        entryRow += "</td>";
+        return true;
       };
-      row += "</td>";
+      
+      // by here we know that we actually have an entry to work with
+      emptyEntryRow = false;
+      entryRow += `<span class="noun">${entry["atom"]}</span>`;
+      if (typeof entry["gend"] !== "undefined") {
+        entryRow += `<span class="gender">(${entry["gend"][0]})</span>`;
+      };
+      entryRow += "</td>";
     });
 
-    row += "</tr>";
+    entryRow += "</tr>";
 
-    if (notEmpty) {
-      $(row).appendTo("#table_body");
+    if (!emptyEntryRow) {
+      $(entryRow).appendTo("#table_body");
+    };
+
+    // skip to next item in data if this entry doesn't have any adjectives
+    if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
+      return true;
     };
   });
 };
+
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
@@ -46,6 +62,7 @@ $(document).ready(function() {
     update_table(dict);
   })
 });
+
 
 $("input").on("click", function() {
   visible_langs = [];
