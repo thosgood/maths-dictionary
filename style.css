@@ -76,7 +76,9 @@ div#table_container {
 }
 
 #table tr.adjective td {
+  height: 20px;
   text-align: right;
+  font-style: italic;
   font-size: 11pt;
 }
 
