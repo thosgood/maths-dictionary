@@ -2,45 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
 
+
+body {
+  font-family: 'Noto Serif';
+  text-align: center;
+}
+
 /* Language selection boxes */
 
 div#language_selectors_container {
   height: 100px;
-  width: 400px;
-  margin: auto;
+  width: 450px;
+  margin: 20px auto;
+  text-align: left;
+  border: 1px solid #999;
 }
 
 #language_selectors {
   margin: auto;
   list-style-type: none;
   padding-left: 0px;
-    -moz-column-count: 3;
-    -moz-column-gap: 10px;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 10px;
-    column-count: 3;
-    column-gap: 10px;
+  -moz-column-count: 3;
+  -moz-column-gap: 0px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  column-count: 3;
+  column-gap: 0px;
 }
 
-#language_selectors li {
-  width: 120px;
-}
 
 /*The dictionary table*/
 
 div#table_container {
-  width: 85%;
-  margin: auto;
+  height: 400px;
+  display: inline-block;
   overflow-x: auto;
-}
-
-#table {
-  table-layout: fixed;
-  margin: auto;
-  /*width: 100%;*/
+  border-bottom: 2px solid #999;
 }
 
 #table th {
+  position: sticky;
+  top: 0px;
   background-color: #4CAF50;
   color: white;
 }
@@ -64,6 +66,7 @@ div#table_container {
 #table tr#table_headers:hover {
   background-color: #fff;
 }
+
 
 /* Dictionary table entries */
 
