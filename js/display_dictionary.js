@@ -3,6 +3,8 @@ var visible_langs = ["EN"];
 var dict = {};
 
 
+// TODO: sorting (https://stackoverflow.com/a/19947532/2352867)
+
 var update_table = function(data = dict) {
 
   $("#table_body").empty();
