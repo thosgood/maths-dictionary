@@ -52,6 +52,8 @@ var update_table = function(data = dict) {
     if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
       return true;
     };
+
+    // TODO: do rows of adjectives!
   });
 };
 
