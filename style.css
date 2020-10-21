@@ -15,7 +15,6 @@ div#language_selectors_container {
   width: 450px;
   margin: 20px auto;
   text-align: left;
-  border: 1px solid #999;
 }
 
 #language_selectors {
@@ -71,7 +70,8 @@ div#table_container {
 /* Dictionary table entries */
 
 #table td,th {
-  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP'
+  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP';
+  text-align: left;
 }
 
 .gender {

@@ -15,20 +15,28 @@ var update_table = function(data = dict) {
   $(table_headers).appendTo("#table_headers")
 
   $.each(data, function(i, item) {
+    var notEmpty = false;
+    
     var row = "<tr>";
+
     $.each(visible_langs, function(l, lang) {
       row += "<td>";
       var entry = item["root"][lang];
-      if (typeof entry !== 'undefined') {
+      if (typeof entry !== "undefined" && entry["atom"] !== "") {
+        notEmpty = true;
         row += `<span class="noun">${entry["atom"]}</span>`;
-        if (typeof entry["gend"] !== 'undefined') {
+        if (typeof entry["gend"] !== "undefined") {
           row += `<span class="gender">(${entry["gend"][0]})</span>`;
-        }
+        };
       };
       row += "</td>";
     });
+
     row += "</tr>";
-    $(row).appendTo("#table_body");
+
+    if (notEmpty) {
+      $(row).appendTo("#table_body");
+    };
   });
 };
 
