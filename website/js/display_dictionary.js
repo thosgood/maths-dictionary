@@ -50,12 +50,10 @@ var updateTable = function(data = dict) {
       $(entryRow).appendTo("#table_body");
     };
 
-    $.each(showAdjectives(i), function(a, adj) {
-      $(adj).appendTo("#table_body");
-    });
-
   }); // end $.each(data)
 };
+
+
 
 var showAdjectives = function (nounID) {
   var item = dict[nounID];
@@ -66,7 +64,7 @@ var showAdjectives = function (nounID) {
   };
 
   $.each(item["adjs"], function(a, adj) {
-    var adjRow = "<tr class=\"adjective\">";
+    var adjRow = `<tr class="adjective ${nounID}">`;
     var emptyAdjRow = true;
     $.each(visible_langs, function(l, lang) {
       adjRow += "<td>";
@@ -90,12 +88,14 @@ var showAdjectives = function (nounID) {
 };
 
 
+
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     dict = json;
     updateTable(dict);
   })
 });
+
 
 
 $("input").on("click", function() {
@@ -105,4 +105,21 @@ $("input").on("click", function() {
     visible_langs.push(item.name);
   });
   updateTable();
+});
+
+
+
+$(document).on("click", "tr.noun", function(obj) {
+  row = obj.currentTarget
+  nounID = row.id;
+  adjs = showAdjectives(nounID);
+  if ($(row).hasClass("expanded")) {
+    $(`.${nounID}`).remove();
+  } else {
+    $.each(adjs, function(a, adj) {
+      // $(adj).insertAfter(`#${nounID}`);
+      $(adj).insertAfter(row);
+    }); 
+  }
+  $(row).toggleClass("expanded");
 });
