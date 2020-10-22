@@ -21,7 +21,11 @@ var updateTable = function(data = dict) {
   $.each(data, function(i, item) {
 
     var emptyEntryRow = true;
-    var entryRow = `<tr class="noun" id=${i}>`;
+    if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
+      var entryRow = `<tr class="noun" id=${i}>`;
+    } else {
+      var entryRow = `<tr class="noun expandable" id=${i}>`;
+    };
 
     $.each(visible_langs, function(l, lang) {
 
@@ -109,7 +113,7 @@ $("input").on("click", function() {
 
 
 
-$(document).on("click", "tr.noun", function(obj) {
+$(document).on("click", "tr.expandable", function(obj) {
   row = obj.currentTarget
   nounID = row.id;
   adjs = showAdjectives(nounID);
