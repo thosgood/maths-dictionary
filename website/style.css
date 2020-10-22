@@ -71,7 +71,7 @@ div#table_container {
 /* The dictionary table (fancy formatting) */
 
 #table tr.noun td {
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: left;
 }
 
