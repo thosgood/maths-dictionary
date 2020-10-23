@@ -51,7 +51,7 @@ div#table_container {
   height: 30px;
   width: 210px;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP';
 }
 
