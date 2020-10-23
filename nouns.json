@@ -244,13 +244,15 @@
       "08b70280": {
         "CA": { "atom": "finit" , "pstn": "after"  },
         "EN": { "atom": "finite", "pstn": "before" },
-        "ES": { "atom": "finito" , "pstn": "after"  },
+        "ES": { "atom": "finito" , "pstn": "after" },
+        "FR": { "atom": "fini"  , "pstn": "after"  },
         "PT": { "atom": "finito", "pstn": "after"  }
       },
       "533c07e7": {
         "CA": { "atom": "algebraicament tancat"   , "pstn": "after"  },
         "EN": { "atom": "algebraically closed"    , "pstn": "before" },
         "ES": { "atom": "algebraicamente cerrado" , "pstn": "after"  },
+        "FR": { "atom": "algébriquement clos"     , "pstn": "after"  },
         "PT": { "atom": "algebricamente fechado"  , "pstn": "after"  }
       },
       "0bb002ea": {
@@ -279,22 +281,26 @@
     "root": {
       "CA": { "atom": "conjunt" , "gend": "masculí"   },
       "EN": { "atom": "set"                           },
-      "ES": { "atom": "conjunto", "gend": "masculino" }
+      "ES": { "atom": "conjunto", "gend": "masculino" },
+      "FR": { "atom": "ensemble", "gend": "masculin"  }
     },
     "adjs": {
       "06630230": {
         "CA": { "atom": "buit" , "pstn": "after"  },
-        "EN": { "atom": "empty", "pstn": "before" }
+        "EN": { "atom": "empty", "pstn": "before" },
+        "FR": { "atom": "vide" , "pstn": "after"  }
       },
       "08b7027b": {
         "CA": { "atom": "tancat" , "pstn": "after"  },
         "EN": { "atom": "closed" , "pstn": "before" },
-        "ES": { "atom": "cerrado", "pstn": "after"  }
+        "ES": { "atom": "cerrado", "pstn": "after"  },
+        "FR": { "atom": "fermé" , "pstn": "after"  }
       },
       "044801b3": { 
         "CA": { "atom": "obert"  , "pstn": "after"  },
         "EN": { "atom": "open"   , "pstn": "before" },
-        "ES": { "atom": "abierto", "pstn": "after"  }
+        "ES": { "atom": "abierto", "pstn": "after"  },
+        "FR": { "atom": "ouvert" , "pstn": "after"  }
       },
       "08b80282": { 
         "CA": { "atom": "clopen", "pstn": "after"  },
@@ -302,19 +308,22 @@
         "ES": { "atom": "clopen", "pstn": "after"  }
       },
       "12ee03be": {
-        "CA": { "atom": "numerable" , "pstn": "after"  },
-        "EN": { "atom": "countable" , "pstn": "before" },
-        "ES": { "atom": "numberable", "pstn": "after"  }
+        "CA": { "atom": "numerable"  , "pstn": "after"  },
+        "EN": { "atom": "countable"  , "pstn": "before" },
+        "ES": { "atom": "numberable" , "pstn": "after"  },
+        "FR": { "atom": "dénombrable", "pstn": "after"  }
       },
       "0f030357": {
         "CA": { "atom": "infinit" , "pstn": "after"  },
         "EN": { "atom": "infinite", "pstn": "before" },
-        "ES": { "atom": "infinito", "pstn": "after"  }
+        "ES": { "atom": "infinito", "pstn": "after"  },
+        "FR": { "atom": "infini"  , "pstn": "after"  }
       },
       "08b70280": {
         "CA": { "atom": "finit" , "pstn": "after"  },
         "EN": { "atom": "finite", "pstn": "before" },
-        "ES": { "atom": "finito", "pstn": "after"  }
+        "ES": { "atom": "finito", "pstn": "after"  },
+        "FR": { "atom": "fini"  , "pstn": "after"  }
       }
     }
   }
