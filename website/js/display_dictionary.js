@@ -61,6 +61,8 @@ var showAdjectives = function (nounID) {
   var item = dict[nounID];
   var adjRows = [];
 
+  // TODO: adjectives should be sorted if the current column is sorted
+
   if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
     return false;
   };
