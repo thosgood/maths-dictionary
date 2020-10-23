@@ -8,15 +8,15 @@ var dict = {};
 var updateTable = function(data = dict) {
 
   $("#table_body").empty();
-  $("<tr id=\"table_headers\"></tr>").appendTo("#table_body")
+  $("#table_body").append(`<tr id="table_headers"></tr>`);
 
-  var table_headers = "";
+  var tableHeaders = "";
   $.each(visible_langs, function(l, lang) {
-    table_headers += "<th>";
-    table_headers += lang;
-    table_headers += "</th>";
+    tableHeaders += `<th class="sortable">`;
+    tableHeaders += lang;
+    tableHeaders += "</th>";
   });
-  $(table_headers).appendTo("#table_headers")
+  $(tableHeaders).appendTo("#table_headers")
 
   $.each(data, function(i, item) {
 
@@ -72,6 +72,7 @@ var showAdjectives = function (nounID) {
   $.each(item["adjs"], function(a, adj) {
     var adjRow = `<tr class="adjective ${nounID}">`;
     var emptyAdjRow = true;
+
     $.each(visible_langs, function(l, lang) {
       adjRow += "<td>";
       var adjective = adj[lang]
@@ -84,12 +85,14 @@ var showAdjectives = function (nounID) {
       adjRow += adjective["atom"];
       if (adjective["pstn"] === "before"){adjRow+=" ___"};
       adjRow += "</td>";
-    }); // end $.each(visible_langs)
+    });
+
     adjRow += "</tr>";
     if (!emptyAdjRow) {
       adjRows.push(adjRow);
     }
-  }); // end $.each(item["adjs"])
+  });
+
   return adjRows;
 };
 
@@ -124,7 +127,6 @@ $(document).on("click", "tr.expandable", function(obj) {
     $(`.${nounID}`).remove();
   } else {
     $.each(adjs, function(a, adj) {
-      // $(adj).insertAfter(`#${nounID}`);
       $(adj).insertAfter(row);
     }); 
   }
@@ -146,6 +148,8 @@ $(document).on("click", "th", function(){
   var rows = table.find("tr:gt(0)").toArray().sort(comparer(column));
   var emptyRows = [];
 
+  // TODO: if we sort one column then another and then the first again, the
+        // first should sort ASCENDING every time... (please)
   this.asc = !this.asc;
   if (!this.asc){
     rows = rows.reverse();
@@ -154,7 +158,6 @@ $(document).on("click", "th", function(){
 
   $.each(rows, function(r, row) {
     if (row.cells[column].innerText === "") {
-      console.log(row);
       emptyRows.push(row);
     } else {
       $(row).appendTo(table);

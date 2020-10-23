@@ -70,6 +70,10 @@ div#table_container {
 
 /* The dictionary table (interactivity) */
 
+#table th.sortable {
+  cursor: pointer;
+}
+
 #table th.sorted:after {
   position: absolute;
   right: 10px;
@@ -89,10 +93,6 @@ div#table_container {
 #table tr.expandable td:after {
   float: right;
   content: "+";
-}
-
-#table tr.expanded {
-  cursor: pointer;
 }
 
 #table tr.expanded td:after {
