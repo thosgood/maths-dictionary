@@ -1,11 +1,27 @@
-const langs = ["CA","DE","EN","ES","FR","IT","JA","PT","RU","ZH"]
-// TODO: get langs from the list of .json files
-var visible_langs = ["EN"];
+var langs = [];
+var visible_langs = [];
 var dict = {};
 
 
 // TODO: searching
 
+$(document).ready(function() {
+  $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
+    dict = json;
+    updateTable(dict);
+    // TODO: sort on loading!
+  });
+  $("input").each(function(i, item) {
+    langs.push(item.name);
+  });
+  $("input:checked").each( function(i, item){
+    visible_langs.push(item.name);
+  });
+});
+
+
+
+// build the html table
 var updateTable = function(data = dict) {
 
   $("#table_body").empty();
@@ -58,6 +74,7 @@ var updateTable = function(data = dict) {
 
 
 
+// add rows for adjectives
 var showAdjectives = function (nounID) {
   var item = dict[nounID];
   var adjRows = [];
@@ -97,20 +114,10 @@ var showAdjectives = function (nounID) {
 
 
 
-$(document).ready(function() {
-  $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
-    dict = json;
-    updateTable(dict);
-    // TODO: sort on loading!
-  })
-});
-
-
-
+// language selector checkboxes
 $("input").on("click", function() {
   visible_langs = [];
-  var checked = $("input:checked");
-  $.each(checked, function(i, item){
+  $("input:checked").each( function(i, item){
     visible_langs.push(item.name);
   });
   updateTable();
@@ -118,6 +125,7 @@ $("input").on("click", function() {
 
 
 
+// expand expandable nouns (i.e. those with adjectives)
 $(document).on("click", "tr.expandable", function(obj) {
   row = obj.currentTarget
   nounID = row.id;
@@ -134,11 +142,20 @@ $(document).on("click", "tr.expandable", function(obj) {
 
 
 
+// sort columns by clicking on table headers
 $(document).on("click", "th", function(){
   $(".adjective").remove();
   $(".expanded").removeClass("expanded");
   $("th").removeClass("sorted sorted-descending");
   $(this).addClass("sorted");
+
+  function comparer(index) {
+    return function(a, b) {
+      var valA = $(a).children("td").eq(index).text();
+      var valB = $(b).children("td").eq(index).text();
+      return valA.localeCompare(valB);
+    }
+  }
 
   var column = $(this).index();
   // TODO: rewrite "table" and "rows" so you understand them...
@@ -166,11 +183,3 @@ $(document).on("click", "th", function(){
     $(row).appendTo(table);
   });
 })
-
-function comparer(index) {
-  return function(a, b) {
-    var valA = $(a).children("td").eq(index).text();
-    var valB = $(b).children("td").eq(index).text();
-    return valA.localeCompare(valB);
-  }
-}
