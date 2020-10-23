@@ -42,7 +42,7 @@ div#table_container {
 #table th {
   position: sticky;
   top: 0px;
-  background-color: #4CAF50;
+  background-color: #2a7ae2;
   color: white;
 }
 
@@ -60,7 +60,7 @@ div#table_container {
 }
 
 #table tr:hover {
-  background-color: #daf0dc;
+  background-color: #a3c7f3;
 }
 
 #table tr#table_headers:hover {
@@ -76,7 +76,7 @@ div#table_container {
 }
 
 #table tr.expandable {
-  /*cursor: zoom-in;*/
+  cursor: pointer;
 }
 
 #table tr.expandable td:after {
@@ -86,7 +86,7 @@ div#table_container {
 }
 
 #table tr.expanded {
-  /*cursor: zoom-out;*/
+  cursor: pointer;
 }
 
 #table tr.expanded td:after {
