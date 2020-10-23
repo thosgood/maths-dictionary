@@ -21,6 +21,7 @@ var updateTable = function(data = dict) {
   $.each(data, function(i, item) {
 
     var emptyEntryRow = true;
+    // TODO: this should check that adjs exist IN visible_langs!!!
     if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
       var entryRow = `<tr class="noun" id=${i}>`;
     } else {

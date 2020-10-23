@@ -33,10 +33,10 @@ div#language_selectors_container {
 /*The dictionary table*/
 
 div#table_container {
-  height: 400px;
+  /*height: 400px;*/
   display: inline-block;
   overflow-x: auto;
-  border-bottom: 2px solid #999;
+  /*border-bottom: 2px solid #999;*/
 }
 
 #table th {
@@ -73,6 +73,26 @@ div#table_container {
 #table tr.noun td {
   /*font-weight: bold;*/
   text-align: left;
+}
+
+#table tr.expandable {
+  /*cursor: zoom-in;*/
+}
+
+#table tr.expandable td:after {
+  float: right;
+  /*content: '\2193';*/
+  content: "+";
+}
+
+#table tr.expanded {
+  /*cursor: zoom-out;*/
+}
+
+#table tr.expanded td:after {
+  float: right;
+  /*content: '\2191';*/
+  content: "–";
 }
 
 #table tr.adjective td {
