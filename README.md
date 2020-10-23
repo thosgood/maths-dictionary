@@ -6,6 +6,9 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 ## Todo
 
+- language .json files should have LTR/RTL information
+    + this should be used when displaying adjectives!
+    + should also be reflected in `text-align` in the css
 - fix errors with the `DE` entries
     + think about how to deal with grammatical case...
 - regional variations?
