@@ -3,7 +3,7 @@ var visible_langs = ["EN"];
 var dict = {};
 
 
-// TODO: sorting (https://stackoverflow.com/a/19947532/2352867)
+// TODO: searching
 
 var updateTable = function(data = dict) {
 
@@ -22,6 +22,7 @@ var updateTable = function(data = dict) {
 
     var emptyEntryRow = true;
     // TODO: this should check that adjs exist IN visible_langs!!!
+    var hasAdjs = false;
     if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
       var entryRow = `<tr class="noun" id=${i}>`;
     } else {
@@ -98,6 +99,7 @@ $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     dict = json;
     updateTable(dict);
+    // TODO: sort on loading!
   })
 });
 
@@ -131,29 +133,42 @@ $(document).on("click", "tr.expandable", function(obj) {
 
 
 
-// column sorting is based on https://stackoverflow.com/a/19947532/2352867
-
 $(document).on("click", "th", function(){
   $(".adjective").remove();
-  $(".expanded").toggleClass("expanded");
-  var table = $(this).parents('table').eq(0);
-  var rows = table.find('tr:gt(0)').toArray().sort(comparer($(this).index()));
+  $(".expanded").removeClass("expanded");
+  $("th").removeClass("sorted sorted-descending");
+  $(this).addClass("sorted");
+
+  var column = $(this).index();
+  // TODO: rewrite "table" and "rows" so you understand them...
+        // namely, what are eq(0) and :gt(0)?
+  var table = $(this).parents("table").eq(0);
+  var rows = table.find("tr:gt(0)").toArray().sort(comparer(column));
+  var emptyRows = [];
 
   this.asc = !this.asc;
   if (!this.asc){
     rows = rows.reverse();
   };
+  $(this).toggleClass("sorted-descending", !this.asc);
 
-  // TODO: replace this with $.each so we can always put empty rows at the end
-  for (var i = 0; i < rows.length; i++) {
-    table.append(rows[i]);
-  };
+  $.each(rows, function(r, row) {
+    if (row.cells[column].innerText === "") {
+      console.log(row);
+      emptyRows.push(row);
+    } else {
+      $(row).appendTo(table);
+    }
+  });
+  $.each(emptyRows, function(r, row) {
+    $(row).appendTo(table);
+  });
 })
 
 function comparer(index) {
   return function(a, b) {
-    var valA = $(a).children('td').eq(index).text();
-    var valB = $(b).children('td').eq(index).text();
+    var valA = $(a).children("td").eq(index).text();
+    var valB = $(b).children("td").eq(index).text();
     return valA.localeCompare(valB);
   }
 }

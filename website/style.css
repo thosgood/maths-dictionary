@@ -68,11 +68,18 @@ div#table_container {
 }
 
 
-/* The dictionary table (fancy formatting) */
+/* The dictionary table (interactivity) */
 
-#table tr.noun td {
-  /*font-weight: bold;*/
-  text-align: left;
+#table th.sorted:after {
+  position: absolute;
+  right: 10px;
+  content: "\2193";
+}
+
+#table th.sorted-descending:after {
+  position: absolute;
+  right: 10px;
+  content: "\2191";
 }
 
 #table tr.expandable {
@@ -81,7 +88,6 @@ div#table_container {
 
 #table tr.expandable td:after {
   float: right;
-  /*content: '\2193';*/
   content: "+";
 }
 
@@ -91,8 +97,13 @@ div#table_container {
 
 #table tr.expanded td:after {
   float: right;
-  /*content: '\2191';*/
   content: "–";
+}
+
+/* The dictionary table (typography) */
+
+#table tr.noun td {
+  text-align: left;
 }
 
 #table tr.adjective td {
