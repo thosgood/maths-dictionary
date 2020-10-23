@@ -127,6 +127,7 @@
       "DE": { "atom": "Gruppe", "gend": "feminin"   },
       "EN": { "atom": "group"                       },
       "ES": { "atom": "grupo" , "gend": "masculino" },
+      "FA": { "atom": "گروه"                       },
       "FR": { "atom": "groupe", "gend": "masculin"  },
       "IT": { "atom": "gruppo", "gend": "maschile"  },
       "JA": { "atom": "群"                          },
