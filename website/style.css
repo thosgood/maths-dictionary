@@ -21,11 +21,11 @@ div#language_selectors_container {
   margin: auto;
   list-style-type: none;
   padding-left: 0px;
-  -moz-column-count: 3;
+  -moz-column-count: 4;
   -moz-column-gap: 0px;
-  -webkit-column-count: 3;
+  -webkit-column-count: 4;
   -webkit-column-gap: 0px;
-  column-count: 3;
+  column-count: 4;
   column-gap: 0px;
 }
 
