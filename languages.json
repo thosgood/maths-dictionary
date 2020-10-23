@@ -44,6 +44,11 @@
     "direction": "LTR",
     "endonym": "\uD55C\uAD6D\uC5B4"
   },
+  "PL": {
+    "direction": "LTR",
+    "endonym": "Polski",
+    "genders": [ "m\u0119ski", "nijaki", "\u017Ce\u0144ski" ]
+  },
   "PT": {
     "direction": "LTR",
     "endonym": "Portugu\u00EAs",

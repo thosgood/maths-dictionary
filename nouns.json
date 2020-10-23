@@ -133,6 +133,7 @@
       "IT": { "atom": "gruppo", "gend": "maschile"  },
       "JA": { "atom": "群"                          },
       "KO": { "atom": "군"                          },
+      "PL": { "atom": "grupa" , "gend": "żeński"    },
       "PT": { "atom": "grupo" , "gend": "masculino" },
       "RU": { "atom": "гру́ппа", "gend": "женский"   },
       "TR": { "atom": "grup"                        },
