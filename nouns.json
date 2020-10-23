@@ -1,4 +1,11 @@
 {
+  "064e0220": {
+    "root": {
+      "EN": { "atom": "cover"                              },
+      "ES": { "atom": "revestimiento", "gend": "masculino" },
+      "FR": { "atom": "recouvrement" , "gend": "masculin"  }
+    }
+  },
   "08b50276": {
     "root": {
       "CA": { "atom": "esquema", "gend": "masculí"   },
@@ -125,6 +132,7 @@
       "JA": { "atom": "群"                          },
       "PT": { "atom": "grupo" , "gend": "masculino" },
       "RU": { "atom": "гру́ппа", "gend": "женский"   },
+      "TR": { "atom": "grup"                        },
       "ZH": { "atom": "群"                          }
     },
     "adjs": {
@@ -282,25 +290,33 @@
       "CA": { "atom": "conjunt" , "gend": "masculí"   },
       "EN": { "atom": "set"                           },
       "ES": { "atom": "conjunto", "gend": "masculino" },
+      "FI": { "atom": "joukko"                        },
       "FR": { "atom": "ensemble", "gend": "masculin"  }
     },
     "adjs": {
       "06630230": {
         "CA": { "atom": "buit" , "pstn": "after"  },
         "EN": { "atom": "empty", "pstn": "before" },
+        "FI": { "atom": "tyhjä", "pstn": "before" },
         "FR": { "atom": "vide" , "pstn": "after"  }
       },
-      "08b7027b": {
-        "CA": { "atom": "tancat" , "pstn": "after"  },
-        "EN": { "atom": "closed" , "pstn": "before" },
-        "ES": { "atom": "cerrado", "pstn": "after"  },
-        "FR": { "atom": "fermé" , "pstn": "after"  }
+      "11cd03a8": {
+        "EN": { "atom": "non-empty", "pstn": "before" },
+        "FI": { "atom": "epätyhjä" , "pstn": "before" }
       },
       "044801b3": { 
         "CA": { "atom": "obert"  , "pstn": "after"  },
         "EN": { "atom": "open"   , "pstn": "before" },
         "ES": { "atom": "abierto", "pstn": "after"  },
+        "FI": { "atom": "avoin"  , "pstn": "before" },
         "FR": { "atom": "ouvert" , "pstn": "after"  }
+      },
+      "08b7027b": {
+        "CA": { "atom": "tancat"  , "pstn": "after"  },
+        "EN": { "atom": "closed"  , "pstn": "before" },
+        "ES": { "atom": "cerrado" , "pstn": "after"  },
+        "FI": { "atom": "suljettu", "pstn": "before" },
+        "FR": { "atom": "fermé"   , "pstn": "after"  }
       },
       "08b80282": { 
         "CA": { "atom": "clopen", "pstn": "after"  },
@@ -308,22 +324,57 @@
         "ES": { "atom": "clopen", "pstn": "after"  }
       },
       "12ee03be": {
-        "CA": { "atom": "numerable"  , "pstn": "after"  },
-        "EN": { "atom": "countable"  , "pstn": "before" },
-        "ES": { "atom": "numberable" , "pstn": "after"  },
-        "FR": { "atom": "dénombrable", "pstn": "after"  }
+        "CA": { "atom": "numerable"   , "pstn": "after"  },
+        "EN": { "atom": "countable"   , "pstn": "before" },
+        "ES": { "atom": "numberable"  , "pstn": "after"  },
+        "FI": { "atom": "numeroituva" , "pstn": "before" },
+        "FR": { "atom": "dénombrable" , "pstn": "after"  }
+      },
+      "1c4304a1": {
+        "EN": { "atom": "uncountable"    , "pstn": "before" },
+        "FI": { "atom": "ylinumeroituva" , "pstn": "before" }
       },
       "0f030357": {
         "CA": { "atom": "infinit" , "pstn": "after"  },
         "EN": { "atom": "infinite", "pstn": "before" },
         "ES": { "atom": "infinito", "pstn": "after"  },
+        "FI": { "atom": "ääretön" , "pstn": "before" },
         "FR": { "atom": "infini"  , "pstn": "after"  }
       },
       "08b70280": {
-        "CA": { "atom": "finit" , "pstn": "after"  },
-        "EN": { "atom": "finite", "pstn": "before" },
-        "ES": { "atom": "finito", "pstn": "after"  },
-        "FR": { "atom": "fini"  , "pstn": "after"  }
+        "CA": { "atom": "finit"     , "pstn": "after"  },
+        "EN": { "atom": "finite"    , "pstn": "before" },
+        "ES": { "atom": "finito"    , "pstn": "after"  },
+        "FI": { "atom": "äärellinen", "pstn": "before" },
+        "FR": { "atom": "fini"      , "pstn": "after"  }
+      },
+      "1202039b": {
+        "EN": { "atom": "definable"   , "pstn": "before" },
+        "FI": { "atom": "määriteltävä", "pstn": "before" }
+      },
+      "17b9044a": {
+        "EN": { "atom": "transitive"    , "pstn": "before" },
+        "FI": { "atom": "transitiivinen", "pstn": "before" }
+      },
+      "16e50422": {
+        "EN": { "atom": "measurable", "pstn": "before" },
+        "FI": { "atom": "mitallinen", "pstn": "before" }
+      },
+      "0ee90356": {
+        "EN": { "atom": "analytic"    , "pstn": "before" },
+        "FI": { "atom": "analyyttinen", "pstn": "before" }
+      },
+      "1773043c": {
+        "EN": { "atom": "projective"    , "pstn": "before" },
+        "FI": { "atom": "projektiivinen", "pstn": "before" }
+      },
+      "0b7002dd": {
+        "EN": { "atom": "cofinal"     , "pstn": "before" },
+        "FI": { "atom": "kofinaalinen", "pstn": "before" }
+      },
+      "17a9044f": {
+        "EN": { "atom": "stationary"    , "pstn": "before" },
+        "FI": { "atom": "stationaarinen", "pstn": "before" }
       }
     }
   }

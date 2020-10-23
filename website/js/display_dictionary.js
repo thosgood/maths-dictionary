@@ -1,4 +1,5 @@
 const langs = ["CA","DE","EN","ES","FR","IT","JA","PT","RU","ZH"]
+// TODO: get langs from the list of .json files
 var visible_langs = ["EN"];
 var dict = {};
 
