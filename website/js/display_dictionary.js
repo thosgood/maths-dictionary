@@ -128,3 +128,32 @@ $(document).on("click", "tr.expandable", function(obj) {
   }
   $(row).toggleClass("expanded");
 });
+
+
+
+// column sorting is based on https://stackoverflow.com/a/19947532/2352867
+
+$(document).on("click", "th", function(){
+  $(".adjective").remove();
+  $(".expanded").toggleClass("expanded");
+  var table = $(this).parents('table').eq(0);
+  var rows = table.find('tr:gt(0)').toArray().sort(comparer($(this).index()));
+
+  this.asc = !this.asc;
+  if (!this.asc){
+    rows = rows.reverse();
+  };
+
+  // TODO: replace this with $.each so we can always put empty rows at the end
+  for (var i = 0; i < rows.length; i++) {
+    table.append(rows[i]);
+  };
+})
+
+function comparer(index) {
+  return function(a, b) {
+    var valA = $(a).children('td').eq(index).text();
+    var valB = $(b).children('td').eq(index).text();
+    return valA.localeCompare(valB);
+  }
+}
