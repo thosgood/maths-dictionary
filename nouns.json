@@ -282,6 +282,10 @@
       "ES": { "atom": "conjunto", "gend": "masculino" }
     },
     "adjs": {
+      "06630230": {
+        "CA": { "atom": "buit" , "pstn": "after"  },
+        "EN": { "atom": "empty", "pstn": "before" }
+      },
       "08b7027b": {
         "CA": { "atom": "tancat" , "pstn": "after"  },
         "EN": { "atom": "closed" , "pstn": "before" },
