@@ -152,6 +152,7 @@
         "CA": { "atom": "abelià"  , "pstn": "after"  },
         "EN": { "atom": "abelian" , "pstn": "before" },
         "ES": { "atom": "abeliano", "pstn": "after"  },
+        "FA": { "atom": "آبلی"   , "pstn": "after"  },
         "FR": { "atom": "abélien" , "pstn": "after"  },
         "IT": { "atom": "abeliano", "pstn": "after"  },
         "PT": { "atom": "abeliano", "pstn": "after"  },
@@ -170,6 +171,7 @@
         "CA": { "atom": "cíclic"  , "pstn": "after"  },
         "EN": { "atom": "cyclic"  , "pstn": "before" },
         "ES": { "atom": "cíclico" , "pstn": "after"  },
+        "FA": { "atom": "دوری"   , "pstn": "after"  },
         "FR": { "atom": "cyclique", "pstn": "after"  }
       },
       "07d70260": {
@@ -287,35 +289,35 @@
     },
     "adjs": {
       "129203bb": {
-        "EN": { "atom": "cartesian"  , "psnt": "before" },
+        "EN": { "atom": "cartesian"  , "pstn": "before" },
         "FR": { "atom": "cartésienne", "pstn": "after"  }
       },
       "3cd006cb": {
-        "EN": { "atom": "locally cartesian"     , "psnt": "before" },
+        "EN": { "atom": "locally cartesian"     , "pstn": "before" },
         "FR": { "atom": "localement cartésienne", "pstn": "after"  }
       },
       "0b0e02cd": {
-        "EN": { "atom": "abelian"  , "psnt": "before" },
+        "EN": { "atom": "abelian"  , "pstn": "before" },
         "FR": { "atom": "abélienne", "pstn": "after"  }
       },
       "0e8d034b": {
-        "EN": { "atom": "additive", "psnt": "before" },
+        "EN": { "atom": "additive", "pstn": "before" },
         "FR": { "atom": "additive", "pstn": "after"  }
       },
       "0f13035a": {
-        "EN": { "atom": "complete", "psnt": "before" },
+        "EN": { "atom": "complete", "pstn": "before" },
         "FR": { "atom": "complète", "pstn": "after"  }
       },
       "16da042c": {
-        "EN": { "atom": "cocomplete", "psnt": "before" },
+        "EN": { "atom": "cocomplete", "pstn": "before" },
         "FR": { "atom": "cocomplète", "pstn": "after"  }
       },
       "552f081a": {
-        "EN": { "atom": "finitely presentable", "psnt": "before" },
+        "EN": { "atom": "finitely presentable", "pstn": "before" },
         "FR": { "atom": "finiment présentable", "pstn": "after"  }
       },
       "a11d0b2a": {
-        "EN": { "atom": "locally finitely presentable"   , "psnt": "before" },
+        "EN": { "atom": "locally finitely presentable"   , "pstn": "before" },
         "FR": { "atom": "localement finiment présentable", "pstn": "after"  }
       }
     }
