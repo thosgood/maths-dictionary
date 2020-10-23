@@ -131,6 +131,7 @@
       "FR": { "atom": "groupe", "gend": "masculin"  },
       "IT": { "atom": "gruppo", "gend": "maschile"  },
       "JA": { "atom": "群"                          },
+      "KO": { "atom": "군"                          },
       "PT": { "atom": "grupo" , "gend": "masculino" },
       "RU": { "atom": "гру́ппа", "gend": "женский"   },
       "TR": { "atom": "grup"                        },
@@ -155,8 +156,13 @@
         "FA": { "atom": "آبلی"   , "pstn": "after"  },
         "FR": { "atom": "abélien" , "pstn": "after"  },
         "IT": { "atom": "abeliano", "pstn": "after"  },
+        "KO": { "atom": "아벨"     , "pstn": "before" },
         "PT": { "atom": "abeliano", "pstn": "after"  },
         "RU": { "atom": "а́белева" , "pstn": "before" }
+      },
+      "1c0b04af": {
+        "EN": { "atom": "commutative", "pstn": "before" },
+        "KO": { "atom": "가환"        , "pstn": "before" }
       },
       "08b70280": {
         "CA": { "atom": "finit"   , "pstn": "after"  },
@@ -172,7 +178,8 @@
         "EN": { "atom": "cyclic"  , "pstn": "before" },
         "ES": { "atom": "cíclico" , "pstn": "after"  },
         "FA": { "atom": "دوری"   , "pstn": "after"  },
-        "FR": { "atom": "cyclique", "pstn": "after"  }
+        "FR": { "atom": "cyclique", "pstn": "after"  },
+        "KO": { "atom": "순환"     , "pstn": "before" }
       },
       "07d70260": {
         "CA": { "atom": "de Galois", "pstn": "after"  },

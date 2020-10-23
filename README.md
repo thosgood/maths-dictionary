@@ -15,6 +15,8 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 - get language selectors (in `index.html`) from the language `.json` files
     + should also get endonyms from there too
 
+(<https://www.freeformatter.com/json-escape.html> is useful)
+
 ## Contributors
 
 TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre
