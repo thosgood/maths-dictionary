@@ -13,6 +13,7 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 - add plurals of nouns (and thus adjectives)
 - link each entry (incl. adjectives) to a definition? wikipedia page or something...
 - get language selectors (in `index.html`) from the language `.json` files
+    + should also get endonyms from there too
 
 ## Contributors
 
