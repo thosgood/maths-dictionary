@@ -19,7 +19,6 @@ var updateTable = function(data = dict) {
   $(tableHeaders).appendTo("#table_headers")
 
   $.each(data, function(i, item) {
-
     var emptyEntryRow = true;
     // TODO: this should check that adjs exist IN visible_langs!!!
     var hasAdjs = false;
@@ -30,9 +29,7 @@ var updateTable = function(data = dict) {
     };
 
     $.each(visible_langs, function(l, lang) {
-
       entryRow += "<td>";
-
       var entry = item["root"][lang];
 
       // skip to next item in data if this entry doesn't exist or has empty atom
@@ -48,14 +45,13 @@ var updateTable = function(data = dict) {
         entryRow += `<span class="gender">(${entry["gend"][0]})</span>`;
       };
       entryRow += "</td>";
-    }); // end $.each(visible_langs)
+    });
 
     entryRow += "</tr>";
 
     if (!emptyEntryRow) {
       $(entryRow).appendTo("#table_body");
     };
-
   }); // end $.each(data)
 };
 
