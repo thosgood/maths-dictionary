@@ -283,6 +283,40 @@
       "PT": { "atom": "categoria", "gend": "feminino"  },
       "RU": { "atom": "катего́рия", "gend": "женский"   },
       "ZH": { "atom": "範疇"                           }
+    },
+    "adjs": {
+      "129203bb": {
+        "EN": { "atom": "cartesian"  , "psnt": "before" },
+        "FR": { "atom": "cartésienne", "pstn": "after"  }
+      },
+      "3cd006cb": {
+        "EN": { "atom": "locally cartesian"     , "psnt": "before" },
+        "FR": { "atom": "localement cartésienne", "pstn": "after"  }
+      },
+      "0b0e02cd": {
+        "EN": { "atom": "abelian"  , "psnt": "before" },
+        "FR": { "atom": "abélienne", "pstn": "after"  }
+      },
+      "0e8d034b": {
+        "EN": { "atom": "additive", "psnt": "before" },
+        "FR": { "atom": "additive", "pstn": "after"  }
+      },
+      "0f13035a": {
+        "EN": { "atom": "complete", "psnt": "before" },
+        "FR": { "atom": "complète", "pstn": "after"  }
+      },
+      "16da042c": {
+        "EN": { "atom": "cocomplete", "psnt": "before" },
+        "FR": { "atom": "cocomplète", "pstn": "after"  }
+      },
+      "552f081a": {
+        "EN": { "atom": "finitely presentable", "psnt": "before" },
+        "FR": { "atom": "finiment présentable", "pstn": "after"  }
+      },
+      "a11d0b2a": {
+        "EN": { "atom": "locally finitely presentable"   , "psnt": "before" },
+        "FR": { "atom": "localement finiment présentable", "pstn": "after"  }
+      }
     }
   },
   "029a014d": {
