@@ -38,6 +38,7 @@ var updateTable = function(data = dict) {
   $.each(data, function(i, item) {
     var emptyEntryRow = true;
     // TODO: this should check that adjs exist IN visible_langs!!!
+          // maybe by using showAdjectives ?
     var hasAdjs = false;
     if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
       var entryRow = `<tr class="noun" id=${i}>`;
@@ -166,6 +167,9 @@ $(document).on("click", "th", function(){
 
   // TODO: if we sort one column then another and then the first again, the
         // first should sort ASCENDING every time... (please)
+  // (also what is this weird behaviour where if you keep on sorting a column
+  //  which has empty rows then every it flips all the others every third and
+  //  fourth time?)
   this.asc = !this.asc;
   if (!this.asc){
     rows = rows.reverse();
