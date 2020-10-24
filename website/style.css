@@ -93,6 +93,9 @@ div#table_container {
 #table tr.expandable td:after {
   float: right;
   content: "+";
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0px 7px;
 }
 
 #table tr.expanded td:after {
