@@ -25,6 +25,13 @@ Entonces $R$ es único.
 Además, si $S$ es un subanillo de $R$, entonces $S$ es noetheriano.
 Para que $X$ sea compacto, es necesario y suficiente que $R$ verifique la seguiente propiedad: $R=\mathbb{Z}[x,y,z]$, donde $\mathbb{Z}$ es el anillo de enteros.
 
+Sea $X$ un espacio topológico.
+Sean $A$ y $B$ grupos.
+Supongamos que $R$ es un anillo tal que $\mathrm{Hom}(A,R)=B$.
+Entonces $R$ es único.
+Además, si $S$ es un subanillo de $R$, entonces $S$ es noetheriano.
+Para que $X$ sea compacto, es necesario y suficiente que $R$ satisfaga la siguiente propiedad: $R=\mathbb{Z}[x,y,z]$, donde $\mathbb{Z}$ es el anillo de los enteros.
+
 ## Français (FR)
 
 Soit $X$ un espace topologique.
@@ -42,12 +49,3 @@ Suponha que $R$ seja um anel tal que $\mathrm{Hom}(A,R)=B$.
 Então $R$ é único.
 Além disso, se $S$ for um subanel de $R$, então $S$ é Noetheriano.
 Para que $X$ seja compacto, é necessário e suficiente que $R$ satisfaça a seguinte propriedade: $R=\mathbb{Z}[x,y,z]$, em que $\mathbb{Z}$ é o anel de inteiros.
-
-## Spanish (ES)
-
-Sea $X$ un espacio topológico.
-Sean $A$ y $B$ grupos.
-Supongamos que $R$ es un anillo tal que $\mathrm{Hom}(A,R)=B$.
-Entonces $R$ es único.
-Además, si $S$ es un subanillo de $R$, entonces $S$ es noetheriano.
-Para que $X$ sea compacto, es necesario y suficiente que $R$ satisfaga la siguiente propiedad: $R=\mathbb{Z}[x,y,z]$, donde $\mathbb{Z}$ es el anillo de los enteros.
