@@ -1,4 +1,28 @@
 {
+  "027c013f": {
+    "root": {
+      "EN": { "atom": "map" },
+      "DE": { "atom": "Abbildung", "gend": "feminin" }
+    },
+    "adjs": {
+      "0f960370": {
+        "DE": { "atom": "monotone", "pstn": "before" },
+        "EN": { "atom": "monotone", "pstn": "before" }
+      }
+    }
+  },
+  "16f30434": {
+    "root": {
+      "DE": { "atom": "Ableitung", "gend": "feminin" },
+      "EN": { "atom": "derivative" }
+    },
+    "adjs": {
+      "0bd002ee": {
+        "DE": { "atom": "partielle", "pstn": "before" },
+        "EN": { "atom": "partial", "pstn": "before" }
+      }
+    }
+  },
   "064e0220": {
     "root": {
       "CA": { "atom": "recobriment", "gend": "masculí" },
