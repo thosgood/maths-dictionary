@@ -7,6 +7,30 @@
       "FR": { "atom": "recouvrement", "gend": "masculin" }
     }
   },
+  "0b3802cf": {
+    "root": {
+      "CA": { "atom": "àlgebra", "gend": "femení" },
+      "EN": { "atom": "algebra" }
+    },
+    "adjs": {
+      "042101a3": {
+        "CA": { "atom": "lliure", "pstn": "after" },
+        "EN": { "atom": "free", "pstn": "before" }
+      }
+    }
+  },
+  "08f90288": {
+    "root": {
+      "EN": { "atom": "tiling" },
+      "ES": { "atom": "embaldosado", "gend": "masculin" }
+    }
+  },
+  "120c03a0": {
+    "root": {
+      "CA": { "atom": "imbibició", "gend": "femení" },
+      "EN": { "atom": "embedding" }
+    }
+  },
   "08b50276": {
     "root": {
       "CA": { "atom": "esquema", "gend": "masculí" },
@@ -119,6 +143,25 @@
         "IT": { "atom": "de tipo finito", "pstn": "after" },
         "PT": { "atom": "de tipo finito", "pstn": "after" },
         "RU": { "atom": "коне́чного ти́па", "pstn": "after" }
+      }
+    }
+  },
+  "063b0208": {
+    "root": {
+      "DE": { "atom": "Garbe", "gend": "feminin" },
+      "EN": { "atom": "sheaf" },
+      "FR": { "atom": "faisceau", "gend": "masculin" }
+    },
+    "adjs": {
+      "0ed90359": {
+        "DE": { "atom": "kohärente", "pstn": "before" },
+        "EN": { "atom": "coherent", "pstn": "before" },
+        "FR": { "atom": "cohérent", "pstn": "after" }
+      },
+      "2a2a05a9": {
+        "DE": { "atom": "quasikohärente", "pstn": "before" },
+        "EN": { "atom": "quasi-coherent", "pstn": "before" },
+        "FR": { "atom": "quasi-cohérent", "pstn": "after" }
       }
     }
   },

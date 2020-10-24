@@ -9,7 +9,6 @@ $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     dict = json;
     updateTable(dict);
-    // TODO: sort on loading!
   });
   $("input").each(function(i, item) {
     langs.push(item.name);
