@@ -73,78 +73,78 @@
   },
   "027c013f": {
     "root": {
-      "CA": { "atom": "aplicació"   ,   "gend": "feminí"    },
-      "DE": { "atom": "Abbildung"   ,   "gend": "feminin"   },
-      "EN": { "atom": "map"                                 },
-      "ES": { "atom": "aplicación"  ,   "gend": "feminino"  },
-      "FA": { "atom": "نگاشت"                               },
-      "FR": { "atom": "application" ,   "gend": "féminin"   }
+      "CA": { "atom": "aplicació", "gend": "feminí" },
+      "DE": { "atom": "Abbildung", "gend": "feminin" },
+      "EN": { "atom": "map" },
+      "ES": { "atom": "aplicación", "gend": "feminino" },
+      "FA": { "atom": "نگاشت" },
+      "FR": { "atom": "application", "gend": "féminin" }
     },
     "adjs": {
       "0f960370": {
-        "CA": { "atom": "monòtona"  ,   "pstn": "after"     },
-        "DE": { "atom": "monotone"  ,   "pstn": "before"    },
-        "EN": { "atom": "monotone"  ,   "pstn": "before"    },
-        "ES": { "atom": "monótona"  ,   "pstn": "after"     }
+        "CA": { "atom": "monòtona" , "pstn": "after" },
+        "DE": { "atom": "monotone" , "pstn": "before" },
+        "EN": { "atom": "monotone" , "pstn": "before" },
+        "ES": { "atom": "monótona" , "pstn": "after" }
       }
     }
   },
   "16f30434": {
     "root": {
-      "CA": { "atom": "derivada"    , "gend": "feminí"      },
-      "DE": { "atom": "Ableitung"   , "gend": "feminin"     },
-      "EN": { "atom": "derivative"                          },
-      "ES": { "atom": "derivada"    , "gend": "feminino"    },
-      "FA": { "atom": "مشتق"                                },
+      "CA": { "atom": "derivada", "gend": "feminí" },
+      "DE": { "atom": "Ableitung", "gend": "feminin" },
+      "EN": { "atom": "derivative" },
+      "ES": { "atom": "derivada", "gend": "feminino" },
+      "FA": { "atom": "مشتق" },
       "IT": { "atom": "derivata", "gend": "femminile" }
     },
     "adjs": {
       "0bd002ee": {
-        "CA": { "atom": "parcial"   , "pstn": "after"       },
-        "DE": { "atom": "partielle" , "pstn": "before"      },
-        "EN": { "atom": "partial"   , "pstn": "before"      },
-        "ES": { "atom": "parcial"   , "pstn": "after" },
+        "CA": { "atom": "parcial", "pstn": "after" },
+        "DE": { "atom": "partielle" , "pstn": "before" },
+        "EN": { "atom": "partial", "pstn": "before" },
+        "ES": { "atom": "parcial", "pstn": "after" },
         "IT": { "atom": "parziale", "pstn": "after" }
       }
     }
   },
   "064e0220": {
     "root": {
-      "CA": { "atom": "recobriment"   , "gend": "masculí"     },
-      "EN": { "atom": "cover"                                 },
-      "ES": { "atom": "revestimiento" , "gend": "masculino"   },
-      "FR": { "atom": "recouvrement"  , "gend": "masculin"    }
+      "CA": { "atom": "recobriment", "gend": "masculí" },
+      "EN": { "atom": "cover" },
+      "ES": { "atom": "revestimiento", "gend": "masculino" },
+      "FR": { "atom": "recouvrement", "gend": "masculin" }
     }
   },
   "0b3802cf": {
     "root": {
-      "CA": { "atom": "àlgebra"  , "gend": "femení"     },
-      "EN": { "atom": "algebra"                         },
-      "ES": { "atom": "álgebra"  , "gend": "femenino"   },
-      "FA": { "atom": "جبر"                             },
-      "FR": { "atom": "algèbra"  , "gend": "femenin"    }
+      "CA": { "atom": "àlgebra", "gend": "femení" },
+      "EN": { "atom": "algebra" },
+      "ES": { "atom": "álgebra", "gend": "femenino" },
+      "FA": { "atom": "جبر" },
+      "FR": { "atom": "algèbra", "gend": "femenin" }
     },
     "adjs": {
       "042101a3": {
-        "CA": { "atom": "lliure"  , "pstn": "after"     },
-        "EN": { "atom": "free"    , "pstn": "before"    },
-        "ES": { "atom": "libre"   , "pstn": "after"     },
-        "FR": { "atom": "libre"   , "pstn": "after"     }
+        "CA": { "atom": "lliure", "pstn": "after" },
+        "EN": { "atom": "free", "pstn": "before" },
+        "ES": { "atom": "libre", "pstn": "after" },
+        "FR": { "atom": "libre", "pstn": "after" }
       }
     }
   },
   "08f90288": {
     "root": {
-      "CA": { "atom": "tessel·lació"  , "gend": "femení"    },
-      "EN": { "atom": "tiling"                              },
-      "ES": { "atom": "embaldosado"   , "gend": "masculin"  }
+      "CA": { "atom": "tessel·lació", "gend": "femení" },
+      "EN": { "atom": "tiling" },
+      "ES": { "atom": "embaldosado", "gend": "masculin"  }
     }
   },
   "120c03a0": {
     "root": {
-      "CA": { "atom": "imbibició"     , "gend": "femení"    },
-      "EN": { "atom": "embedding"                           },
-      "ES": { "atom": "embebimiento"  , "gend": "masculino" }
+      "CA": { "atom": "imbibició", "gend": "femení" },
+      "EN": { "atom": "embedding" },
+      "ES": { "atom": "embebimiento", "gend": "masculino" }
     }
   },
   "08b50276": {
@@ -447,9 +447,9 @@
       },
       "0bb002ea": {
         "CA": { "atom": "perfecte"  , "pstn": "after"   },
-        "EN": { "atom": "perfect"   , "pstn": "before"  },
+        "EN": { "atom": "perfect", "pstn": "before"  },
         "ES": { "atom": "perfecto"  , "pstn": "after"   },
-        "FR": { "atom": "perfait"   , "pstn": "after"   },
+        "FR": { "atom": "perfait", "pstn": "after"   },
         "PT": { "atom": "perfeito"  , "pstn": "after"   }
       }
     }
