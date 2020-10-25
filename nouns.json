@@ -47,27 +47,27 @@
     "adjs": {
       "12b903c2": {
         "EN": { "atom": "injective", "pstn": "before" },
-        "IT": { "atom": "iniettiva", "pstn": "after" },
+        "IT": { "atom": "iniettiva", "pstn": "after" }
       },
       "17c40445": {
         "EN": { "atom": "surjective", "pstn": "before" },
-        "IT": { "atom": "suriettiva", "pstn": "after" },
+        "IT": { "atom": "suriettiva", "pstn": "after" }
       },
       "125203b6": {
         "EN": { "atom": "bijective", "pstn": "before" },
-        "IT": { "atom": "biettiva", "pstn": "after" },
+        "IT": { "atom": "biettiva", "pstn": "after" }
       },
       "0bd002ee": {
         "EN": { "atom": "partial", "pstn": "before" },
-        "IT": { "atom": "parziale", "pstn": "after" },
+        "IT": { "atom": "parziale", "pstn": "after" }
       },
       "17850458": {
         "EN": { "atom": "continuous", "pstn": "before" },
-        "IT": { "atom": "continua", "pstn": "after" },
+        "IT": { "atom": "continua", "pstn": "after" }
       },
       "2acf05b5": {
         "EN": { "atom": "differentiable", "pstn": "before" },
-        "IT": { "atom": "differenziabile", "pstn": "after" },
+        "IT": { "atom": "differenziabile", "pstn": "after" }
       }
     }
   },
