@@ -3,6 +3,7 @@
     "root": {
       "DE": { "atom": "Abbildung", "gend": "feminin" },
       "EN": { "atom": "map" },
+      "FA": { "atom": "نگاشت" },
       "FR": { "atom": "application", "gend": "féminin" }
     },
     "adjs": {
@@ -15,7 +16,8 @@
   "16f30434": {
     "root": {
       "DE": { "atom": "Ableitung", "gend": "feminin" },
-      "EN": { "atom": "derivative" }
+      "EN": { "atom": "derivative" },
+      "FA": { "atom": "مشتق" }
     },
     "adjs": {
       "0bd002ee": {
@@ -35,7 +37,8 @@
   "0b3802cf": {
     "root": {
       "CA": { "atom": "àlgebra", "gend": "femení" },
-      "EN": { "atom": "algebra" }
+      "EN": { "atom": "algebra" },
+      "FA": { "atom": "جبر" }
     },
     "adjs": {
       "042101a3": {
@@ -268,6 +271,7 @@
       "DE": { "atom": "topologischer Raum", "gend": "maskulin" },
       "EN": { "atom": "topological space" },
       "ES": { "atom": "espacio topológico", "gend": "masculino" },
+      "FA": { "atom": "فضای توپولوژیک" },
       "FR": { "atom": "espace topologique", "gend": "masculin" },
       "IT": { "atom": "spazio topologico", "gend": "maschile" },
       "JA": { "atom": "位相空間" },
@@ -282,6 +286,7 @@
       "DE": { "atom": "Vektorraum", "gend": "maskulin" },
       "EN": { "atom": "vector space" },
       "ES": { "atom": "espacio vectorial", "gend": "masculino" },
+      "FA": { "atom": "فضای برداری" },
       "FR": { "atom": "espace vectoriel", "gend": "masculin" },
       "IT": { "atom": "spazio vettoriale", "gend": "maschile" },
       "JA": { "atom": "ベクトル空間" },
@@ -296,6 +301,7 @@
       "DE": { "atom": "Ring", "gend": "maskulin" },
       "EN": { "atom": "ring" },
       "ES": { "atom": "anillo", "gend": "masculino" },
+      "FA": { "atom": "حلقه" },
       "FR": { "atom": "anneau", "gend": "masculin" },
       "IT": { "atom": "anello", "gend": "maschile" },
       "JA": { "atom": "環" },
@@ -309,6 +315,7 @@
       "DE": { "atom": "Modul", "gend": "maskulin" },
       "EN": { "atom": "module" },
       "ES": { "atom": "módulo", "gend": "masculino" },
+      "FA": { "atom": "مدول" },
       "FR": { "atom": "module", "gend": "masculin" },
       "IT": { "atom": "modulo", "gend": "maschile" },
       "PT": { "atom": "módulo", "gend": "masculino" },
@@ -321,6 +328,7 @@
       "DE": { "atom": "Körper", "gend": "maskulin" },
       "EN": { "atom": "field" },
       "ES": { "atom": "cuerpo", "gend": "masculino" },
+      "FA": { "atom": "میدان" },
       "FR": { "atom": "corps", "gend": "masculin" },
       "IT": { "atom": "campo", "gend": "maschile" },
       "PT": { "atom": "corpo", "gend": "masculino" },
@@ -355,6 +363,7 @@
       "DE": { "atom": "Kategorie", "gend": "feminin" },
       "EN": { "atom": "category" },
       "ES": { "atom": "categoría", "gend": "femenino" },
+      "FA": { "atom": "رسته" }
       "FR": { "atom": "catégorie", "gend": "féminin" },
       "IT": { "atom": "categoria", "gend": "femminile" },
       "PT": { "atom": "categoria", "gend": "feminino" },
@@ -417,6 +426,7 @@
       "CA": { "atom": "conjunt", "gend": "masculí" },
       "EN": { "atom": "set" },
       "ES": { "atom": "conjunto", "gend": "masculino" },
+      "FA": { "atom": "مجموعه" },
       "FI": { "atom": "joukko" },
       "FR": { "atom": "ensemble", "gend": "masculin" }
     },
