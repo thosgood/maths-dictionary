@@ -363,7 +363,7 @@
       "DE": { "atom": "Kategorie", "gend": "feminin" },
       "EN": { "atom": "category" },
       "ES": { "atom": "categoría", "gend": "femenino" },
-      "FA": { "atom": "رسته" }
+      "FA": { "atom": "رسته" },
       "FR": { "atom": "catégorie", "gend": "féminin" },
       "IT": { "atom": "categoria", "gend": "femminile" },
       "PT": { "atom": "categoria", "gend": "feminino" },
