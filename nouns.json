@@ -1,8 +1,9 @@
 {
   "027c013f": {
     "root": {
+      "DE": { "atom": "Abbildung", "gend": "feminin" },
       "EN": { "atom": "map" },
-      "DE": { "atom": "Abbildung", "gend": "feminin" }
+      "FR": { "atom": "application", "gend": "féminin" }
     },
     "adjs": {
       "0f960370": {
