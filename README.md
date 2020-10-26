@@ -9,8 +9,8 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 - **just add a lot of english entries**
 
-- a way to inherit adjectives from another entry!
-    + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
+- **a way to inherit adjectives from another entry!**
+    + **e.g. give a list of hashes of adjectives that "group" should inherit from "ring"**
 - language .json files should have LTR/RTL information
     + this should be used when displaying adjectives!
     + should also be reflected in `text-align` in the css
