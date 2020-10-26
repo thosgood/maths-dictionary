@@ -65,6 +65,9 @@
         "EN": { "atom": "continuous", "pstn": "before" },
         "IT": { "atom": "continua", "pstn": "after" }
       },
+      "1c1904a5": {
+        "EN": { "atom": "holomorphic", "pstn": "before" }
+      },
       "2acf05b5": {
         "EN": { "atom": "differentiable", "pstn": "before" },
         "IT": { "atom": "differenziabile", "pstn": "after" }
@@ -114,6 +117,11 @@
       "EN": { "atom": "cover" },
       "ES": { "atom": "revestimiento", "gend": "masculino" },
       "FR": { "atom": "recouvrement", "gend": "masculin" }
+    },
+    "adjs": {
+      "044801b3": {
+        "EN": { "atom": "open", "pstn": "before" }
+      }
     }
   },
   "0b3802cf": {
@@ -130,6 +138,9 @@
         "EN": { "atom": "free", "pstn": "before" },
         "ES": { "atom": "libre", "pstn": "after" },
         "FR": { "atom": "libre", "pstn": "after" }
+      },
+      "44a90734": {
+        "EN": { "atom": "finitely generated", "pstn": "before" }
       }
     }
   },
@@ -255,7 +266,7 @@
         "CA": { "atom": "de tipus finit", "pstn": "after" },
         "EN": { "atom": "of finite type", "pstn": "after" },
         "ES": { "atom": "de tipo finito", "pstn": "after" },
-        "FR": { "atom": "de type fini"  , "pstn": "after" },
+        "FR": { "atom": "de type fini", "pstn": "after" },
         "IT": { "atom": "de tipo finito", "pstn": "after" },
         "PT": { "atom": "de tipo finito", "pstn": "after" },
         "RU": { "atom": "коне́чного ти́па", "pstn": "after" }
@@ -264,26 +275,26 @@
   },
   "063b0208": {
     "root": {
-      "CA": { "atom": "feix"      , "gend": "masculí"   },
-      "DE": { "atom": "Garbe"     , "gend": "feminin"   },
-      "EN": { "atom": "sheaf"                           },
-      "ES": { "atom": "haz"       , "gend": "masculino" },
-      "FR": { "atom": "faisceau"  , "gend": "masculin"  }
+      "CA": { "atom": "feix", "gend": "masculí" },
+      "DE": { "atom": "Garbe", "gend": "feminin" },
+      "EN": { "atom": "sheaf" },
+      "ES": { "atom": "haz", "gend": "masculino" },
+      "FR": { "atom": "faisceau", "gend": "masculin" }
     },
     "adjs": {
       "0ed90359": {
-        "CA": { "atom": "coherent"  , "pstn": "after"   },
-        "DE": { "atom": "kohärente" , "pstn": "before"  },
-        "EN": { "atom": "coherent"  , "pstn": "before"  },
-        "ES": { "atom": "coherente" , "pstn": "after"   },
-        "FR": { "atom": "cohérent"  , "pstn": "after"   }
+        "CA": { "atom": "coherent", "pstn": "after" },
+        "DE": { "atom": "kohärente", "pstn": "before" },
+        "EN": { "atom": "coherent", "pstn": "before" },
+        "ES": { "atom": "coherente", "pstn": "after" },
+        "FR": { "atom": "cohérent", "pstn": "after" }
       },
       "2a2a05a9": {
-        "CA": { "atom": "quasi-coherent"  , "pstn": "after"   },
-        "DE": { "atom": "quasikohärente"  , "pstn": "before"  },
-        "EN": { "atom": "quasi-coherent"  , "pstn": "before"  },
-        "ES": { "atom": "cuasi-coherente"  , "pstn": "after"  },
-        "FR": { "atom": "quasi-cohérent"  , "pstn": "after"   }
+        "CA": { "atom": "quasi-coherent", "pstn": "after" },
+        "DE": { "atom": "quasikohärente", "pstn": "before" },
+        "EN": { "atom": "quasi-coherent", "pstn": "before" },
+        "ES": { "atom": "cuasi-coherente", "pstn": "after" },
+        "FR": { "atom": "quasi-cohérent", "pstn": "after" }
       }
     }
   },
@@ -416,6 +427,20 @@
       "IT": { "atom": "modulo", "gend": "maschile" },
       "PT": { "atom": "módulo", "gend": "masculino" },
       "RU": { "atom": "мо́дуль", "gend": "мужской" }
+    },
+    "adjs": {
+      "44a90734": {
+        "EN": { "atom": "finitely generated", "pstn": "before" }
+      },
+      "042101a3": {
+        "EN": { "atom": "free", "pstn": "before" }
+      },
+      "1773043c": {
+        "EN": { "atom": "projective", "pstn": "before" }
+      },
+      "12b903c2": {
+        "EN": { "atom": "injective", "pstn": "before" }
+      }
     }
   },
   "06120205": {
