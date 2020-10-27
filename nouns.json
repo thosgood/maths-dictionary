@@ -121,7 +121,9 @@
         "IT": { "atom": "continua", "pstn": "after" }
       },
       "1c1904a5": {
-        "EN": { "atom": "holomorphic", "pstn": "before" }
+        "CA": { "atom": "holomorfa", "pstn": "after" },
+        "EN": { "atom": "holomorphic", "pstn": "before" },
+        "ES": { "atom": "holomorfa", "pstn": "after" }
       },
       "2acf05b5": {
         "CA": { "atom": "diferenciable", "pstn": "after" },
@@ -179,7 +181,9 @@
     },
     "adjs": {
       "044801b3": {
-        "EN": { "atom": "open", "pstn": "before" }
+        "CA": { "atom": "per oberts", "pstn": "after" },
+        "EN": { "atom": "open", "pstn": "before" },
+        "ES": { "atom": "por abiertos", "pstn": "after" }
       }
     }
   },
@@ -199,7 +203,9 @@
         "FR": { "atom": "libre", "pstn": "after" }
       },
       "44a90734": {
-        "EN": { "atom": "finitely generated", "pstn": "before" }
+        "CA": { "atom": "finitament generada", "pstn": "after" },
+        "EN": { "atom": "finitely generated", "pstn": "before" },
+        "ES": { "atom": "finitamente generada", "pstn": "after" }
       }
     }
   },
@@ -489,16 +495,24 @@
     },
     "adjs": {
       "44a90734": {
-        "EN": { "atom": "finitely generated", "pstn": "before" }
+        "CA": { "atom": "finitament generat", "pstn": "after" },
+        "EN": { "atom": "finitely generated", "pstn": "before" },
+        "ES": { "atom": "finitamente generado", "pstn": "after" }
       },
       "042101a3": {
-        "EN": { "atom": "free", "pstn": "before" }
+        "CA": { "atom": "lliure", "pstn": "after" },
+        "EN": { "atom": "free", "pstn": "before" },
+        "ES": { "atom": "libre", "pstn": "after" }
       },
       "1773043c": {
-        "EN": { "atom": "projective", "pstn": "before" }
+        "CA": { "atom": "projectiu", "pstn": "after" },
+        "EN": { "atom": "projective", "pstn": "before" },
+        "ES": { "atom": "proyectivo", "pstn": "after" }
       },
       "12b903c2": {
-        "EN": { "atom": "injective", "pstn": "before" }
+        "CA": { "atom": "injectiu", "pstn": "after" },
+        "EN": { "atom": "injective", "pstn": "before" },
+        "ES": { "atom": "inyectivo", "pstn": "after" }
       }
     }
   },
