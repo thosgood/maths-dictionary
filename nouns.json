@@ -173,7 +173,7 @@
       "044801b3": {
         "CA": { "atom": "per oberts", "pstn": "after" },
         "EN": { "atom": "open", "pstn": "before" },
-        "ES": { "atom": "por obiertos", "pstn": "after" }
+        "ES": { "atom": "por abiertos", "pstn": "after" }
       }
     }
   },
