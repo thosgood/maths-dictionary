@@ -2,10 +2,20 @@
   "08f9028a": {
     "root": {
       "CA": { "atom": "nombre", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "number" },
       "ES": { "atom": "número", "gend": "masculino" },
+      "FA": { "atom": "" },
+      "FI": { "atom": "" },
       "FR": { "atom": "nombre", "gend": "masculin" },
-      "IT": { "atom": "numero", "gend": "maschile" }
+      "IT": { "atom": "numero", "gend": "maschile" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
     },
     "adjs": {
       "0beb02f8": {
