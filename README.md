@@ -9,6 +9,7 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 - **just add a lot of english entries**
 
+- script to fill in all the missing languages with empty strings
 - **a way to inherit adjectives from another entry!**
     + **e.g. give a list of hashes of adjectives that "group" should inherit from "ring"**
 - language .json files should have LTR/RTL information

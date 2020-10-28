@@ -1,1 +1,40 @@
-{}
+{
+  "": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "" },
+      "FI": { "atom": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "" },
+      "KO": { "atom": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "" },
+      "ZH": { "atom": "" }
+    },
+    "adjs": {
+      "": {
+        "CA": { "atom": "", "pstn": "" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "", "pstn": "" },
+        "ES": { "atom": "", "pstn": "" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "", "pstn": "" },
+        "IT": { "atom": "", "pstn": "" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
+      }
+    }
+  }
+}

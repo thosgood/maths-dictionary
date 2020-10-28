@@ -9,21 +9,31 @@
       "FI": { "atom": "" },
       "FR": { "atom": "nombre", "gend": "masculin" },
       "IT": { "atom": "numero", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "" },
+      "KO": { "atom": "" },
       "PL": { "atom": "", "gend": "" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
-      "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "TR": { "atom": "" },
+      "ZH": { "atom": "" }
     },
     "adjs": {
       "0beb02f8": {
         "CA": { "atom": "natural", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "natural", "pstn": "before" },
         "ES": { "atom": "natural", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "naturel", "pstn": "after" },
-        "IT": { "atom": "naturale", "pstn": "after" }
+        "IT": { "atom": "naturale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0fac0374": {
         "CA": { "atom": "positiu", "pstn": "after" },
