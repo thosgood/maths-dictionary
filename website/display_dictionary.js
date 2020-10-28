@@ -59,7 +59,7 @@ var updateTable = function(data = dict) {
       emptyEntryRow = false;
       entryRow += `<span class="noun">${entry["atom"]}</span>`;
       if (typeof entry["gend"] !== "undefined" && entry["gend"] !== "") {
-        entryRow += `<span class="gender">(${entry["gend"]})</span>`;
+        entryRow += `<span class="gender">(${entry["gend"][0]})</span>`;
       };
       entryRow += "</td>";
     });
