@@ -58,8 +58,8 @@ var updateTable = function(data = dict) {
       // by here we know that we actually have an entry to work with
       emptyEntryRow = false;
       entryRow += `<span class="noun">${entry["atom"]}</span>`;
-      if (entry["gend"] !== "") {
-        entryRow += `<span class="gender">(${entry["gend"][0]})</span>`;
+      if (typeof entry["gend"] !== "undefined" && entry["gend"] !== "") {
+        entryRow += `<span class="gender">(${entry["gend"]})</span>`;
       };
       entryRow += "</td>";
     });
