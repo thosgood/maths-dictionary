@@ -1,5 +1,5 @@
 var langs = [];
-var visible_langs = [];
+var visibleLangs = [];
 var dict = {};
 
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
     langs.push(item.name);
   });
   $("input:checked").each( function(i, item){
-    visible_langs.push(item.name);
+    visibleLangs.push(item.name);
   });
 });
 
@@ -27,7 +27,7 @@ var updateTable = function(data = dict) {
   $("#table_body").append(`<tr id="table_headers"></tr>`);
 
   var tableHeaders = "";
-  $.each(visible_langs, function(l, lang) {
+  $.each(visibleLangs, function(l, lang) {
     tableHeaders += `<th class="sortable">`;
     tableHeaders += lang;
     tableHeaders += "</th>";
@@ -36,7 +36,7 @@ var updateTable = function(data = dict) {
 
   $.each(data, function(i, item) {
     var emptyEntryRow = true;
-    // TODO: this should check that adjs exist IN visible_langs!!!
+    // TODO: this should check that adjs exist IN visibleLangs!!!
           // maybe by using showAdjectives ?
     var hasAdjs = false;
     if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
@@ -45,7 +45,7 @@ var updateTable = function(data = dict) {
       var entryRow = `<tr class="noun expandable" id=${i}>`;
     };
 
-    $.each(visible_langs, function(l, lang) {
+    $.each(visibleLangs, function(l, lang) {
       entryRow += "<td>";
       var entry = item["root"][lang];
 
@@ -89,7 +89,7 @@ var showAdjectives = function (nounID) {
     var adjRow = `<tr class="adjective ${nounID}">`;
     var emptyAdjRow = true;
 
-    $.each(visible_langs, function(l, lang) {
+    $.each(visibleLangs, function(l, lang) {
       adjRow += "<td>";
       var adjective = adj[lang]
       if (typeof adjective === "undefined" || adjective["atom"] === "") {
@@ -116,9 +116,9 @@ var showAdjectives = function (nounID) {
 
 // language selector checkboxes
 $("input").on("click", function() {
-  visible_langs = [];
+  visibleLangs = [];
   $("input:checked").each( function(i, item){
-    visible_langs.push(item.name);
+    visibleLangs.push(item.name);
   });
   updateTable();
 });
