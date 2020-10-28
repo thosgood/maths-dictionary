@@ -9,6 +9,12 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 - **just add a lot of english entries**
 
+- **here's a nice submission method idea:**
+    + checkboxes for "languages you would like to translate from"
+    + checkboxes for "languages you would like to translate to"
+    + loop through entries that have an entry in one of the "from" languages and no entry (or an empty entry) in one of the "to" languages
+    + when you're bored/there are no more, show a recap, and then have a "submit button"
+    + _ideally this does a git PR somehow..._
 - script to fill in all the missing languages with empty strings
 - **a way to inherit adjectives from another entry!**
     + **e.g. give a list of hashes of adjectives that "group" should inherit from "ring"**
