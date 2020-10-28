@@ -869,5 +869,138 @@
         "FI": { "atom": "stationaarinen", "pstn": "before" }
       }
     }
+  },
+  "0ed9034b": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "manifold", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "066f0226": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "curve", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "0c0a02ea": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "surface", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "068e0227": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "proof", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "0bed0302": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "functor", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "0c170302": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "product", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
+  },
+  "02b30156": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "sum", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    }
   }
 }
