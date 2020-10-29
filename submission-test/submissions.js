@@ -25,7 +25,6 @@ $(document).on("click", "#start", function(obj) {
   });
 
   targetLang = $("#to_language").val();
-  // targetLangName = $("#to_language option:selected").text();
 
   $.each(dict, function(i, item) {
     var entry = { "id": i, "existing": {} };
@@ -43,7 +42,17 @@ $(document).on("click", "#start", function(obj) {
     };
   });
 
-  $.each(needingTranslation, function(e, entry) {
+  var questions = generateQuestions(needingTranslation);
+  $.each(questions, function(q, question) {
+    $(`<li>${question}</li>`).appendTo("#questions");
+  });
+});
+
+
+
+var generateQuestions = function(toTranslate) {
+  var questions = []
+  $.each(toTranslate, function(e, entry) {
     var sources = []
     $.each(entry["existing"], function(s, source) {
       sources.push(`<span class="foreign ${s}">${source}</span>`);
@@ -101,6 +110,9 @@ $(document).on("click", "#start", function(obj) {
         question = `How do you say ${sources.join("/")} in English?`;
         break;
     }
-    $(`<li>${question}</li>`).appendTo("#questions");
+
+    questions.push(question);
   });
-});
+
+  return questions;
+};
