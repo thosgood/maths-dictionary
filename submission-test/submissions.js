@@ -44,12 +44,23 @@ $(document).on("click", "#start", function(obj) {
 
   $.each(needingTranslation, function(e, entry) {
     // TODO: ideally this question should be in the target language...
-    var question = "How do you say ";
     var sources = []
     $.each(entry["existing"], function(s, source) {
       sources.push(`${source} (${s})`);
     });
-    question += `${sources.join('/')} in ${targetLangName}?`;
+
+    var question = "";
+    switch(targetLang) {
+      case "EN":
+        question += `How do you say ${sources.join('/')} in ${targetLangName}?`;
+        break;
+      case "FR":
+        question += `Comment dit-on ${sources.join('/')} en ${targetLangName}?`;
+        break;
+      default:
+        question += `How do you say ${sources.join('/')} in ${targetLangName}?`;
+        break;
+    }
     console.log(question);
   });
 });
