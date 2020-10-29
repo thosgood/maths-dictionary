@@ -24,7 +24,7 @@ $(document).on("click", "#start", function(obj) {
   });
 
   targetLang = $("#to_language").val();
-  targetLangName = $("#to_language option:selected").text();
+  // targetLangName = $("#to_language option:selected").text();
 
   $.each(dict, function(i, item) {
     var entry = { "id": i, "existing": {} };
@@ -43,7 +43,6 @@ $(document).on("click", "#start", function(obj) {
   });
 
   $.each(needingTranslation, function(e, entry) {
-    // TODO: ideally this question should be in the target language...
     var sources = []
     $.each(entry["existing"], function(s, source) {
       sources.push(`${source} (${s})`);
@@ -51,14 +50,54 @@ $(document).on("click", "#start", function(obj) {
 
     var question = "";
     switch(targetLang) {
+      case "CA":
+        question = `Com es diu ${sources.join("/")} en català?`;
+        break;
+      case "DE":
+        question = `Wie sagt man auf  Deutsch ${sources.join("/")}?`;
+        break;
       case "EN":
-        question += `How do you say ${sources.join('/')} in ${targetLangName}?`;
+        question = `How do you say ${sources.join("/")} in English?`;
+        break;
+      case "ES":
+        question = `¿Cómo se dice ${sources.join("/")} en español?`;
+        break;
+      case "FA":
+        // TODO: .reverse.join(" "), but before .join("/")
+        question = `چگونه به فارسی ${sources.join("/")} می گویید؟`;
+        break;
+      case "FI":
+        question = `Kuinka sanot ${sources.join("/")} suomeksi?`;
         break;
       case "FR":
-        question += `Comment dit-on ${sources.join('/')} en ${targetLangName}?`;
+        question = `Comment dit-on ${sources.join("/")} en français?`;
+        break;
+      case "IT":
+        question = `Come se dice ${sources.join("/")} in italiano?`;
+        break;
+      case "JA":
+        question = `日本語で ${sources.join("/")} は何と言いますか?`;
+        break;
+      case "KO":
+        question = `한국어로 ${sources.join("/")}이 뭐야?`;
+        break;
+      case "PL":
+        question = `Jak powiedzieć ${sources.join("/")} po polsku?`;
+        break;
+      case "PT":
+        question = `Como se diz ${sources.join("/")} em português?`;
+        break;
+      case "RU":
+        question = `Как сказать ${sources.join("/")} по-русски?`;
+        break;
+      case "TR":
+        question = `Türkçe'de ${sources.join("/")} nasıl denir?`;
+        break;
+      case "ZH":
+        question = `${sources.join("/")} 中文怎么说?`;
         break;
       default:
-        question += `How do you say ${sources.join('/')} in ${targetLangName}?`;
+        question = `How do you say ${sources.join("/")} in English?`;
         break;
     }
     console.log(question);
