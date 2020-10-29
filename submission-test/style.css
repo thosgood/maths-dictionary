@@ -59,6 +59,7 @@ h4 {
 }
 
 #to_language_selectors_container select {
+  font-size: 0.9em;
   width: 10em;
 }
 
@@ -88,11 +89,13 @@ h4 {
 .question_card label {
   display: block;
   margin: 1em 0;
+  font-size: 1.2em;
 }
 
 .question_card input {
   text-align: center;
   width: 50%;
+  font-size: 1em;
 }
 
 .question_card_buttons {
@@ -106,6 +109,7 @@ h4 {
 
 .question_card_buttons button {
   height: 3em;
+  font-size: 0.9em;
 }
 
 .foreign {

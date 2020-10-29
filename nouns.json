@@ -671,7 +671,7 @@
         "CA": { "atom": "perfecte"  , "pstn": "after"   },
         "EN": { "atom": "perfect", "pstn": "before"  },
         "ES": { "atom": "perfecto"  , "pstn": "after"   },
-        "FR": { "atom": "perfait", "pstn": "after"   },
+        "FR": { "atom": "parfait", "pstn": "after"   },
         "PT": { "atom": "perfeito"  , "pstn": "after"   }
       }
     }
