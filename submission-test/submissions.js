@@ -46,7 +46,7 @@ $(document).on("click", "#start", function(obj) {
   $.each(questions, function(q, question) {
     $(question).appendTo("#questions");
   });
-  $("#questions").append(`<input type="submit" value="Submit">`)
+  $("#questions").append(`<input type="submit" id="submit" value="Submit">`)
 });
 
 
@@ -124,3 +124,11 @@ var generateQuestions = function(toTranslate) {
 
   return questions;
 };
+
+
+
+$("form#questions").submit(function(event) {
+  var submissionData = $("form#questions").serializeArray();
+  // submissionData["language"] = targetLang;
+  event.preventDefault();
+});

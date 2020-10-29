@@ -1,3 +1,74 @@
+/* Initial layout */
+
+body {
+  width: 50%;
+  margin: auto;
+  font: 300 1rem -apple-system, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#initial_options {
+  margin: 2em 0;
+}
+
+#from_language_selectors_container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+#to_language_selectors_container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+#start_button_container {
+  width: 100px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+#from_language_selectors_container ul {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0px;
+  -moz-column-count: 4;
+  -moz-column-gap: 0px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+#from_language_selectors_container li {
+  padding: 0.5em 0;
+}
+
+#to_language_selectors_container select {
+  width: 30%;
+}
+
+#start_button_container button {
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Questions */
+
 .foreign {
   /*border-bottom: 1px dashed black;*/
   position: relative;

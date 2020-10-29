@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
-
-
 body {
-  font-family: 'Noto Serif';
+  font: 300 1rem -apple-system, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -52,7 +47,6 @@ div#table_container {
   width: 210px;
   padding: 10px;
   /*border-bottom: 1px solid #ddd;*/
-  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif JP';
 }
 
 #table tr:nth-child(even) {

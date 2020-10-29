@@ -18,102 +18,104 @@
 
 <body>
 
-  <div id="from_language_selectors_container">
-    <ul id="from_language_selectors">
-      <li>
-        <input type="checkbox" id="CA" name="CA" value="visible">
-        <label for="CA">Català</label>
-      </li>
-      <li>
-        <input type="checkbox" id="DE" name="DE" value="visible">
-        <label for="DE">Deutsch</label>
-      </li>
-      <li>
-        <input type="checkbox" id="EN" name="EN" value="visible">
-        <label for="EN">English</label>
-      </li>
-      <li>
-        <input type="checkbox" id="ES" name="ES" value="visible">
-        <label for="ES">Español</label>
-      </li>
-      <li>
-        <input type="checkbox" id="FA" name="FA" value="visible">
-        <label for="FA">فارسی</label>
-      </li>
-      <li>
-        <input type="checkbox" id="FI" name="FI" value="visible">
-        <label for="FI">Suomi</label>
-      </li>
-      <li>
-        <input type="checkbox" id="FR" name="FR" value="visible">
-        <label for="FR">Français</label>
-      </li>
-      <li>
-        <input type="checkbox" id="IT" name="IT" value="visible">
-        <label for="IT">Italiano</label>
-      </li>
-      <li>
-        <input type="checkbox" id="JA" name="JA" value="visible">
-        <label for="JA">日本語</label>
-      </li>
-      <li>
-        <input type="checkbox" id="KO" name="KO" value="visible">
-        <label for="KO">한국어</label>
-      </li>
-      <li>
-        <input type="checkbox" id="PL" name="PL" value="visible">
-        <label for="PL">Polski</label>
-      </li>
-      <li>
-        <input type="checkbox" id="PT" name="PT" value="visible">
-        <label for="PT">Português</label>
-      </li>
-      <li>
-        <input type="checkbox" id="RU" name="RU" value="visible">
-        <label for="RU">Pусский</label>
-      </li>
-      <li>
-        <input type="checkbox" id="TR" name="TR" value="visible">
-        <label for="TR">Türkçe</label>
-      </li>
-      <li>
-        <input type="checkbox" id="ZH" name="ZH" value="visible">
-        <label for="ZH">汉语</label>
-      </li>
-    </ul>
+  <div id="initial_options">
+    <div id="from_language_selectors_container">
+      <h4>Languages that I can translate <i>from</i></h4>
+      <ul id="from_language_selectors">
+        <li>
+          <input type="checkbox" id="CA" name="CA" value="visible">
+          <label for="CA">Català</label>
+        </li>
+        <li>
+          <input type="checkbox" id="DE" name="DE" value="visible">
+          <label for="DE">Deutsch</label>
+        </li>
+        <li>
+          <input type="checkbox" id="EN" name="EN" value="visible">
+          <label for="EN">English</label>
+        </li>
+        <li>
+          <input type="checkbox" id="ES" name="ES" value="visible">
+          <label for="ES">Español</label>
+        </li>
+        <li>
+          <input type="checkbox" id="FA" name="FA" value="visible">
+          <label for="FA">فارسی</label>
+        </li>
+        <li>
+          <input type="checkbox" id="FI" name="FI" value="visible">
+          <label for="FI">Suomi</label>
+        </li>
+        <li>
+          <input type="checkbox" id="FR" name="FR" value="visible">
+          <label for="FR">Français</label>
+        </li>
+        <li>
+          <input type="checkbox" id="IT" name="IT" value="visible">
+          <label for="IT">Italiano</label>
+        </li>
+        <li>
+          <input type="checkbox" id="JA" name="JA" value="visible">
+          <label for="JA">日本語</label>
+        </li>
+        <li>
+          <input type="checkbox" id="KO" name="KO" value="visible">
+          <label for="KO">한국어</label>
+        </li>
+        <li>
+          <input type="checkbox" id="PL" name="PL" value="visible">
+          <label for="PL">Polski</label>
+        </li>
+        <li>
+          <input type="checkbox" id="PT" name="PT" value="visible">
+          <label for="PT">Português</label>
+        </li>
+        <li>
+          <input type="checkbox" id="RU" name="RU" value="visible">
+          <label for="RU">Pусский</label>
+        </li>
+        <li>
+          <input type="checkbox" id="TR" name="TR" value="visible">
+          <label for="TR">Türkçe</label>
+        </li>
+        <li>
+          <input type="checkbox" id="ZH" name="ZH" value="visible">
+          <label for="ZH">汉语</label>
+        </li>
+      </ul>
+    </div>
+
+    <div id="to_language_selectors_container">
+      <h4>Language that I can translate <i>to</i></h4>
+      <select name="to_language" id="to_language">
+        <option value="" selected disabled hidden>Please choose</option>
+        <option value="CA">Català</option>
+        <option value="DE">Deutsch</option>
+        <option value="EN">English</option>
+        <option value="ES">Español</option>
+        <option value="FA">فارسی</option>
+        <option value="FI">Suomi</option>
+        <option value="FR">Français</option>
+        <option value="IT">Italiano</option>
+        <option value="JA">日本語</option>
+        <option value="KO">한국어</option>
+        <option value="PL">Polski</option>
+        <option value="PT">Português</option>
+        <option value="RU">Pусский</option>
+        <option value="TR">Türkçe</option>
+        <option value="ZH">汉语</option>
+      </select>
+    </div>
+
+    <div id="start_button_container">
+      <button type="button" name="start" id="start">Start</button>
+    </div>
   </div>
 
-  <hr>
-
-  <div id="to_language_selectors_container">
-    <select name="to_language" id="to_language">
-      <option value="" selected disabled hidden>Please choose</option>
-      <option value="CA">Català</option>
-      <option value="DE">Deutsch</option>
-      <option value="EN">English</option>
-      <option value="ES">Español</option>
-      <option value="FA">فارسی</option>
-      <option value="FI">Suomi</option>
-      <option value="FR">Français</option>
-      <option value="IT">Italiano</option>
-      <option value="JA">日本語</option>
-      <option value="KO">한국어</option>
-      <option value="PL">Polski</option>
-      <option value="PT">Português</option>
-      <option value="RU">Pусский</option>
-      <option value="TR">Türkçe</option>
-      <option value="ZH">汉语</option>
-    </select>
+  <div id="generated_form">
+    <form id="questions">
+    </form>
   </div>
-
-  <hr>
-
-  <button type="button" name="start" id="start">Start</button>
-
-  <hr>
-
-  <form id="questions">
-  </form>
 
   <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
   <script type="text/javascript" src="submissions.js"></script>
