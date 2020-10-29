@@ -18,6 +18,7 @@ $(document).on("click", "#start", function(obj) {
   needingTranslation = [];
   sourceLangs = [];
   targetLang = "";
+  $("#questions").empty();
 
   $("#from_language_selectors input:checked").each( function(i, item){
     sourceLangs.push(item.name);
@@ -45,7 +46,7 @@ $(document).on("click", "#start", function(obj) {
   $.each(needingTranslation, function(e, entry) {
     var sources = []
     $.each(entry["existing"], function(s, source) {
-      sources.push(`${source} (${s})`);
+      sources.push(`<span class="foreign ${s}">${source}</span>`);
     });
 
     var question = "";
@@ -100,6 +101,6 @@ $(document).on("click", "#start", function(obj) {
         question = `How do you say ${sources.join("/")} in English?`;
         break;
     }
-    console.log(question);
+    $(`<li>${question}</li>`).appendTo("#questions");
   });
 });
