@@ -7,6 +7,9 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 ## Todo
 
+- make site mobile friendly (responsive)
+    + e.g. number of columns in language selection list
+
 - **here's a nice submission method idea:**
     + checkboxes for "languages you would like to translate from"
     + checkboxes for "languages you would like to translate to"

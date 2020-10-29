@@ -1,7 +1,7 @@
 /* Initial layout */
 
 body {
-  width: 50%;
+  width: 65%;
   margin: auto;
   font: 300 1rem -apple-system, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 
 #from_language_selectors_container {
   width: 90%;
-  margin: auto;
+  margin: 2em auto;
   text-align: center;
   border: 1px solid black;
   padding: 1em;
@@ -20,8 +20,7 @@ body {
 
 #to_language_selectors_container {
   width: 90%;
-  margin: auto;
-  margin-top: 2em;
+  margin: 2em auto;
   text-align: center;
   border: 1px solid black;
   padding: 1em;
@@ -29,8 +28,7 @@ body {
 
 #start_button_container {
   width: 100px;
-  margin: auto;
-  margin-top: 2em;
+  margin: 2em auto;
   text-align: center;
 }
 
@@ -54,10 +52,14 @@ h4 {
 
 #from_language_selectors_container li {
   padding: 0.5em 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #to_language_selectors_container select {
-  width: 30%;
+  width: 10em;
 }
 
 #start_button_container button {
@@ -67,7 +69,44 @@ h4 {
 }
 
 
-/* Questions */
+/* Question cards */
+
+.question_card {
+  /*margin: 2em auto;*/
+  /*height: 70%;*/
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.question_card label {
+  display: block;
+  margin: 1em 0;
+}
+
+.question_card input {
+  text-align: center;
+  width: 50%;
+}
+
+.question_card_buttons {
+  list-style: none;
+  padding: 0;
+}
+
+.question_card_buttons li {
+  display: inline;
+}
+
+.question_card_buttons button {
+  height: 3em;
+}
 
 .foreign {
   /*border-bottom: 1px dashed black;*/
@@ -77,19 +116,20 @@ h4 {
 }
 
 .foreign .unknown {
-  font-family: monospace;
   text-decoration: underline;
 }
 
 .foreign .tooltip {
   visibility: hidden;
   text-align: center;
-  background-color: gray;
+  background-color: #ccc;
+  border-radius: 1em;
+  padding: 5px;
   width: 30px;
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   left: 50%;
-  margin-left: -15px;
+  margin-left: -20px; /* width/2 - padding */
   z-index: 1;
 }
 
