@@ -43,7 +43,9 @@ $(document).on("click", "#start", function(obj) {
   });
 
   var questions = generateQuestions(needingTranslation);
+  // $("body").empty();
   $.each(questions, function(q, question) {
+    // $("body").append(question);
     $(`<li>${question}</li>`).appendTo("#questions");
   });
 });
@@ -51,11 +53,18 @@ $(document).on("click", "#start", function(obj) {
 
 
 var generateQuestions = function(toTranslate) {
-  var questions = []
+  var questions = [];
+  var question = "";
   $.each(toTranslate, function(e, entry) {
-    var sources = []
+    var sources = [];
     $.each(entry["existing"], function(s, source) {
-      sources.push(`<span class="foreign ${s}">${source}</span>`);
+      question = `
+<div class="foreign">
+  <span class="unknown">${source}</span>
+  <span class="tooltip">${s}</span>
+</div>`;
+console.log(question);
+      sources.push(question);
     });
 
     var question = "";

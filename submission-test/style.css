@@ -1,0 +1,27 @@
+.foreign {
+  /*border-bottom: 1px dashed black;*/
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+
+.foreign .unknown {
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+.foreign .tooltip {
+  visibility: hidden;
+  text-align: center;
+  background-color: gray;
+  width: 30px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  z-index: 1;
+}
+
+.foreign:hover .tooltip {
+  visibility: visible;
+}
