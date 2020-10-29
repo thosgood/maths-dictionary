@@ -1,13 +1,18 @@
 var sourceLangs = [];
 var targetLang = "";
+var targetLangName = "";
 var dict = {};
 var needingTranslation = [];
+
+
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     dict = json;
   });
 });
+
+
 
 $(document).on("click", "#start", function(obj) {
   needingTranslation = [];
@@ -19,6 +24,7 @@ $(document).on("click", "#start", function(obj) {
   });
 
   targetLang = $("#to_language").val();
+  targetLangName = $("#to_language option:selected").text();
 
   $.each(dict, function(i, item) {
     var entry = { "id": i, "existing": {} };
@@ -35,5 +41,15 @@ $(document).on("click", "#start", function(obj) {
       needingTranslation.push(entry);  
     };
   });
-  console.log(needingTranslation);
+
+  $.each(needingTranslation, function(e, entry) {
+    // TODO: ideally this question should be in the target language...
+    var question = "How do you say ";
+    var sources = []
+    $.each(entry["existing"], function(s, source) {
+      sources.push(`${source} (${s})`);
+    });
+    question += `${sources.join('/')} in ${targetLangName}?`;
+    console.log(question);
+  });
 });
