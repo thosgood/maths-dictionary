@@ -74,21 +74,29 @@ $(document).on("click", "#next", function() {
   // TODO
   // TODO: disable this button unless the input is non-empty
   //       AND gender selected (IF dropdown exists!)
-  var value = $(this).closest("div#question_card").find("input").val();
-  console.log(value);
+  var input = $(this).closest("div#question_card").find("input");
+  var answer = {};
+  answer["id"] = input.attr("name");
+  answer["atom"] = input.val();
+  answer["gend"] = $(this).closest("div#question_card").find("select").val();
+  console.log(answer);
 });
 
 
 
 var updateQuestionCard = function(number) {
   var question = needingTranslation[number-1];
+
+  var id = question["id"];
+
+  $("#question_input").attr("name", id);
+
   var foreignContent = [];
   $.each(question["existing"], function(u, unknown) {
     var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
     foreignContent.push(foreignWord);
   });
   $("#foreign").html(foreignContent.join(' /'));
-  // TODO: change labelFor, inputID, and inputName
 };
 
 
@@ -162,10 +170,10 @@ var generateQuestionCard = function(targetLang, totalNum) {
 
   questionCard = `
 <div id="question_card">
-  <label for="labelFor">
+  <label id="question_label" for="question_input">
     ${questionLabel}
   </label>
-  <input type="text" id="inputID" name="inputName">
+  <input type="text" id="question_input" name="">
   ${genderDropdown}
   <ul id="question_card_buttons">
     <li><button name="skip" id="skip">Skip</button></li>
