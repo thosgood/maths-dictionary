@@ -92,34 +92,43 @@ h4 {
   font-size: 1.2em;
 }
 
-#question_card input {
+#question_input {
+  margin: 1em 0;
   text-align: center;
   width: 50%;
   font-size: 1em;
 }
 
 #gender_selection {
+  margin: 1em 0;
+}
+
+#gender_selection input {
+  display: none;
 }
 
 #gender_selection label {
   display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  font-size: 0.9em;
+  border: 1px solid grey;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
 
-#gender_selection input {
-    display: none;
-}
-
-#gender_selection input[type="radio"]:checked + label {
-    border: solid 2px green;
+#gender_selection input:checked + label {
+  color: white;
+  background-color: #2a7ae2;
+  border: 1px solid #2a7ae2;
 }
 
 #question_card_buttons {
   list-style: none;
   padding: 0;
+  margin: 2em 0;
 }
 
 #question_card_buttons li {
