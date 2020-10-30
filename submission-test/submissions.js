@@ -4,7 +4,7 @@ var sourceLangs = [];
 var targetLang = "";
 var needingTranslation = [];
 var questions = [];
-var submission = {};
+var submission = [];
 
 
 
@@ -59,7 +59,7 @@ $(document).on("click", "#start", function() {
 
 
 $(document).on("click", "#skip", function() {
-  // TODO
+  updateQuestionCard();
 });
 
 
@@ -79,24 +79,29 @@ $(document).on("click", "#next", function() {
   answer["id"] = input.attr("name");
   answer["atom"] = input.val();
   answer["gend"] = $(this).closest("div#question_card").find("select").val();
+  submission.push(answer);
+  updateQuestionCard(submission.length+1);
   console.log(answer);
 });
 
 
 
 var updateQuestionCard = function(number) {
+  // TODO: disable "next" and "finish now" buttons if on final question
   var question = needingTranslation[number-1];
-
   var id = question["id"];
-
-  $("#question_input").attr("name", id);
 
   var foreignContent = [];
   $.each(question["existing"], function(u, unknown) {
     var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
     foreignContent.push(foreignWord);
   });
+  
   $("#foreign").html(foreignContent.join(' /'));
+  $("#question_input").attr("name", id);
+  $("#question_input").val("");
+  $("#gender").prepend(`<option value="" selected disabled hidden>Gender...</option>`);
+  $("#current_question_number").html(`${number}`);
 };
 
 
@@ -158,6 +163,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
   }
 
   var genders = languages[targetLang]["genders"];
+  // TODO: replace dropdown with radio buttons?
   var genderDropdown = ""
   if (genders !== undefined) {
     genderDropdown = `<select name="gender" id="gender">\n`;
@@ -180,7 +186,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
     <li><button name="finished" id="finished">Finish now</button></li>
     <li><button name="next" id="next">Next</button></li>
   </ul>
-  <span id="question_number">1/${totalNum}</span>
+  <span id="question_number"><span id="current_question_number">1</span>/${totalNum}</span>
 </div>`
 
   return questionCard;
