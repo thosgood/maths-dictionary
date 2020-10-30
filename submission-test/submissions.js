@@ -7,6 +7,8 @@ var questions = [];
 var submission = [];
 
 
+// TODO: adjectives!
+
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
@@ -73,7 +75,7 @@ $(document).on("click", "#finished", function() {
 $(document).on("click", "#next", function() {
   // TODO
   // TODO: disable this button unless the input is non-empty
-  //       AND gender selected (IF dropdown exists!)
+  //       AND gender selected (IF gender exists!)
   var input = $(this).closest("div#question_card").find("input");
   var answer = {};
   answer["id"] = input.attr("name");
@@ -88,6 +90,7 @@ $(document).on("click", "#next", function() {
 
 var updateQuestionCard = function(number) {
   // TODO: disable "next" and "finish now" buttons if on final question
+  //       (use `typeof needingTranslation[number]` ?)
   var question = needingTranslation[number-1];
   var id = question["id"];
 
