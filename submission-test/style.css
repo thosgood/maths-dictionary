@@ -72,7 +72,7 @@ h4 {
 
 /* Question cards */
 
-.question_card {
+#question_card {
   /*margin: 2em auto;*/
   /*height: 70%;*/
   width: 70%;
@@ -86,44 +86,43 @@ h4 {
   border: 1px solid black;
 }
 
-.question_card label {
+#question_card label {
   display: block;
   margin: 1em 0;
   font-size: 1.2em;
 }
 
-.question_card input {
+#question_card input {
   text-align: center;
   width: 50%;
   font-size: 1em;
 }
 
-.question_card_buttons {
+#question_card_buttons {
   list-style: none;
   padding: 0;
 }
 
-.question_card_buttons li {
+#question_card_buttons li {
   display: inline;
 }
 
-.question_card_buttons button {
+#question_card_buttons button {
   height: 3em;
   font-size: 0.9em;
 }
 
-.foreign {
-  /*border-bottom: 1px dashed black;*/
-  position: relative;
+#foreign {
   display: inline-block;
+}
+
+#foreign .unknown {
+  position: relative;
+  border-bottom: 1px dashed black;
   cursor: help;
 }
 
-.foreign .unknown {
-  text-decoration: underline;
-}
-
-.foreign .tooltip {
+#foreign .unknown .tooltip {
   visibility: hidden;
   text-align: center;
   background-color: #ccc;
@@ -137,6 +136,6 @@ h4 {
   z-index: 1;
 }
 
-.foreign:hover .tooltip {
+#foreign .unknown:hover .tooltip {
   visibility: visible;
 }
