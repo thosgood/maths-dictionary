@@ -1,15 +1,19 @@
+var dict = {};
+var languages
 var sourceLangs = [];
 var targetLang = "";
-var targetLangName = "";
-var dict = {};
 var needingTranslation = [];
 var questions = [];
+var submission = {};
 
 
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     dict = json;
+  });
+  $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
+    languages = json;
   });
 });
 
@@ -49,14 +53,43 @@ $(document).on("click", "#start", function() {
   $("#initial_options").css("display", "none");
   $(questionCard).appendTo("#questions");
 
-  var firstUnknown = needingTranslation[0];
+  updateQuestionCard(1);
+});
+
+
+
+$(document).on("click", "#skip", function() {
+  // TODO
+});
+
+
+
+$(document).on("click", "#finished", function() {
+  // TODO
+});
+
+
+
+$(document).on("click", "#next", function() {
+  // TODO
+  // TODO: disable this button unless the input is non-empty
+  //       AND gender selected (IF dropdown exists!)
+  var value = $(this).closest("div#question_card").find("input").val();
+  console.log(value);
+});
+
+
+
+var updateQuestionCard = function(number) {
+  var question = needingTranslation[number-1];
   var foreignContent = [];
-  $.each(firstUnknown["existing"], function(u, unknown) {
+  $.each(question["existing"], function(u, unknown) {
     var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
     foreignContent.push(foreignWord);
   });
   $("#foreign").html(foreignContent.join(' /'));
-});
+  // TODO: change labelFor, inputID, and inputName
+};
 
 
 
@@ -116,12 +149,24 @@ var generateQuestionCard = function(targetLang, totalNum) {
       break;
   }
 
+  var genders = languages[targetLang]["genders"];
+  var genderDropdown = ""
+  if (genders !== undefined) {
+    genderDropdown = `<select name="gender" id="gender">\n`;
+    genderDropdown += `<option value="" selected disabled hidden>Gender...</option>`;
+    $.each(genders, function(g, gender) {
+      genderDropdown += `<option value="${gender}">${gender}</option>\n`
+    });
+    genderDropdown += `</select>`;
+  };
+
   questionCard = `
 <div id="question_card">
   <label for="labelFor">
     ${questionLabel}
   </label>
   <input type="text" id="inputID" name="inputName">
+  ${genderDropdown}
   <ul id="question_card_buttons">
     <li><button name="skip" id="skip">Skip</button></li>
     <li><button name="finished" id="finished">Finish now</button></li>
@@ -132,27 +177,3 @@ var generateQuestionCard = function(targetLang, totalNum) {
 
   return questionCard;
 };
-
-
-
-$(document).on("click", "#skip", function() {
-  // TODO
-  console.log("skip");
-});
-
-
-
-$(document).on("click", "#finished", function() {
-  // TODO
-  console.log("finished");
-});
-
-
-
-$(document).on("click", "#next", function() {
-  // TODO
-  // TODO: get the value inside the input "just above"
-  // TODO: disable this button unless the input is non-empty
-  var value = $(this).closest("div#question_card").find("input").val();
-  console.log(value);
-});
