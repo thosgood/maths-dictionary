@@ -98,11 +98,23 @@ h4 {
   font-size: 1em;
 }
 
+#gender_selection {
+}
+
 #gender_selection label {
+  display: inline-block;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+#gender_selection input {
+    display: none;
+}
+
+#gender_selection input[type="radio"]:checked + label {
+    border: solid 2px green;
 }
 
 #question_card_buttons {
