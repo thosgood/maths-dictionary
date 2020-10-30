@@ -163,12 +163,13 @@ var generateQuestionCard = function(targetLang, totalNum) {
   }
 
   var genders = languages[targetLang]["genders"];
-  var genderSelect = ""
   if (genders !== undefined) {
+    var genderSelect = `<div id="gender_selection">\n`;
     $.each(genders, function(g, gender) {
-      genderSelect += `<input type="radio" name="gender" value="${gender}" id="${gender}">`;
-      genderSelect += `<label for="${gender}">${gender}</label>`;
+      genderSelect += `<input type="radio" name="gender" value="${gender}" id="${gender}">\n`;
+      genderSelect += `<label for="${gender}">${gender}</label>\n`;
     });
+    genderSelect += `</div>\n`;
   };
 
   questionCard = `
