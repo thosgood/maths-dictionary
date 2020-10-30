@@ -78,7 +78,7 @@ $(document).on("click", "#next", function() {
   var answer = {};
   answer["id"] = input.attr("name");
   answer["atom"] = input.val();
-  answer["gend"] = $(this).closest("div#question_card").find("select").val();
+  answer["gend"] = $("input[name=gender]:checked").val();
   submission.push(answer);
   updateQuestionCard(submission.length+1);
   console.log(answer);
@@ -100,7 +100,7 @@ var updateQuestionCard = function(number) {
   $("#foreign").html(foreignContent.join(' /'));
   $("#question_input").attr("name", id);
   $("#question_input").val("");
-  $("#gender").prepend(`<option value="" selected disabled hidden>Gender...</option>`);
+  $('input[name="gender"]').prop('checked', false);
   $("#current_question_number").html(`${number}`);
 };
 
@@ -163,15 +163,12 @@ var generateQuestionCard = function(targetLang, totalNum) {
   }
 
   var genders = languages[targetLang]["genders"];
-  // TODO: replace dropdown with radio buttons?
-  var genderDropdown = ""
+  var genderSelect = ""
   if (genders !== undefined) {
-    genderDropdown = `<select name="gender" id="gender">\n`;
-    genderDropdown += `<option value="" selected disabled hidden>Gender...</option>`;
     $.each(genders, function(g, gender) {
-      genderDropdown += `<option value="${gender}">${gender}</option>\n`
+      genderSelect += `<input type="radio" name="gender" value="${gender}" id="${gender}">`;
+      genderSelect += `<label for="${gender}">${gender}</label>`;
     });
-    genderDropdown += `</select>`;
   };
 
   questionCard = `
@@ -180,7 +177,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
     ${questionLabel}
   </label>
   <input type="text" id="question_input" name="">
-  ${genderDropdown}
+  ${genderSelect}
   <ul id="question_card_buttons">
     <li><button name="skip" id="skip">Skip</button></li>
     <li><button name="finished" id="finished">Finish now</button></li>
