@@ -67,19 +67,19 @@ $(document).on("click", "#previous", function() {
   // TODO
   var current_question_number = parseInt($("#current_question_number").text());
   updateQuestionCard(current_question_number-1);
+  console.log(submission);
 });
 
 
 
 $(document).on("click", "#skip", function() {
-  submission.push({});
   updateQuestionCard();
 });
 
 
 
 $(document).on("click", "#next", function() {
-  var current_question_number = parseInt($("#current_question_number").text());
+  var currentQuestionNumber = parseInt($("#current_question_number").text());
   // TODO
   // TODO: disable this button unless the input is non-empty
   //       AND gender selected (IF gender exists!)
@@ -90,9 +90,12 @@ $(document).on("click", "#next", function() {
   if (targetLangHasGend) {
     answer["gend"] = $("input[name=gender]:checked").val();
   }
-  submission.push(answer);
-  // TODO: replace submission.length+1 with current question number + 1
-  updateQuestionCard(current_question_number+1);
+  if (answer["atom"] !== "") {
+    submission.push(answer);
+  }
+  
+  updateQuestionCard(currentQuestionNumber+1);
+  console.log(submission);
 });
 
 
@@ -104,8 +107,6 @@ $(document).on("click", "#finished", function() {
 
 
 var updateQuestionCard = function(number) {
-  // TODO: disable "next" button if on final question
-  //       (use `typeof needingTranslation[number]` ?)
   var question = needingTranslation[number-1];
   var id = question["id"];
 
@@ -117,9 +118,23 @@ var updateQuestionCard = function(number) {
   
   $("#foreign").html(foreignContent.join(" / "));
   $("#question_input").attr("name", id);
+  // TODO: if this question has already been answered then fill out
+  //       #question_input and input[name="gender"]
   $("#question_input").val("");
-  $('input[name="gender"]').prop('checked', false);
+  $("input[name='gender']").prop("checked", false);
   $("#current_question_number").html(`${number}`);
+  
+  if (number == 1) {
+    $("button#previous").prop("disabled", true);
+  } else {
+    $("button#previous").prop("disabled", false);
+  };
+  var totalQuestionNumber = parseInt($("#total_question_number").text());
+  if (number == totalQuestionNumber) {
+    $("button#next").prop("disabled", true);
+  } else {
+    $("button#next").prop("disabled", false);
+  };
 };
 
 
@@ -203,7 +218,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
     <li><button name="next" id="next" class="question_card_button">Next</button></li>
   </ul>
   <button name="finished" id="finished" class="question_card_button">Finish now</button>
-  <span id="question_number"><span id="current_question_number">1</span>/${totalNum}</span>
+  <span id="question_number"><span id="current_question_number">1</span>/<span id="total_question_number">${totalNum}</span></span>
 </div>`
 
   return questionCard;
