@@ -5,7 +5,7 @@ var targetLang = "";
 var targetLangHasGend = false;
 var needingTranslation = [];
 var questions = [];
-var submission = [];
+var submission = {};
 
 
 // TODO: adjectives!
@@ -85,13 +85,13 @@ $(document).on("click", "#next", function() {
   //       AND gender selected (IF gender exists!)
   var input = $(this).closest("div#question_card").find("input");
   var answer = {};
-  answer["id"] = input.attr("name");
+  // answer["id"] = input.attr("name");
   answer["atom"] = input.val();
   if (targetLangHasGend) {
     answer["gend"] = $("input[name=gender]:checked").val();
   }
   if (answer["atom"] !== "") {
-    submission.push(answer);
+    submission[input.attr("name")] = answer;
   }
   
   updateQuestionCard(currentQuestionNumber+1);
