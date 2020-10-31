@@ -1,9 +1,7 @@
 # Maths Dictionary
 
-As part of an ongoing project on categorical translation, I'm building a multilingual dictionary of mathematical terminology.
+As part of an ongoing project on categorical translation, I'm organising an open-source multilingual dictionary of mathematical terminology.
 You can see the live website version at https://thosgood.com/maths-dictionary/ .
-
-If you would like to contribute a few words, then use [this form](https://docs.google.com/forms/d/e/1FAIpQLScxROn89utMb6NwsM4H6hbOcTtw2NzjLXztmrBinyQwGeZPSg/viewform); if you would like to do some larger contribution, then just contact me for a little chat.
 
 ## Todo
 
@@ -36,4 +34,4 @@ If you would like to contribute a few words, then use [this form](https://docs.g
 
 ## Contributors
 
-TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre
+TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro
