@@ -2,6 +2,7 @@ var dict = {};
 var languages
 var sourceLangs = [];
 var targetLang = "";
+var targetLangHasGend = false;
 var needingTranslation = [];
 var questions = [];
 var submission = [];
@@ -33,6 +34,8 @@ $(document).on("click", "#start", function() {
 
   targetLang = $("#to_language").val();
 
+  targetLangHasGend = (languages[targetLang]["genders"] === undefined) ? false : true;
+
   $.each(dict, function(i, item) {
     var entry = { "id": i, "existing": {} };
     $.each(sourceLangs, function(l, lang) {
@@ -60,14 +63,15 @@ $(document).on("click", "#start", function() {
 
 
 
-$(document).on("click", "#skip", function() {
-  updateQuestionCard();
+$(document).on("click", "#previous", function() {
+  // TODO
 });
 
 
 
-$(document).on("click", "#finished", function() {
-  // TODO
+$(document).on("click", "#skip", function() {
+  submission.push({});
+  updateQuestionCard();
 });
 
 
@@ -80,16 +84,22 @@ $(document).on("click", "#next", function() {
   var answer = {};
   answer["id"] = input.attr("name");
   answer["atom"] = input.val();
+  // TODO: only set answer["gend"] if targetLangHasGend
   answer["gend"] = $("input[name=gender]:checked").val();
   submission.push(answer);
   updateQuestionCard(submission.length+1);
-  console.log(answer);
+});
+
+
+
+$(document).on("click", "#finished", function() {
+  // TODO
 });
 
 
 
 var updateQuestionCard = function(number) {
-  // TODO: disable "next" and "finish now" buttons if on final question
+  // TODO: disable "next" button if on final question
   //       (use `typeof needingTranslation[number]` ?)
   var question = needingTranslation[number-1];
   var id = question["id"];
@@ -165,15 +175,15 @@ var generateQuestionCard = function(targetLang, totalNum) {
       break;
   }
 
-  var genders = languages[targetLang]["genders"];
-  if (genders !== undefined) {
+  if (targetLangHasGend) {
+    var genders = languages[targetLang]["genders"];
     var genderSelect = `<div id="gender_selection">\n`;
     $.each(genders, function(g, gender) {
       genderSelect += `<input type="radio" name="gender" value="${gender}" id="${gender}">\n`;
       genderSelect += `<label for="${gender}">${gender}</label>\n`;
     });
     genderSelect += `</div>\n`;
-  };
+  } else { genderSelect = "" };
 
   questionCard = `
 <div id="question_card">
@@ -182,11 +192,12 @@ var generateQuestionCard = function(targetLang, totalNum) {
   </label>
   <input type="text" id="question_input" name="">
   ${genderSelect}
-  <ul id="question_card_buttons">
-    <li><button name="skip" id="skip">Skip</button></li>
-    <li><button name="finished" id="finished">Finish now</button></li>
-    <li><button name="next" id="next">Next</button></li>
+  <ul id="question_card_buttons_list">
+    <li><button name="skip" id="previous" class="question_card_button">Previous</button></li>
+    <li><button name="skip" id="skip" class="question_card_button">Skip</button></li>
+    <li><button name="next" id="next" class="question_card_button">Next</button></li>
   </ul>
+  <button name="finished" id="finished" class="question_card_button">Finish now</button>
   <span id="question_number"><span id="current_question_number">1</span>/${totalNum}</span>
 </div>`
 
