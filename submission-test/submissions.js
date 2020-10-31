@@ -65,6 +65,8 @@ $(document).on("click", "#start", function() {
 
 $(document).on("click", "#previous", function() {
   // TODO
+  var current_question_number = parseInt($("#current_question_number").text());
+  updateQuestionCard(current_question_number-1);
 });
 
 
@@ -77,6 +79,7 @@ $(document).on("click", "#skip", function() {
 
 
 $(document).on("click", "#next", function() {
+  var current_question_number = parseInt($("#current_question_number").text());
   // TODO
   // TODO: disable this button unless the input is non-empty
   //       AND gender selected (IF gender exists!)
@@ -84,10 +87,12 @@ $(document).on("click", "#next", function() {
   var answer = {};
   answer["id"] = input.attr("name");
   answer["atom"] = input.val();
-  // TODO: only set answer["gend"] if targetLangHasGend
-  answer["gend"] = $("input[name=gender]:checked").val();
+  if (targetLangHasGend) {
+    answer["gend"] = $("input[name=gender]:checked").val();
+  }
   submission.push(answer);
-  updateQuestionCard(submission.length+1);
+  // TODO: replace submission.length+1 with current question number + 1
+  updateQuestionCard(current_question_number+1);
 });
 
 
@@ -110,7 +115,7 @@ var updateQuestionCard = function(number) {
     foreignContent.push(foreignWord);
   });
   
-  $("#foreign").html(foreignContent.join(' /'));
+  $("#foreign").html(foreignContent.join(" / "));
   $("#question_input").attr("name", id);
   $("#question_input").val("");
   $('input[name="gender"]').prop('checked', false);
