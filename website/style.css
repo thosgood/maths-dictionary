@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+#github_link {
+  border: 1px solid black;
+}
+
 /* Language selection boxes */
 
 div#language_selectors_container {
