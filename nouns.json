@@ -1072,11 +1072,11 @@
     "adjs": {
       "0918029c": {
         "EN": { "atom": "tensor", "pstn": "before" },
-        "IT": { "atom": "tensoriale", "pstn": "after" },
+        "IT": { "atom": "tensoriale", "pstn": "after" }
       },
       "1172039b": {
         "EN": { "atom": "Cartesian", "pstn": "before" },
-        "IT": { "atom": "cartesiano", "pstn": "after" },
+        "IT": { "atom": "cartesiano", "pstn": "after" }
       }
     }
   },
