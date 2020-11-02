@@ -4,6 +4,7 @@ body {
   width: 65%;
   margin: auto;
   font: 300 1rem -apple-system, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 #initial_options {
