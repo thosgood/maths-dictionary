@@ -65,23 +65,21 @@ $(document).on("click", "#start", function() {
 
 $(document).on("click", "#previous", function() {
   // TODO
-  var current_question_number = parseInt($("#current_question_number").text());
-  updateQuestionCard(current_question_number-1);
-  // console.log(submission);
+  var currentQuestionNumber = parseInt($("#current_question_number").text());
+  updateQuestionCard(currentQuestionNumber-1);
 });
 
 
 
 $(document).on("click", "#skip", function() {
-  updateQuestionCard();
+  var currentQuestionNumber = parseInt($("#current_question_number").text());
+  updateQuestionCard(currentQuestionNumber+1);
 });
 
 
 
 $(document).on("click", "#next", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
-  // TODO: disable this button unless the input is non-empty
-  //       AND gender selected (IF gender exists!)
   var input = $(this).closest("div#question_card").find("input");
   var answer = {};
   answer["atom"] = input.val();
@@ -93,15 +91,16 @@ $(document).on("click", "#next", function() {
     submission[input.attr("name")] = answer;
     updateQuestionCard(currentQuestionNumber+1);
   } else {
-    // TODO: say "please fill it out or skip"
+    alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip" or "Finish now".`);
   };
-  // console.log(submission);
 });
 
 
 
 $(document).on("click", "#finished", function() {
   // TODO
+  // $("#questions").empty();
+  alert(JSON.stringify(submission));
 });
 
 
