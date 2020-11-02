@@ -67,7 +67,7 @@ $(document).on("click", "#previous", function() {
   // TODO
   var current_question_number = parseInt($("#current_question_number").text());
   updateQuestionCard(current_question_number-1);
-  console.log(submission);
+  // console.log(submission);
 });
 
 
@@ -80,22 +80,22 @@ $(document).on("click", "#skip", function() {
 
 $(document).on("click", "#next", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
-  // TODO
   // TODO: disable this button unless the input is non-empty
   //       AND gender selected (IF gender exists!)
   var input = $(this).closest("div#question_card").find("input");
   var answer = {};
-  // answer["id"] = input.attr("name");
   answer["atom"] = input.val();
   if (targetLangHasGend) {
     answer["gend"] = $("input[name=gender]:checked").val();
-  }
-  if (answer["atom"] !== "") {
+  };
+  if ((answer["atom"] !== "" && answer["gend"] !== undefined)
+      || (answer["atom"] !== "" && !targetLangHasGend)) {
     submission[input.attr("name")] = answer;
-  }
-  
-  updateQuestionCard(currentQuestionNumber+1);
-  console.log(submission);
+    updateQuestionCard(currentQuestionNumber+1);
+  } else {
+    // TODO: say "please fill it out or skip"
+  };
+  // console.log(submission);
 });
 
 
@@ -118,12 +118,18 @@ var updateQuestionCard = function(number) {
   
   $("#foreign").html(foreignContent.join(" / "));
   $("#question_input").attr("name", id);
-  // TODO: if this question has already been answered then fill out
-  //       #question_input and input[name="gender"]
-  $("#question_input").val("");
-  $("input[name='gender']").prop("checked", false);
-  $("#current_question_number").html(`${number}`);
+  if (submission[id] !== undefined) {
+    $("#question_input").val(submission[id]["atom"]);
+    if (targetLangHasGend) {
+      $(`input#${submission[id]["gend"]}`).prop("checked", true);
+    };
+  } else {
+    $("#question_input").val("");
+    $("input[name='gender']").prop("checked", false);
+  };
   
+  $("#current_question_number").html(`${number}`);
+
   if (number == 1) {
     $("button#previous").prop("disabled", true);
   } else {
