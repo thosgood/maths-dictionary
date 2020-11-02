@@ -98,7 +98,6 @@ $(document).on("click", "#next", function() {
 
 
 $(document).on("click", "#finished", function() {
-  // TODO: should also save the current entry!!!!!!!!!
   var currentQuestionNumber = parseInt($("#current_question_number").text());
   var input = $(this).closest("div#question_card").find("input");
   var answer = {};
@@ -112,16 +111,8 @@ $(document).on("click", "#finished", function() {
   } else {
     alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip".`);
   };
-  Email.send({
-    SecureToken : "55af070f-f684-43a5-ba77-c1e620d5e004",
-    To : "timhosgood@gmail.com",
-    From : "timhosgood@gmail.com",
-    Subject : "MDS",
-    Body : `${JSON.stringify(submission)}`
-  }).then(
-    message => alert(message)
-  );
-  // alert(JSON.stringify(submission));
+
+  window.open(`mailto:t.i.m.hosgood@gmail.com?subject=MDS&body=${JSON.stringify(submission)}`, '_self');
 });
 
 
