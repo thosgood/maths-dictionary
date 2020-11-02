@@ -1072,6 +1072,7 @@
     "adjs": {
       "0918029c": {
         "EN": { "atom": "tensor", "pstn": "before" },
+        "FR": { "atom": "tensoriel", "pstn": "after" },
         "IT": { "atom": "tensoriale", "pstn": "after" }
       },
       "1172039b": {
