@@ -52,19 +52,19 @@ $(document).on("click", "#start", function() {
     };
   });
 
-  var questionCard = generateQuestionCard(targetLang, needingTranslation.length);
-
-  // TODO: give some message in the case where question is empty!
-  $("#initial_options").css("display", "none");
-  $(questionCard).appendTo("#questions");
-
-  updateQuestionCard(1);
+  if (needingTranslation.length == 0) {
+    alert("Sorry, but there are no translations needed at the moment for this combination of languages!");
+  } else {
+    var questionCard = generateQuestionCard(targetLang, needingTranslation.length);
+    $("#initial_options").css("display", "none");
+    $(questionCard).appendTo("#questions");
+    updateQuestionCard(1);
+  };
 });
 
 
 
 $(document).on("click", "#previous", function() {
-  // TODO
   var currentQuestionNumber = parseInt($("#current_question_number").text());
   updateQuestionCard(currentQuestionNumber-1);
 });

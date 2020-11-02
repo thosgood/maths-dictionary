@@ -42,12 +42,15 @@ h4 {
   text-align: left;
   list-style-type: none;
   padding-left: 0px;
-  -moz-column-count: 4;
+  -webkit-column-width: 100px;
+  -moz-column-width: 100px;
+  column-width: 100px;
+  /*-moz-column-count: 4;
   -moz-column-gap: 0px;
   -webkit-column-count: 4;
   -webkit-column-gap: 0px;
   column-count: 4;
-  column-gap: 0px;
+  column-gap: 0px;*/
 }
 
 #from_language_selectors_container li {

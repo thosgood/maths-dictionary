@@ -6,9 +6,10 @@ body {
 /* Language selection boxes */
 
 div#language_selectors_container {
-  height: 100px;
-  width: 450px;
-  margin: 20px auto;
+  /*height: 100px;*/
+  /*width: 450px;*/
+  width: 60%;
+  margin: 2em auto;
   text-align: left;
 }
 
@@ -16,12 +17,15 @@ div#language_selectors_container {
   margin: auto;
   list-style-type: none;
   padding-left: 0px;
-  -moz-column-count: 4;
+  -webkit-column-width: 100px;
+  -moz-column-width: 100px;
+  column-width: 100px;
+  /*-moz-column-count: 4;
   -moz-column-gap: 0px;
   -webkit-column-count: 4;
   -webkit-column-gap: 0px;
   column-count: 4;
-  column-gap: 0px;
+  column-gap: 0px;*/
 }
 
 #language_selectors li label {
