@@ -99,7 +99,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "função", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -110,21 +110,24 @@
         "EN": { "atom": "injective", "pstn": "before" },
         "ES": { "atom": "inyectiva", "pstn": "after" },
         "FR": { "atom": "injective", "pstn": "after" },
-        "IT": { "atom": "iniettiva", "pstn": "after" }
+        "IT": { "atom": "iniettiva", "pstn": "after" },
+        "PT": { "atom": "injetiva", "pstn": "after" }
       },
       "17c40445": {
         "CA": { "atom": "sobrejectiva", "pstn": "after" },
         "EN": { "atom": "surjective", "pstn": "before" },
         "ES": { "atom": "sobreyectiva", "pstn": "after" },
         "FR": { "atom": "surjective", "pstn": "after" },
-        "IT": { "atom": "suriettiva", "pstn": "after" }
+        "IT": { "atom": "suriettiva", "pstn": "after" },
+        "PT": { "atom": "sobrejetiva", "pstn": "after" }
       },
       "125203b6": {
         "CA": { "atom": "bijectiva", "pstn": "after" },
         "EN": { "atom": "bijective", "pstn": "before" },
         "ES": { "atom": "biyectiva", "pstn": "after" },
         "FR": { "atom": "bijective", "pstn": "after" },
-        "IT": { "atom": "biettiva", "pstn": "after" }
+        "IT": { "atom": "biettiva", "pstn": "after" },
+        "PT": { "atom": "bijetiva", "pstn": "after" }
       },
       "0bd002ee": {
         "CA": { "atom": "parcial", "pstn": "after" },
@@ -138,7 +141,8 @@
         "EN": { "atom": "continuous", "pstn": "before" },
         "ES": { "atom": "continua", "pstn": "after" },
         "FR": { "atom": "continue", "pstn": "after" },
-        "IT": { "atom": "continua", "pstn": "after" }
+        "IT": { "atom": "continua", "pstn": "after" },
+        "PT": { "atom": "contínua", "pstn": "after" } 
       },
       "1c1904a5": {
         "CA": { "atom": "holomorfa", "pstn": "after" },
@@ -607,6 +611,16 @@
       "RU": { "atom": "кольцо́", "gend": "средний" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "1c0b04af": {
+        "EN": { "atom": "commutative", "pstn": "before" },
+        "JA": { "atom": "可換", "pstn": "before" }
+      },
+      "2cdd05fa": {
+        "EN": { "atom": "noncommutative", "pstn": "before" },
+        "JA": { "atom": "非可換", "pstn": "before" }
+      }
     }
   },
   "08eb0287": {
@@ -941,10 +955,24 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "variedade", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "0932029b" : {
+        "EN": { "atom": "smooth", "pstn": "before" },
+        "PT": { "atom": "suave", "pstn": "after" }
+      },
+      "0b9402e8" : {
+        "EN": { "atom": "compact", "pstn": "before" },
+        "PT": { "atom": "compacta", "pstn": "after" }
+      },
+      "12a103b4" : {
+        "EN": { "atom": "connected", "pstn": "before" },
+        "PT": { "atom": "conexa", "pstn": "after" }
+      }
     }
   },
   "066f0226": {
@@ -1040,6 +1068,16 @@
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "0918029c": {
+        "EN": { "atom": "tensor", "pstn": "before" },
+        "IT": { "atom": "tensoriale", "pstn": "after" },
+      },
+      "1172039b": {
+        "EN": { "atom": "Cartesian", "pstn": "before" },
+        "IT": { "atom": "cartesiano", "pstn": "after" },
+      }
     }
   },
   "02b30156": {
@@ -1059,6 +1097,11 @@
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "089c027c": {
+        "EN": { "atom": "direct", "pstn": "before" }
+      }
     }
   },
   "0f830370": {
