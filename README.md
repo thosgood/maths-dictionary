@@ -5,9 +5,6 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 
 ## Todo
 
-- make site mobile friendly (responsive)
-    + e.g. number of columns in language selection list
-
 - **here's a nice submission method idea:**
     + checkboxes for "languages you would like to translate from"
     + checkboxes for "languages you would like to translate to"
