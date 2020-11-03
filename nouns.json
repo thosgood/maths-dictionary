@@ -2,7 +2,7 @@
   "08f9028a": {
     "root": {
       "CA": { "atom": "nombre", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Zahl", "gend": "feminin" },
       "EN": { "atom": "number", "gend": "" },
       "ES": { "atom": "número", "gend": "masculino" },
       "FA": { "atom": "", "gend": "" },
@@ -89,7 +89,7 @@
   "0f450367": {
     "root": {
       "CA": { "atom": "funció", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Funktion", "gend": "feminin" },
       "EN": { "atom": "function", "gend": "" },
       "ES": { "atom": "función", "gend": "femenino" },
       "FA": { "atom": "", "gend": "" },
@@ -249,7 +249,7 @@
   "0b3802cf": {
     "root": {
       "CA": { "atom": "àlgebra", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Algebra", "gend": "feminin" },
       "EN": { "atom": "algebra", "gend": "" },
       "ES": { "atom": "álgebra", "gend": "femenino" },
       "FA": { "atom": "جبر", "gend": "" },
@@ -797,7 +797,7 @@
   "029a014d": {
     "root": {
       "CA": { "atom": "conjunt", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Menge", "gend": "feminin" },
       "EN": { "atom": "set", "gend": "" },
       "ES": { "atom": "conjunto", "gend": "masculino" },
       "FA": { "atom": "مجموعه", "gend": "" },
@@ -1016,7 +1016,7 @@
   "068e0227": {
     "root": {
       "CA": { "atom": "demostració", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Beweis", "gend": "maskulin" },
       "EN": { "atom": "proof", "gend": "" },
       "ES": { "atom": "demostración", "gend": "femenino" },
       "FA": { "atom": "", "gend": "" },
@@ -1054,7 +1054,7 @@
   "0c170302": {
     "root": {
       "CA": { "atom": "producte", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Produkt", "gend": "neutral" },
       "EN": { "atom": "product", "gend": "" },
       "ES": { "atom": "producto", "gend": "masculino" },
       "FA": { "atom": "", "gend": "" },
@@ -1084,7 +1084,7 @@
   "02b30156": {
     "root": {
       "CA": { "atom": "suma", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Summe", "gend": "feminin" },
       "EN": { "atom": "sum", "gend": "" },
       "ES": { "atom": "suma", "gend": "femenino" },
       "FA": { "atom": "", "gend": "" },
@@ -1108,7 +1108,7 @@
   "0f830370": {
     "root": {
       "CA": { "atom": "morfisme", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Morphismus", "gend": "maskulin" },
       "EN": { "atom": "morphism", "gend": "" },
       "ES": { "atom": "morfismo", "gend": "masculino" },
       "FA": { "atom": "", "gend": "" },
