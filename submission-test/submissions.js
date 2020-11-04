@@ -107,13 +107,26 @@ $(document).on("click", "#finished", function() {
   };
   if ((answer["atom"] !== "" && answer["gend"] !== undefined)
       || (answer["atom"] !== "" && !targetLangHasGend)) {
+    // save the current answer...
     submission[input.attr("name")] = answer;
+    // ...and now actually "submit" the submission
+    $("body").empty()
+    var emailButton = `<input type="button" id="email_button" value="click here" onclick="automatedEmail()">`;
+    var final_message = `<p>The submissions process is still slightly manual.
+    Please either email the code below to <code>tim.hosgood@gmail.com</code> or ${emailButton} to open up your email client with a pre-generated message.</p>`
+    $("body").append(final_message);
+    $("body").append(`<p style="border: 1px solid black; padding: 1em;"><code>${JSON.stringify(submission)}</code></p>`);
+    // window.open(`mailto:t.i.m.hosgood@gmail.com?subject=MDS&body=${JSON.stringify(submission)}`, '_self');
   } else {
     alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip".`);
   };
-
-  window.open(`mailto:t.i.m.hosgood@gmail.com?subject=MDS&body=${JSON.stringify(submission)}`, '_self');
 });
+
+
+
+var automatedEmail = function() {
+  window.open(`mailto:t.i.m.hosgood@gmail.com?subject=MDS&body=${JSON.stringify(submission)}`, '_self');
+}
 
 
 
