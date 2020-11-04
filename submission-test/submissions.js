@@ -116,7 +116,7 @@ $(document).on("click", "#finished", function() {
     Please either email the code below to <code>tim.hosgood@gmail.com</code> or ${emailButton} to open up your email client with a pre-generated message.</p>`
     $("body").append(final_message);
     $("body").append(`<p style="border: 1px solid black; padding: 1em;"><code>${JSON.stringify(submission)}</code></p>`);
-    // window.open(`mailto:t.i.m.hosgood@gmail.com?subject=MDS&body=${JSON.stringify(submission)}`, '_self');
+    $("body").append(`<p>Thank you for your time and effort!</p>`);
   } else {
     alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip".`);
   };
