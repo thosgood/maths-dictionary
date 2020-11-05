@@ -12,7 +12,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "numer", "gend": "męski" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "número", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -173,7 +173,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "mapa", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -202,7 +202,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "derivada", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -231,7 +231,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "cobertura", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -259,7 +259,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "álgebra", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -294,7 +294,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "tesselação", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -313,7 +313,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "mergulho", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -807,7 +807,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "zbiór", "gend": "męski" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "conjunto", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -988,7 +988,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "krzywa", "gend": "żeński" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "curva", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1007,7 +1007,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "superfície", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1026,7 +1026,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "dowód", "gend": "męski" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "prova", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1045,7 +1045,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "funtor", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1064,7 +1064,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "produto", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1094,7 +1094,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "soma", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -1118,7 +1118,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "morfismo", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
