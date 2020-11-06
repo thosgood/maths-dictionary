@@ -50,6 +50,24 @@ $(document).on("click", "#start", function() {
     if (!jQuery.isEmptyObject(entry["existing"])) {
       needingTranslation.push(entry);  
     };
+    // now do adjectives...
+    if (item["adjs"] !== {}) {
+      $.each(item["adjs"], function(a, adj) {
+        var entry = { "id": `${i}.${a}`, "noun": item, "existing": {} };
+        $.each(sourceLangs, function(l, lang) {
+          if (typeof adj[lang] !== undefined) {
+            var sourceAtom = adj[lang]["atom"];
+            var targetAtom = adj[targetLang]["atom"];
+            if (sourceAtom !== "" && targetAtom === "") {
+              entry["existing"][lang] = sourceAtom;
+            };
+          };
+        });
+        if (!jQuery.isEmptyObject(entry["existing"])) {
+          needingTranslation.push(entry);  
+        };
+      });
+    };
   });
 
   if (needingTranslation.length == 0) {
