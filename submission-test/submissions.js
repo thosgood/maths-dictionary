@@ -37,27 +37,33 @@ $(document).on("click", "#start", function() {
   targetLangHasGend = (languages[targetLang]["genders"] === undefined) ? false : true;
 
   $.each(dict, function(i, item) {
-    var entry = { "id": i, "existing": {} };
-    $.each(sourceLangs, function(l, lang) {
-      if (typeof item["root"][lang] !== undefined) {
-        var sourceAtom = item["root"][lang]["atom"];
-        var targetAtom = item["root"][targetLang]["atom"]
-        if (sourceAtom !== "" && targetAtom === "") {
-          entry["existing"][lang] = sourceAtom;
+    var entry = { "type": "noun", "id": i, "existing": {} };
+    var targetAtom = item["root"][targetLang]["atom"]
+    if (targetAtom === "") {
+      $.each(sourceLangs, function(l, lang) {
+        if (typeof item["root"][lang] !== undefined) {
+          var sourceAtom = item["root"][lang]["atom"];
+          if (sourceAtom !== "") {
+            entry["existing"][lang] = sourceAtom;
+          };
         };
-      };
-    });
+      });
+    };
     if (!jQuery.isEmptyObject(entry["existing"])) {
       needingTranslation.push(entry);  
     };
     // now do adjectives...
     if (item["adjs"] !== {}) {
       $.each(item["adjs"], function(a, adj) {
-        var entry = { "id": `${i}.${a}`, "noun": item, "existing": {} };
+        var entry = { "type": "adjective", "id": `${i}.${a}`, "noun": item["root"], "existing": {} };
         $.each(sourceLangs, function(l, lang) {
           if (typeof adj[lang] !== undefined) {
             var sourceAtom = adj[lang]["atom"];
-            var targetAtom = adj[targetLang]["atom"];
+            if (adj[targetLang] !== undefined) {
+              var targetAtom = adj[targetLang]["atom"];
+            } else {
+              var targetAtom = "";
+            };
             if (sourceAtom !== "" && targetAtom === "") {
               entry["existing"][lang] = sourceAtom;
             };
@@ -152,36 +158,70 @@ var updateQuestionCard = function(number) {
   var question = needingTranslation[number-1];
   var id = question["id"];
 
-  var foreignContent = [];
-  $.each(question["existing"], function(u, unknown) {
-    var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
-    foreignContent.push(foreignWord);
-  });
-  
-  $("#foreign").html(foreignContent.join(" / "));
-  $("#question_input").attr("name", id);
-  if (submission[id] !== undefined) {
-    $("#question_input").val(submission[id]["atom"]);
-    if (targetLangHasGend) {
-      $(`input#${submission[id]["gend"]}`).prop("checked", true);
+  if (question["type"] === "noun") {
+    var foreignContent = [];
+    $.each(question["existing"], function(u, unknown) {
+      var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
+      foreignContent.push(foreignWord);
+    });
+    
+    $("#foreign").html(foreignContent.join(" / "));
+    $("#question_input").attr("name", id);
+    if (submission[id] !== undefined) {
+      $("#question_input").val(submission[id]["atom"]);
+      if (targetLangHasGend) {
+        $(`input#${submission[id]["gend"]}`).prop("checked", true);
+      };
+    } else {
+      $("#question_input").val("");
+      $("input[name='gender']").prop("checked", false);
     };
-  } else {
-    $("#question_input").val("");
-    $("input[name='gender']").prop("checked", false);
-  };
-  
-  $("#current_question_number").html(`${number}`);
+    
+    $("#current_question_number").html(`${number}`);
 
-  if (number == 1) {
-    $("button#previous").prop("disabled", true);
-  } else {
-    $("button#previous").prop("disabled", false);
-  };
-  var totalQuestionNumber = parseInt($("#total_question_number").text());
-  if (number == totalQuestionNumber) {
-    $("button#next").prop("disabled", true);
-  } else {
-    $("button#next").prop("disabled", false);
+    if (number == 1) {
+      $("button#previous").prop("disabled", true);
+    } else {
+      $("button#previous").prop("disabled", false);
+    };
+    var totalQuestionNumber = parseInt($("#total_question_number").text());
+    if (number == totalQuestionNumber) {
+      $("button#next").prop("disabled", true);
+    } else {
+      $("button#next").prop("disabled", false);
+    };
+  } else if (question["type"] === "adjective") {
+    var foreignContent = [];
+    $.each(question["existing"], function(u, unknown) {
+      var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
+      foreignContent.push(foreignWord);
+    });
+    
+    $("#foreign").html(foreignContent.join(" / "));
+    $("#question_input").attr("name", id);
+    if (submission[id] !== undefined) {
+      $("#question_input").val(submission[id]["atom"]);
+      if (targetLangHasGend) {
+        $(`input#${submission[id]["gend"]}`).prop("checked", true);
+      };
+    } else {
+      $("#question_input").val("");
+      $("input[name='gender']").prop("checked", false);
+    };
+    
+    $("#current_question_number").html(`${number}`);
+
+    if (number == 1) {
+      $("button#previous").prop("disabled", true);
+    } else {
+      $("button#previous").prop("disabled", false);
+    };
+    var totalQuestionNumber = parseInt($("#total_question_number").text());
+    if (number == totalQuestionNumber) {
+      $("button#next").prop("disabled", true);
+    } else {
+      $("button#next").prop("disabled", false);
+    };
   };
 };
 
