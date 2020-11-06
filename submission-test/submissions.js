@@ -161,6 +161,12 @@ $(document).on("click", "#finished", function() {
 
 
 
+var saveCurrentAnswer = function() {
+  // TODO: use this when clicking on #finished or #next
+};
+
+
+
 var automatedEmail = function() {
   window.open(`mailto:tim.hosgood@gmail.com?subject=MDS_${targetLang}&body=${JSON.stringify(submission)}`, '_self');
 }
@@ -222,7 +228,7 @@ var updateQuestionCard = function(number) {
     $("#foreign").html(foreignContent.join(" / "));
     // TODO: make the input box actually be two boxes on either side of the noun!
     $("#question_input").attr("name", id);
-    $("#question_input").after(`<span>${question["noun"][targetLang]["atom"]}</span>`);
+    $("#question_input").after(`<span id="corresponding_noun">${question["noun"][targetLang]["atom"]}</span>`);
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
     } else {
