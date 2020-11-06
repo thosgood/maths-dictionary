@@ -211,12 +211,15 @@ var updateQuestionCard = function(number) {
     });
     
     $("#foreign").html(foreignContent.join(" / "));
+    // TODO: make the input box actually be two boxes on either side of the noun!
     $("#question_input").attr("name", id);
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
     } else {
       $("#question_input").val("");
     };
+
+    //TODO: hide gender selection
     
     $("#current_question_number").html(`${number}`);
 
