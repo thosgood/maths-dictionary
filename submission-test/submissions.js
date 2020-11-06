@@ -3,6 +3,7 @@ var languages
 var sourceLangs = [];
 var targetLang = "";
 var targetLangHasGend = false;
+var targetLangDirection = "";
 var needingTranslation = [];
 var questions = [];
 var submission = {};
@@ -35,6 +36,7 @@ $(document).on("click", "#start", function() {
   targetLang = $("#to_language").val();
 
   targetLangHasGend = (languages[targetLang]["genders"] === undefined) ? false : true;
+  targetLangDirection = languages[targetLang]["direction"]
 
   $.each(dict, function(i, item) {
     var entry = { "type": "noun", "id": i, "existing": {} };
@@ -48,39 +50,42 @@ $(document).on("click", "#start", function() {
           };
         };
       });
+    } else if (targetAtom !== "") {
+      // now do adjectives...
+      if (!jQuery.isEmptyObject(item["adjs"])) {
+        $.each(item["adjs"], function(a, adj) {
+          var entry = { "type": "adjective",
+                        "id": `${i}.${a}`,
+                        "noun": item["root"],
+                        "existing": {} };
+          if (adj[targetLang] !== undefined) {
+            var targetAtom = adj[targetLang]["atom"];
+          } else {
+            var targetAtom = "";
+          };
+          if (targetAtom === "") {
+            $.each(sourceLangs, function(l, lang) {
+              // only add adjectives that already have the noun translated
+              if (adj[lang] !== undefined) {
+                var sourceAtom = adj[lang]["atom"];
+                var sourcePosition = adj[lang]["pstn"];
+                if (sourceAtom !== "") {
+                  entry["existing"][lang] = {};
+                  entry["existing"][lang]["atom"] = sourceAtom;
+                  entry["existing"][lang]["pstn"] = sourcePosition;
+                };
+              };
+            });
+          };
+          if (!jQuery.isEmptyObject(entry["existing"])) {
+            needingTranslation.push(entry);  
+          };
+        });
+      };
     };
+
     if (!jQuery.isEmptyObject(entry["existing"])) {
       needingTranslation.push(entry);  
-    };
-    // now do adjectives...
-    if (item["adjs"] !== {}) {
-      $.each(item["adjs"], function(a, adj) {
-        var entry = { "type": "adjective",
-                      "id": `${i}.${a}`,
-                      "noun": item["root"],
-                      "existing": {} };
-        if (adj[targetLang] !== undefined) {
-          var targetAtom = adj[targetLang]["atom"];
-        } else {
-          var targetAtom = "";
-        };
-        if (targetAtom === "") {
-          $.each(sourceLangs, function(l, lang) {
-            if (adj[lang] !== undefined) {
-              var sourceAtom = adj[lang]["atom"];
-              var sourcePosition = adj[lang]["pstn"];
-              if (sourceAtom !== "") {
-                entry["existing"][lang] = {};
-                entry["existing"][lang]["atom"] = sourceAtom;
-                entry["existing"][lang]["pstn"] = sourcePosition;
-              };
-            };
-          });
-        };
-        if (!jQuery.isEmptyObject(entry["existing"])) {
-          needingTranslation.push(entry);  
-        };
-      });
     };
   });
 
@@ -184,6 +189,9 @@ var updateQuestionCard = function(number) {
       $("#question_input").val("");
       $("input[name='gender']").prop("checked", false);
     };
+
+    $("#gender_selection").css("display", "block");
+    $("#position_selection").css("display", "none");
     
     $("#current_question_number").html(`${number}`);
 
@@ -201,10 +209,11 @@ var updateQuestionCard = function(number) {
   } else if (question["type"] === "adjective") {
     var foreignContent = [];
     $.each(question["existing"], function(u, unknown) {
-      //TODO: RTL languages
-      if (unknown["pstn"] === "before") {
+      if (unknown["pstn"] === "before" && targetLangDirection === "LTR"
+          || unknown["pstn"] === "after" && targetLangDirection === "RTL") {
         var foreignWord =`<span class="unknown">${unknown["atom"]} ${question["noun"][u]["atom"]}<span class="tooltip">${u}</span></span>`;
-      } else if (unknown["pstn"] === "after") {
+      } else if (unknown["pstn"] === "after" && targetLangDirection === "LTR"
+                 || unknown["pstn"] === "before" && targetLangDirection === "RTL") {
         var foreignWord =`<span class="unknown">${question["noun"][u]["atom"]} ${unknown["atom"]}<span class="tooltip">${u}</span></span>`;
       }
       foreignContent.push(foreignWord);
@@ -213,13 +222,15 @@ var updateQuestionCard = function(number) {
     $("#foreign").html(foreignContent.join(" / "));
     // TODO: make the input box actually be two boxes on either side of the noun!
     $("#question_input").attr("name", id);
+    $("#question_input").after(`<span>${question["noun"][targetLang]["atom"]}</span>`);
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
     } else {
       $("#question_input").val("");
     };
 
-    //TODO: hide gender selection
+    $("#gender_selection").css("display", "none");
+    $("#position_selection").css("display", "block");
     
     $("#current_question_number").html(`${number}`);
 
@@ -303,7 +314,14 @@ var generateQuestionCard = function(targetLang, totalNum) {
       genderSelect += `<label for="${gender}">${gender}</label>\n`;
     });
     genderSelect += `</div>\n`;
-  } else { genderSelect = "" };
+  } else { var genderSelect = "" };
+
+  var positionSelect = `<div id="position_selection">\n`;
+  positionSelect += `<input type="radio" name="position" value="<-" id="<-" checked>\n`;
+  positionSelect += `<label for="<-">←</label>\n`;
+  positionSelect += `<input type="radio" name="position" value="->" id="->">\n`;
+  positionSelect += `<label for="->">→</label>\n`;
+  positionSelect += `</div>\n`
 
   questionCard = `
 <div id="question_card">
@@ -312,6 +330,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
   </label>
   <input type="text" id="question_input" name="">
   ${genderSelect}
+  ${positionSelect}
   <ul id="question_card_buttons_list">
     <li><button name="skip" id="previous" class="question_card_button">Previous</button></li>
     <li><button name="skip" id="skip" class="question_card_button">Skip</button></li>

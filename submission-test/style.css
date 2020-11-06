@@ -104,15 +104,15 @@ h4 {
   font-size: 1em;
 }
 
-#gender_selection {
+#gender_selection, #position_selection {
   margin: 1em 0;
 }
 
-#gender_selection input {
+#gender_selection input, #position_selection input {
   display: none;
 }
 
-#gender_selection label {
+#gender_selection label, #position_selection label {
   display: inline-block;
   padding: 0.5em 1em;
   margin: 0 0.5em;
@@ -124,7 +124,7 @@ h4 {
   user-select: none;
 }
 
-#gender_selection input:checked + label {
+#gender_selection input:checked + label, #position_selection input:checked + label {
   color: white;
   background-color: #2a7ae2;
   border: 1px solid #2a7ae2;
