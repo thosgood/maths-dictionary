@@ -6,18 +6,19 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 ## Todo
 
 - script to fill in all the missing languages with empty strings
-    + **for both nouns and adjectives**
-    + this should read from `languages.json` so that we can run it whenever a new language is added
+    + for both nouns and adjectives
+    + **this should read from `languages.json`** so that we can run it whenever a new language is added
+- **support for multiple atoms**
+    + e.g. regional variations, or just synonyms
 - **a way to inherit adjectives from another entry!**
     + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
 - language .json files should have LTR/RTL information
-    + this should be used when displaying adjectives!
+    + _this should be used when displaying adjectives!_
     + should also be reflected in `text-align` in the css
-- fix errors with the `DE` entries
-    + think about how to deal with grammatical case...
 - regional variations?
     + especially with `ES`
 - add plurals of nouns (and thus adjectives)
+    + will also need cases (for e.g. `DE`)
 - think about **verbs**...
 - link each entry (incl. adjectives) to a definition? wikipedia page or something...
     + **wikidata**
