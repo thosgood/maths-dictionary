@@ -55,7 +55,7 @@ $(document).on("click", "#start", function() {
       if (!jQuery.isEmptyObject(item["adjs"])) {
         $.each(item["adjs"], function(a, adj) {
           var entry = { "type": "adjective",
-                        "id": `${i}.${a}`,
+                        "id": `${i}/${a}`,
                         "noun": item["root"],
                         "existing": {} };
           if (adj[targetLang] !== undefined) {
@@ -130,18 +130,9 @@ $(document).on("click", "#next", function() {
 
 $(document).on("click", "#finished", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
+  var currentQuestionType = $("#current_question_type").text();
   var input = $(this).closest("div#question_card").find("input");
-  // TODO: use saveCurrentAnswer
-  var answer = {};
-  answer["atom"] = input.val();
-  if (targetLangHasGend) {
-    answer["gend"] = $("input[name=gender]:checked").val();
-  };
-  if ((answer["atom"] !== "" && answer["gend"] !== undefined)
-      || (answer["atom"] !== "" && !targetLangHasGend)) {
-    // save the current answer...
-    submission[input.attr("name")] = answer;
-    // ...and now actually "submit" the submission
+  if (saveCurrentAnswer(input,currentQuestionType) || input.val === "") {
     $("body").empty()
     var emailButton = `<input type="button" id="email_button" value="click here" onclick="automatedEmail()">`;
     var final_message = `<p>The submissions process is still slightly manual.
@@ -150,8 +141,13 @@ $(document).on("click", "#finished", function() {
     $("body").append(`<p style="border: 1px solid black; padding: 1em;"><code>{"${targetLang}": ${JSON.stringify(submission)}}</code></p>`);
     $("body").append(`<p>Thank you for your time and effort!</p>`);
   } else {
-    alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip".`);
+    alert(`Please either ensure that all fields are filled, or press "Skip".`);
   };
+});
+
+
+
+$(document).on("click", "#leftarrow", function() {
 });
 
 
@@ -207,6 +203,8 @@ var updateQuestionCard = function(number) {
     
     $("#foreign").html(foreignContent.join(" / "));
     $("#question_input").attr("name", id);
+    $("#corresponding_noun").empty();
+
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
       if (targetLangHasGend) {
@@ -247,8 +245,10 @@ var updateQuestionCard = function(number) {
     
     $("#foreign").html(foreignContent.join(" / "));
     // TODO: make the input box actually be two boxes on either side of the noun!
+    // TODO: and make the arrow buttons move it
     $("#question_input").attr("name", id);
-    $("#question_input").after(`<span id="corresponding_noun">${question["noun"][targetLang]["atom"]}</span>`);
+    $("#corresponding_noun").html(question["noun"][targetLang]["atom"]);
+
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
       if (submission[id]["pstn"] !== undefined) {
@@ -364,7 +364,10 @@ var generateQuestionCard = function(targetLang, totalNum) {
   <label id="question_label" for="question_input">
     ${questionLabel}
   </label>
-  <input type="text" id="question_input" name="">
+  <div id="input_row">
+    <input type="text" id="question_input" name="">
+    <span id="corresponding_noun"></span>
+  </div>
   ${genderSelect}
   ${positionSelect}
   <ul id="question_card_buttons_list">

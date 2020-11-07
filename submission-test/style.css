@@ -97,11 +97,23 @@ h4 {
   font-size: 1.2em;
 }
 
+#corresponding_noun {
+  font-size: 1.3em;
+}
+
 #question_input {
   margin: 1em 0;
   text-align: center;
   width: 50%;
-  font-size: 1em;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #eee;
+  font-size: 1.3em;
+}
+
+#corresponding_noun {
+  padding: 0 1em;
+  font-size: 1.3em;
 }
 
 #gender_selection, #position_selection {
