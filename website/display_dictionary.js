@@ -39,7 +39,7 @@ var updateTable = function(data = dict) {
     // TODO: this should check that adjs exist IN visibleLangs!!!
           // maybe by using showAdjectives ?
     var hasAdjs = false;
-    if (typeof item["adjs"] === "undefined" || item["adjs"] === "") {
+    if (!jQuery.isEmptyObject(item["adjs"])) {
       var entryRow = `<tr class="noun" id=${i}>`;
     } else {
       var entryRow = `<tr class="noun expandable" id=${i}>`;
