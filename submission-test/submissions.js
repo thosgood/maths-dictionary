@@ -224,9 +224,11 @@ var updateQuestionCard = function(number) {
       $("input[name='gender']").prop("checked", false);
     };
 
+    $("#question_input").css("display", "inline");
     $("#gender_selection").css("display", "block");
     $("#position_selection").css("display", "none");
     $("#corresponding_noun").css("display", "none");
+    
     $("#current_question_number").html(`${number}`);
 
     if (number == 1) {
@@ -277,7 +279,7 @@ var updateQuestionCard = function(number) {
     $("#gender_selection").css("display", "none");
     $("#position_selection").css("display", "block");
     $("#corresponding_noun").css("display", "inline");
-    
+
     $("#current_question_number").html(`${number}`);
 
     if (number == 1) {
