@@ -7,6 +7,7 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 
 - script to fill in all the missing languages with empty strings
     + **for both nouns and adjectives**
+    + this should read from `languages.json` so that we can run it whenever a new language is added
 - **a way to inherit adjectives from another entry!**
     + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
 - language .json files should have LTR/RTL information
