@@ -619,10 +619,12 @@
     "adjs": {
       "1c0b04af": {
         "EN": { "atom": "commutative", "pstn": "before" },
+        "IT": { "atom": "commutativo", "pstn": "after" },
         "JA": { "atom": "可換", "pstn": "before" }
       },
       "2cdd05fa": {
         "EN": { "atom": "noncommutative", "pstn": "before" },
+        "IT": { "atom": "non commutativo", "pstn": "after" },
         "JA": { "atom": "非可換", "pstn": "before" }
       }
     }
@@ -967,14 +969,17 @@
     "adjs": {
       "0932029b" : {
         "EN": { "atom": "smooth", "pstn": "before" },
+        "IT": { "atom": "liscia", "pstn": "after" },
         "PT": { "atom": "suave", "pstn": "after" }
       },
       "0b9402e8" : {
         "EN": { "atom": "compact", "pstn": "before" },
+        "IT": { "atom": "compatta", "pstn": "after" },
         "PT": { "atom": "compacta", "pstn": "after" }
       },
       "12a103b4" : {
         "EN": { "atom": "connected", "pstn": "before" },
+        "IT": { "atom": "connessa", "pstn": "after" },
         "PT": { "atom": "conexa", "pstn": "after" }
       }
     }
@@ -1109,7 +1114,8 @@
     },
     "adjs": {
       "089c027c": {
-        "EN": { "atom": "direct", "pstn": "before" }
+        "EN": { "atom": "direct", "pstn": "before" },
+        "IT": { "atom": "diretta", "pstn": "after" }
       }
     }
   },
