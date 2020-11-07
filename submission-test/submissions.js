@@ -132,7 +132,7 @@ $(document).on("click", "#finished", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
   var currentQuestionType = $("#current_question_type").text();
   var input = $(this).closest("div#question_card").find("input");
-  if (saveCurrentAnswer(input,currentQuestionType) || input.val === "") {
+  if (saveCurrentAnswer(input,currentQuestionType) || input.val() === "") {
     $("body").empty()
     var emailButton = `<input type="button" id="email_button" value="click here" onclick="automatedEmail()">`;
     var final_message = `<p>The submissions process is still slightly manual.
@@ -148,6 +148,17 @@ $(document).on("click", "#finished", function() {
 
 
 $(document).on("click", "#leftarrow", function() {
+  // $("#corresponding_noun").css("left", "");
+  // $("#corresponding_noun").css("right", "0");
+  $("#corresponding_noun").before($("#question_input"));
+  $("#question_input").css("display", "inline");
+});
+
+$(document).on("click", "#rightarrow", function() {
+  // $("#corresponding_noun").css("left", "0");
+  // $("#corresponding_noun").css("right", "");
+  $("#corresponding_noun").after($("#question_input"));
+  $("#question_input").css("display", "inline");
 });
 
 
@@ -265,6 +276,7 @@ var updateQuestionCard = function(number) {
       $("input[name='position']").prop("checked", false);
     };
 
+    $("#question_input").css("display", "none");
     $("#gender_selection").css("display", "none");
     $("#position_selection").css("display", "block");
     

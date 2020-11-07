@@ -97,8 +97,10 @@ h4 {
   font-size: 1.2em;
 }
 
-#corresponding_noun {
-  font-size: 1.3em;
+#input_row {
+  margin: auto;
+  width: auto;
+  height: 3.6em;
 }
 
 #question_input {
@@ -112,6 +114,7 @@ h4 {
 }
 
 #corresponding_noun {
+  margin: 1em 0;
   padding: 0 1em;
   font-size: 1.3em;
 }
