@@ -618,12 +618,16 @@
     },
     "adjs": {
       "1c0b04af": {
+        "CA": { "atom": "commutatiu", "pstn": "after" },
         "EN": { "atom": "commutative", "pstn": "before" },
+        "ES": { "atom": "conmutativo", "pstn": "after" },
         "IT": { "atom": "commutativo", "pstn": "after" },
         "JA": { "atom": "可換", "pstn": "before" }
       },
       "2cdd05fa": {
+        "CA": { "atom": "no commutatiu", "pstn": "after" },
         "EN": { "atom": "noncommutative", "pstn": "before" },
+        "ES": { "atom": "no conmutativo", "pstn": "after" },
         "IT": { "atom": "non commutativo", "pstn": "after" },
         "JA": { "atom": "非可換", "pstn": "before" }
       }
@@ -968,17 +972,23 @@
     },
     "adjs": {
       "0932029b" : {
+        "CA": { "atom": "suau", "pstn": "after" },
         "EN": { "atom": "smooth", "pstn": "before" },
+        "ES": { "atom": "suave", "pstn": "after" },
         "IT": { "atom": "liscia", "pstn": "after" },
         "PT": { "atom": "suave", "pstn": "after" }
       },
       "0b9402e8" : {
+        "CA": { "atom": "compacta", "pstn": "after" },
         "EN": { "atom": "compact", "pstn": "before" },
+        "ES": { "atom": "compacta", "pstn": "after" },
         "IT": { "atom": "compatta", "pstn": "after" },
         "PT": { "atom": "compacta", "pstn": "after" }
       },
       "12a103b4" : {
+        "CA": { "atom": "connexa", "pstn": "after" },
         "EN": { "atom": "connected", "pstn": "before" },
+        "ES": { "atom": "conexa", "pstn": "after" },
         "IT": { "atom": "connessa", "pstn": "after" },
         "PT": { "atom": "conexa", "pstn": "after" }
       }
@@ -1084,12 +1094,16 @@
     },
     "adjs": {
       "0918029c": {
+        "CA": { "atom": "tensorial", "pstn": "after" },
         "EN": { "atom": "tensor", "pstn": "before" },
+        "ES": { "atom": "tensorial", "pstn": "after" },
         "FR": { "atom": "tensoriel", "pstn": "after" },
         "IT": { "atom": "tensoriale", "pstn": "after" }
       },
       "1172039b": {
+        "CA": { "atom": "cartesià", "pstn": "after" },
         "EN": { "atom": "Cartesian", "pstn": "before" },
+        "ES": { "atom": "cartesiano", "pstn": "after" },
         "IT": { "atom": "cartesiano", "pstn": "after" }
       }
     }
@@ -1114,7 +1128,9 @@
     },
     "adjs": {
       "089c027c": {
+        "CA": { "atom": "directa", "pstn": "after" },
         "EN": { "atom": "direct", "pstn": "before" },
+        "ES": { "atom": "directa", "pstn": "after" },
         "IT": { "atom": "diretta", "pstn": "after" }
       }
     }
