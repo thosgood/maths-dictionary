@@ -117,18 +117,12 @@ $(document).on("click", "#skip", function() {
 
 $(document).on("click", "#next", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
+  var currentQuestionType = $("#current_question_type").text();
   var input = $(this).closest("div#question_card").find("input");
-  var answer = {};
-  answer["atom"] = input.val();
-  if (targetLangHasGend) {
-    answer["gend"] = $("input[name=gender]:checked").val();
-  };
-  if ((answer["atom"] !== "" && answer["gend"] !== undefined)
-      || (answer["atom"] !== "" && !targetLangHasGend)) {
-    submission[input.attr("name")] = answer;
+  if (saveCurrentAnswer(input,currentQuestionType)) {
     updateQuestionCard(currentQuestionNumber+1);
   } else {
-    alert(`Please either write a translation (and choose a gender, if applicable), or press "Skip" or "Finish now".`);
+    alert(`Please either ensure that all fields are filled, or press "Skip" or "Finish now".`);
   };
 });
 
@@ -137,6 +131,7 @@ $(document).on("click", "#next", function() {
 $(document).on("click", "#finished", function() {
   var currentQuestionNumber = parseInt($("#current_question_number").text());
   var input = $(this).closest("div#question_card").find("input");
+  // TODO: use saveCurrentAnswer
   var answer = {};
   answer["atom"] = input.val();
   if (targetLangHasGend) {
@@ -161,8 +156,33 @@ $(document).on("click", "#finished", function() {
 
 
 
-var saveCurrentAnswer = function() {
-  // TODO: use this when clicking on #finished or #next
+var saveCurrentAnswer = function(input,type) {
+  var answer = {};
+  var success = false;
+  answer["atom"] = input.val();
+  if (type === "noun" && targetLangHasGend) {
+    answer["gend"] = $("input[name=gender]:checked").val();
+    if (answer["atom"] !== "" && answer["gend"] !== undefined
+        || answer["atom"] !== "" && !targetLangHasGend) {
+      submission[input.attr("name")] = answer;
+      success = true;
+    }
+  } else if (type === "adjective") {
+    var positionArrow = $("input[name=position]:checked").val();
+    if (targetLangDirection === "LTR" && positionArrow === "leftarrow"
+        || targetLangDirection === "RTL" && positionArrow === "rightarrow") {
+      answer["pstn"] = "before";
+    } else if (targetLangDirection === "LTR" && positionArrow === "rightarrow"
+        || targetLangDirection === "RTL" && positionArrow === "leftarrow") {
+      answer["pstn"] = "after";
+    };
+    if (answer["atom"] !== "" && answer["pstn"] !== undefined) {
+      submission[input.attr("name")] = answer;
+      success = true;
+    }
+  };
+  console.log(submission[input.attr("name")]);
+  return success;
 };
 
 
@@ -176,6 +196,7 @@ var automatedEmail = function() {
 var updateQuestionCard = function(number) {
   var question = needingTranslation[number-1];
   var id = question["id"];
+  $("#current_question_type").html(`${question["type"]}`)
 
   if (question["type"] === "noun") {
     var foreignContent = [];
@@ -198,7 +219,6 @@ var updateQuestionCard = function(number) {
 
     $("#gender_selection").css("display", "block");
     $("#position_selection").css("display", "none");
-    
     $("#current_question_number").html(`${number}`);
 
     if (number == 1) {
@@ -231,8 +251,18 @@ var updateQuestionCard = function(number) {
     $("#question_input").after(`<span id="corresponding_noun">${question["noun"][targetLang]["atom"]}</span>`);
     if (submission[id] !== undefined) {
       $("#question_input").val(submission[id]["atom"]);
+      if (submission[id]["pstn"] !== undefined) {
+        if (targetLangDirection === "LTR" && submission[id]["pstn"] === "before"
+            || targetLangDirection === "RTL" && submission[id]["pstn"] === "after") {
+          $(`input#leftarrow`).prop("checked", true);
+        } else if (targetLangDirection === "LTR" && submission[id]["pstn"] === "after"
+            || targetLangDirection === "RTL" && submission[id]["pstn"] === "before") {
+          $(`input#rightarrow`).prop("checked", true);
+        };
+      }
     } else {
       $("#question_input").val("");
+      $("input[name='position']").prop("checked", false);
     };
 
     $("#gender_selection").css("display", "none");
@@ -323,10 +353,10 @@ var generateQuestionCard = function(targetLang, totalNum) {
   } else { var genderSelect = "" };
 
   var positionSelect = `<div id="position_selection">\n`;
-  positionSelect += `<input type="radio" name="position" value="<-" id="<-" checked>\n`;
-  positionSelect += `<label for="<-">←</label>\n`;
-  positionSelect += `<input type="radio" name="position" value="->" id="->">\n`;
-  positionSelect += `<label for="->">→</label>\n`;
+  positionSelect += `<input type="radio" name="position" value="leftarrow" id="leftarrow">\n`;
+  positionSelect += `<label for="leftarrow">←</label>\n`;
+  positionSelect += `<input type="radio" name="position" value="rightarrow" id="rightarrow">\n`;
+  positionSelect += `<label for="rightarrow">→</label>\n`;
   positionSelect += `</div>\n`
 
   questionCard = `
@@ -343,6 +373,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
     <li><button name="next" id="next" class="question_card_button">Next</button></li>
   </ul>
   <button name="finished" id="finished" class="question_card_button">Finish now</button>
+  <span id="current_question_type"></span>
   <span id="question_number"><span id="current_question_number">1</span>/<span id="total_question_number">${totalNum}</span></span>
 </div>`
 

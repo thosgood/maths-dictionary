@@ -179,6 +179,12 @@ button#finished {
   visibility: visible;
 }
 
+#current_question_type {
+  position: absolute;
+  left: 2em;
+  bottom: 2em;
+}
+
 #question_number {
   position: absolute;
   right: 2em;
