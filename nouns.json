@@ -431,17 +431,37 @@
     "adjs": {
       "042101a3": {
         "CA": { "atom": "lliure", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "free", "pstn": "before" },
         "ES": { "atom": "libre", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "libre", "pstn": "after" },
-        "IT": { "atom": "libera", "pstn": "after"}
+        "IT": { "atom": "libera", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "44a90734": {
         "CA": { "atom": "finitament generada", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "finitely generated", "pstn": "before" },
         "ES": { "atom": "finitamente generada", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "finiment engendré", "pstn": "after" },
-        "IT": { "atom": "finitamente generata", "pstn": "after" }
+        "IT": { "atom": "finitamente generata", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -450,7 +470,7 @@
       "CA": { "atom": "tessel·lació", "gend": "femení" },
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "tiling", "gend": "" },
-      "ES": { "atom": "embaldosado", "gend": "masculino"  },
+      "ES": { "atom": "embaldosado", "gend": "masculino" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "pavage du plan", "gend": "masculin" },
@@ -506,102 +526,190 @@
     "adjs": {
       "085e026a": {
         "CA": { "atom": "afí", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "affine", "pstn": "before" },
         "ES": { "atom": "afín", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "affine", "pstn": "after" },
         "IT": { "atom": "affine", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "afim", "pstn": "after" },
-        "RU": { "atom": "аффи́нная", "pstn": "before" }
+        "RU": { "atom": "аффи́нная", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "12a103b4": {
         "CA": { "atom": "connex", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "connected", "pstn": "before" },
         "ES": { "atom": "conexo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "connexe", "pstn": "after" },
         "IT": { "atom": "connesso", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "conexo", "pstn": "after" },
-        "RU": { "atom": "связна́я", "pstn": "before" }
+        "RU": { "atom": "связна́я", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "15ed040e": {
         "CA": { "atom": "noetherià", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "Noetherian", "pstn": "before" },
         "ES": { "atom": "noetheriano", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "noethérien", "pstn": "after" },
         "IT": { "atom": "noetheriano", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "noetheriano", "pstn": "after" },
-        "RU": { "atom": "нётерова", "pstn": "before" }
+        "RU": { "atom": "нётерова", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "433b071e": {
         "CA": { "atom": "localment noetherià", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "locally Noetherian", "pstn": "before" },
         "ES": { "atom": "localmente noetheriano", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "localement noethérien", "pstn": "after" },
         "IT": { "atom": "localmente noetheriano", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "localmente noetheriano", "pstn": "after" },
-        "RU": { "atom": "лока́льно нётерова", "pstn": "before" }
+        "RU": { "atom": "лока́льно нётерова", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0ba202dd": {
         "CA": { "atom": "reduït", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "reduced", "pstn": "before" },
         "ES": { "atom": "reducido", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "réduit", "pstn": "after" },
         "IT": { "atom": "ridotto", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "reduzido", "pstn": "after" },
-        "RU": { "atom": "приведённая", "pstn": "before" }
+        "RU": { "atom": "приведённая", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0f230357": {
         "CA": { "atom": "integral", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "integral", "pstn": "before" },
         "ES": { "atom": "íntegro", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "intègre", "pstn": "after" },
         "IT": { "atom": "integrale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "integral", "pstn": "after" },
-        "RU": { "atom": "це́лая", "pstn": "before" }
+        "RU": { "atom": "це́лая", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "12da03ba": {
         "CA": { "atom": "separat", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "separated", "pstn": "before" },
         "ES": { "atom": "separado", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "séparé", "pstn": "after" },
         "IT": { "atom": "separato", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "separado", "pstn": "after" },
-        "RU": { "atom": "отдели́мая", "pstn": "before" }
+        "RU": { "atom": "отдели́мая", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "1b9c048b": {
         "CA": { "atom": "irreduïble", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "irreducible", "pstn": "before" },
         "ES": { "atom": "irreducible", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "irréductible", "pstn": "after" },
         "IT": { "atom": "irriducibile", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "irredutível", "pstn": "after" },
-        "RU": { "atom": "неприводи́мая", "pstn": "before" }
+        "RU": { "atom": "неприводи́мая", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0902028a": {
         "CA": { "atom": "normal", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "normal", "pstn": "before" },
         "ES": { "atom": "normal", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "normal", "pstn": "after" },
         "IT": { "atom": "normale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "normal", "pstn": "after" },
-        "RU": { "atom": "норма́льная", "pstn": "before" }
+        "RU": { "atom": "норма́льная", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "24950538": {
         "CA": { "atom": "quasi-compacte", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "quasi-compact", "pstn": "before" },
         "ES": { "atom": "cuasicompacto", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "quasi-compact", "pstn": "after" },
         "IT": { "atom": "quasi compatto", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "quase-compacto", "pstn": "after" },
-        "RU": { "atom": "квазикомпа́ктная", "pstn": "before" }
+        "RU": { "atom": "квазикомпа́ктная", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "271a0557": {
         "CA": { "atom": "de tipus finit", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "of finite type", "pstn": "after" },
         "ES": { "atom": "de tipo finito", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "de type fini", "pstn": "after" },
         "IT": { "atom": "di tipo finito", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "de tipo finito", "pstn": "after" },
-        "RU": { "atom": "коне́чного ти́па", "pstn": "after" }
+        "RU": { "atom": "коне́чного ти́па", "pstn": "after" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -629,16 +737,34 @@
         "DE": { "atom": "kohärente", "pstn": "before" },
         "EN": { "atom": "coherent", "pstn": "before" },
         "ES": { "atom": "coherente", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "cohérent", "pstn": "after" },
-        "IT": { "atom": "coerente", "pstn": "after" }
+        "IT": { "atom": "coerente", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "2a2a05a9": {
         "CA": { "atom": "quasi-coherent", "pstn": "after" },
         "DE": { "atom": "quasikohärente", "pstn": "before" },
         "EN": { "atom": "quasi-coherent", "pstn": "before" },
         "ES": { "atom": "cuasi-coherente", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "quasi-cohérent", "pstn": "after" },
-        "IT": { "atom": "quasicoerente", "pstn": "after" }
+        "IT": { "atom": "quasicoerente", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -663,62 +789,122 @@
     "adjs": {
       "0ba202dd": {
         "CA": { "atom": "reduït", "pstn": "after" }, 
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "reduced", "pstn": "before" },
         "ES": { "atom": "reducido", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "réduit", "pstn": "after" },
         "IT": { "atom": "ridotto", "pstn": "after" },
-        "RU": { "atom": "редуци́рованная", "pstn": "before" }
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "редуци́рованная", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0902028a": {
-        "CA": { "atom": "normal", "pstn": "after"   },
-        "EN": { "atom": "normal", "pstn": "before"  },
-        "ES": { "atom": "normal", "pstn": "after"   },
-        "FR": { "atom": "normal", "pstn": "after"   },
-        "IT": { "atom": "normale", "pstn": "after" }
+        "CA": { "atom": "normal", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "normal", "pstn": "before" },
+        "ES": { "atom": "normal", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "normal", "pstn": "after" },
+        "IT": { "atom": "normale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0b0e02cd": {
         "CA": { "atom": "abelià", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "abelian", "pstn": "before" },
         "ES": { "atom": "abeliano", "pstn": "after" },
         "FA": { "atom": "آبلی", "pstn": "after" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "abélien", "pstn": "after" },
         "IT": { "atom": "abeliano", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "아벨", "pstn": "before" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "abeliano", "pstn": "after" },
-        "RU": { "atom": "а́белева", "pstn": "before" }
+        "RU": { "atom": "а́белева", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "1c0b04af": {
-        "CA": { "atom": "commutatiu"  , "pstn": "after"   },
-        "EN": { "atom": "commutative" , "pstn": "before"  },
-        "ES": { "atom": "conmutativo" , "pstn": "after"   },
-        "FR": { "atom": "commutatif"  , "pstn": "after"   },
-        "IT": { "atom": "commutativo" , "pstn": "after"   },
-        "KO": { "atom": "가환"         , "pstn": "before"   }
+        "CA": { "atom": "commutatiu"  , "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "commutative" , "pstn": "before" },
+        "ES": { "atom": "conmutativo" , "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "commutatif"  , "pstn": "after" },
+        "IT": { "atom": "commutativo" , "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "가환"         , "pstn": "before" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "08b70280": {
         "CA": { "atom": "finit", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "finite", "pstn": "before" },
         "ES": { "atom": "finito", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "fini", "pstn": "after" },
         "IT": { "atom": "finito", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
         "PT": { "atom": "finito", "pstn": "after" },
-        "RU": { "atom": "коне́чная", "pstn": "before" }
+        "RU": { "atom": "коне́чная", "pstn": "before" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "08ba0278": {
         "CA": { "atom": "cíclic", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "cyclic", "pstn": "before" },
         "ES": { "atom": "cíclico", "pstn": "after" },
         "FA": { "atom": "دوری", "pstn": "after" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "cyclique", "pstn": "after" },
         "IT": { "atom": "ciclico", "pstn": "after" },
-        "KO": { "atom": "순환", "pstn": "before" }
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "순환", "pstn": "before" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "07d70260": {
         "CA": { "atom": "de Galois", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "Galois", "pstn": "before" },
         "ES": { "atom": "de Galois", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "de Galois", "pstn": "after" },
-        "IT": { "atom": "di Galois", "pstn": "after" }
+        "IT": { "atom": "di Galois", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -785,15 +971,34 @@
         "CA": { "atom": "commutatiu", "pstn": "after" },
         "EN": { "atom": "commutative", "pstn": "before" },
         "ES": { "atom": "conmutativo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "", "pstn": "" },
         "IT": { "atom": "commutativo", "pstn": "after" },
-        "JA": { "atom": "可換", "pstn": "before" }
+        "JA": { "atom": "可換", "pstn": "before" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "2cdd05fa": {
         "CA": { "atom": "no commutatiu", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "noncommutative", "pstn": "before" },
         "ES": { "atom": "no conmutativo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "", "pstn": "" },
         "IT": { "atom": "non commutativo", "pstn": "after" },
-        "JA": { "atom": "非可換", "pstn": "before" }
+        "JA": { "atom": "非可換", "pstn": "before" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -818,31 +1023,71 @@
     "adjs": {
       "44a90734": {
         "CA": { "atom": "finitament generat", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "finitely generated", "pstn": "before" },
         "ES": { "atom": "finitamente generado", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "finiment engendré", "pstn": "after" },
-        "IT": { "atom": "finitamente generato", "pstn": "after" }
+        "IT": { "atom": "finitamente generato", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "042101a3": {
         "CA": { "atom": "lliure", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "free", "pstn": "before" },
         "ES": { "atom": "libre", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "libre", "pstn": "after" },
-        "IT": { "atom": "libero", "pstn": "after" }
+        "IT": { "atom": "libero", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "1773043c": {
         "CA": { "atom": "projectiu", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "projective", "pstn": "before" },
         "ES": { "atom": "proyectivo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "projectif", "pstn": "after" },
-        "IT": { "atom": "progettivo", "pstn": "after" }
+        "IT": { "atom": "progettivo", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "12b903c2": {
         "CA": { "atom": "injectiu", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "injective", "pstn": "before" },
         "ES": { "atom": "inyectivo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "injectif", "pstn": "after" },
-        "IT": { "atom": "iniettivo", "pstn": "after" }
+        "IT": { "atom": "iniettivo", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -882,12 +1127,12 @@
         "PT": { "atom": "algebricamente fechado", "pstn": "after" }
       },
       "0bb002ea": {
-        "CA": { "atom": "perfecte"  , "pstn": "after"   },
-        "EN": { "atom": "perfect", "pstn": "before"  },
-        "ES": { "atom": "perfecto"  , "pstn": "after"   },
-        "FR": { "atom": "parfait", "pstn": "after"   },
+        "CA": { "atom": "perfecte"  , "pstn": "after" },
+        "EN": { "atom": "perfect", "pstn": "before" },
+        "ES": { "atom": "perfecto"  , "pstn": "after" },
+        "FR": { "atom": "parfait", "pstn": "after" },
         "IT": { "atom": "perfetto", "pstn": "after" },
-        "PT": { "atom": "perfeito"  , "pstn": "after"   }
+        "PT": { "atom": "perfeito"  , "pstn": "after" }
       }
     }
   },
