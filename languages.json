@@ -18,6 +18,10 @@
     "endonym": "Espa\u00F1ol",
     "genders": [ "femenino", "masculino" ]
   },
+  "EU": {
+    "direction": "LTR",
+    "endonym": "Euskara"
+  },
   "FA": {
     "direction": "RTL",
     "endonym": "\u0641\u0627\u0631\u0633\u06CC"
