@@ -9,8 +9,6 @@ var questions = [];
 var submission = {};
 
 
-// TODO: adjectives!
-
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
@@ -256,8 +254,6 @@ var updateQuestionCard = function(number) {
     });
     
     $("#foreign").html(foreignContent.join(" / "));
-    // TODO: make the input box actually be two boxes on either side of the noun!
-    // TODO: and make the arrow buttons move it
     $("#question_input").attr("name", id);
     $("#corresponding_noun").html(question["noun"][targetLang]["atom"]);
 
