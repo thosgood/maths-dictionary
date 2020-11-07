@@ -37,52 +37,122 @@
       },
       "0fac0374": {
         "CA": { "atom": "positiu", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "positive", "pstn": "before" },
         "ES": { "atom": "positivo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "positif", "pstn": "after" },
-        "IT": { "atom": "positivo", "pstn": "after" }
+        "IT": { "atom": "positivo", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0ee60354": {
         "CA": { "atom": "negatiu", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "negative", "pstn": "before" },
         "ES": { "atom": "negativo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "négatif", "pstn": "after" },
-        "IT": { "atom": "negativo", "pstn": "after" }
+        "IT": { "atom": "negativo", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0f38035b": {
         "CA": { "atom": "racional", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "rational", "pstn": "before" },
         "ES": { "atom": "racional", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "rationnel", "pstn": "after" },
-        "IT": { "atom": "razionale", "pstn": "after" }
+        "IT": { "atom": "razionale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0bbd02f9": {
         "CA": { "atom": "complex", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "complex", "pstn": "before" },
         "ES": { "atom": "complejo", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "complexe", "pstn": "after" },
-        "IT": { "atom": "complesso", "pstn": "after" }
+        "IT": { "atom": "complesso", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "042901a5": {
         "CA": { "atom": "real", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "real", "pstn": "before" },
         "ES": { "atom": "real", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "réel", "pstn": "after" },
-        "IT": { "atom": "reale", "pstn": "after" }
+        "IT": { "atom": "reale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "078701c7": {
         "CA": { "atom": "parell", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "even", "pstn": "before" },
         "ES": { "atom": "par", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "pair", "pstn": "after" },
-        "IT": { "atom": "pari", "pstn": "after" }
+        "IT": { "atom": "pari", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "027c0138": {
         "CA": { "atom": "senar", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "odd", "pstn": "before" },
         "ES": { "atom": "impar", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "impair", "pstn": "after" },
-        "IT": { "atom": "dispari", "pstn": "after" }
+        "IT": { "atom": "dispari", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -107,56 +177,122 @@
     "adjs": {
       "12b903c2": {
         "CA": { "atom": "injectiva", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "injective", "pstn": "before" },
         "ES": { "atom": "inyectiva", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "injective", "pstn": "after" },
         "IT": { "atom": "iniettiva", "pstn": "after" },
-        "PT": { "atom": "injetiva", "pstn": "after" }
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "injetiva", "pstn": "after" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "17c40445": {
         "CA": { "atom": "sobrejectiva", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "surjective", "pstn": "before" },
         "ES": { "atom": "sobreyectiva", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "surjective", "pstn": "after" },
         "IT": { "atom": "suriettiva", "pstn": "after" },
-        "PT": { "atom": "sobrejetiva", "pstn": "after" }
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "sobrejetiva", "pstn": "after" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "125203b6": {
         "CA": { "atom": "bijectiva", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "bijective", "pstn": "before" },
         "ES": { "atom": "biyectiva", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "bijective", "pstn": "after" },
         "IT": { "atom": "biettiva", "pstn": "after" },
-        "PT": { "atom": "bijetiva", "pstn": "after" }
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "bijetiva", "pstn": "after" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "0bd002ee": {
         "CA": { "atom": "parcial", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "partial", "pstn": "before" },
         "ES": { "atom": "parcial", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "partielle", "pstn": "after" },
-        "IT": { "atom": "parziale", "pstn": "after" }
+        "IT": { "atom": "parziale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "17850458": {
         "CA": { "atom": "contínua", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "continuous", "pstn": "before" },
         "ES": { "atom": "continua", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "continue", "pstn": "after" },
         "IT": { "atom": "continua", "pstn": "after" },
-        "PT": { "atom": "contínua", "pstn": "after" } 
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "contínua", "pstn": "after" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "1c1904a5": {
         "CA": { "atom": "holomorfa", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "holomorphic", "pstn": "before" },
         "ES": { "atom": "holomorfa", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "holomorphe", "pstn": "after" },
-        "IT": { "atom": "holomorfa", "pstn": "after" }
+        "IT": { "atom": "holomorfa", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       },
       "2acf05b5": {
         "CA": { "atom": "diferenciable", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "differentiable", "pstn": "before" },
         "ES": { "atom": "diferenciable", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "différentiable", "pstn": "after" },
-        "IT": { "atom": "differenziabile", "pstn": "after" }
+        "IT": { "atom": "differenziabile", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -184,8 +320,17 @@
         "DE": { "atom": "monotone" , "pstn": "before" },
         "EN": { "atom": "monotone" , "pstn": "before" },
         "ES": { "atom": "monótona" , "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "monotone" , "pstn": "after" },
-        "IT": { "atom": "monotona" , "pstn": "after" }
+        "IT": { "atom": "monotona" , "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -213,8 +358,17 @@
         "DE": { "atom": "partielle" , "pstn": "before" },
         "EN": { "atom": "partial", "pstn": "before" },
         "ES": { "atom": "parcial", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "partielle", "pstn": "after" },
-        "IT": { "atom": "parziale", "pstn": "after" }
+        "IT": { "atom": "parziale", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
@@ -239,10 +393,20 @@
     "adjs": {
       "044801b3": {
         "CA": { "atom": "per oberts", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
         "EN": { "atom": "open", "pstn": "before" },
         "ES": { "atom": "por abiertos", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
         "FR": { "atom": "ouvert", "pstn": "after" },
-        "IT": { "atom": "aperto", "pstn": "after" }
+        "IT": { "atom": "aperto", "pstn": "after" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
       }
     }
   },
