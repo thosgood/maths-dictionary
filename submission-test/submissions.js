@@ -315,6 +315,9 @@ var generateQuestionCard = function(targetLang, totalNum) {
     case "ES":
       questionLabel = `¿Cómo se dice ${foreign} en español?`;
       break;
+    case "EU":
+      questionLabel = `Nola esaten da ${foreign} euskaraz?`;
+      break;
     case "FA":
       // TODO: .reverse.join(" "), but before .join(" /")
       questionLabel = `چگونه به فارسی ${foreign} می گویید؟`;
