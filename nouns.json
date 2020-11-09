@@ -561,10 +561,10 @@
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
       },
-      "1ca304ab": {
+      "13b903de": {
         "CA": { "atom": "simètrica", "pstn": "after" },
         "DE": { "atom": "", "pstn": "" },
-        "EN": { "atom": "symmetrical", "pstn": "before" },
+        "EN": { "atom": "symmetric", "pstn": "before" },
         "ES": { "atom": "simétrica", "pstn": "after" },
         "EU": { "atom": "", "pstn": "" },
         "FA": { "atom": "", "pstn": "" },
@@ -2413,6 +2413,27 @@
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "adherence", "gend": "" },
       "ES": { "atom": "adherencia", "gend": "femenino" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {}
+  },
+  "0be302fe": {
+    "root": {
+      "CA": { "atom": "clausura", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "closure", "gend": "" },
+      "ES": { "atom": "clausura", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
