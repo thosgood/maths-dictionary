@@ -20,8 +20,9 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 - add plurals of nouns (and thus adjectives)
     + will also need cases (for e.g. `DE`)
 - think about **verbs**...
-- link each entry (incl. adjectives) to a definition? wikipedia page or something...
-    + **wikidata**
+- link each entry (**incl. adjectives**) to a wikidata tag
+    + any other useful sources?
+        * mathworld?
 - get language selectors (in `index.html`) from the language `.json` files
     + should also get endonyms from there too
 
