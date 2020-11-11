@@ -25,6 +25,15 @@ Entonces $R$ es único.
 Además, si $S$ es un subanillo de $R$, entonces $S$ es noetheriano.
 Para que $X$ sea compacto, es necesario y suficiente que $R$ satisfaga la siguiente propiedad: $R=\mathbb{Z}[x,y,z]$, donde $\mathbb{Z}$ es el anillo de los enteros.
 
+## Euskara (EU) 
+
+Izan bedi $X$ espazio topologiko bat. 
+Izan bitez $A$ eta $B$ bi talde. 
+Demagun $R$ eraztuna dela non $\mathrm{Hom}(A,R)=B$ den. 
+Orduan $R$ bakarra da. 
+Gainera, baldin eta $S$ $R$-ren azpieraztuna bada, orduan $S$ noetherrena da. 
+$X$ trinkoa izan dadin, baldintza nahikoa eta beharrezkoa da $R$-k ondoko propietatea betetzea: $R=\mathbb{Z}[x,y,z]$, non $\mathbb{Z}$ zenbaki osoen eraztuna den.
+
 ## Français (FR)
 
 Soit $X$ un espace topologique.
