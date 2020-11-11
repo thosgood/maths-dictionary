@@ -22,7 +22,7 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 - think about **verbs**...
 - link each entry (**incl. adjectives**) to a wikidata tag
     + any other useful sources?
-        * mathworld?
+        * MathWorld and Encyclopedia of Mathematics
 - get language selectors (in `index.html`) from the language `.json` files
     + should also get endonyms from there too
 

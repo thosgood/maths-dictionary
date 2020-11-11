@@ -2649,7 +2649,11 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "mathworld": "Affix",
+      "eom": "Affix_of_a_complex_number"
+    }
   },
   "088c027a": {
     "root": {
@@ -2660,7 +2664,7 @@
       "EU": { "atom": "altuera", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": "" },
+      "FR": { "atom": "hauteur", "gend": "feminin" },
       "IT": { "atom": "", "gend": "" },
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
@@ -2670,7 +2674,10 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q208826"
+    }
   },
   "0eff0347": {
     "root": {
@@ -2691,7 +2698,10 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q50701"
+    }
   },
   "0b7e02eb": {
     "root": {
@@ -2767,6 +2777,9 @@
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
       }
+    },
+    "refs": {
+      "wikidata": "Q379825"
     }
   },
   "12b403c8": {
@@ -2807,6 +2820,9 @@
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
       }
+    },
+    "refs": {
+      "wikidata": "Q8366"
     }
   },
   "06780221": {
@@ -2828,7 +2844,10 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q35059"
+    }
   },
   "08e90296": {
     "root": {
@@ -2958,6 +2977,9 @@
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
       }
+    },
+    "refs": {
+      "wikidata": "Q44337"
     }
   },
   "0be202ff": {
@@ -2979,7 +3001,10 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q10578722"
+    }
   },
   "0be002fd": {
     "root": {
@@ -3000,7 +3025,10 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q10585806"
+    }
   },
   "12db03c8": {
     "root": {
@@ -3021,6 +3049,9 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {}
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q11197"
+    }
   }
 }
