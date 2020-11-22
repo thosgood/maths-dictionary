@@ -2135,7 +2135,7 @@
       "DE": { "atom": "Produkt", "gend": "neutral" },
       "EN": { "atom": "product", "gend": "" },
       "ES": { "atom": "producto", "gend": "masculino" },
-      "EU": { "atom": "", "gend": "" },
+      "EU": { "atom": "biderkadura", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "produit", "gend": "masculin" },
@@ -3798,6 +3798,614 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q11500"
+    }
+  },
+  "066a021e": {
+    "root": {
+      "CA": { "atom": "valor", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "value", "gend": "" },
+      "ES": { "atom": "valor", "gend": "masculino" },
+      "EU": { "atom": "azalera", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "valeur", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "0c0702f4": {
+        "CA": { "atom": "numèric", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "numeric", "pstn": "before" },
+        "ES": { "atom": "numérico", "pstn": "after" },
+        "EU": { "atom": "", "pstn": "" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "", "pstn": "" },
+        "IT": { "atom": "", "pstn": "" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
+      },
+      "0ef70360": {
+        "CA": { "atom": "absolut", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "absolute", "pstn": "before" },
+        "ES": { "atom": "absoluto", "pstn": "after" },
+        "EU": { "atom": "absolutu", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "absolue", "pstn": "after" },
+        "IT": { "atom": "", "pstn": "" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
+      }
+    },
+    "refs": {
+      "wikidata": "P1181"
+    }
+  },
+  "1bd60493": {
+    "root": {
+      "CA": { "atom": "equivalència", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "equivalence", "gend": "" },
+      "ES": { "atom": "equivalencia", "gend": "femenino" },
+      "EU": { "atom": "baliokidetasun", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "équivalence", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q5384705"
+    }
+  },
+  "0f1f035f": {
+    "root": {
+      "CA": { "atom": "relació", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "relation", "gend": "" },
+      "ES": { "atom": "relación", "gend": "femenino" },
+      "EU": { "atom": "erlazio", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "relation", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q203066"
+    }
+  },
+  "06200217": {
+    "root": {
+      "CA": { "atom": "classe", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "class", "gend": "" },
+      "ES": { "atom": "clase", "gend": "femenino" },
+      "EU": { "atom": "klase", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "classe", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q217594"
+    }
+  },
+  "212c0521": {
+    "root": {
+      "CA": { "atom": "distribució", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "distribution", "gend": "" },
+      "ES": { "atom": "distribución", "gend": "femenino" },
+      "EU": { "atom": "banaketa", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "distribution", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q865811"
+    }
+  },
+  "0f11034a": {
+    "root": {
+      "CA": { "atom": "variança", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "variance", "gend": "" },
+      "ES": { "atom": "varianza", "gend": "femenino" },
+      "EU": { "atom": "bariantza", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "variance", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q175199"
+    }
+  },
+  "16c10430": {
+    "root": {
+      "CA": { "atom": "baricentre", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "barycenter", "gend": "" },
+      "ES": { "atom": "baricentro", "gend": "masculino" },
+      "EU": { "atom": "barizentro", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "barycentre", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q809690"
+    }
+  },
+  "08fb0294": {
+    "root": {
+      "CA": { "atom": "vector", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "vector", "gend": "" },
+      "ES": { "atom": "vector", "gend": "masculino" },
+      "EU": { "atom": "bektore", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "vecteur", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q13471665"
+    }
+  },
+  "0f36036f": {
+    "root": {
+      "CA": { "atom": "igualtat", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "equality", "gend": "" },
+      "ES": { "atom": "igualdad", "gend": "femenino" },
+      "EU": { "atom": "berdintza", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "égalité", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q842346"
+    }
+  },
+  "2cd805f6": {
+    "root": {
+      "CA": { "atom": "potenciació", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "exponentiation", "gend": "" },
+      "ES": { "atom": "potenciación", "gend": "masculino" },
+      "EU": { "atom": "berreketa", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "exponentiation", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q33456"
+    }
+  },
+  "03fa019c": {
+    "root": {
+      "CA": { "atom": "base", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "base", "gend": "" },
+      "ES": { "atom": "base", "gend": "femenino" },
+      "EU": { "atom": "berrekizun", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "base", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q191360"
+    }
+  },
+  "0692022e": {
+    "root": {
+      "CA": { "atom": "potència", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "power", "gend": "" },
+      "ES": { "atom": "potencia", "gend": "femenino" },
+      "EU": { "atom": "berretura", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "puissance", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q33456"
+    }
+  },
+  "0f7a0372": {
+    "root": {
+      "CA": { "atom": "exponent", "gend": "masculino" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "exponent", "gend": "" },
+      "ES": { "atom": "exponente", "gend": "masculino" },
+      "EU": { "atom": "esponente", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "exposant", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q2233915"
+    }
+  },
+  "08870280": {
+    "root": {
+      "CA": { "atom": "factor", "gend": "masculino" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "factor", "gend": "" },
+      "ES": { "atom": "factor", "gend": "masculino" },
+      "EU": { "atom": "biderkagai", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "facteur", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q50708"
+    }
+  },
+  "21570507": {
+    "root": {
+      "CA": { "atom": "multiplicand", "gend": "masculino" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "multiplicand", "gend": "" },
+      "ES": { "atom": "multiplicando", "gend": "masculino" },
+      "EU": { "atom": "biderkakizun", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "multipliant", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q54639911"
+    }
+  },
+  "17c20448": {
+    "root": {
+      "CA": { "atom": "multiplicador", "gend": "masculino" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "multiplier", "gend": "" },
+      "ES": { "atom": "multiplicador", "gend": "masculino" },
+      "EU": { "atom": "biderkatzaile", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "multiplicateur", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q54639923"
+    }
+  },
+  "2cd805ef": {
+    "root": {
+      "CA": { "atom": "multiplicació", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "multiplication", "gend": "" },
+      "ES": { "atom": "multiplicación", "gend": "femenino" },
+      "EU": { "atom": "biderketa", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "multiplication", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q40276"
+    }
+  },
+  "042b01ad": {
+    "root": {
+      "CA": { "atom": "parell", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "pair", "gend": "" },
+      "ES": { "atom": "par", "gend": "masculino" },
+      "EU": { "atom": "bikote", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "paire", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {
+      "0bc802e6": {
+        "CA": { "atom": "ordenat", "pstn": "after" },
+        "DE": { "atom": "", "pstn": "" },
+        "EN": { "atom": "ordered", "pstn": "before" },
+        "ES": { "atom": "ordenado", "pstn": "after" },
+        "EU": { "atom": "ordenatu", "pstn": "after" },
+        "FA": { "atom": "", "pstn": "" },
+        "FI": { "atom": "", "pstn": "" },
+        "FR": { "atom": "ordonnée", "pstn": "after" },
+        "IT": { "atom": "", "pstn": "" },
+        "JA": { "atom": "", "pstn": "" },
+        "KO": { "atom": "", "pstn": "" },
+        "PL": { "atom": "", "pstn": "" },
+        "PT": { "atom": "", "pstn": "" },
+        "RU": { "atom": "", "pstn": "" },
+        "TR": { "atom": "", "pstn": "" },
+        "ZH": { "atom": "", "pstn": "" }
+      }
+    },
+    "refs": {
+      "wikidata": "Q191290"
+    }
+  },
+  "068d022a": {
+    "root": {
+      "CA": { "atom": "unió", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "union", "gend": "" },
+      "ES": { "atom": "unión", "gend": "femenino" },
+      "EU": { "atom": "bildura", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "union", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q185359"
+    }
+  },
+  "0ed3034c": {
+    "root": {
+      "CA": { "atom": "binomi", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "binomial", "gend": "" },
+      "ES": { "atom": "binomio", "gend": "masculino" },
+      "EU": { "atom": "binomio", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "binôme", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q193623"
+    }
+  },
+  "09430299": {
+    "root": {
+      "CA": { "atom": "volum", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "volume", "gend": "" },
+      "ES": { "atom": "volumen", "gend": "masculino" },
+      "EU": { "atom": "bolumen", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "volume", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q39297"
+    }
+  },
+  "064a0219": {
+    "root": {
+      "CA": { "atom": "fita", "gend": "femení" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "bound", "gend": "" },
+      "ES": { "atom": "cota", "gend": "femenino" },
+      "EU": { "atom": "borne", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "borne", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q28154044"
+    }
+  },
+  "15d9040e": {
+    "root": {
+      "CA": { "atom": "decaedre", "gend": "masculí" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "decahedron", "gend": "" },
+      "ES": { "atom": "decaedro", "gend": "masculino" },
+      "EU": { "atom": "dekaedro", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "décaèdre", "gend": "masculin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1183559"
     }
   }
 }
