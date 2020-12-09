@@ -7,9 +7,11 @@ body {
   border: 1px solid black;
 }
 
+
+
 /* Language selection boxes */
 
-div#language_selectors_container {
+#language_selectors_container {
   /*height: 100px;*/
   /*width: 450px;*/
   width: 60%;
@@ -40,9 +42,10 @@ div#language_selectors_container {
 }
 
 
+
 /*The dictionary table*/
 
-div#table_container {
+#table_container {
   /*height: 400px;*/
   display: inline-block;
   overflow-x: auto;
@@ -50,8 +53,8 @@ div#table_container {
 }
 
 #table th {
-  position: sticky;
-  top: 0px;
+  /*position: sticky;
+  top: 0;*/
   background-color: #2a7ae2;
   color: white;
 }
@@ -75,6 +78,7 @@ div#table_container {
 #table tr#table_headers:hover {
   background-color: #fff;
 }
+
 
 
 /* The dictionary table (interactivity) */
@@ -104,13 +108,15 @@ div#table_container {
   content: "+";
   border: 1px solid #ccc;
   border-radius: 15px;
-  padding: 0px 7px;
+  padding: 0 5px;
 }
 
 #table tr.expanded td:after {
   float: right;
   content: "–";
 }
+
+
 
 /* The dictionary table (typography) */
 
