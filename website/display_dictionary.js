@@ -14,10 +14,15 @@ $(document).ready(function() {
     // For columns configuration see https://datatables.net/examples/ajax/deep.html
     var columnsConf = [];
     languageCodes.forEach((language) => {
-      columnsConf.push({
+      var conf = {
           "title": language,
           "data": "root." + language + ".atom"
-      });
+      }
+      // At first, only show English
+      if (language != "EN"){
+        conf["visible"] = false;
+      }
+      columnsConf.push(conf);
     });
 
     var table = $('#table').DataTable( {
@@ -48,6 +53,16 @@ $(document).ready(function() {
             tr.addClass('expanded');
         }
     });// closing on click
+
+    // toggle table columns on click
+    $("#language_selectors").on("click", 'input', function(){
+      // Get the column API object
+      var column = table.column( $(this).attr('data-column') );
+
+      // Toggle the visibility
+    column.visible( ! column.visible() );
+    })
+
   });// closing the getJSON
 
   // generate language_selectors from languages
