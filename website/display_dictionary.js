@@ -50,12 +50,21 @@ $(document).ready(function() {
     });// closing on click
   });// closing the getJSON
 
-  $("input").each(function(i, item) {
-    langs.push(item.name);
+  // generate language_selectors from languages
+  $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
+    var i = 0;
+    $.each(json, function(code, data){
+      var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
+      // EN is checked by default
+      if (code =="EN"){
+        html += "checked"
+      }
+      html +=`><label for="${code}">${data["endonym"]}</label></li>`
+      $("#language_selectors").append(html);
+      i++;
+    });
   });
-  $("input:checked").each( function(i, item){
-    visibleLangs.push(item.name);
-  });
+
 
 
 
