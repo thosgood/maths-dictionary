@@ -2,8 +2,15 @@ var langs = [];
 var visibleLangs = [];
 var dict = {};
 
+var updateVisibleLangs = function(){
+  visibleLangs = [];
+  $("input:checked").each( function(i, item){
+    visibleLangs.push(item.name);
+  });
+}
 
 $(document).ready(function() {
+
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     // convert the dict as an array
     var data = Object.values(json);
@@ -64,10 +71,7 @@ $(document).ready(function() {
     column.visible( ! column.visible() );
 
     // set visibleLangs
-    visibleLangs = [];
-    $("input:checked").each( function(i, item){
-      visibleLangs.push(item.name);
-    });
+    updateVisibleLangs()
 
     // unexpand expanded rows
     table.rows().every( function () {
@@ -92,6 +96,7 @@ $(document).ready(function() {
       $("#language_selectors").append(html);
       i++;
     });
+    updateVisibleLangs();
   });
 
 // add rows for adjectives
@@ -132,3 +137,4 @@ var showAdjectives = function (data) {
 };
 
 })
+updateVisibleLangs();
