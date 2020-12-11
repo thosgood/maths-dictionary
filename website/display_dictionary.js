@@ -2,7 +2,6 @@ var langs = [];
 var visibleLangs = [];
 var dict = {};
 
-// TODO: searching
 
 $(document).ready(function() {
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
@@ -25,9 +24,11 @@ $(document).ready(function() {
       columnsConf.push(conf);
     });
 
+    // Create the table with datatable
     var table = $('#table').DataTable( {
       data: data,
       "columns": columnsConf,
+      "paging": false,
       // add expandable class if adjs
       // https://datatables.net/reference/option/createdRow
       "createdRow": function( row, data, dataIndex ) {
@@ -61,7 +62,20 @@ $(document).ready(function() {
 
       // Toggle the visibility
     column.visible( ! column.visible() );
-    })
+
+    // set visibleLangs
+    visibleLangs = [];
+    $("input:checked").each( function(i, item){
+      visibleLangs.push(item.name);
+    });
+
+    // unexpand expanded rows
+    table.rows().every( function () {
+      this.child.hide()
+    });
+    $('.expanded').removeClass('expanded').addClass('expandable');
+
+  });// toggle table columns on click
 
   });// closing the getJSON
 
@@ -80,10 +94,6 @@ $(document).ready(function() {
     });
   });
 
-
-
-
-
 // add rows for adjectives
 var showAdjectives = function (data) {
   var adjRows = [];
@@ -98,7 +108,7 @@ var showAdjectives = function (data) {
     var adjRow = `<tr class="adjective">`;
     var emptyAdjRow = true;
 
-    $.each(adj, function(lang) {
+    $.each(visibleLangs, function(i, lang) {
       adjRow += "<td>";
       var adjective = adj[lang]
       if (typeof adjective === "undefined" || adjective["atom"] === "") {
