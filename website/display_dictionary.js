@@ -21,8 +21,8 @@ $(document).ready(function() {
     var columnsConf = [];
     languageCodes.forEach((language) => {
       var conf = {
-          "title": language,
-          "data": "root." + language + ".atom"
+        "title": language,
+        "data": "root." + language + ".atom"
       }
       // At first, only show English
       if (language != "EN"){
@@ -51,15 +51,15 @@ $(document).ready(function() {
       var tr = $(this).closest('tr');
       var row = table.row( tr );
       if ( row.child.isShown() ) {
-            // This row is already open - close it
-            row.child.hide();
-            tr.removeClass('expanded');
-        }
-        else {
-            // Open this row
-            row.child( showAdjectives(row.data()) ).show();
-            tr.addClass('expanded');
-        }
+        // This row is already open - close it
+        row.child.hide();
+        tr.removeClass('expanded');
+      }
+      else {
+        // Open this row
+        row.child( showAdjectives(row.data()) ).show();
+        tr.addClass('expanded');
+      }
     });// closing on click
 
     // toggle table columns on click
@@ -68,18 +68,18 @@ $(document).ready(function() {
       var column = table.column( $(this).attr('data-column') );
 
       // Toggle the visibility
-    column.visible( ! column.visible() );
+      column.visible( ! column.visible() );
 
-    // set visibleLangs
-    updateVisibleLangs()
+      // set visibleLangs
+      updateVisibleLangs()
 
-    // unexpand expanded rows
-    table.rows().every( function () {
-      this.child.hide()
-    });
-    $('.expanded').removeClass('expanded').addClass('expandable');
+      // unexpand expanded rows
+      table.rows().every( function () {
+        this.child.hide()
+      });
+      $('.expanded').removeClass('expanded').addClass('expandable');
 
-  });// toggle table columns on click
+    });// toggle table columns on click
 
   });// closing the getJSON
 
@@ -99,42 +99,41 @@ $(document).ready(function() {
     updateVisibleLangs();
   });
 
-// add rows for adjectives
-var showAdjectives = function (data) {
-  var adjRows = [];
+  // add rows for adjectives
+  var showAdjectives = function (data) {
+    var adjRows = [];
 
-  // TODO: adjectives should be sorted if the current column is sorted
-  // TODO; item["adjs"] === "") is wrong it's {}
-  if (typeof data["adjs"] === "undefined" || data["adjs"] === "") {
-    return false;
-  };
+    // TODO: adjectives should be sorted if the current column is sorted
+    // TODO; item["adjs"] === "") is wrong it's {}
+    if (typeof data["adjs"] === "undefined" || data["adjs"] === "") {
+      return false;
+    };
 
-  $.each(data["adjs"], function(a, adj) {
-    var adjRow = `<tr class="adjective">`;
-    var emptyAdjRow = true;
+    $.each(data["adjs"], function(a, adj) {
+      var adjRow = `<tr class="adjective">`;
+      var emptyAdjRow = true;
 
-    $.each(visibleLangs, function(i, lang) {
-      adjRow += "<td>";
-      var adjective = adj[lang]
-      if (typeof adjective === "undefined" || adjective["atom"] === "") {
+      $.each(visibleLangs, function(i, lang) {
+        adjRow += "<td>";
+        var adjective = adj[lang]
+        if (typeof adjective === "undefined" || adjective["atom"] === "") {
+          adjRow += "</td>";
+          return true;
+        };
+        emptyAdjRow = false;
+        if (adjective["pstn"] === "after"){adjRow+="___ "};
+        adjRow += adjective["atom"];
+        if (adjective["pstn"] === "before"){adjRow+=" ___"};
         adjRow += "</td>";
-        return true;
-      };
-      emptyAdjRow = false;
-      if (adjective["pstn"] === "after"){adjRow+="___ "};
-      adjRow += adjective["atom"];
-      if (adjective["pstn"] === "before"){adjRow+=" ___"};
-      adjRow += "</td>";
+      });
+
+      adjRow += "</tr>";
+      if (!emptyAdjRow) {
+        adjRows.push(adjRow);
+      }
     });
 
-    adjRow += "</tr>";
-    if (!emptyAdjRow) {
-      adjRows.push(adjRow);
-    }
-  });
-
-  return adjRows;
-};
+    return adjRows;
+  };
 
 })
-updateVisibleLangs();
