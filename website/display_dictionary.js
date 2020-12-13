@@ -7,6 +7,7 @@ var updateVisibleLangs = function(){
   $("input:checked").each( function(i, item){
     visibleLangs.push(item.name);
   });
+
 }
 
 $(document).ready(function() {
@@ -66,7 +67,8 @@ $(document).ready(function() {
     // toggle table columns on click
     $("#language_selectors").on("click", 'input', function(){
       // Get the column API object
-      var column = table.column( $(this).attr('data-column') );
+      var colId = $(this).attr('data-column')
+      var column = table.column( colId );
 
       // Toggle the visibility
       column.visible( ! column.visible() );
@@ -80,6 +82,13 @@ $(document).ready(function() {
       });
       $('.expanded').removeClass('expanded').addClass('expandable');
 
+      //this will toggle the column's searchability
+      //https://datatables.net/forums/discussion/comment/167155/#Comment_167155
+      let columnsettings = table.settings()[0].aoColumns[colId];
+      columnsettings.bSearchable = column.visible();
+      //reset the table's searchability settings to add or remove the toggled column
+      table.rows().invalidate();
+      table.draw();//this will rerun the last search with the visible fileds only
     });// toggle table columns on click
 
   });// closing the getJSON
