@@ -28,6 +28,7 @@ $(document).ready(function() {
       // At first, only show English
       if (language != "EN"){
         conf["visible"] = false;
+        conf["searchable"] = false;
       }
       columnsConf.push(conf);
     });
