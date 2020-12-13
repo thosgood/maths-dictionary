@@ -36,6 +36,7 @@ $(document).ready(function() {
       data: data,
       "columns": columnsConf,
       "paging": false,
+      "autoWidth": false,
       // add expandable class if adjs
       // https://datatables.net/reference/option/createdRow
       "createdRow": function( row, data, dataIndex ) {
