@@ -84,20 +84,22 @@ body {
 
 /* The dictionary table (interactivity) */
 
-#table th.sortable {
+table.dataTable thead {
   cursor: pointer;
 }
 
-#table th.sorted:after {
-  position: absolute;
-  right: 10px;
+table.dataTable thead .sorting_asc:after {
+  text-align: right;
+  float:right;
   content: "\2193";
+  color:black;
 }
 
-#table th.sorted-descending:after {
-  position: absolute;
-  right: 10px;
+table.dataTable thead .sorting_desc:after {
+  text-align: right;
+  float:right;
   content: "\2191";
+  color:black;
 }
 
 #table tr.expandable {
