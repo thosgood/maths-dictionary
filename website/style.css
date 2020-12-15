@@ -65,6 +65,7 @@ body {
   width: 210px;
   padding: 10px;
   /*border-bottom: 1px solid #ddd;*/
+  text-align: left;
 }
 
 #table tr:nth-child(even) {
