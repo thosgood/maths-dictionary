@@ -426,7 +426,7 @@
   "064e0220": {
     "root": {
       "CA": { "atom": "recobriment", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Überdeckung", "gend": "feminin" },
       "EN": { "atom": "cover", "gend": "" },
       "ES": { "atom": "recubrimiento", "gend": "masculino" },
       "EU": { "atom": "estalki", "gend": "" },
@@ -716,7 +716,7 @@
   "120c03a0": {
     "root": {
       "CA": { "atom": "imbibició", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Einbettung", "gend": "feminin" },
       "EN": { "atom": "embedding", "gend": "" },
       "ES": { "atom": "embebimiento", "gend": "masculino" },
       "EU": { "atom": "murgilketa", "gend": "" },
@@ -1276,7 +1276,6 @@
         "ZH": { "atom": "", "pstn": "" }
       }
     },
-    "adjs": {},
     "refs": {
       "wikidata": "Q161172"
     }
@@ -1339,7 +1338,7 @@
       },
       "1773043c": {
         "CA": { "atom": "projectiu", "pstn": "after" },
-        "DE": { "atom": "projektiver", "pstn": "before },
+        "DE": { "atom": "projektiver", "pstn": "before" },
         "EN": { "atom": "projective", "pstn": "before" },
         "ES": { "atom": "proyectivo", "pstn": "after" },
         "EU": { "atom": "proiektibo", "pstn": "after" },
@@ -1960,7 +1959,7 @@
   "0ed9034b": {
     "root": {
       "CA": { "atom": "varietat", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Mannigfaltigkeit", "gend": "feminin" },
       "EN": { "atom": "manifold", "gend": "" },
       "ES": { "atom": "variedad", "gend": "femenino" },
       "EU": { "atom": "barietate", "gend": "" },
@@ -2039,7 +2038,7 @@
   "066f0226": {
     "root": {
       "CA": { "atom": "corba", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Kurve", "gend": "feminin" },
       "EN": { "atom": "curve", "gend": "" },
       "ES": { "atom": "curva", "gend": "femenino" },
       "EU": { "atom": "kurba", "gend": "" },
@@ -3391,7 +3390,7 @@
   "17510448": {
     "root": {
       "CA": { "atom": "semblança", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Ähnlichkeit", "gend": "feminin" },
       "EN": { "atom": "similarity", "gend": "" },
       "ES": { "atom": "semejanza", "gend": "femenino" },
       "EU": { "atom": "antzekotasun", "gend": "" },
