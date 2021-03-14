@@ -3890,7 +3890,7 @@
   "0f1f035f": {
     "root": {
       "CA": { "atom": "relació", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Relation", "gend": "feminin" },
       "EN": { "atom": "relation", "gend": "" },
       "ES": { "atom": "relación", "gend": "femenino" },
       "EU": { "atom": "erlazio", "gend": "" },
@@ -3914,7 +3914,7 @@
   "06200217": {
     "root": {
       "CA": { "atom": "classe", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Klasse", "gend": "feminin" },
       "EN": { "atom": "class", "gend": "" },
       "ES": { "atom": "clase", "gend": "femenino" },
       "EU": { "atom": "klase", "gend": "" },
@@ -3938,7 +3938,7 @@
   "212c0521": {
     "root": {
       "CA": { "atom": "distribució", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Distribution", "gend": "feminin" },
       "EN": { "atom": "distribution", "gend": "" },
       "ES": { "atom": "distribución", "gend": "femenino" },
       "EU": { "atom": "banaketa", "gend": "" },
@@ -3962,7 +3962,7 @@
   "0f11034a": {
     "root": {
       "CA": { "atom": "variança", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Varianz", "gend": "feminin" },
       "EN": { "atom": "variance", "gend": "" },
       "ES": { "atom": "varianza", "gend": "femenino" },
       "EU": { "atom": "bariantza", "gend": "" },
@@ -4010,7 +4010,7 @@
   "08fb0294": {
     "root": {
       "CA": { "atom": "vector", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Vektor", "gend": "maskulin" },
       "EN": { "atom": "vector", "gend": "" },
       "ES": { "atom": "vector", "gend": "masculino" },
       "EU": { "atom": "bektore", "gend": "" },
@@ -4034,7 +4034,7 @@
   "0f36036f": {
     "root": {
       "CA": { "atom": "igualtat", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Gleichheit", "gend": "feminin" },
       "EN": { "atom": "equality", "gend": "" },
       "ES": { "atom": "igualdad", "gend": "femenino" },
       "EU": { "atom": "berdintza", "gend": "" },
@@ -4130,7 +4130,7 @@
   "0f7a0372": {
     "root": {
       "CA": { "atom": "exponent", "gend": "masculino" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Exponent", "gend": "maskulin" },
       "EN": { "atom": "exponent", "gend": "" },
       "ES": { "atom": "exponente", "gend": "masculino" },
       "EU": { "atom": "esponente", "gend": "" },
@@ -4154,7 +4154,7 @@
   "08870280": {
     "root": {
       "CA": { "atom": "factor", "gend": "masculino" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Faktor", "gend": "maskulin" },
       "EN": { "atom": "factor", "gend": "" },
       "ES": { "atom": "factor", "gend": "masculino" },
       "EU": { "atom": "biderkagai", "gend": "" },
@@ -4226,7 +4226,7 @@
   "2cd805ef": {
     "root": {
       "CA": { "atom": "multiplicació", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Multiplikation", "gend": "feminin" },
       "EN": { "atom": "multiplication", "gend": "" },
       "ES": { "atom": "multiplicación", "gend": "femenino" },
       "EU": { "atom": "biderketa", "gend": "" },
@@ -4250,7 +4250,7 @@
   "042b01ad": {
     "root": {
       "CA": { "atom": "parell", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Paar", "gend": "neutral" },
       "EN": { "atom": "pair", "gend": "" },
       "ES": { "atom": "par", "gend": "masculino" },
       "EU": { "atom": "bikote", "gend": "" },
@@ -4293,7 +4293,7 @@
   "068d022a": {
     "root": {
       "CA": { "atom": "unió", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Vereinigung", "gend": "feminin" },
       "EN": { "atom": "union", "gend": "" },
       "ES": { "atom": "unión", "gend": "femenino" },
       "EU": { "atom": "bildura", "gend": "" },
@@ -4341,7 +4341,7 @@
   "09430299": {
     "root": {
       "CA": { "atom": "volum", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Volumen", "gend": "neutral" },
       "EN": { "atom": "volume", "gend": "" },
       "ES": { "atom": "volumen", "gend": "masculino" },
       "EU": { "atom": "bolumen", "gend": "" },
@@ -4365,7 +4365,7 @@
   "064a0219": {
     "root": {
       "CA": { "atom": "fita", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Schranke", "gend": "feminin" },
       "EN": { "atom": "bound", "gend": "" },
       "ES": { "atom": "cota", "gend": "femenino" },
       "EU": { "atom": "borne", "gend": "" },
