@@ -115,8 +115,7 @@ $(document).ready(function() {
     var adjRows = [];
 
     // TODO: adjectives should be sorted if the current column is sorted
-    // TODO; item["adjs"] === "") is wrong it's {}
-    if (typeof data["adjs"] === "undefined" || data["adjs"] === "") {
+    if (typeof data["adjs"] === "undefined" || data["adjs"] === {}) {
       return false;
     };
 
