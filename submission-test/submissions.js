@@ -167,8 +167,12 @@ var saveCurrentAnswer = function(input,type) {
   answer["atom"] = input.val();
   if (type === "noun" && targetLangHasGend) {
     answer["gend"] = $("input[name=gender]:checked").val();
-    if (answer["atom"] !== "" && answer["gend"] !== undefined
-        || answer["atom"] !== "" && !targetLangHasGend) {
+    if (answer["atom"] !== "" && answer["gend"] !== undefined) {
+      submission[input.attr("name")] = answer;
+      success = true;
+    }
+  } else if (type == "noun" && !targetLangHasGend) { 
+    if (answer["atom"] !== "") {
       submission[input.attr("name")] = answer;
       success = true;
     }
