@@ -11,6 +11,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ## Todo
 
+- **show gender**
 - **add an initial column with `refs` data (automatically href'd etc)**
 - script to fill in all the missing languages with empty strings
     + for both nouns and adjectives
