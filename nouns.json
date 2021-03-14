@@ -2062,7 +2062,7 @@
   "0c0a02ea": {
     "root": {
       "CA": { "atom": "superfície", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Fläche", "gend": "feminin" },
       "EN": { "atom": "surface", "gend": "" },
       "ES": { "atom": "superficie", "gend": "femenino" },
       "EU": { "atom": "gainazal", "gend": "" },
@@ -2110,7 +2110,7 @@
   "0bed0302": {
     "root": {
       "CA": { "atom": "functor", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Funktor", "gend": "maskulin" },
       "EN": { "atom": "functor", "gend": "" },
       "ES": { "atom": "funtor", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
@@ -2286,7 +2286,7 @@
   "08f1028c": {
     "root": {
       "CA": { "atom": "sèrie", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Reihe", "gend": "feminin" },
       "EN": { "atom": "series", "gend": "" },
       "ES": { "atom": "serie", "gend": "femenino" },
       "EU": { "atom": "serie", "gend": "" },
@@ -2515,7 +2515,7 @@
   "0e88034d": {
     "root": {
       "CA": { "atom": "addició", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Addition", "gend": "feminin" },
       "EN": { "atom": "addition", "gend": "" },
       "ES": { "atom": "adición", "gend": "femenino" },
       "EU": { "atom": "batuketa", "gend": "" },
@@ -2563,7 +2563,7 @@
   "0be302fe": {
     "root": {
       "CA": { "atom": "clausura", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Abschluss", "gend": "maskulin" },
       "EN": { "atom": "closure", "gend": "" },
       "ES": { "atom": "clausura", "gend": "femenino" },
       "EU": { "atom": "itxidura", "gend": "" },
@@ -2660,7 +2660,7 @@
   "088c027a": {
     "root": {
       "CA": { "atom": "alçària", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Höhe", "gend": "feminin" },
       "EN": { "atom": "height", "gend": "" },
       "ES": { "atom": "altura", "gend": "femenino" },
       "EU": { "atom": "altuera", "gend": "" },
@@ -2684,7 +2684,7 @@
   "0eff0347": {
     "root": {
       "CA": { "atom": "variable", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Variable", "gend": "feminin" },
       "EN": { "atom": "variable", "gend": "" },
       "ES": { "atom": "variable", "gend": "femenino" },
       "EU": { "atom": "aldagai", "gend": "" },
@@ -2708,7 +2708,7 @@
   "0b7e02eb": {
     "root": {
       "CA": { "atom": "element", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Element", "gend": "neutral" },
       "EN": { "atom": "element", "gend": "" },
       "ES": { "atom": "elemento", "gend": "masculino" },
       "EU": { "atom": "elementu", "gend": "" },
@@ -2830,7 +2830,7 @@
   "06780221": {
     "root": {
       "CA": { "atom": "amplària", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Breite", "gend": "feminin" },
       "EN": { "atom": "width", "gend": "" },
       "ES": { "atom": "anchura", "gend": "femenino" },
       "EU": { "atom": "zabalera", "gend": "" },
@@ -2854,7 +2854,7 @@
   "08e90296": {
     "root": {
       "CA": { "atom": "matriu", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Matrix", "gend": "feminin" },
       "EN": { "atom": "matrix", "gend": "" },
       "ES": { "atom": "matriz", "gend": "femenino" },
       "EU": { "atom": "matrize", "gend": "" },
@@ -2987,7 +2987,7 @@
   "0be202ff": {
     "root": {
       "CA": { "atom": "màxim", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Maximum", "gend": "neutral" },
       "EN": { "atom": "maximum", "gend": "" },
       "ES": { "atom": "máximo", "gend": "masculino" },
       "EU": { "atom": "maximo", "gend": "" },
@@ -3011,7 +3011,7 @@
   "0be002fd": {
     "root": {
       "CA": { "atom": "mínim", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Minimum", "gend": "neutral" },
       "EN": { "atom": "minimum", "gend": "" },
       "ES": { "atom": "mínimo", "gend": "masculino" },
       "EU": { "atom": "minimo", "gend": "" },
@@ -3035,7 +3035,7 @@
   "12db03c8": {
     "root": {
       "CA": { "atom": "logaritme", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Logarithmus", "gend": "maskulin" },
       "EN": { "atom": "logarithm", "gend": "" },
       "ES": { "atom": "logaritmo", "gend": "masculino" },
       "EU": { "atom": "logaritmo", "gend": "" },
@@ -3059,7 +3059,7 @@
   "06140208": {
     "root": {
       "CA": { "atom": "angle", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Winkel", "gend": "maskulin" },
       "EN": { "atom": "angle", "gend": "" },
       "ES": { "atom": "ángulo", "gend": "masculino" },
       "EU": { "atom": "angelu", "gend": "" },
@@ -3318,7 +3318,7 @@
   "0feb038b": {
     "root": {
       "CA": { "atom": "simetria", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Symmetrie", "gend": "feminin" },
       "EN": { "atom": "symmetry", "gend": "" },
       "ES": { "atom": "simetría", "gend": "femenino" },
       "EU": { "atom": "simetria", "gend": "" },
@@ -3435,7 +3435,7 @@
       "wikidata": "Q508490"
     }
   },
-  "Q1783819": {
+  "043501b6": {
     "root": {
       "CA": { "atom": "eix", "gend": "masculí" },
       "DE": { "atom": "", "gend": "" },
@@ -3517,7 +3517,7 @@
   "0f140364": {
     "root": {
       "CA": { "atom": "argument", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Argument", "gend": "neutral" },
       "EN": { "atom": "argument", "gend": "" },
       "ES": { "atom": "argumento", "gend": "masculino" },
       "EU": { "atom": "argumentu", "gend": "" },
@@ -3541,7 +3541,7 @@
   "1700042b": {
     "root": {
       "CA": { "atom": "aritmètica", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Arithmetik", "gend": "feminin" },
       "EN": { "atom": "arithmetic", "gend": "" },
       "ES": { "atom": "aritmética", "gend": "femenino" },
       "EU": { "atom": "aritmetika", "gend": "" },
@@ -3613,7 +3613,7 @@
   "138103e7": {
     "root": {
       "CA": { "atom": "asímptota", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Asymptote", "gend": "feminin" },
       "EN": { "atom": "asymptote", "gend": "" },
       "ES": { "atom": "asíntota", "gend": "femenino" },
       "EU": { "atom": "asintota", "gend": "" },
@@ -3637,7 +3637,7 @@
   "08a30279": {
     "root": {
       "CA": { "atom": "membre", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Mitglied", "gend": "neutral" },
       "EN": { "atom": "member", "gend": "" },
       "ES": { "atom": "miembro", "gend": "masculino" },
       "EU": { "atom": "atal", "gend": "" },
@@ -3733,7 +3733,7 @@
   "0650021f": {
     "root": {
       "CA": { "atom": "axioma", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Axiom", "gend": "neutral" },
       "EN": { "atom": "axiom", "gend": "" },
       "ES": { "atom": "axioma", "gend": "femenino" },
       "EU": { "atom": "axioma", "gend": "" },
@@ -3781,7 +3781,7 @@
   "0409019a": {
     "root": {
       "CA": { "atom": "àrea", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Fläche", "gend": "feminin" },
       "EN": { "atom": "area", "gend": "" },
       "ES": { "atom": "área", "gend": "femenino" },
       "EU": { "atom": "azalera", "gend": "" },
@@ -3805,7 +3805,7 @@
   "066a021e": {
     "root": {
       "CA": { "atom": "valor", "gend": "masculí" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Wert", "gend": "maskulin" },
       "EN": { "atom": "value", "gend": "" },
       "ES": { "atom": "valor", "gend": "masculino" },
       "EU": { "atom": "azalera", "gend": "" },
@@ -3866,7 +3866,7 @@
   "1bd60493": {
     "root": {
       "CA": { "atom": "equivalència", "gend": "femení" },
-      "DE": { "atom": "", "gend": "" },
+      "DE": { "atom": "Äquivalenz", "gend": "feminin" },
       "EN": { "atom": "equivalence", "gend": "" },
       "ES": { "atom": "equivalencia", "gend": "femenino" },
       "EU": { "atom": "baliokidetasun", "gend": "" },
