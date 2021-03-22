@@ -51,3 +51,12 @@ Suponha que $R$ seja um anel tal que $\mathrm{Hom}(A,R)=B$.
 Então $R$ é único.
 Além disso, se $S$ for um subanel de $R$, então $S$ é Noetheriano.
 Para que $X$ seja compacto, é necessário e suficiente que $R$ satisfaça a seguinte propriedade: $R=\mathbb{Z}[x,y,z]$, em que $\mathbb{Z}$ é o anel de inteiros.
+
+## Italiano (IT)
+
+Sia $X$ uno spazio topologico.
+Siano $A$ e $B$ gruppi.
+Supponi che $R$ sia un anello tale che $\mathrm{Hom}(A,R)=B$.
+Allora $R$ è unico.
+Inoltre, se $S$ è un sottoanello di $R$, allora $S$ è Noetheriano.
+Perché $X$ sia compatto, è necessario e sufficiente che $R$ soddisfi la seguente proprietà: $R=\mathbb{Z}[x,y,z]$, dove $\mathbb{Z}$ è l'anello degli interi.
