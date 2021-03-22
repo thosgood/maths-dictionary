@@ -23,6 +23,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - think about **verbs**...
+- auto sort `EN` on load
 - link each entry (**incl. adjectives**) to a wikidata tag
     + any other useful sources?
         * MathWorld and Encyclopedia of Mathematics

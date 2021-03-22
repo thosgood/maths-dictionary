@@ -125,6 +125,7 @@ $(document).ready(function() {
 
       $.each(visibleLangs, function(i, lang) {
         adjRow += "<td>";
+        console.log(adj);
         var adjective = adj["root"][lang]
         if (typeof adjective === "undefined" || adjective["atom"] === "") {
           adjRow += "</td>";

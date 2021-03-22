@@ -38,7 +38,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q21199"
+        }
       },
       "0fac0374": {
         "root": {
@@ -59,7 +61,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q3176558"
+        }
       },
       "0ee60354": {
         "root": {
@@ -80,7 +84,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q200227"
+        }
       },
       "0f38035b": {
         "root": {
@@ -101,7 +107,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1244890"
+        }
       },
       "0bbd02f9": {
         "root": {
@@ -122,7 +130,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q11567"
+        }
       },
       "042901a5": {
         "root": {
@@ -143,7 +153,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q12916"
+        }
       },
       "078701c7": {
         "root": {
@@ -164,7 +176,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q13366104"
+        }
       },
       "027c0138": {
         "root": {
@@ -185,7 +199,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q13366129"
+        }
       }
     },
     "refs": {
