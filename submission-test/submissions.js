@@ -333,7 +333,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
       questionLabel = `Comment dit-on ${foreign} en français?`;
       break;
     case "IT":
-      questionLabel = `Come se dice ${foreign} in italiano?`;
+      questionLabel = `Come si dice ${foreign} in italiano?`;
       break;
     case "JA":
       questionLabel = `日本語で ${foreign} は何と言いますか?`;
