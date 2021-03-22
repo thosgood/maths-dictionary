@@ -32,7 +32,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "natural", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -50,7 +50,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "positivo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -68,7 +68,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "negativo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -86,7 +86,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "racional", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -104,7 +104,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "complexo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -122,7 +122,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "real", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -140,7 +140,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "par", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -158,7 +158,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "ímpar", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -255,7 +255,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "parcial", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -291,7 +291,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "holomorficzna", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "holomorfa", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -309,7 +309,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "różniczkowalna", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "diferenciável", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -352,7 +352,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "linear", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -370,7 +370,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "monótono", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -413,7 +413,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "cząstkowa", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "parcial", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -456,7 +456,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "otwarte", "pstn": "before" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "aberta", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -499,7 +499,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "wolna", "pstn": "before" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "livre", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -517,7 +517,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "finitamente gerada", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -535,7 +535,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "booliana", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -553,7 +553,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "de Lie", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -571,7 +571,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "exterior", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -589,7 +589,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "matricial", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -607,7 +607,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "simétrica", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -625,7 +625,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "tensorial", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -643,7 +643,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "universal", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1072,7 +1072,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "normal", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1108,7 +1108,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "가환", "pstn": "before" },
         "PL": { "atom": "przemienna", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "comutativo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1144,7 +1144,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "순환", "pstn": "before" },
         "PL": { "atom": "cykliczna", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "cíclico", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1252,7 +1252,7 @@
         "JA": { "atom": "可換", "pstn": "before" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "przemienny", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "comutativo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1270,7 +1270,7 @@
         "JA": { "atom": "非可換", "pstn": "before" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "nieprzemienny", "pstn": "after" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "não comutativo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1313,7 +1313,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "finitamente gerado", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1331,7 +1331,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "wolny", "pstn": "before" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "livre", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1349,7 +1349,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "projetivo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -1367,7 +1367,7 @@
         "JA": { "atom": "", "pstn": "" },
         "KO": { "atom": "", "pstn": "" },
         "PL": { "atom": "", "pstn": "" },
-        "PT": { "atom": "", "pstn": "" },
+        "PT": { "atom": "injetivo", "pstn": "after" },
         "RU": { "atom": "", "pstn": "" },
         "TR": { "atom": "", "pstn": "" },
         "ZH": { "atom": "", "pstn": "" }
@@ -3401,7 +3401,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "semelhança", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
@@ -4189,7 +4189,7 @@
       "JA": { "atom": "", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "", "gend": "" },
+      "PT": { "atom": "multiplicando", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
