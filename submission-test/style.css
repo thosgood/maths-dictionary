@@ -91,6 +91,12 @@ h4 {
   border: 1px solid black;
 }
 
+#question_card p {
+  font-style: italic;
+  text-align: left;
+  margin-top: 0;
+}
+
 #question_card label {
   display: block;
   margin: 1em 0;
@@ -182,11 +188,11 @@ button#finished {
   background-color: #ccc;
   border-radius: 1em;
   padding: 5px;
-  width: 30px;
+  /*width: 3px;*/
   position: absolute;
   bottom: 100%;
   left: 50%;
-  margin-left: -20px; /* width/2 - padding */
+  margin-left: -50%;
   z-index: 1;
 }
 

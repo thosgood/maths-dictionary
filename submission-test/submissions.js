@@ -210,7 +210,12 @@ var updateQuestionCard = function(number) {
   if (question["type"] === "noun") {
     var foreignContent = [];
     $.each(question["existing"], function(u, unknown) {
-      var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}</span></span>`;
+      var ref = dict[id]["refs"]["wikidata"];
+      var link = "";
+      if (typeof ref !== undefined) {
+        link = `</br>(<a href="https://www.wikidata.org/wiki/${ref}" target="_blank">${ref}</a>)`
+      }
+      var foreignWord =`<span class="unknown">${unknown}<span class="tooltip">${u}${link}</span></span>`;
       foreignContent.push(foreignWord);
     });
     
@@ -357,7 +362,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
       questionLabel = `${foreign} 中文怎么说?`;
       break;
     default:
-      questionLabel = `How do you say ${foreign} in English?`;
+      questionLabel = `How do you say ${foreign} in ${targetLang}?`;
       break;
   }
 
@@ -380,6 +385,7 @@ var generateQuestionCard = function(targetLang, totalNum) {
 
   questionCard = `
 <div id="question_card">
+  <p>(Hover over the underlined word to see more information and context)</p>
   <label id="question_label" for="question_input">
     ${questionLabel}
   </label>
