@@ -41,6 +41,7 @@ $(document).ready(function() {
     var columnsConf = [];
 
     var refsCol = {
+      "width": "100px",
       "title": "Reference",
       "data": "refs",
       "render": function( data, type, row ) {
@@ -67,6 +68,7 @@ $(document).ready(function() {
 
     languageCodes.forEach((language) => {
       var conf = {
+        "width": "210px",
         "title": language,
         // "data": "root." + language + ".atom"
         "data": "root." + language,
@@ -105,6 +107,7 @@ $(document).ready(function() {
       }
     })// closing DataTable
 
+
     $('#table').on("click", "tr.expandable", function() {
       // see https://datatables.net/examples/api/row_details.html
       var tr = $(this).closest('tr');
@@ -116,10 +119,13 @@ $(document).ready(function() {
       }
       else {
         // Open this row
+        // TODO: switch to using `row.add`
+        //      (https://datatables.net/reference/api/row.add())
         row.child( showAdjectives(row.data()) ).show();
         tr.addClass('expanded');
       }
     });// closing on click
+
 
     // toggle table columns on click
     $("#language_selectors").on("click", 'input', function(){
@@ -150,6 +156,7 @@ $(document).ready(function() {
 
   });// closing the getJSON
 
+
   // add rows for adjectives
   var showAdjectives = function (data) {
     var adjRows = [];
@@ -161,8 +168,7 @@ $(document).ready(function() {
 
     $.each(data["adjs"], function(a, adj) {
       var adjRow = `<tr class="adjective">`;
-      // add a blank entry at the start
-      // TODO: (this is where the `refs` should go)
+      // add a blank entry at the start for the `refs` column
       adjRow += "<td></td>";
       var emptyAdjRow = true;
 

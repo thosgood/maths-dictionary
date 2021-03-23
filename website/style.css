@@ -57,6 +57,7 @@ body {
 #table td,th {
   /*overflow: hidden;*/
   height: 30px;
+  /* TODO: remove this width once adjective rows are added with `row.add` */
   width: 210px;
   padding: 10px;
   /*border-bottom: 1px solid #ddd;*/
