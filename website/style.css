@@ -23,9 +23,9 @@ body {
   margin: auto;
   list-style-type: none;
   padding-left: 0px;
-  -webkit-column-width: 100px;
-  -moz-column-width: 100px;
-  column-width: 100px;
+  -webkit-column-width: 150px;
+  -moz-column-width: 150px;
+  column-width: 150px;
   /*-moz-column-count: 4;
   -moz-column-gap: 0px;
   -webkit-column-count: 4;
@@ -135,7 +135,7 @@ table.dataTable thead .sorting_desc:after {
 }
 
 #table span.gender {
-  padding-left: 4px;
+  padding-left: 8px;
   font-style: italic;
 }
 

@@ -1,6 +1,7 @@
-var langs = [];
-var visibleLangs = [];
+var langs = {};
 var dict = {};
+var languageCodes = [];
+var visibleLangs = [];
 
 var updateVisibleLangs = function(){
   visibleLangs = [];
@@ -12,23 +13,38 @@ var updateVisibleLangs = function(){
 
 $(document).ready(function() {
 
+  // generate language_selectors from languages
+  $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
+    langs = json;
+    // Get all language codes
+    languageCodes = Object.keys(langs);
+
+    var i = 1;
+    $.each(json, function(code, data){
+      var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
+      // EN is checked by default
+      if (code =="EN"){
+        html += "checked"
+      }
+      html +=`><label for="${code}">${data["endonym"]}</label></li>`
+      $("#language_selectors").append(html);
+      i++;
+    });
+    updateVisibleLangs();
+  });
+
   $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
     // convert the dict as an array
     var data = Object.values(json);
-    // Get all language codes
-    var languageCodes = Object.keys(data[0].root);
 
     // For columns configuration see https://datatables.net/examples/ajax/deep.html
     var columnsConf = [];
 
     var refsConf = {
       "title": "Reference",
-      // should look through ALL possible refs...
       "data": "refs",
       "render": function( data, type, row ) {
-        if (typeof data === "undefined" || data === {}) {
-          return "n/a";
-        } else {
+        if (typeof data !== "undefined" || data !== {}) {
           var ref = "";
           if (data["wikidata"]) {
             ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${data["wikidata"]}">${data["wikidata"]}</a>`;
@@ -40,6 +56,8 @@ $(document).ready(function() {
             ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
           };
           return ref;
+        } else {
+          return "n/a";
         };
       },
       "visible": true,
@@ -53,7 +71,12 @@ $(document).ready(function() {
         // "data": "root." + language + ".atom"
         "data": "root." + language,
         "render": function( data, type, row) {
-          return `${data["atom"]} <span class="gender">${data["gend"]}</span>`;
+          var string = ""
+          string += data["atom"];
+          if (data["gend"] != "") {
+            string += `<span class="gender">(${data["gend"][0]})</span>`;
+          };
+          return string;
         }
       }
       // At first, only show English
@@ -125,22 +148,6 @@ $(document).ready(function() {
 
   });// closing the getJSON
 
-  // generate language_selectors from languages
-  $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
-    var i = 1;
-    $.each(json, function(code, data){
-      var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
-      // EN is checked by default
-      if (code =="EN"){
-        html += "checked"
-      }
-      html +=`><label for="${code}">${data["endonym"]}</label></li>`
-      $("#language_selectors").append(html);
-      i++;
-    });
-    updateVisibleLangs();
-  });
-
   // add rows for adjectives
   var showAdjectives = function (data) {
     var adjRows = [];
@@ -165,10 +172,15 @@ $(document).ready(function() {
           return true;
         };
         emptyAdjRow = false;
-        // TODO: check whether language is RTL or LTR
-        if (adjective["pstn"] === "after"){adjRow+="___ "};
+        var dir = langs[lang]["direction"];
+        var pstn = adjective["pstn"]
+        if ((pstn === "after" && dir === "LTR") || (pstn === "before" && dir === "RTL")) {
+          adjRow+="___ "
+        };
         adjRow += adjective["atom"];
-        if (adjective["pstn"] === "before"){adjRow+=" ___"};
+        if ((pstn === "before" && dir === "LTR") || (pstn === "after" && dir === "RTL")) {
+          adjRow+=" ___"
+        };
         adjRow += "</td>";
       });
 

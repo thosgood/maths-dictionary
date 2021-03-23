@@ -11,7 +11,6 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ## Todo
 
-- **show gender**
 - ~~~add an initial column with `refs` data (automatically href'd etc)~~~
     + **this should also show up in the `labs.thosgood.com` submission tool**
 - make language header row sticky at top
@@ -20,8 +19,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 - a way to inherit adjectives from another entry!
     + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
 - search should also search through adjectives
-- LTR/RTL information should be used when displaying adjectives!
-    + should also be reflected in `text-align` in the css
+- LTR/RTL should be reflected in `text-align` in the css
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - **think about verbs...**
