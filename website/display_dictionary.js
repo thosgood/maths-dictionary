@@ -40,7 +40,7 @@ $(document).ready(function() {
     // For columns configuration see https://datatables.net/examples/ajax/deep.html
     var columnsConf = [];
 
-    var refsConf = {
+    var refsCol = {
       "title": "Reference",
       "data": "refs",
       "render": function( data, type, row ) {
@@ -63,7 +63,7 @@ $(document).ready(function() {
       "visible": true,
       "searchable": true
     }
-    columnsConf.push(refsConf);
+    columnsConf.push(refsCol);
 
     languageCodes.forEach((language) => {
       var conf = {
@@ -91,11 +91,13 @@ $(document).ready(function() {
     var table = $('#table').DataTable( {
       data: data,
       "columns": columnsConf,
-      "paging": false,
       "autoWidth": false,
-      "order": [[ 1, "asc" ]],
+      "paging": true,
+      "pageLength": 25,
+      "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ],
+      // "pagingType": "numbers",
+      "order": [[ 0, "asc" ]],
       // add expandable class if adjs
-      // https://datatables.net/reference/option/createdRow
       "createdRow": function( row, data, dataIndex ) {
         if (!($.isEmptyObject(data.adjs))){
           $(row).addClass("expandable")
@@ -143,7 +145,7 @@ $(document).ready(function() {
       columnsettings.bSearchable = column.visible();
       //reset the table's searchability settings to add or remove the toggled column
       table.rows().invalidate();
-      table.draw();//this will rerun the last search with the visible fileds only
+      table.draw();//this will rerun the last search with the visible fields only
     });// toggle table columns on click
 
   });// closing the getJSON

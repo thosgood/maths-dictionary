@@ -3,10 +3,6 @@ body {
   text-align: center;
 }
 
-#github_link {
-  border: 1px solid black;
-}
-
 
 
 /* Language selection boxes */
@@ -45,10 +41,9 @@ body {
 
 /*The dictionary table*/
 
-#table_container {
+#table_wrapper {
   /*height: 400px;*/
   display: inline-block;
-  overflow-x: auto;
   /*border-bottom: 2px solid #999;*/
 }
 
@@ -60,7 +55,7 @@ body {
 }
 
 #table td,th {
-  overflow: hidden;
+  /*overflow: hidden;*/
   height: 30px;
   width: 210px;
   padding: 10px;
@@ -92,14 +87,14 @@ table.dataTable thead .sorting_asc:after {
   text-align: right;
   float:right;
   content: "\2193";
-  color:black;
+  color:white;
 }
 
 table.dataTable thead .sorting_desc:after {
   text-align: right;
   float:right;
   content: "\2191";
-  color:black;
+  color:white;
 }
 
 #table tr.expandable {
@@ -108,15 +103,14 @@ table.dataTable thead .sorting_desc:after {
 
 #table tr.expandable td:after {
   float: right;
-  content: "+";
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  padding: 0 5px;
+  content: "\23F7";
+  /*border: 1px solid #ccc;*/
+  padding: 0 5px 2px 5px;
 }
 
 #table tr.expanded td:after {
   float: right;
-  content: "–";
+  content: "\23F6";
 }
 
 
