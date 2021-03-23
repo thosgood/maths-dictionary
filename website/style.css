@@ -42,38 +42,32 @@ body {
 /*The dictionary table*/
 
 #table_wrapper {
-  /*height: 400px;*/
   display: inline-block;
-  /*border-bottom: 2px solid #999;*/
+  width: 65%;
+}
+
+#table {
+  padding: 1em 0;
 }
 
 #table th {
-  /*position: sticky;
-  top: 0;*/
   background-color: #2a7ae2;
   color: white;
 }
 
 #table td,th {
-  /*overflow: hidden;*/
   height: 30px;
-  /* TODO: remove this width once adjective rows are added with `row.add` */
   width: 210px;
   padding: 10px;
-  /*border-bottom: 1px solid #ddd;*/
   text-align: left;
 }
 
-#table tr:nth-child(even) {
+#table tr.even {
   background-color: #f2f2f2;
 }
 
 #table tr:hover {
   background-color: #a3c7f3;
-}
-
-#table tr#table_headers:hover {
-  background-color: #fff;
 }
 
 
@@ -88,14 +82,14 @@ table.dataTable thead .sorting_asc:after {
   text-align: right;
   float:right;
   content: "\2193";
-  color:white;
+  /*color:white;*/
 }
 
 table.dataTable thead .sorting_desc:after {
   text-align: right;
   float:right;
   content: "\2191";
-  color:white;
+  /*color:white;*/
 }
 
 #table tr.expandable {
@@ -123,10 +117,9 @@ table.dataTable thead .sorting_desc:after {
 }
 
 #table tr.adjective td {
-  height: 20px;
+  /*height: 30px;*/
   text-align: right;
-  font-style: italic;
-  font-size: 11pt;
+  /*font-size: 11pt;*/
 }
 
 #table span.gender {

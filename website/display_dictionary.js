@@ -41,6 +41,7 @@ $(document).ready(function() {
     var columnsConf = [];
 
     var refsCol = {
+      // TOOD: fix adjective rows; remove width from `style.css`
       "width": "100px",
       "title": "Reference",
       "data": "refs",
@@ -94,8 +95,9 @@ $(document).ready(function() {
       data: data,
       "columns": columnsConf,
       "autoWidth": false,
+      fixedHeader: true,
       "paging": true,
-      "pageLength": 25,
+      "pageLength": 10,
       "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ],
       // "pagingType": "numbers",
       "order": [[ 0, "asc" ]],
