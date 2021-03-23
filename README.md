@@ -13,7 +13,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 - sort out the way that rows are added for adjectives
     + **use `row.add()`?**
-- ~~~add an initial column with `refs` data (automatically href'd etc)~~~
+- ~~add an initial column with `refs` data (automatically href'd etc)~~
     + **this should also show up in the `labs.thosgood.com` submission tool**
 - make language header row sticky at top
 - support for multiple atoms
