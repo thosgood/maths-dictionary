@@ -70,8 +70,9 @@ $(document).ready(function() {
     languageCodes.forEach((language) => {
       var conf = {
         "width": "210px",
+        "visible": false,
+        "searchable": false,
         "title": language,
-        // "data": "root." + language + ".atom"
         "data": "root." + language,
         "render": function( data, type, row) {
           var string = ""
@@ -82,10 +83,10 @@ $(document).ready(function() {
           return string;
         }
       }
-      // At first, only show English
-      if (language != "EN") {
-        conf["visible"] = false;
-        conf["searchable"] = false;
+      // At first, only show English and French
+      if (language == "EN" || language == "FR") {
+        conf["visible"] = true;
+        conf["searchable"] = true;
       }
       columnsConf.push(conf);
     });

@@ -56,9 +56,9 @@ body {
 }
 
 #table td,th {
-  height: 30px;
+  height: 40px;
   width: 210px;
-  padding: 10px;
+  padding: 0 15px;
   text-align: left;
 }
 
@@ -75,21 +75,19 @@ body {
 /* The dictionary table (interactivity) */
 
 table.dataTable thead {
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 table.dataTable thead .sorting_asc:after {
   text-align: right;
-  float:right;
+  float: right;
   content: "\2193";
-  /*color:white;*/
 }
 
 table.dataTable thead .sorting_desc:after {
   text-align: right;
-  float:right;
+  float: right;
   content: "\2191";
-  /*color:white;*/
 }
 
 #table tr.expandable {
@@ -99,8 +97,6 @@ table.dataTable thead .sorting_desc:after {
 #table tr.expandable td:after {
   float: right;
   content: "\23F7";
-  /*border: 1px solid #ccc;*/
-  padding: 0 5px 2px 5px;
 }
 
 #table tr.expanded td:after {
