@@ -138,3 +138,32 @@ table.dataTable thead .sorting_desc:after {
   padding-left: 4px;
   font-style: italic;
 }
+
+
+
+/* Reference links */
+
+a.ref {
+  font-size: 0.9em;
+  font-family: monospace;
+  padding-right: 0.5em;
+}
+
+/*a.ref .tooltip {
+  font-size: 0.7em;
+  visibility: hidden;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 1em;
+  padding: 5px;
+  width: 30px;
+  position: relative;
+  bottom: 60%;
+  left: 0%;
+  margin-left: -55px;
+  z-index: 1;
+}
+
+a.ref:hover .tooltip {
+  visibility: visible;
+}*/

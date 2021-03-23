@@ -12,7 +12,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 ## Todo
 
 - **show gender**
-- **add an initial column with `refs` data (automatically href'd etc)**
+- ~~~add an initial column with `refs` data (automatically href'd etc)~~~
     + **this should also show up in the `labs.thosgood.com` submission tool**
 - make language header row sticky at top
 - support for multiple atoms
@@ -25,11 +25,8 @@ This dictionary is only as good as its entries, and for this there are many peop
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - **think about verbs...**
-- auto sort `EN` on load
 - link each entry (**incl. adjectives**) to a wikidata tag
     + any other useful sources?
         * MathWorld and Encyclopedia of Mathematics
-- get language selectors in `index.html` from the language `.json` files
-    + should get endonyms from there too
 
 (<https://www.freeformatter.com/json-escape.html> is useful)

@@ -20,13 +20,40 @@ $(document).ready(function() {
 
     // For columns configuration see https://datatables.net/examples/ajax/deep.html
     var columnsConf = [];
+
+    var refsConf = {
+      "title": "Reference",
+      // should look through ALL possible refs...
+      "data": "refs",
+      "render": function( data, type, row ) {
+        if (typeof data === "undefined" || data === {}) {
+          return "n/a";
+        } else {
+          var ref = "";
+          if (data["wikidata"]) {
+            ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${data["wikidata"]}">${data["wikidata"]}</a>`;
+          };
+          if (data["mathworld"]) {
+            ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${data["mathworld"]}.html">MathWorld</a>`;
+          };
+          if (data["eom"]) {
+            ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
+          };
+          return ref;
+        };
+      },
+      "visible": true,
+      "searchable": true
+    }
+    columnsConf.push(refsConf);
+
     languageCodes.forEach((language) => {
       var conf = {
         "title": language,
         "data": "root." + language + ".atom"
       }
       // At first, only show English
-      if (language != "EN"){
+      if (language != "EN") {
         conf["visible"] = false;
         conf["searchable"] = false;
       }
@@ -39,6 +66,7 @@ $(document).ready(function() {
       "columns": columnsConf,
       "paging": false,
       "autoWidth": false,
+      "order": [[ 1, "asc" ]],
       // add expandable class if adjs
       // https://datatables.net/reference/option/createdRow
       "createdRow": function( row, data, dataIndex ) {
@@ -121,6 +149,9 @@ $(document).ready(function() {
 
     $.each(data["adjs"], function(a, adj) {
       var adjRow = `<tr class="adjective">`;
+      // add a blank entry at the start
+      // TODO: (this is where the `refs` should go)
+      adjRow += "<td></td>";
       var emptyAdjRow = true;
 
       $.each(visibleLangs, function(i, lang) {
@@ -131,6 +162,7 @@ $(document).ready(function() {
           return true;
         };
         emptyAdjRow = false;
+        // TODO: check whether language is RTL or LTR
         if (adjective["pstn"] === "after"){adjRow+="___ "};
         adjRow += adjective["atom"];
         if (adjective["pstn"] === "before"){adjRow+=" ___"};
