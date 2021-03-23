@@ -23,7 +23,7 @@ $(document).ready(function() {
     $.each(json, function(code, data){
       var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
       // EN is checked by default
-      if (code =="EN"){
+      if (code == "EN" || code == "FR"){
         html += "checked"
       }
       html +=`><label for="${code}">${data["endonym"]}</label></li>`
