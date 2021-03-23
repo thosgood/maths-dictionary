@@ -70,6 +70,14 @@ body {
   background-color: #a3c7f3;
 }
 
+#table_info {
+  font-size: 10pt;
+}
+
+#table_paginate {
+  font-size: 10pt;
+}
+
 
 
 /* The dictionary table (interactivity) */
@@ -113,9 +121,7 @@ table.dataTable thead .sorting_desc:after {
 }
 
 #table tr.adjective td {
-  /*height: 30px;*/
   text-align: right;
-  /*font-size: 11pt;*/
 }
 
 #table span.gender {
@@ -132,22 +138,3 @@ a.ref {
   font-family: monospace;
   padding-right: 0.5em;
 }
-
-/*a.ref .tooltip {
-  font-size: 0.7em;
-  visibility: hidden;
-  text-align: center;
-  background-color: #ccc;
-  border-radius: 1em;
-  padding: 5px;
-  width: 30px;
-  position: relative;
-  bottom: 60%;
-  left: 0%;
-  margin-left: -55px;
-  z-index: 1;
-}
-
-a.ref:hover .tooltip {
-  visibility: visible;
-}*/

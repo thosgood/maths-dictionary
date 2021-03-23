@@ -1188,7 +1188,7 @@
     "adjs": {
       "0ba202dd": {
         "root": {
-          "CA": { "atom": "reduït", "pstn": "after" }, 
+          "CA": { "atom": "reduït", "pstn": "after" },
           "DE": { "atom": "reduzierte", "pstn": "before" },
           "EN": { "atom": "reduced", "pstn": "before" },
           "ES": { "atom": "reducido", "pstn": "after" },
@@ -1387,7 +1387,7 @@
     }
   },
   "044a01b1": {
-    "root": {   
+    "root": {
       "CA": { "atom": "anell", "gend": "masculí" },
       "DE": { "atom": "Ring", "gend": "maskulin" },
       "EN": { "atom": "ring", "gend": "" },
@@ -1905,7 +1905,7 @@
         "refs": {}
       },
       "044801b3": {
-        "root": { 
+        "root": {
           "CA": { "atom": "obert", "pstn": "after" },
           "DE": { "atom": "offene", "pstn": "before" },
           "EN": { "atom": "open", "pstn": "before" },
@@ -1947,7 +1947,7 @@
         "refs": {}
       },
       "08b80282": {
-        "root": { 
+        "root": {
           "CA": { "atom": "obert i tancat", "pstn": "after" },
           "DE": { "atom": "abgeschloffene", "pstn": "before" },
           "EN": { "atom": "clopen", "pstn": "before" },
@@ -2245,6 +2245,7 @@
     },
     "adjs": {
       "0932029b" : {
+        "root" : {
           "CA": { "atom": "suau", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "smooth", "pstn": "before" },
@@ -2261,8 +2262,11 @@
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs" : {}
       },
       "0b9402e8" : {
+        "root" : {
           "CA": { "atom": "compacta", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "compact", "pstn": "before" },
@@ -2279,8 +2283,11 @@
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs" : {}
       },
       "12a103b4" : {
+        "root" : {
           "CA": { "atom": "connexa", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "connected", "pstn": "before" },
@@ -2297,6 +2304,8 @@
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs" : {}
       }
     },
     "refs": {
@@ -3028,7 +3037,7 @@
           "ZH": { "atom": "", "pstn": "" }
         },
         "refs": {}
-      }, 
+      },
       "0bfd02fd": {
         "root": {
           "CA": { "atom": "invers", "pstn": "after" },
