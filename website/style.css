@@ -70,11 +70,7 @@ body {
   background-color: #a3c7f3;
 }
 
-#table_info {
-  font-size: 10pt;
-}
-
-#table_paginate {
+#table_length, #table_filter, #table_info, #table_paginate {
   font-size: 10pt;
 }
 
