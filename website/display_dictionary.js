@@ -50,7 +50,11 @@ $(document).ready(function() {
     languageCodes.forEach((language) => {
       var conf = {
         "title": language,
-        "data": "root." + language + ".atom"
+        // "data": "root." + language + ".atom"
+        "data": "root." + language,
+        "render": function( data, type, row) {
+          return `${data["atom"]} <span class="gender">${data["gend"]}</span>`;
+        }
       }
       // At first, only show English
       if (language != "EN") {
@@ -70,7 +74,6 @@ $(document).ready(function() {
       // add expandable class if adjs
       // https://datatables.net/reference/option/createdRow
       "createdRow": function( row, data, dataIndex ) {
-        // We could deal with gender here later.
         if (!($.isEmptyObject(data.adjs))){
           $(row).addClass("expandable")
         }
@@ -124,7 +127,7 @@ $(document).ready(function() {
 
   // generate language_selectors from languages
   $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
-    var i = 0;
+    var i = 1;
     $.each(json, function(code, data){
       var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
       // EN is checked by default
