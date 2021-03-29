@@ -11,6 +11,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ## Todo
 
+- **link adjectives to wikidata/mathworld/eom**
 - sort out the way that rows are added for adjectives
     + **use `row.add()`?**
     + **initial `refs` column for adjectives**
@@ -23,9 +24,6 @@ This dictionary is only as good as its entries, and for this there are many peop
 - LTR/RTL should be reflected in `text-align` in the css
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
-- **think about verbs...**
-- link each entry (**incl. adjectives**) to a wikidata tag
-    + any other useful sources?
-        * MathWorld and Encyclopedia of Mathematics
+- think about verbs...
 
 (<https://www.freeformatter.com/json-escape.html> is useful)
