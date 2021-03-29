@@ -10,13 +10,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "nombre", "gend": "masculin" },
       "IT": { "atom": "numero", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "数", "gend": "" },
+      "KO": { "atom": "수", "gend": "" },
       "PL": { "atom": "numer", "gend": "męski" },
       "PT": { "atom": "número", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "數", "gend": "" }
     },
     "adjs": {
       "0beb02f8": {
@@ -219,13 +219,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "fonction", "gend": "féminin" },
       "IT": { "atom": "funzione", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "関数", "gend": "" },
+      "KO": { "atom": "함수", "gend": "" },
       "PL": { "atom": "funkcja", "gend": "żeński" },
       "PT": { "atom": "função", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "函数", "gend": "" }
     },
     "adjs": {
       "12b903c2": {
@@ -458,13 +458,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "dérivée", "gend": "féminin" },
       "IT": { "atom": "derivata", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "微分", "gend": "" },
+      "KO": { "atom": "미분", "gend": "" },
       "PL": { "atom": "pochodna", "gend": "żeński" },
       "PT": { "atom": "derivada", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "导数", "gend": "" }
     },
     "adjs": {
       "0bd002ee": {
@@ -504,13 +504,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "recouvrement", "gend": "masculin" },
       "IT": { "atom": "ricoprimento", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "集合の被覆", "gend": "" },
+      "KO": { "atom": "덮개", "gend": "" },
       "PL": { "atom": "pokrycie", "gend": "nijaki" },
       "PT": { "atom": "cobertura", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "覆盖", "gend": "" }
     },
     "adjs": {
       "044801b3": {
@@ -1350,7 +1350,7 @@
       "FR": { "atom": "espace topologique", "gend": "masculin" },
       "IT": { "atom": "spazio topologico", "gend": "maschile" },
       "JA": { "atom": "位相空間", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "KO": { "atom": "위상 공간", "gend": "" },
       "PL": { "atom": "przestrzeń topologiczna", "gend": "żeński" },
       "PT": { "atom": "espaço topológico", "gend": "masculino" },
       "RU": { "atom": "топологи́ческое простра́нство", "gend": "средний" },
@@ -1374,7 +1374,7 @@
       "FR": { "atom": "espace vectoriel", "gend": "masculin" },
       "IT": { "atom": "spazio vettoriale", "gend": "maschile" },
       "JA": { "atom": "ベクトル空間", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "KO": { "atom": "벡터 공간", "gend": "" },
       "PL": { "atom": "przestrzeń liniowa", "gend": "żeński" },
       "PT": { "atom": "espaço vetorial", "gend": "masculino" },
       "RU": { "atom": "ве́кторное простра́нство", "gend": "средний" },
@@ -1398,12 +1398,12 @@
       "FR": { "atom": "anneau", "gend": "masculin" },
       "IT": { "atom": "anello", "gend": "maschile" },
       "JA": { "atom": "環", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "KO": { "atom": "환", "gend": "" },
       "PL": { "atom": "pierścień", "gend": "męski" },
       "PT": { "atom": "anel", "gend": "masculino" },
       "RU": { "atom": "кольцо́", "gend": "средний" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "环", "gend": "" }
     },
     "adjs": {
       "1c0b04af": {
@@ -1464,12 +1464,12 @@
       "FR": { "atom": "module", "gend": "masculin" },
       "IT": { "atom": "modulo", "gend": "maschile" },
       "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "KO": { "atom": "가군", "gend": "" },
       "PL": { "atom": "moduł", "gend": "męski" },
       "PT": { "atom": "módulo", "gend": "masculino" },
       "RU": { "atom": "мо́дуль", "gend": "мужской" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "模", "gend": "" }
     },
     "adjs": {
       "44a90734": {
@@ -1572,13 +1572,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "corps", "gend": "masculin" },
       "IT": { "atom": "campo", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "可換体", "gend": "" },
+      "KO": { "atom": "체", "gend": "" },
       "PL": { "atom": "ciało", "gend": "nijaki" },
       "PT": { "atom": "corpo", "gend": "masculino" },
       "RU": { "atom": "по́ле", "gend": "средний" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "域", "gend": "" }
     },
     "adjs": {
       "08b70280": {
@@ -1660,8 +1660,8 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "catégorie", "gend": "féminin" },
       "IT": { "atom": "categoria", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "圏", "gend": "" },
+      "KO": { "atom": "범주", "gend": "" },
       "PL": { "atom": "kategoria", "gend": "żeński" },
       "PT": { "atom": "categoria", "gend": "feminino" },
       "RU": { "atom": "катего́рия", "gend": "женский" },
@@ -1853,13 +1853,13 @@
       "FI": { "atom": "joukko", "gend": "" },
       "FR": { "atom": "ensemble", "gend": "masculin" },
       "IT": { "atom": "insieme", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "集合", "gend": "" },
+      "KO": { "atom": "집합", "gend": "" },
       "PL": { "atom": "zbiór", "gend": "męski" },
       "PT": { "atom": "conjunto", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "集合", "gend": "" }
     },
     "adjs": {
       "06630230": {
@@ -2231,17 +2231,17 @@
       "EN": { "atom": "manifold", "gend": "" },
       "ES": { "atom": "variedad", "gend": "femenino" },
       "EU": { "atom": "barietate", "gend": "" },
-      "FA": { "atom": "رویه", "gend": "" },
+      "FA": { "atom": "منیفلد", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "varieté", "gend": "féminin" },
       "IT": { "atom": "varietà", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "多様体", "gend": "" },
+      "KO": { "atom": "다양체", "gend": "" },
       "PL": { "atom": "rozmaitość", "gend": "żeński" },
       "PT": { "atom": "variedade", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "流形", "gend": "" }
     },
     "adjs": {
       "0932029b" : {
@@ -2323,13 +2323,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "courbe", "gend": "féminin" },
       "IT": { "atom": "curva", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "曲線", "gend": "" },
+      "KO": { "atom": "곡선", "gend": "" },
       "PL": { "atom": "krzywa", "gend": "żeński" },
       "PT": { "atom": "curva", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "曲线", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -2347,13 +2347,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "surface", "gend": "féminin" },
       "IT": { "atom": "superficie", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "曲面", "gend": "" },
+      "KO": { "atom": "곡면", "gend": "" },
       "PL": { "atom": "powierzchnia", "gend": "żeński" },
       "PT": { "atom": "superfície", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "曲面", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -2395,13 +2395,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "foncteur", "gend": "masculin" },
       "IT": { "atom": "funtore", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "関手", "gend": "" },
+      "KO": { "atom": "함자", "gend": "" },
       "PL": { "atom": "funktor", "gend": "męski" },
       "PT": { "atom": "funtor", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "函子", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -2486,13 +2486,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "somme", "gend": "féminin" },
       "IT": { "atom": "somma", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "総和", "gend": "" },
+      "KO": { "atom": "유한합", "gend": "" },
       "PL": { "atom": "suma", "gend": "żeński" },
       "PT": { "atom": "soma", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "求和符号", "gend": "" }
     },
     "adjs": {
       "089c027c": {
@@ -2532,13 +2532,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "morphisme", "gend": "masculin" },
       "IT": { "atom": "morfismo", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "射", "gend": "" },
+      "KO": { "atom": "사상", "gend": "" },
       "PL": { "atom": "morfizm", "gend": "męski" },
       "PT": { "atom": "morfismo", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "态射", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -2580,13 +2580,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "série", "gend": "féminin" },
       "IT": { "atom": "serie", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "級数", "gend": "" },
+      "KO": { "atom": "급수", "gend": "" },
       "PL": { "atom": "szereg", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "级数", "gend": "" }
     },
     "adjs": {
       "1b8f049a": {
@@ -3096,13 +3096,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "algorithme", "gend": "masculin" },
       "IT": { "atom": "algoritmo", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "アルゴリズム", "gend": "" },
+      "KO": { "atom": "알고리즘", "gend": "" },
       "PL": { "atom": "algorytm", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "算法", "gend": "" }
     },
     "adjs": {
       "1157038b": {
@@ -3166,13 +3166,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "matrice", "gend": "féminin" },
       "IT": { "atom": "matrice", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "行列", "gend": "" },
+      "KO": { "atom": "행렬", "gend": "" },
       "PL": { "atom": "macierz", "gend": "żeński" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "矩阵", "gend": "" }
     },
     "adjs": {
       "0e840340": {
@@ -3323,7 +3323,7 @@
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "极大元", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -3347,7 +3347,7 @@
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "极小元", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -3365,13 +3365,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "logarithme", "gend": "masculin" },
       "IT": { "atom": "logaritmo", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "対数", "gend": "" },
+      "KO": { "atom": "로그", "gend": "" },
       "PL": { "atom": "logarytm", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "对数", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -3711,13 +3711,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "multiple", "gend": "masculin" },
       "IT": { "atom": "multiplo", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "倍数", "gend": "" },
+      "KO": { "atom": "배수", "gend": "" },
       "PL": { "atom": "wielokrotny", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "倍數", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -4111,13 +4111,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "axiome", "gend": "féminin" },
       "IT": { "atom": "assioma", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "公理", "gend": "" },
+      "KO": { "atom": "공리", "gend": "" },
       "PL": { "atom": "aksjomat", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "公理", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -4394,7 +4394,7 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "vecteur", "gend": "masculin" },
       "IT": { "atom": "vettore", "gend": "maschile" },
-      "JA": { "atom": "", "gend": "" },
+      "JA": { "atom": "ベクトル", "gend": "" },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "wektor", "gend": "męski" },
       "PT": { "atom": "", "gend": "" },
@@ -4623,48 +4623,26 @@
       "wikidata": "Q40276"
     }
   },
-  "042b01ad": {
+  "1f0d04b2": {
     "root": {
-      "CA": { "atom": "parell", "gend": "masculí" },
-      "DE": { "atom": "Paar", "gend": "neutral" },
-      "EN": { "atom": "pair", "gend": "" },
-      "ES": { "atom": "par", "gend": "masculino" },
-      "EU": { "atom": "bikote", "gend": "" },
-      "FA": { "atom": "جفت", "gend": "" },
+      "CA": { "atom": "parell ordenat", "gend": "masculí" },
+      "DE": { "atom": "Geordnetes Paar", "gend": "neutral" },
+      "EN": { "atom": "ordered pair", "gend": "" },
+      "ES": { "atom": "par ordenado", "gend": "masculino" },
+      "EU": { "atom": "bikote ordenatu", "gend": "" },
+      "FA": { "atom": "زوج مرتب", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "paire", "gend": "féminin" },
+      "FR": { "atom": "couple", "gend": "féminin" },
       "IT": { "atom": "coppia", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "para", "gend": "żeński" },
+      "JA": { "atom": " 順序対", "gend": "" },
+      "KO": { "atom": "순서쌍", "gend": "" },
+      "PL": { "atom": "para uporządkowana", "gend": "żeński" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "有序对", "gend": "" }
     },
-    "adjs": {
-      "0bc802e6": {
-        "root": {
-          "CA": { "atom": "ordenat", "pstn": "after" },
-          "DE": { "atom": "", "pstn": "" },
-          "EN": { "atom": "ordered", "pstn": "before" },
-          "ES": { "atom": "ordenado", "pstn": "after" },
-          "EU": { "atom": "ordenatu", "pstn": "after" },
-          "FA": { "atom": "", "pstn": "" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "ordonnée", "pstn": "after" },
-          "IT": { "atom": "", "pstn": "" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "", "pstn": "" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      }
-    },
+    "adjs": {},
     "refs": {
       "wikidata": "Q191290"
     }
@@ -4680,13 +4658,13 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "union", "gend": "féminin" },
       "IT": { "atom": "unione", "gend": "femminile" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
+      "JA": { "atom": "和集合", "gend": "" },
+      "KO": { "atom": "합집합", "gend": "" },
       "PL": { "atom": "unia", "gend": "żeński" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "并集", "gend": "" }
     },
     "adjs": {},
     "refs": {
