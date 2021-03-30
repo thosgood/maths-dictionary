@@ -695,7 +695,7 @@
           "FA": { "atom": "متقارن", "pstn": "after" },
           "FI": { "atom": "", "pstn": "" },
           "FR": { "atom": "symétrique", "pstn": "after" },
-          "IT": { "atom": "simmetrica", "pstn": "" },
+          "IT": { "atom": "simmetrica", "pstn": "after" },
           "JA": { "atom": "", "pstn": "" },
           "KO": { "atom": "", "pstn": "" },
           "PL": { "atom": "", "pstn": "" },
