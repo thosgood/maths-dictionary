@@ -1,5 +1,5 @@
 var dict = {};
-var languages
+var languages = {};
 var sourceLangs = [];
 var targetLang = "";
 var targetLangHasGend = false;
@@ -64,9 +64,9 @@ $(document).on("click", "#start", function() {
           if (targetAtom === "") {
             $.each(sourceLangs, function(l, lang) {
               // only add adjectives that already have the noun translated
-              if (adj[lang] !== undefined) {
-                var sourceAtom = adj[lang]["atom"];
-                var sourcePosition = adj[lang]["pstn"];
+              if (adj["root"][lang] !== undefined) {
+                var sourceAtom = adj["root"][lang]["atom"];
+                var sourcePosition = adj["root"][lang]["pstn"];
                 if (sourceAtom !== "") {
                   entry["existing"][lang] = {};
                   entry["existing"][lang]["atom"] = sourceAtom;

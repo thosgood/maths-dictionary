@@ -78,14 +78,14 @@ h4 {
 /* Question cards */
 
 #question_card {
-  /*margin: 2em auto;*/
+  margin: 2em auto;
   /*height: 70%;*/
   width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  /*position: absolute;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*-ms-transform: translate(-50%, -50%);*/
+  /*transform: translate(-50%, -50%);*/
   padding: 1.5em;
   text-align: center;
   border: 1px solid black;
