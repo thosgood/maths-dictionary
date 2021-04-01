@@ -254,12 +254,19 @@ var updateQuestionCard = function(number) {
   } else if (question["type"] === "adjective") {
     var foreignContent = [];
     $.each(question["existing"], function(u, unknown) {
+      compoundId = id.split("/")
+      var ref = dict[compoundId[0]]["adjs"][compoundId[1]]["refs"]["wikidata"];
+      var link = "";
+      if (typeof ref !== undefined) {
+        link = `</br>(<a href="https://www.wikidata.org/wiki/${ref}" target="_blank">${ref}</a>)`
+      }
+      var foreignWord = "";
       if (unknown["pstn"] === "before" && targetLangDirection === "LTR"
           || unknown["pstn"] === "after" && targetLangDirection === "RTL") {
-        var foreignWord =`<span class="unknown">${unknown["atom"]} ${question["noun"][u]["atom"]}<span class="tooltip">${u}</span></span>`;
+        foreignWord =`<span class="unknown">${unknown["atom"]} ${question["noun"][u]["atom"]}<span class="tooltip">${u}${link}</span></span>`;
       } else if (unknown["pstn"] === "after" && targetLangDirection === "LTR"
                  || unknown["pstn"] === "before" && targetLangDirection === "RTL") {
-        var foreignWord =`<span class="unknown">${question["noun"][u]["atom"]} ${unknown["atom"]}<span class="tooltip">${u}</span></span>`;
+        foreignWord =`<span class="unknown">${question["noun"][u]["atom"]} ${unknown["atom"]}<span class="tooltip">${u}${link}</span></span>`;
       }
       foreignContent.push(foreignWord);
     });
