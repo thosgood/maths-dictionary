@@ -34,6 +34,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 ## Existing dictionary resources
 
 - [http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf](http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf)
+- [https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf](https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf)
 - [https://en.wikipedia.org/wiki/Glossary_of_algebraic_geometry](https://en.wikipedia.org/wiki/Glossary_of_algebraic_geometry)
 - [https://www.lambdabetaeta.eu/ctgr.html](https://www.lambdabetaeta.eu/ctgr.html)
 - [https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/Matematika_Oinarrizko_Lexikoa.pdf](https://www.euskaltzaindia.eus/dok/iker_jagon_tegiak/Matematika_Oinarrizko_Lexikoa.pdf)
