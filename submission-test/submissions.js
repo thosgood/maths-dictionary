@@ -56,11 +56,10 @@ $(document).on("click", "#start", function() {
                         "id": `${i}/${a}`,
                         "noun": item["root"],
                         "existing": {} };
-          if (adj[targetLang] !== undefined) {
-            var targetAtom = adj[targetLang]["atom"];
-          } else {
-            var targetAtom = "";
-          };
+          var targetAtom = "";
+          if (adj["root"][targetLang] !== undefined) {
+            var targetAtom = adj["root"][targetLang]["atom"];
+          }
           if (targetAtom === "") {
             $.each(sourceLangs, function(l, lang) {
               // only add adjectives that already have the noun translated
