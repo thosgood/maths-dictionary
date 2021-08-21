@@ -13,6 +13,8 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ## Todo
 
+- **switch to [Dhall](https://dhall-lang.org/)!**
+
 - **link adjectives to wikidata/mathworld/eom**
 - sort out the way that rows are added for adjectives
     + **use `row.add()`?**
