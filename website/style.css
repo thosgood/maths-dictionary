@@ -100,12 +100,12 @@ table.dataTable thead .sorting_desc:after {
 
 #table tr.expandable td:after {
   float: right;
-  content: "\23F7";
+  content: "+";
 }
 
 #table tr.expanded td:after {
   float: right;
-  content: "\23F6";
+  content: "-";
 }
 
 
