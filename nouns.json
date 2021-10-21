@@ -36,7 +36,7 @@
           "PT": { "atom": "natural", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"自然", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q21199"
@@ -59,7 +59,7 @@
           "PT": { "atom": "positivo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"正", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q3176558"
@@ -82,7 +82,7 @@
           "PT": { "atom": "negativo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"负", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q200227"
@@ -105,7 +105,7 @@
           "PT": { "atom": "racional", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"有理", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q1244890"
@@ -128,7 +128,7 @@
           "PT": { "atom": "complexo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"复", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q11567"
@@ -151,7 +151,7 @@
           "PT": { "atom": "real", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"实", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q12916"
@@ -174,7 +174,7 @@
           "PT": { "atom": "par", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"偶", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q13366104"
@@ -197,7 +197,7 @@
           "PT": { "atom": "ímpar", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"奇", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q13366129"
@@ -245,7 +245,7 @@
           "PT": { "atom": "injetiva", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"单射", "pstn":"before" }
         },
         "refs": {}
       },
@@ -266,7 +266,7 @@
           "PT": { "atom": "sobrejetiva", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"满射", "pstn":"before" }
         },
         "refs": {}
       },
@@ -287,7 +287,7 @@
           "PT": { "atom": "bijetiva", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"双射", "pstn":"before" }
         },
         "refs": {}
       },
@@ -329,7 +329,7 @@
           "PT": { "atom": "contínua", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"连续", "pstn":"before" }
         },
         "refs": {}
       },
@@ -350,7 +350,7 @@
           "PT": { "atom": "holomorfa", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"全纯", "pstn":"before" }
         },
         "refs": {}
       },
@@ -371,7 +371,7 @@
           "PT": { "atom": "diferenciável", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"可微", "pstn":"before" }
         },
         "refs": {}
       }
@@ -484,7 +484,7 @@
           "PT": { "atom": "parcial", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"偏", "pstn":"before" }
         },
         "refs": {}
       }
@@ -530,7 +530,7 @@
           "PT": { "atom": "aberta", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"开", "pstn":"before" }
         },
         "refs": {}
       }
@@ -880,7 +880,7 @@
           "PT": { "atom": "afim", "pstn": "after" },
           "RU": { "atom": "аффи́нная", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"仿射", "pstn":"before" }
         },
         "refs": {}
       },
@@ -901,7 +901,7 @@
           "PT": { "atom": "conexo", "pstn": "after" },
           "RU": { "atom": "связна́я", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"连通", "pstn":"before" }
         },
         "refs": {}
       },
@@ -922,7 +922,7 @@
           "PT": { "atom": "noetheriano", "pstn": "after" },
           "RU": { "atom": "нётерова", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"诺特", "pstn":"before" }
         },
         "refs": {}
       },
@@ -943,7 +943,7 @@
           "PT": { "atom": "localmente noetheriano", "pstn": "after" },
           "RU": { "atom": "лока́льно нётерова", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"局部诺特", "pstn":"before" }
         },
         "refs": {}
       },
@@ -964,7 +964,7 @@
           "PT": { "atom": "reduzido", "pstn": "after" },
           "RU": { "atom": "приведённая", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"约化", "pstn":"before" }
         },
         "refs": {}
       },
@@ -985,7 +985,7 @@
           "PT": { "atom": "integral", "pstn": "after" },
           "RU": { "atom": "це́лая", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"整", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1006,7 +1006,7 @@
           "PT": { "atom": "separado", "pstn": "after" },
           "RU": { "atom": "отдели́мая", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"分离", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1027,7 +1027,7 @@
           "PT": { "atom": "irredutível", "pstn": "after" },
           "RU": { "atom": "неприводи́мая", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"不可约", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1048,7 +1048,7 @@
           "PT": { "atom": "normal", "pstn": "after" },
           "RU": { "atom": "норма́льная", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"正则", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1069,7 +1069,7 @@
           "PT": { "atom": "quase-compacto", "pstn": "after" },
           "RU": { "atom": "квазикомпа́ктная", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"拟紧", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1090,7 +1090,7 @@
           "PT": { "atom": "de tipo finito", "pstn": "after" },
           "RU": { "atom": "коне́чного ти́па", "pstn": "after" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"有限型", "pstn":"before" }
         },
         "refs": {}
       }
@@ -1136,7 +1136,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"一致", "pstn":"before" }
         },
         "refs": {}
       },
@@ -1157,7 +1157,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom":"拟一致", "pstn":"before" }
         },
         "refs": {}
       }
