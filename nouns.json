@@ -397,7 +397,7 @@
       "PT": { "atom": "mapa", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "映射", "gend": "" }
     },
     "adjs": {
       "08b6027c": {
@@ -556,7 +556,7 @@
       "PT": { "atom": "álgebra", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "代数", "gend": "" }
     },
     "adjs": {
       "042101a3": {
@@ -812,7 +812,7 @@
       "PT": { "atom": "tesselação", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "铺砌", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -836,7 +836,7 @@
       "PT": { "atom": "mergulho", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "嵌入", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -3765,7 +3765,7 @@
       "PT": { "atom": "semelhança", "gend": "feminino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "相似性", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -4568,7 +4568,7 @@
       "PT": { "atom": "multiplicando", "gend": "masculino" },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
+      "ZH": { "atom": "乘项", "gend": "" }
     },
     "adjs": {},
     "refs": {
