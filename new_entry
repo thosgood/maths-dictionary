@@ -1,0 +1,41 @@
+#!/usr/bin/ruby
+require "adler32"
+require 'net/http'
+require 'uri'
+require 'json'
+
+output = []
+# to-do: grab these from languages.json
+languages = ["CA", "DE", "EN", "ES", "EU", "FA", "FI", "FR", "IT", "JA", "KO", "PL", "PT", "RU", "TR", "ZH"]
+
+for arg in ARGV
+  entries = []
+  uri = URI.parse("https://www.wikidata.org/wiki/Special:EntityData/#{arg}.json")
+  response = Net::HTTP.get_response(uri)
+  json = JSON.parse(response.body)
+  for lang in languages
+    item = json["entities"][arg]["labels"]
+    unless item[lang.downcase].nil?
+      atom = item[lang.downcase]["value"]
+      entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
+    else
+      entries.push(%`"#{lang}": { "atom": "", "gend": "" }`)
+    end
+  end
+  key = Adler32.checksum (json["entities"][arg]["labels"]["en"]["value"])
+  entry = %`"#{key}": {
+  "root": {
+#{entries.map {|l| "    #{l}"}.join(",\n")}
+  },
+  "adjs": {},
+  "refs": {
+    "wikidata": "#{arg}"
+  }
+},
+`
+  output.push(entry)
+end
+
+# copy the output to the clipboard instead of just printing it
+IO.popen('pbcopy', 'w') { |f| f << output[0] }
+puts "Copied to clipboard!"

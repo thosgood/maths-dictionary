@@ -4766,5 +4766,29 @@
     "refs": {
       "wikidata": "Q1183559"
     }
+  },
+  "0fc0037e": {
+    "root": {
+      "CA": { "atom": "topologia", "gend": "?" },
+      "DE": { "atom": "Topologie", "gend": "?" },
+      "EN": { "atom": "topology", "gend": "?" },
+      "ES": { "atom": "topología", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "topologie", "gend": "?" },
+      "IT": { "atom": "topologia", "gend": "?" },
+      "JA": { "atom": "", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "topologią", "gend": "?" },
+      "PT": { "atom": "topologia", "gend": "?" },
+      "RU": { "atom": "топология", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "拓樸", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q18786106"
+    }
   }
 }
