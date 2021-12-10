@@ -4790,5 +4790,293 @@
     "refs": {
       "wikidata": "Q18786106"
     }
-  }
+  },
+  "065f0210": {
+    "root": {
+      "CA": { "atom": "traça", "gend": "?" },
+      "DE": { "atom": "Spur", "gend": "?" },
+      "EN": { "atom": "trace", "gend": "?" },
+      "ES": { "atom": "traza", "gend": "?" },
+      "EU": { "atom": "Aztarna", "gend": "?" },
+      "FA": { "atom": "اثر", "gend": "?" },
+      "FI": { "atom": "Jälki", "gend": "?" },
+      "FR": { "atom": "trace", "gend": "?" },
+      "IT": { "atom": "traccia", "gend": "?" },
+      "JA": { "atom": "跡", "gend": "?" },
+      "KO": { "atom": "대각합", "gend": "?" },
+      "PL": { "atom": "ślad", "gend": "?" },
+      "PT": { "atom": "traço", "gend": "?" },
+      "RU": { "atom": "след", "gend": "?" },
+      "TR": { "atom": "İlkköşegen toplamı", "gend": "?" },
+      "ZH": { "atom": "跡", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q321102"
+    }
+  },
+  "065f0210": {
+    "root": {
+      "CA": { "atom": "traça", "gend": "?" },
+      "DE": { "atom": "Spur", "gend": "?" },
+      "EN": { "atom": "trace", "gend": "?" },
+      "ES": { "atom": "traza", "gend": "?" },
+      "EU": { "atom": "Aztarna", "gend": "?" },
+      "FA": { "atom": "اثر", "gend": "?" },
+      "FI": { "atom": "Jälki", "gend": "?" },
+      "FR": { "atom": "trace", "gend": "?" },
+      "IT": { "atom": "traccia", "gend": "?" },
+      "JA": { "atom": "跡", "gend": "?" },
+      "KO": { "atom": "대각합", "gend": "?" },
+      "PL": { "atom": "ślad", "gend": "?" },
+      "PT": { "atom": "traço", "gend": "?" },
+      "RU": { "atom": "след", "gend": "?" },
+      "TR": { "atom": "İlkköşegen toplamı", "gend": "?" },
+      "ZH": { "atom": "跡", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q321102"
+    }
+  },
+  "380a069e": {
+    "root": {
+      "CA": { "atom": "compactificació", "gend": "?" },
+      "DE": { "atom": "Kompaktifizierung", "gend": "?" },
+      "EN": { "atom": "compactification", "gend": "?" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "فشرده سازی", "gend": "?" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "Compactification", "gend": "?" },
+      "IT": { "atom": "Compattificazione", "gend": "?" },
+      "JA": { "atom": "コンパクト化", "gend": "?" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "Uzwarcenie", "gend": "?" },
+      "PT": { "atom": "Compactificação", "gend": "?" },
+      "RU": { "atom": "Компактификация", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "紧化", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q546145"
+    }
+  },
+  "12a703c7": {
+    "root": {
+      "CA": { "atom": "dimensió", "gend": "?" },
+      "DE": { "atom": "Dimension", "gend": "?" },
+      "EN": { "atom": "dimension", "gend": "?" },
+      "ES": { "atom": "dimensión", "gend": "?" },
+      "EU": { "atom": "Dimentsio", "gend": "?" },
+      "FA": { "atom": "فضای ان بعدی", "gend": "?" },
+      "FI": { "atom": "ulottuvuus", "gend": "?" },
+      "FR": { "atom": "dimension", "gend": "?" },
+      "IT": { "atom": "dimensione", "gend": "?" },
+      "JA": { "atom": "次元", "gend": "?" },
+      "KO": { "atom": "차원", "gend": "?" },
+      "PL": { "atom": "wymiar", "gend": "?" },
+      "PT": { "atom": "dimensão", "gend": "?" },
+      "RU": { "atom": "размерность", "gend": "?" },
+      "TR": { "atom": "boyut", "gend": "?" },
+      "ZH": { "atom": "維度", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q4440864"
+    }
+  },
+  "06090209": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Faser", "gend": "?" },
+      "EN": { "atom": "fiber", "gend": "?" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "تار (ریاضیات)", "gend": "?" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "fibre", "gend": "?" },
+      "IT": { "atom": "fibra", "gend": "?" },
+      "JA": { "atom": "ファイバー", "gend": "?" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "слой", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "纖維", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1640811"
+    }
+  },
+  "3eec06a2": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Geschlecht", "gend": "?" },
+      "EN": { "atom": "genus", "gend": "?" },
+      "ES": { "atom": "género", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "گونا", "gend": "?" },
+      "FI": { "atom": "genus", "gend": "?" },
+      "FR": { "atom": "genre", "gend": "?" },
+      "IT": { "atom": "genere", "gend": "?" },
+      "JA": { "atom": "種数", "gend": "?" },
+      "KO": { "atom": "곡면 종수", "gend": "?" },
+      "PL": { "atom": "genus", "gend": "?" },
+      "PT": { "atom": "género", "gend": "?" },
+      "RU": { "atom": "род поверхности", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "亏格", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q28517129"
+    }
+  },
+  "061b0206": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Gerbe", "gend": "?" },
+      "EN": { "atom": "gerbe", "gend": "?" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "gerbe", "gend": "?" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "ジャーブ", "gend": "?" },
+      "KO": { "atom": "제르브", "gend": "?" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q118705"
+    }
+  },
+  "17dc0445": {
+    "root": {
+      "CA": { "atom": "polinomi", "gend": "?" },
+      "DE": { "atom": "Polynom", "gend": "?" },
+      "EN": { "atom": "polynomial", "gend": "?" },
+      "ES": { "atom": "polinomio", "gend": "?" },
+      "EU": { "atom": "polinomio", "gend": "?" },
+      "FA": { "atom": "چندجمله ای", "gend": "?" },
+      "FI": { "atom": "polynomi", "gend": "?" },
+      "FR": { "atom": "polynôme", "gend": "?" },
+      "IT": { "atom": "polinomio", "gend": "?" },
+      "JA": { "atom": "多項式", "gend": "?" },
+      "KO": { "atom": "다항식", "gend": "?" },
+      "PL": { "atom": "wielomian", "gend": "?" },
+      "PT": { "atom": "polinómio", "gend": "?" },
+      "RU": { "atom": "многочлен", "gend": "?" },
+      "TR": { "atom": "polinom", "gend": "?" },
+      "ZH": { "atom": "多項式", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q43260"
+    }
+  },
+  "1f3e04b7": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Modulraum", "gend": "?" },
+      "EN": { "atom": "moduli space", "gend": "?" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "espace de modules", "gend": "?" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "モジュライ空間", "gend": "?" },
+      "KO": { "atom": "모듈러스 공간", "gend": "?" },
+      "PL": { "atom": "przestrzeń moduli", "gend": "?" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "пространство модулей", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "模空间", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q845677"
+    }
+  },
+  "0f180352": {
+    "root": {
+      "CA": { "atom": "Orbifold", "gend": "?" },
+      "DE": { "atom": "Orbifaltigkeit", "gend": "?" },
+      "EN": { "atom": "orbifold", "gend": "?" },
+      "ES": { "atom": "orbifold", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "orbifold", "gend": "?" },
+      "IT": { "atom": "orbifold", "gend": "?" },
+      "JA": { "atom": "軌道体", "gend": "?" },
+      "KO": { "atom": "오비폴드", "gend": "?" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "orbivariedade", "gend": "?" },
+      "RU": { "atom": "орбифолд", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "軌形", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q40460"
+    }
+  },
+  "78d409c6": {
+    "root": {
+      "CA": { "atom": "singularitat", "gend": "?" },
+      "DE": { "atom": "Definitionslücke", "gend": "?" },
+      "EN": { "atom": "singularity", "gend": "?" },
+      "ES": { "atom": "singularidad", "gend": "?" },
+      "EU": { "atom": "Singulartasun", "gend": "?" },
+      "FA": { "atom": "تکینگی", "gend": "?" },
+      "FI": { "atom": "Singulariteetti", "gend": "?" },
+      "FR": { "atom": "singularité", "gend": "?" },
+      "IT": { "atom": "singolarità", "gend": "?" },
+      "JA": { "atom": "特異点", "gend": "?" },
+      "KO": { "atom": "특이점", "gend": "?" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "singularidade", "gend": "?" },
+      "RU": { "atom": "особенность", "gend": "?" },
+      "TR": { "atom": "tekillik", "gend": "?" },
+      "ZH": { "atom": "奇点", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q863349"
+    }
+  },
+  "165503f8": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "blow-up", "gend": "?" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "Éclatement", "gend": "?" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "爆発 (代数幾何学)", "gend": "?" },
+      "KO": { "atom": "부풀리기", "gend": "?" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "explosão", "gend": "?" },
+      "RU": { "atom": "Раздутие", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "拉開", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1036595"
+    }
+  },
 }

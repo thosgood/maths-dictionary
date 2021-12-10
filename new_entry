@@ -5,6 +5,7 @@ require 'uri'
 require 'json'
 
 output = []
+found = []
 # to-do: grab these from languages.json
 languages = ["CA", "DE", "EN", "ES", "EU", "FA", "FI", "FR", "IT", "JA", "KO", "PL", "PT", "RU", "TR", "ZH"]
 
@@ -18,6 +19,7 @@ for arg in ARGV
     unless item[lang.downcase].nil?
       atom = item[lang.downcase]["value"]
       entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
+      found.push(lang)
     else
       entries.push(%`"#{lang}": { "atom": "", "gend": "" }`)
     end
@@ -38,4 +40,5 @@ end
 
 # copy the output to the clipboard instead of just printing it
 IO.popen('pbcopy', 'w') { |f| f << output[0] }
+puts "Languages found: #{found.to_s}"
 puts "Copied to clipboard!"
