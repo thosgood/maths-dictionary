@@ -4815,30 +4815,6 @@
       "wikidata": "Q321102"
     }
   },
-  "065f0210": {
-    "root": {
-      "CA": { "atom": "traça", "gend": "?" },
-      "DE": { "atom": "Spur", "gend": "?" },
-      "EN": { "atom": "trace", "gend": "?" },
-      "ES": { "atom": "traza", "gend": "?" },
-      "EU": { "atom": "Aztarna", "gend": "?" },
-      "FA": { "atom": "اثر", "gend": "?" },
-      "FI": { "atom": "Jälki", "gend": "?" },
-      "FR": { "atom": "trace", "gend": "?" },
-      "IT": { "atom": "traccia", "gend": "?" },
-      "JA": { "atom": "跡", "gend": "?" },
-      "KO": { "atom": "대각합", "gend": "?" },
-      "PL": { "atom": "ślad", "gend": "?" },
-      "PT": { "atom": "traço", "gend": "?" },
-      "RU": { "atom": "след", "gend": "?" },
-      "TR": { "atom": "İlkköşegen toplamı", "gend": "?" },
-      "ZH": { "atom": "跡", "gend": "?" }
-    },
-    "adjs": {},
-    "refs": {
-      "wikidata": "Q321102"
-    }
-  },
   "380a069e": {
     "root": {
       "CA": { "atom": "compactificació", "gend": "?" },
