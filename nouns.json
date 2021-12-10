@@ -4789,7 +4789,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q18786106"
-    }
+    },
+    "verified": "false"
   },
   "065f0210": {
     "root": {
@@ -4813,7 +4814,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q321102"
-    }
+    },
+    "verified": "false"
   },
   "380a069e": {
     "root": {
@@ -4837,7 +4839,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q546145"
-    }
+    },
+    "verified": "false"
   },
   "12a703c7": {
     "root": {
@@ -4861,7 +4864,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q4440864"
-    }
+    },
+    "verified": "false"
   },
   "06090209": {
     "root": {
@@ -4885,7 +4889,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q1640811"
-    }
+    },
+    "verified": "false"
   },
   "3eec06a2": {
     "root": {
@@ -4909,7 +4914,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q28517129"
-    }
+    },
+    "verified": "false"
   },
   "061b0206": {
     "root": {
@@ -4933,7 +4939,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q118705"
-    }
+    },
+    "verified": "false"
   },
   "17dc0445": {
     "root": {
@@ -4957,7 +4964,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q43260"
-    }
+    },
+    "verified": "false"
   },
   "1f3e04b7": {
     "root": {
@@ -4981,7 +4989,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q845677"
-    }
+    },
+    "verified": "false"
   },
   "0f180352": {
     "root": {
@@ -5005,7 +5014,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q40460"
-    }
+    },
+    "verified": "false"
   },
   "78d409c6": {
     "root": {
@@ -5029,7 +5039,8 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q863349"
-    }
+    },
+    "verified": "false"
   },
   "165503f8": {
     "root": {
@@ -5053,6 +5064,7 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q1036595"
-    }
+    },
+    "verified": "false"
   }
 }
