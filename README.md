@@ -16,15 +16,15 @@ This dictionary is only as good as its entries, and for this there are many peop
 - **switch to [Dhall](https://dhall-lang.org/)!**
 
 - languages without gendered nouns should have `"genders": []` instead of no `genders` key at all
-- **link adjectives to wikidata/mathworld/eom**
 - sort out the way that rows are added for adjectives
     + **use `row.add()`?**
-    + **initial `refs` column for adjectives**
 - make language header row sticky at top
 - support for multiple atoms
     + e.g. regional variations, or just synonyms
 - a way to inherit adjectives from another entry!
     + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
+    + **but** should also have "general" fallback, e.g. if I want to write "differentiable stack", then I can modify "stack" (or literally anything!) by "function.differentiable", i.e. coercion
+        * this would give a "hm we can't guarantee anything" warning
 - search should also search through adjectives
 - LTR/RTL should be reflected in `text-align` in the css
 - add plurals of nouns (and thus adjectives)

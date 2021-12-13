@@ -247,7 +247,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"单射", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q182003"
+        }
       },
       "17c40445": {
         "root": {
@@ -268,7 +270,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"满射", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q229102"
+        }
       },
       "125203b6": {
         "root": {
@@ -289,7 +293,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"双射", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q180907"
+        }
       },
       "0bd002ee": {
         "root": {
@@ -310,7 +316,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1756942"
+        }
       },
       "17850458": {
         "root": {
@@ -331,7 +339,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"连续", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q170058"
+        }
       },
       "1c1904a5": {
         "root": {
@@ -352,7 +362,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"全纯", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q207476"
+        }
       },
       "2acf05b5": {
         "root": {
@@ -373,7 +385,55 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"可微", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q783507"
+        }
+      },
+      "08b6027c": {
+        "root": {
+          "CA": { "atom": "lineal" , "pstn": "after" },
+          "DE": { "atom": "lineare" , "pstn": "before" },
+          "EN": { "atom": "linear" , "pstn": "before" },
+          "EU": { "atom": "lineal", "pstn": "after" },
+          "ES": { "atom": "lineal" , "pstn": "after" },
+          "FA": { "atom": "خطی", "pstn": "after" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "linéaire" , "pstn": "after" },
+          "IT": { "atom": "lineare" , "pstn": "after" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "linear", "pstn": "after" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q207643"
+        }
+      },
+      "0f960370": {
+        "root": {
+          "CA": { "atom": "monòtona" , "pstn": "after" },
+          "DE": { "atom": "monotone" , "pstn": "before" },
+          "EN": { "atom": "monotone" , "pstn": "before" },
+          "EU": { "atom": "monotono", "pstn": "after" },
+          "ES": { "atom": "monótona" , "pstn": "after" },
+          "FA": { "atom": "یکنوا", "pstn": "after" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "monotone" , "pstn": "after" },
+          "IT": { "atom": "monotona" , "pstn": "after" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "monótono", "pstn": "after" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q194404"
+        }
       }
     },
     "refs": {
@@ -399,50 +459,7 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "映射", "gend": "" }
     },
-    "adjs": {
-      "08b6027c": {
-        "root": {
-          "CA": { "atom": "lineal" , "pstn": "after" },
-          "DE": { "atom": "lineare" , "pstn": "before" },
-          "EN": { "atom": "linear" , "pstn": "before" },
-          "EU": { "atom": "lineal", "pstn": "after" },
-          "ES": { "atom": "lineal" , "pstn": "after" },
-          "FA": { "atom": "خطی", "pstn": "after" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "linéaire" , "pstn": "after" },
-          "IT": { "atom": "lineare" , "pstn": "after" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "linear", "pstn": "after" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      },
-      "0f960370": {
-        "root": {
-          "CA": { "atom": "monòtona" , "pstn": "after" },
-          "DE": { "atom": "monotone" , "pstn": "before" },
-          "EN": { "atom": "monotone" , "pstn": "before" },
-          "EU": { "atom": "monotono", "pstn": "after" },
-          "ES": { "atom": "monótona" , "pstn": "after" },
-          "FA": { "atom": "یکنوا", "pstn": "after" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "monotone" , "pstn": "after" },
-          "IT": { "atom": "monotona" , "pstn": "after" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "monótono", "pstn": "after" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      }
-    },
+    "adjs": {},
     "refs": {
       "wikidata": "Q11348"
     }

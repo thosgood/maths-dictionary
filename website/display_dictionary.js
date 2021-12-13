@@ -170,8 +170,26 @@ $(document).ready(function() {
 
     $.each(data["adjs"], function(a, adj) {
       var adjRow = `<tr class="adjective">`;
-      // add a blank entry at the start for the `refs` column
-      adjRow += "<td></td>";
+      adjRow += "<td>";
+      var refs = adj["refs"];
+      var adjRef = "";
+      if (typeof refs !== "undefined" || refs !== {}) {
+        var ref = "";
+        if (refs["wikidata"]) {
+          ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${data["wikidata"]}">${data["wikidata"]}</a>`;
+        };
+        if (refs["mathworld"]) {
+          ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${data["mathworld"]}.html">MathWorld</a>`;
+        };
+        if (refs["eom"]) {
+          ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
+        };
+        adjRef = ref;
+      } else {
+        adjRef = "n/a";
+      };
+      adjRow += adjRef;
+      adjRow += "</td>";
       var emptyAdjRow = true;
 
       $.each(visibleLangs, function(i, lang) {

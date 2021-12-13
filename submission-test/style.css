@@ -1,7 +1,6 @@
 /* Initial layout */
 
 body {
-  width: 75%;
   margin: auto;
   font: 300 1rem -apple-system, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
@@ -12,7 +11,7 @@ body {
 }
 
 #from_language_selectors_container {
-  width: 90%;
+  width: 65%;
   margin: 2em auto;
   text-align: center;
   border: 1px solid black;
@@ -20,7 +19,7 @@ body {
 }
 
 #to_language_selectors_container {
-  width: 90%;
+  width: 65%;
   margin: 2em auto;
   text-align: center;
   border: 1px solid black;
