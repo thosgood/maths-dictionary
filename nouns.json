@@ -5157,7 +5157,7 @@
       "KO": { "atom": "조성열", "gend": "?" },
       "PL": { "atom": "Ciąg kompozycyjny", "gend": "?" },
       "PT": { "atom": "série de composição", "gend": "?" },
-      "RU": { "atom": "", "gend": "?" },
+      "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "合成列", "gend": "?" }
     },
