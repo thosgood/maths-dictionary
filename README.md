@@ -16,6 +16,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 - **switch to [Dhall](https://dhall-lang.org/)!**
 
 - languages without gendered nouns should have `"genders": []` instead of no `genders` key at all
+- refs for all adjectives
 - sort out the way that rows are added for adjectives
     + **use `row.add()`?**
 - make language header row sticky at top

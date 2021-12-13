@@ -503,7 +503,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"偏", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q186475"
+        }
       }
     },
     "refs": {
@@ -549,7 +551,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom":"开", "pstn":"before" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q41509136"
+        }
       }
     },
     "refs": {
