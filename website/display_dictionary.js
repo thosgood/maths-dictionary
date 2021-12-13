@@ -171,17 +171,16 @@ $(document).ready(function() {
     $.each(data["adjs"], function(a, adj) {
       var adjRow = `<tr class="adjective">`;
       adjRow += "<td>";
-      var refs = adj["refs"];
       var adjRef = "";
-      if (typeof refs !== "undefined" || refs !== {}) {
+      if (typeof adj["refs"] !== "undefined" || adj["refs"] !== {}) {
         var ref = "";
-        if (refs["wikidata"]) {
+        if (adj["refs"]["wikidata"]) {
           ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${data["wikidata"]}">${data["wikidata"]}</a>`;
         };
-        if (refs["mathworld"]) {
+        if (adj["refs"]["mathworld"]) {
           ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${data["mathworld"]}.html">MathWorld</a>`;
         };
-        if (refs["eom"]) {
+        if (adj["refs"]["eom"]) {
           ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
         };
         adjRef = ref;
