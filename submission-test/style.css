@@ -73,6 +73,16 @@ h4 {
   height: 100%;
 }
 
+a.wikidata:before {
+  content: '';
+  display: block;
+  background: url("website/wikidata.png");
+  width: 20px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+
 
 /* Question cards */
 
