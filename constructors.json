@@ -1,82 +1,90 @@
 {
   "η": {
-    "fullType": "s",
-    "argsType": "v,n",
-    "EN": {
-      "atom": "let # be #",
-      "type": "s((v←)⊠(n←))",
-      "vari": "1,2"
-    },
-    "FR": {
-      "atom": "soit",
-      "type": "s((n←)(v←))",
-      "vari": "1,2"
+    // should also deal with number here
+    "vari": 2,
+    "meta": "quantity : Natural>0",
+    "root": {
+      // "CA": "siga ① ②",
+      // "DE": "sei ① ②",
+      // "EN": "let ① be ②",
+      // "ES": "sea ① ②",
+      // "EU": "izan bedi ① ② bat",
+      // "FA": "① یک ② است",
+      // "FI": "olkoon ① ②",
+      "FR": "quantity -> 1 = soit ① ②; _ soient ① ②",
+      // "IT": "sia ① ②",
+      // "JA": "①を②とする",
+      // "KO": "①를 ②이라 하자",
+      // "PL": "niech ① będzie ②",
+      // "PT": "seja ① ②",
+      // "RU": "пусть ① ②",
+      // "TR": "① bir ② olsun",
+      // "ZH": "令①为②"
     }
   },
-  "#⇒#": {
-    "fullType": "s",
-    "argsType": "s,s",
-    "EN": {
-      "atom": "if # then #",
-      "type": "s((s←)⊠(s←))",
-      "vari": "1,2"
-    },
-    "FR": {
-      "atom": "si # alors #",
-      "type": "s((s←)⊠(s←))",
-      "vari": "1,2"
-    }
-  },
-  "ε": {
-    "fullType": "n₁",
-    "argsType": "n",
-    "ES" : {
-      "atom": "un",
-      "type": "n₁n←",
-      "vari": "1"
-    },
-    "EN": {
-      "atom": "a",
-      "type": "n₁n←",
-      "vari": "1"
-    },
-    "FR": {
-      "atom": "un",
-      "type": "n₁n←",
-      "vari": "1"
+  "⇒": {
+    "vari": 2,
+    "root": {
+      "CA": "si ① aleshores ②",
+      "DE": "",
+      "EN": "if ① then ②",
+      "ES": "si ① entonces ②",
+      "EU": "",
+      "FA": "",
+      "FI": "",
+      "FR": "si ① alors ②",
+      "IT": "se ① allora ②",
+      "JA": "",
+      "KO": "",
+      "PL": "",
+      "PT": "se ① então ②",
+      "RU": "",
+      "TR": "",
+      "ZH": ""
     }
   },
   "ɩ": {
-    "fullType": "n₀",
-    "argsType": "n",
-    "ES": {
-      "atom": "el",
-      "type": "n₀n←",
-      "vari": "1"
-    },
-    "EN": {
-      "atom": "the",
-      "type": "n₀n←",
-      "vari": "1"
-    },
-    "FR": {
-      "atom": "le",
-      "type": "n₀n←",
-      "vari": "1"
+    "vari": 1, // "actual" variables
+    "meta": "quantity : Natural>0", // meta variables
+    "root": {
+      "CA": "",
+      "DE": "",
+      "EN": "the",
+      "ES": "(①.gender, quantity) -> (femenino, 1) = la ①; (femenino, _) = las ①.plural; (masculino, 1) = el ①; (masculino, _) = los ①.plural",
+      "EU": "",
+      "FA": "①",
+      "FI": "",
+      "FR": "",
+      "IT": "",
+      "JA": "①",
+      "KO": "①",
+      "PL": "①",
+      "PT": "",
+      "RU": "①",
+      "TR": "①",
+      "ZH": "①"
     }
   },
-  "#⋀#": {
-    "fullType": "s",
-    "argsType": "s,s",
-    "EN": {
-      "atom": "# and #",
-      "type": "s((s←)⊠(s←))",
-      "vari": "1,2"
-    },
-    "FR": {
-      "atom": "# et #",
-      "type": "s((s←)⊠(s←))",
-      "vari": "1,2"
+  "ε": {
+    "vari": 1,
+    "meta": "quantity : Natural>0",
+    "root": {
+      "CA": "",
+      "DE": "",
+      "EN": "(①.first.vowel_sound?, quantity) -> (true, 1) = an ①; (false, 1) = a ①; (_, _) = ①",
+      "ES": "(①.gender, quantity) -> (femenino, 1) = una ①; (femenino, _) = unas ①.plural; (masculino, 1) = un ①; (masculino, _) = unos ①.plural",
+      "EU": "",
+      "FA": "",
+      "FI": "",
+      "FR": "",
+      "IT": "",
+      "JA": "",
+      "KO": "",
+      "PL": "",
+      "PT": "",
+      "RU": "",
+      "TR": "",
+      "ZH": ""
     }
   }
 }

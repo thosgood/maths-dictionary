@@ -1346,7 +1346,7 @@
       "ES": { "atom": "espacio topológico", "gend": "masculino" },
       "EU": { "atom": "espazio topologiko", "gend": "" },
       "FA": { "atom": "فضای توپولوژیک", "gend": "" },
-      "FI": { "atom": "", "gend": "" },
+      "FI": { "atom": "topologinen avaruus", "gend": "" },
       "FR": { "atom": "espace topologique", "gend": "masculin" },
       "IT": { "atom": "spazio topologico", "gend": "maschile" },
       "JA": { "atom": "位相空間", "gend": "" },
@@ -1354,7 +1354,7 @@
       "PL": { "atom": "przestrzeń topologiczna", "gend": "żeński" },
       "PT": { "atom": "espaço topológico", "gend": "masculino" },
       "RU": { "atom": "топологи́ческое простра́нство", "gend": "средний" },
-      "TR": { "atom": "", "gend": "" },
+      "TR": { "atom": "topolojik uzay", "gend": "" },
       "ZH": { "atom": "拓扑空间", "gend": "" }
     },
     "adjs": {},
