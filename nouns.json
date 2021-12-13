@@ -5066,5 +5066,105 @@
       "wikidata": "Q1036595"
     },
     "verified": "false"
+  },
+  "2cac05f4": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "representation", "gend": "" },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "表現", "gend": "?" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "representação", "gend": "?" },
+      "RU": { "atom": "представление", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "表示", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q2905654"
+    },
+    "verified": "false"
+  },
+  "ecdc0d84": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Charakter", "gend": "?" },
+      "EN": { "atom": "character", "gend": "" },
+      "ES": { "atom": "carácter", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "کاراکتر", "gend": "?" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "caractère", "gend": "?" },
+      "IT": { "atom": "carattere", "gend": "?" },
+      "JA": { "atom": "指標", "gend": "" },
+      "KO": { "atom": "지표", "gend": "?" },
+      "PL": { "atom": "character", "gend": "?" },
+      "PT": { "atom": "carácter", "gend": "?" },
+      "RU": { "atom": "характер", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "特徵標", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q600043"
+    },
+    "verified": "false"
+  },
+  "0f6c0357": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Unterraum", "gend": "?" },
+      "EN": { "atom": "subspace", "gend": "" },
+      "ES": { "atom": "subespacio", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "sous-espace", "gend": "?" },
+      "IT": { "atom": "sottospazio", "gend": "?" },
+      "JA": { "atom": "部分空間", "gend": "" },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "podprzestrzeń", "gend": "?" },
+      "PT": { "atom": "subespaço", "gend": "?" },
+      "RU": { "atom": "подпространство", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q91328142"
+    },
+    "verified": "false"
+  },
+  "46d40760": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "composition series", "gend": "?" },
+      "ES": { "atom": "serie de composición", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "suite de composition", "gend": "?" },
+      "IT": { "atom": "serie di composizione", "gend": "?" },
+      "JA": { "atom": "組成列", "gend": "?" },
+      "KO": { "atom": "조성열", "gend": "?" },
+      "PL": { "atom": "Ciąg kompozycyjny", "gend": "?" },
+      "PT": { "atom": "série de composição", "gend": "?" },
+      "RU": { "atom": "", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "合成列", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q2525646"
+    },
+    "verified": "false"
   }
 }
