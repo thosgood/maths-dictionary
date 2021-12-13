@@ -4820,17 +4820,17 @@
       "EN": { "atom": "trace", "gend": "?" },
       "ES": { "atom": "traza", "gend": "?" },
       "EU": { "atom": "aztarna", "gend": "?" },
-      "FA": { "atom": "اثر", "gend": "?" },
+      "FA": { "atom": "اثر", "gend": "" },
       "FI": { "atom": "Jälki", "gend": "?" },
       "FR": { "atom": "trace", "gend": "?" },
       "IT": { "atom": "traccia", "gend": "?" },
-      "JA": { "atom": "跡", "gend": "?" },
+      "JA": { "atom": "跡", "gend": "" },
       "KO": { "atom": "대각합", "gend": "?" },
       "PL": { "atom": "ślad", "gend": "?" },
       "PT": { "atom": "traço", "gend": "?" },
       "RU": { "atom": "след", "gend": "?" },
-      "TR": { "atom": "İlkköşegen toplamı", "gend": "?" },
-      "ZH": { "atom": "跡", "gend": "?" }
+      "TR": { "atom": "ilkköşegen toplamı", "gend": "" },
+      "ZH": { "atom": "跡", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -4872,15 +4872,15 @@
       "EU": { "atom": "Dimentsio", "gend": "?" },
       "FA": { "atom": "فضای ان بعدی", "gend": "?" },
       "FI": { "atom": "ulottuvuus", "gend": "?" },
-      "FR": { "atom": "dimension", "gend": "?" },
+      "FR": { "atom": "dimension", "gend": "" },
       "IT": { "atom": "dimensione", "gend": "?" },
-      "JA": { "atom": "次元", "gend": "?" },
+      "JA": { "atom": "次元", "gend": "" },
       "KO": { "atom": "차원", "gend": "?" },
       "PL": { "atom": "wymiar", "gend": "?" },
       "PT": { "atom": "dimensão", "gend": "?" },
       "RU": { "atom": "размерность", "gend": "?" },
-      "TR": { "atom": "boyut", "gend": "?" },
-      "ZH": { "atom": "維度", "gend": "?" }
+      "TR": { "atom": "boyut", "gend": "" },
+      "ZH": { "atom": "維度", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -4974,13 +4974,13 @@
       "FI": { "atom": "polynomi", "gend": "?" },
       "FR": { "atom": "polynôme", "gend": "?" },
       "IT": { "atom": "polinomio", "gend": "?" },
-      "JA": { "atom": "多項式", "gend": "?" },
+      "JA": { "atom": "多項式", "gend": "" },
       "KO": { "atom": "다항식", "gend": "?" },
       "PL": { "atom": "wielomian", "gend": "?" },
       "PT": { "atom": "polinómio", "gend": "?" },
       "RU": { "atom": "многочлен", "gend": "?" },
-      "TR": { "atom": "polinom", "gend": "?" },
-      "ZH": { "atom": "多項式", "gend": "?" }
+      "TR": { "atom": "polinom", "gend": "" },
+      "ZH": { "atom": "多項式", "gend": "" }
     },
     "adjs": {},
     "refs": {
@@ -5054,7 +5054,7 @@
       "PL": { "atom": "", "gend": "" },
       "PT": { "atom": "singularidade", "gend": "?" },
       "RU": { "atom": "особенность", "gend": "?" },
-      "TR": { "atom": "tekillik", "gend": "?" },
+      "TR": { "atom": "tekillik", "gend": "" },
       "ZH": { "atom": "奇点", "gend": "?" }
     },
     "adjs": {},
