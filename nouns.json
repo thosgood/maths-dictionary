@@ -4790,10 +4790,10 @@
   },
   "0fc0037e": {
     "root": {
-      "CA": { "atom": "topologia", "gend": "?" },
+      "CA": { "atom": "topologia", "gend": "femení" },
       "DE": { "atom": "Topologie", "gend": "?" },
       "EN": { "atom": "topology", "gend": "?" },
-      "ES": { "atom": "topología", "gend": "?" },
+      "ES": { "atom": "topología", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -4815,10 +4815,10 @@
   },
   "065f0210": {
     "root": {
-      "CA": { "atom": "traça", "gend": "?" },
+      "CA": { "atom": "traça", "gend": "femení" },
       "DE": { "atom": "Spur", "gend": "?" },
       "EN": { "atom": "trace", "gend": "?" },
-      "ES": { "atom": "traza", "gend": "?" },
+      "ES": { "atom": "traza", "gend": "femenino" },
       "EU": { "atom": "aztarna", "gend": "?" },
       "FA": { "atom": "اثر", "gend": "" },
       "FI": { "atom": "Jälki", "gend": "?" },
@@ -4840,10 +4840,10 @@
   },
   "380a069e": {
     "root": {
-      "CA": { "atom": "compactificació", "gend": "?" },
+      "CA": { "atom": "compactificació", "gend": "femení" },
       "DE": { "atom": "Kompaktifizierung", "gend": "?" },
       "EN": { "atom": "compactification", "gend": "?" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "compactificación", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "فشرده سازی", "gend": "?" },
       "FI": { "atom": "", "gend": "" },
@@ -4865,10 +4865,10 @@
   },
   "12a703c7": {
     "root": {
-      "CA": { "atom": "dimensió", "gend": "?" },
+      "CA": { "atom": "dimensió", "gend": "femení" },
       "DE": { "atom": "Dimension", "gend": "?" },
       "EN": { "atom": "dimension", "gend": "?" },
-      "ES": { "atom": "dimensión", "gend": "?" },
+      "ES": { "atom": "dimensión", "gend": "femenino" },
       "EU": { "atom": "Dimentsio", "gend": "?" },
       "FA": { "atom": "فضای ان بعدی", "gend": "?" },
       "FI": { "atom": "ulottuvuus", "gend": "?" },
@@ -4890,10 +4890,10 @@
   },
   "06090209": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "fibra", "gend": "femení" },
       "DE": { "atom": "Faser", "gend": "?" },
       "EN": { "atom": "fiber", "gend": "?" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "fibra", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "تار", "gend": "?" },
       "FI": { "atom": "", "gend": "" },
@@ -4915,10 +4915,10 @@
   },
   "3eec06a2": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "gènere", "gend": "masculí" },
       "DE": { "atom": "Geschlecht", "gend": "?" },
       "EN": { "atom": "genus", "gend": "?" },
-      "ES": { "atom": "género", "gend": "?" },
+      "ES": { "atom": "género", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "گونا", "gend": "?" },
       "FI": { "atom": "genus", "gend": "?" },
@@ -4940,10 +4940,10 @@
   },
   "061b0206": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "garba", "gend": "femení" },
       "DE": { "atom": "Gerbe", "gend": "?" },
       "EN": { "atom": "gerbe", "gend": "?" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "gavilla", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -4965,10 +4965,10 @@
   },
   "17dc0445": {
     "root": {
-      "CA": { "atom": "polinomi", "gend": "?" },
+      "CA": { "atom": "polinomi", "gend": "masculí" },
       "DE": { "atom": "Polynom", "gend": "?" },
       "EN": { "atom": "polynomial", "gend": "?" },
-      "ES": { "atom": "polinomio", "gend": "?" },
+      "ES": { "atom": "polinomio", "gend": "masculino" },
       "EU": { "atom": "polinomio", "gend": "?" },
       "FA": { "atom": "چندجمله ای", "gend": "?" },
       "FI": { "atom": "polynomi", "gend": "?" },
@@ -4990,10 +4990,10 @@
   },
   "1f3e04b7": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "espai de mòduls", "gend": "masculí" },
       "DE": { "atom": "Modulraum", "gend": "?" },
       "EN": { "atom": "moduli space", "gend": "?" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "espacio de módulos", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -5040,10 +5040,10 @@
   },
   "78d409c6": {
     "root": {
-      "CA": { "atom": "singularitat", "gend": "?" },
+      "CA": { "atom": "singularitat", "gend": "femení" },
       "DE": { "atom": "Definitionslücke", "gend": "?" },
       "EN": { "atom": "singularity", "gend": "?" },
-      "ES": { "atom": "singularidad", "gend": "?" },
+      "ES": { "atom": "singularidad", "gend": "femenino" },
       "EU": { "atom": "Singulartasun", "gend": "?" },
       "FA": { "atom": "تکینگی", "gend": "?" },
       "FI": { "atom": "Singulariteetti", "gend": "?" },
@@ -5065,10 +5065,10 @@
   },
   "165503f8": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "explosió", "gend": "femení" },
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "blow-up", "gend": "?" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "explosión", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -5090,10 +5090,10 @@
   },
   "2cac05f4": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "representació", "gend": "femení" },
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "representation", "gend": "" },
-      "ES": { "atom": "", "gend": "" },
+      "ES": { "atom": "representación", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -5115,10 +5115,10 @@
   },
   "ecdc0d84": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "caràcter", "gend": "masculí" },
       "DE": { "atom": "Charakter", "gend": "?" },
       "EN": { "atom": "character", "gend": "" },
-      "ES": { "atom": "carácter", "gend": "?" },
+      "ES": { "atom": "carácter", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "کاراکتر", "gend": "?" },
       "FI": { "atom": "", "gend": "" },
@@ -5140,10 +5140,10 @@
   },
   "0f6c0357": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "subespai", "gend": "masculí" },
       "DE": { "atom": "Unterraum", "gend": "?" },
       "EN": { "atom": "subspace", "gend": "" },
-      "ES": { "atom": "subespacio", "gend": "?" },
+      "ES": { "atom": "subespacio", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
@@ -5165,10 +5165,10 @@
   },
   "46d40760": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "sèrie de composició", "gend": "femení" },
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "composition series", "gend": "?" },
-      "ES": { "atom": "serie de composición", "gend": "?" },
+      "ES": { "atom": "serie de composición", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
