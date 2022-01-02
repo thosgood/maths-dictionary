@@ -1857,6 +1857,29 @@
           "ZH": { "atom": "", "pstn": "" }
         },
         "refs": {}
+      },
+      "06440212": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "", "pstn": "" },
+          "EN": { "atom": "model", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "modèle", "pstn": "after" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "モデル", "pstn": "before" },
+          "KO": { "atom": "모형", "pstn": "before" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q1941896"
+        }
       }
     },
     "refs": {

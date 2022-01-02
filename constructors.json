@@ -2,7 +2,8 @@
   "η": {
     // should also deal with number here
     "vari": 2,
-    "meta": "quantity : Natural>0",
+    "meta": "quantity : Natural>0", // NO! this SHOULD be DEDUCED FROM THE
+                                    // second argument, right?
     "root": {
       // "CA": "siga ① ②",
       // "DE": "sei ① ②",
