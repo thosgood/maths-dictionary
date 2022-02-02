@@ -4782,9 +4782,102 @@
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
-    "adjs": {},
+    "adjs": {
+      "069a022d": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "", "pstn": "" },
+          "EN": { "atom": "upper", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "", "pstn": "" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q42866132"
+        }
+      },
+      "067e022a": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "", "pstn": "" },
+          "EN": { "atom": "lower", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "", "pstn": "" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q12254923"
+        }
+      },
+      "1a230466": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "", "pstn": "" },
+          "EN": { "atom": "least upper", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "", "pstn": "" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q215071"
+        }
+      },
+      "2a7305a9": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "", "pstn": "" },
+          "EN": { "atom": "greatest lower", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "", "pstn": "" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q1199948"
+        }
+      }
+    },
     "refs": {
-      "wikidata": "Q28154044"
+      "wikidata": "Q13222579"
     }
   },
   "15d9040e": {
