@@ -5303,5 +5303,55 @@
       "wikidata": "Q2525646"
     },
     "verified": "false"
-  }
+  },
+  "0bba02f6": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "Infimum", "gend": "?" },
+      "EN": { "atom": "infimum", "gend": "" },
+      "ES": { "atom": "ínfimo", "gend": "?" },
+      "EU": { "atom": "beheren", "gend": "?" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "infimum", "gend": "" },
+      "FR": { "atom": "infimum", "gend": "?" },
+      "IT": { "atom": "estremo inferiore", "gend": "?" },
+      "JA": { "atom": "下限", "gend": "" },
+      "KO": { "atom": "최대하계", "gend": "" },
+      "PL": { "atom": "infimum", "gend": "?" },
+      "PT": { "atom": "ínfimo", "gend": "?" },
+      "RU": { "atom": "инфимум", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "最大下界", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1199948"
+    },
+    "verified": "false"
+  },
+  "0fdf037f": {
+    "root": {
+      "CA": { "atom": "suprem", "gend": "?" },
+      "DE": { "atom": "Supremum", "gend": "?" },
+      "EN": { "atom": "supremum", "gend": "" },
+      "ES": { "atom": "supremo", "gend": "?" },
+      "EU": { "atom": "goren", "gend": "?" },
+      "FA": { "atom": "کوچک‌ترین کران بالا", "gend": "" },
+      "FI": { "atom": "supremum", "gend": "" },
+      "FR": { "atom": "supremum", "gend": "?" },
+      "IT": { "atom": "estremo superiore", "gend": "?" },
+      "JA": { "atom": "上限", "gend": "" },
+      "KO": { "atom": "최소상계", "gend": "" },
+      "PL": { "atom": "supremum", "gend": "?" },
+      "PT": { "atom": "supremo", "gend": "?" },
+      "RU": { "atom": "супремум", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "最小上界", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q215071"
+    },
+    "verified": "false"
+  },
 }
