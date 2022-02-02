@@ -5354,4 +5354,54 @@
     },
     "verified": "false"
   },
+  "260c0572": {
+    "root": {
+      "CA": { "atom": "contradicció", "gend": "?" },
+      "DE": { "atom": "Kontradiktion", "gend": "?" },
+      "EN": { "atom": "contradiction", "gend": "" },
+      "ES": { "atom": "contradicción", "gend": "?" },
+      "EU": { "atom": "kontraesan", "gend": "?" },
+      "FA": { "atom": "تناقض", "gend": "" },
+      "FI": { "atom": "ristiriitaisuus", "gend": "" },
+      "FR": { "atom": "contradiction", "gend": "?" },
+      "IT": { "atom": "contraddizione", "gend": "?" },
+      "JA": { "atom": "矛盾", "gend": "" },
+      "KO": { "atom": "모순", "gend": "" },
+      "PL": { "atom": "sprzeczność", "gend": "?" },
+      "PT": { "atom": "contradição", "gend": "?" },
+      "RU": { "atom": "противоречие", "gend": "?" },
+      "TR": { "atom": "çelişki", "gend": "" },
+      "ZH": { "atom": "矛盾", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q363948"
+    },
+    "verified": "false"
+  },
+  "623b08b3": {
+    "root": {
+      "CA": { "atom": "reducció a l'absurd", "gend": "?" },
+      "DE": { "atom": "Reductio ad absurdum", "gend": "?" },
+      "EN": { "atom": "proof by contradiction", "gend": "" },
+      "ES": { "atom": "prueba por contradicción", "gend": "?" },
+      "EU": { "atom": "reductio ad absurdum", "gend": "?" },
+      "FA": { "atom": "برهان خلف", "gend": "" },
+      "FI": { "atom": "epäsuora todistus", "gend": "" },
+      "FR": { "atom": "raisonnement par l'absurde", "gend": "?" },
+      "IT": { "atom": "dimostrazione per assurdo", "gend": "?" },
+      "JA": { "atom": "背理法", "gend": "" },
+      "KO": { "atom": "귀류법", "gend": "" },
+      "PL": { "atom": "dowód nie wprost", "gend": "?" },
+      "PT": { "atom": "prova por contradição", "gend": "?" },
+      "RU": { "atom": "доказательство от противного", "gend": "?" },
+      "TR": { "atom": "Reductio ad absurdum", "gend": "" },
+      "ZH": { "atom": "反證法", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q184899"
+    },
+    "verified": "false"
+  },
 }
