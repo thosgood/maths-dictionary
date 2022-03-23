@@ -1577,7 +1577,32 @@
           "ZH": { "atom": "", "pstn": "" }
         },
         "refs": {}
-      }
+      },
+      "24980531": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "einfacher", "pstn": "before" },
+          "EN": { "atom": "simple", "pstn": "before" },
+          "ES": { "atom": "simple", "pstn": "after" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "ساده", "pstn": "after" },
+          "FI": { "atom": "yksinkertainen", "pstn": "before" },
+          "FR": { "atom": "module", "pstn": "after" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "단순", "pstn": "before" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "simples", "pstn": "after" },
+          "RU": { "atom": "Простой", "pstn": "before" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "單", "pstn": "before" }
+        },
+        "adjs": {},
+        "refs": {
+          "wikidata": "Q956233"
+        },
+        "verified": "false"
+      },
     },
     "refs": {
       "wikidata": "Q18848"
@@ -5212,19 +5237,64 @@
       "EN": { "atom": "representation", "gend": "" },
       "ES": { "atom": "representación", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "", "gend": "" },
+      "FA": { "atom": "نمایش", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "", "gend": "" },
       "IT": { "atom": "", "gend": "" },
       "JA": { "atom": "表現", "gend": "?" },
-      "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "", "gend": "" },
+      "KO": { "atom": "군의", "gend": "" },
+      "PL": { "atom": "reprezentacja", "gend": "?" },
       "PT": { "atom": "representação", "gend": "?" },
       "RU": { "atom": "представление", "gend": "?" },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "表示", "gend": "?" }
     },
-    "adjs": {},
+    "adjs": {
+      "0677022e": {
+        "root": {
+          "CA": { "atom": "de grup", "pstn": "after" },
+          "DE": { "atom": "Gruppen", "pstn": "before", "join": true },
+          "EN": { "atom": "group", "pstn": "before" },
+          "ES": { "atom": "de grupo", "pstn": "after" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "گروه", "pstn": "after" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "de groupe", "pstn": "after" },
+          "IT": { "atom": "dei gruppi", "pstn": "after" },
+          "JA": { "atom": "群の", "pstn": "before" },
+          "KO": { "atom": "표현", "pstn": "after" },
+          "PL": { "atom": "grupy", "pstn": "after" },
+          "PT": { "atom": "de grupo", "pstn": "after" },
+          "RU": { "atom": "группы", "pstn": "after" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "群", "pstn": "before" }
+        },
+        "refs": {
+          "wikidata": "Q1055807"
+        }
+      },
+      "1b9c048b": {
+        "root": {
+          "CA": { "atom": "irreduïble", "pstn": "after" },
+          "DE": { "atom": "irreduzibles", "pstn": "before" },
+          "EN": { "atom": "irreducible", "pstn": "before" },
+          "ES": { "atom": "irreducible", "pstn": "after" },
+          "EU": { "atom": "irreduzible", "pstn": "after" },
+          "FA": { "atom": "تقلیل ناپذیر", "pstn": "after" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "irréductible", "pstn": "after" },
+          "IT": { "atom": "irriducibile", "pstn": "after" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "irredutível", "pstn": "after" },
+          "RU": { "atom": "неприводи́мая", "pstn": "before" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom":"不可约", "pstn":"before" }
+        },
+        "refs": {}
+      }
+    },
     "refs": {
       "wikidata": "Q2905654"
     },
@@ -5404,5 +5474,128 @@
       "wikidata": "Q184899"
     },
     "verified": "false"
-  }
+  },
+  "164303fe": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "?" },
+      "EN": { "atom": "group ring", "gend": "?" },
+      "ES": { "atom": "anillo de grupo", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "algèbre d'un groupe fini", "gend": "?" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "群環", "gend": "?" },
+      "KO": { "atom": "군환", "gend": "?" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "anel de grupo", "gend": "?" },
+      "RU": { "atom": "групповое кольцо", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "群環", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q2602722"
+    },
+    "verified": "false"
+  },
+  "2c7005db": {
+    "root": {
+      "CA": { "atom": "correspondència", "gend": "?" },
+      "DE": { "atom": "Korrespondenz", "gend": "?" },
+      "EN": { "atom": "correspondence", "gend": "?" },
+      "ES": { "atom": "correspondencia", "gend": "?" },
+      "EU": { "atom": "korrespondentzia", "gend": "?" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "correspondance", "gend": "?" },
+      "IT": { "atom": "corrispondenza", "gend": "?" },
+      "JA": { "atom": "対応", "gend": "?" },
+      "KO": { "atom": "대응", "gend": "?" },
+      "PL": { "atom": "korespondencja", "gend": "?" },
+      "PT": { "atom": "correspondência", "gend": "?" },
+      "RU": { "atom": "соответствие", "gend": "?" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "對應", "gend": "?" }
+    },
+    "adjs": {
+      "125203b6": {
+        "root": {
+          "CA": { "atom": "bijectiva", "pstn": "after" },
+          "DE": { "atom": "bijektive", "pstn": "before" },
+          "EN": { "atom": "bijective", "pstn": "before" },
+          "ES": { "atom": "biyectiva", "pstn": "after" },
+          "EU": { "atom": "bijektibo", "pstn": "after" },
+          "FA": { "atom": "دوسویی", "pstn": "after" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "bijective", "pstn": "after" },
+          "IT": { "atom": "biettiva", "pstn": "after" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "bijetiva", "pstn": "after" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom":"双射", "pstn":"before" }
+        },
+        "refs": {
+          "wikidata": "Q180907"
+        }
+      },
+    "refs": {
+      "wikidata": "Q1322856"
+    },
+    "verified": "false"
+  },
+  "1b3a049c": {
+    "root": {
+      "CA": { "atom": "vector propi", "gend": "?" },
+      "DE": { "atom": "Eigenvektor", "gend": "?" },
+      "EN": { "atom": "eigenvector", "gend": "?" },
+      "ES": { "atom": "vector propio", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "بردار ویژه", "gend": "?" },
+      "FI": { "atom": "ominaisvektori", "gend": "?" },
+      "FR": { "atom": "vecteur propre", "gend": "?" },
+      "IT": { "atom": "autovettore", "gend": "?" },
+      "JA": { "atom": "固有ベクトル", "gend": "?" },
+      "KO": { "atom": "고유벡터", "gend": "?" },
+      "PL": { "atom": "wektor własny", "gend": "?" },
+      "PT": { "atom": "autovector", "gend": "?" },
+      "RU": { "atom": "собственный вектор", "gend": "?" },
+      "TR": { "atom": "özvektör", "gend": "?" },
+      "ZH": { "atom": "特征向量", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q3555174"
+    },
+    "verified": "false"
+  },
+  "16a10426": {
+    "root": {
+      "CA": { "atom": "valor propi", "gend": "?" },
+      "DE": { "atom": "Eigenwert", "gend": "?" },
+      "EN": { "atom": "eigenvalue", "gend": "?" },
+      "ES": { "atom": "valor propio", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "مقدار ویژه", "gend": "?" },
+      "FI": { "atom": "Ominaisarvo", "gend": "?" },
+      "FR": { "atom": "valeur propre", "gend": "?" },
+      "IT": { "atom": "autovalore", "gend": "?" },
+      "JA": { "atom": "固有値", "gend": "?" },
+      "KO": { "atom": "고윳값", "gend": "?" },
+      "PL": { "atom": "wartości własne", "gend": "?" },
+      "PT": { "atom": "valor próprio", "gend": "?" },
+      "RU": { "atom": "собственное значение", "gend": "?" },
+      "TR": { "atom": "özdeğer", "gend": "?" },
+      "ZH": { "atom": "特征值", "gend": "?" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q3553768"
+    },
+    "verified": "false"
+  },
 }
