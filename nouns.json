@@ -5262,7 +5262,7 @@
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "نمایش", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "", "gend": "" },
+      "FR": { "atom": "représentation", "gend": "féminin" },
       "IT": { "atom": "", "gend": "" },
       "JA": { "atom": "表現", "gend": "?" },
       "KO": { "atom": "군의", "gend": "" },
