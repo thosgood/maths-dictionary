@@ -5621,31 +5621,5 @@
       "wikidata": "Q3553768"
     },
     "verified": false
-  },
-  "ecdc0d84": {
-    "root": {
-      "CA": { "atom": "", "gend": "" },
-      "DE": { "atom": "Charakter", "gend": "?" },
-      "EN": { "atom": "character", "gend": "" },
-      "ES": { "atom": "carácter", "gend": "?" },
-      "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "", "gend": "" },
-      "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "caractère", "gend": "?" },
-      "IT": { "atom": "carattere", "gend": "?" },
-      "JA": { "atom": "", "gend": "" },
-      "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "character", "gend": "?" },
-      "PT": { "atom": "carácter", "gend": "?" },
-      "RU": { "atom": "", "gend": "" },
-      "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "", "gend": "" }
-    },
-    "adjs": {},
-    "refs": {
-      "wikidata": "Q600043"
-    },
-    "verified": false
-  },
-
+  }
 }
