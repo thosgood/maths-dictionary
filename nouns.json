@@ -1886,10 +1886,10 @@
       },
       "06440212": {
         "root": {
-          "CA": { "atom": "", "pstn": "" },
+          "CA": { "atom": "model", "pstn": "after" },
           "DE": { "atom": "Modell", "pstn": "before", "join": true },
           "EN": { "atom": "model", "pstn": "before" },
-          "ES": { "atom": "", "pstn": "" },
+          "ES": { "atom": "modelo", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },
@@ -4811,10 +4811,10 @@
     "adjs": {
       "069a022d": {
         "root": {
-          "CA": { "atom": "", "pstn": "" },
+          "CA": { "atom": "superior", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "upper", "pstn": "before" },
-          "ES": { "atom": "", "pstn": "" },
+          "ES": { "atom": "superior", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },
@@ -4834,10 +4834,10 @@
       },
       "067e022a": {
         "root": {
-          "CA": { "atom": "", "pstn": "" },
+          "CA": { "atom": "inferior", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "lower", "pstn": "before" },
-          "ES": { "atom": "", "pstn": "" },
+          "ES": { "atom": "inferior", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },
@@ -4857,10 +4857,10 @@
       },
       "1a230466": {
         "root": {
-          "CA": { "atom": "", "pstn": "" },
+          "CA": { "atom": "mínima superior", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "least upper", "pstn": "before" },
-          "ES": { "atom": "", "pstn": "" },
+          "ES": { "atom": "mínima superior", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },
@@ -4880,10 +4880,10 @@
       },
       "2a7305a9": {
         "root": {
-          "CA": { "atom": "", "pstn": "" },
+          "CA": { "atom": "màxima inferior", "pstn": "after" },
           "DE": { "atom": "", "pstn": "" },
           "EN": { "atom": "greatest lower", "pstn": "before" },
-          "ES": { "atom": "", "pstn": "" },
+          "ES": { "atom": "máxima inferior", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },
@@ -5377,10 +5377,10 @@
   },
   "0bba02f6": {
     "root": {
-      "CA": { "atom": "", "gend": "" },
+      "CA": { "atom": "ínfim", "gend": "masculí" },
       "DE": { "atom": "Infimum", "gend": "?" },
       "EN": { "atom": "infimum", "gend": "" },
-      "ES": { "atom": "ínfimo", "gend": "?" },
+      "ES": { "atom": "ínfimo", "gend": "masculino" },
       "EU": { "atom": "beheren", "gend": "?" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "infimum", "gend": "" },
@@ -5402,10 +5402,10 @@
   },
   "0fdf037f": {
     "root": {
-      "CA": { "atom": "suprem", "gend": "?" },
+      "CA": { "atom": "suprem", "gend": "masculí" },
       "DE": { "atom": "Supremum", "gend": "?" },
       "EN": { "atom": "supremum", "gend": "" },
-      "ES": { "atom": "supremo", "gend": "?" },
+      "ES": { "atom": "supremo", "gend": "masculino" },
       "EU": { "atom": "goren", "gend": "?" },
       "FA": { "atom": "کوچک‌ترین کران بالا", "gend": "" },
       "FI": { "atom": "supremum", "gend": "" },
@@ -5427,10 +5427,10 @@
   },
   "260c0572": {
     "root": {
-      "CA": { "atom": "contradicció", "gend": "?" },
+      "CA": { "atom": "contradicció", "gend": "femení" },
       "DE": { "atom": "Kontradiktion", "gend": "?" },
       "EN": { "atom": "contradiction", "gend": "" },
-      "ES": { "atom": "contradicción", "gend": "?" },
+      "ES": { "atom": "contradicción", "gend": "femenino" },
       "EU": { "atom": "kontraesan", "gend": "?" },
       "FA": { "atom": "تناقض", "gend": "" },
       "FI": { "atom": "ristiriitaisuus", "gend": "" },
@@ -5452,10 +5452,10 @@
   },
   "623b08b3": {
     "root": {
-      "CA": { "atom": "reducció a l'absurd", "gend": "?" },
+      "CA": { "atom": "reducció a l'absurd", "gend": "femení" },
       "DE": { "atom": "Reductio ad absurdum", "gend": "?" },
       "EN": { "atom": "proof by contradiction", "gend": "" },
-      "ES": { "atom": "prueba por contradicción", "gend": "?" },
+      "ES": { "atom": "prueba por contradicción", "gend": "femenino" },
       "EU": { "atom": "reductio ad absurdum", "gend": "?" },
       "FA": { "atom": "برهان خلف", "gend": "" },
       "FI": { "atom": "epäsuora todistus", "gend": "" },
