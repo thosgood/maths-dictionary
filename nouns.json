@@ -1625,7 +1625,7 @@
           "wikidata": "Q1485102"
         },
         "verified": false
-      },
+      }
     },
     "refs": {
       "wikidata": "Q18848"
@@ -5565,7 +5565,8 @@
         "refs": {
           "wikidata": "Q180907"
         }
-      },
+      }
+    },
     "refs": {
       "wikidata": "Q1322856"
     },
