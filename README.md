@@ -11,31 +11,36 @@ This dictionary is only as good as its entries, and for this there are many peop
 > TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro, Natasha Crepeau, Caio Oliveira, Nowras Ali, Maciek Ogrodnik, Matteo Capucci, Jone Uria Albizuri, Ralph Sarkis, Clément Spaier, Jordan Emme, Phil Pützstück, Lucas Viana, Louis Loiseau, Daniele Palombi, Bartosz Milewski, Dariush Moshiri, Hamid reza Khajoei, 李昊达, Özgür Esentepe, Shota, Sven-Ole Behrend, Lukas Graf, Byeongsu Yu, Manuel Hinz, Markus, Zhixuan Yang, Ísabel Pirsic, ruth, Cihan Bahran, ならずもの, Heiko Braun.
 
 
-## Todo
+## To-do
 
-- **use the `"join": Bool` key for adjectives** (e.g. `0ebe035f/06440212`)
-- languages without gendered nouns should have `"genders": []` instead of no `genders` key at all
+### Dictionary
+
 - refs for all adjectives
 - should be a way to indicate that there is no space between a noun and its adjective (e.g. Modellkategorie in DE)
-- sort out the way that rows are added for adjectives
-    + **use `row.add()`?**
-- make language header row sticky at top
+    + **use the `"join": Bool` key for adjectives** (e.g. `0ebe035f/06440212`)
 - support for multiple atoms
     + e.g. regional variations, or just synonyms
 - a way to inherit adjectives from another entry!
     + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
     + **but** should also have "general" fallback, e.g. if I want to write "differentiable stack", then I can modify "stack" (or literally anything!) by "function.differentiable", i.e. coercion
         * this would give a "hm we can't guarantee anything" warning
-- search should also search through adjectives
-- LTR/RTL should be reflected in `text-align` in the css
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - think about verbs...
 
-(<https://www.freeformatter.com/json-escape.html> is useful)
+
+### Website
+
+- sort out the way that rows are added (in the website) for adjectives
+    + **use `row.add()`?**
+- make language header row sticky at top
+- search should also search through adjectives
+- LTR/RTL should be reflected in `text-align` in the css
 
 
 ## Existing dictionary resources
+
+(<https://www.freeformatter.com/json-escape.html> is useful)
 
 - [http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf](http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf)
 - [https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf](https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf)
