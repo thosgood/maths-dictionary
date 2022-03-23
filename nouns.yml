@@ -1,5 +1,5 @@
 ---
-# from nouns.json on 2021-08-19
+# from nouns.json on 2022/03/23
 '17510448':
   root:
     CA:
@@ -30,7 +30,7 @@
       atom: somiglianza
       gend: femminile
     JA:
-      atom: ''
+      atom: 相似
       gend: ''
     KO:
       atom: ''
@@ -48,7 +48,7 @@
       atom: ''
       gend: ''
     ZH:
-      atom: ''
+      atom: 相似性
       gend: ''
   adjs: {}
   refs:
@@ -59,8 +59,8 @@
       atom: multiplicand
       gend: masculino
     DE:
-      atom: ''
-      gend: ''
+      atom: Multiplikator
+      gend: maskulin
     EN:
       atom: multiplicand
       gend: ''
@@ -101,7 +101,7 @@
       atom: ''
       gend: ''
     ZH:
-      atom: ''
+      atom: 乘项
       gend: ''
   adjs: {}
   refs:
@@ -187,8 +187,8 @@
           atom: naturale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 自然
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -205,8 +205,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 自然
+          pstn: before
       refs:
         wikidata: Q21199
     0fac0374:
@@ -239,8 +239,8 @@
           atom: positivo
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 正の
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -257,8 +257,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 正
+          pstn: before
       refs:
         wikidata: Q3176558
     0ee60354:
@@ -291,8 +291,8 @@
           atom: negativo
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 負の
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -309,8 +309,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 负
+          pstn: before
       refs:
         wikidata: Q200227
     0f38035b:
@@ -343,8 +343,8 @@
           atom: razionale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 有理
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -361,8 +361,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 有理
+          pstn: before
       refs:
         wikidata: Q1244890
     0bbd02f9:
@@ -395,8 +395,8 @@
           atom: complesso
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 複素
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -413,8 +413,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 复
+          pstn: before
       refs:
         wikidata: Q11567
     '042901a5':
@@ -447,8 +447,8 @@
           atom: reale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 実
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -465,8 +465,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 实
+          pstn: before
       refs:
         wikidata: Q12916
     '078701c7':
@@ -499,8 +499,8 @@
           atom: pari
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 偶
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -517,8 +517,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 偶
+          pstn: before
       refs:
         wikidata: Q13366104
     027c0138:
@@ -551,8 +551,8 @@
           atom: dispari
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 奇
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -569,8 +569,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 奇
+          pstn: before
       refs:
         wikidata: Q13366129
   refs:
@@ -656,8 +656,8 @@
           atom: continua
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 連続
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -674,9 +674,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 连续
+          pstn: before
+      refs:
+        wikidata: Q170058
     12b903c2:
       root:
         CA:
@@ -725,9 +726,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 单射
+          pstn: before
+      refs:
+        wikidata: Q182003
     17c40445:
       root:
         CA:
@@ -776,9 +778,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 满射
+          pstn: before
+      refs:
+        wikidata: Q229102
     125203b6:
       root:
         CA:
@@ -827,9 +830,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 双射
+          pstn: before
+      refs:
+        wikidata: Q180907
     0bd002ee:
       root:
         CA:
@@ -860,8 +864,8 @@
           atom: parziale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 部分
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -880,7 +884,8 @@
         ZH:
           atom: ''
           pstn: ''
-      refs: {}
+      refs:
+        wikidata: Q1756942
     1c1904a5:
       root:
         CA:
@@ -929,9 +934,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 全纯
+          pstn: before
+      refs:
+        wikidata: Q207476
     2acf05b5:
       root:
         CA:
@@ -980,62 +986,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
-  refs:
-    wikidata: Q11348
-027c013f:
-  root:
-    CA:
-      atom: aplicació
-      gend: femení
-    DE:
-      atom: Abbildung
-      gend: feminin
-    EN:
-      atom: map
-      gend: ''
-    ES:
-      atom: aplicación
-      gend: femenino
-    EU:
-      atom: aplikazio
-      gend: ''
-    FA:
-      atom: نگاشت
-      gend: ''
-    FI:
-      atom: ''
-      gend: ''
-    FR:
-      atom: application
-      gend: féminin
-    IT:
-      atom: applicazione
-      gend: femminile
-    JA:
-      atom: ''
-      gend: ''
-    KO:
-      atom: ''
-      gend: ''
-    PL:
-      atom: odwzorowanie
-      gend: nijaki
-    PT:
-      atom: mapa
-      gend: masculino
-    RU:
-      atom: ''
-      gend: ''
-    TR:
-      atom: ''
-      gend: ''
-    ZH:
-      atom: ''
-      gend: ''
-  adjs:
+          atom: 可微
+          pstn: before
+      refs:
+        wikidata: Q783507
     '08b6027c':
       root:
         CA:
@@ -1086,7 +1040,8 @@
         ZH:
           atom: ''
           pstn: ''
-      refs: {}
+      refs:
+        wikidata: Q207643
     0f960370:
       root:
         CA:
@@ -1137,7 +1092,61 @@
         ZH:
           atom: ''
           pstn: ''
-      refs: {}
+      refs:
+        wikidata: Q194404
+  refs:
+    wikidata: Q11348
+027c013f:
+  root:
+    CA:
+      atom: aplicació
+      gend: femení
+    DE:
+      atom: Abbildung
+      gend: feminin
+    EN:
+      atom: map
+      gend: ''
+    ES:
+      atom: aplicación
+      gend: femenino
+    EU:
+      atom: aplikazio
+      gend: ''
+    FA:
+      atom: نگاشت
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: application
+      gend: féminin
+    IT:
+      atom: applicazione
+      gend: femminile
+    JA:
+      atom: 写像
+      gend: ''
+    KO:
+      atom: ''
+      gend: ''
+    PL:
+      atom: odwzorowanie
+      gend: nijaki
+    PT:
+      atom: mapa
+      gend: masculino
+    RU:
+      atom: ''
+      gend: ''
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 映射
+      gend: ''
+  adjs: {}
   refs:
     wikidata: Q11348
 16f30434:
@@ -1221,8 +1230,8 @@
           atom: parziale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 偏
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -1239,9 +1248,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 偏
+          pstn: before
+      refs:
+        wikidata: Q186475
   refs:
     wikidata: Q29175
 064e0220:
@@ -1301,8 +1311,8 @@
           atom: per oberts
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: offene
+          pstn: before
         EN:
           atom: open
           pstn: before
@@ -1343,9 +1353,10 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
-      refs: {}
+          atom: 开
+          pstn: before
+      refs:
+        wikidata: Q41509136
   refs:
     wikidata: Q331481
 0b3802cf:
@@ -1396,7 +1407,7 @@
       atom: ''
       gend: ''
     ZH:
-      atom: ''
+      atom: 代数
       gend: ''
   adjs:
     042101a3:
@@ -1480,8 +1491,8 @@
           atom: finitamente generata
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 有限生成
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -1968,8 +1979,8 @@
       atom: tessel·lació
       gend: femení
     DE:
-      atom: ''
-      gend: ''
+      atom: Parkettierung
+      gend: feminin
     EN:
       atom: tiling
       gend: ''
@@ -2010,7 +2021,7 @@
       atom: ''
       gend: ''
     ZH:
-      atom: ''
+      atom: 铺砌
       gend: ''
   adjs: {}
   refs:
@@ -2045,7 +2056,7 @@
       atom: immersione
       gend: femminile
     JA:
-      atom: ''
+      atom: 埋め込み
       gend: ''
     KO:
       atom: ''
@@ -2063,7 +2074,7 @@
       atom: ''
       gend: ''
     ZH:
-      atom: ''
+      atom: 嵌入
       gend: ''
   adjs: {}
   refs:
@@ -2125,8 +2136,8 @@
           atom: quasi-compacte
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: quasikompaktes
+          pstn: before
         EN:
           atom: quasi-compact
           pstn: before
@@ -2167,8 +2178,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 拟紧
+          pstn: before
       refs: {}
     '085e026a':
       root:
@@ -2218,8 +2229,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 仿射
+          pstn: before
       refs: {}
     12a103b4:
       root:
@@ -2269,8 +2280,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 连通
+          pstn: before
       refs: {}
     15ed040e:
       root:
@@ -2320,8 +2331,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 诺特
+          pstn: before
       refs: {}
     433b071e:
       root:
@@ -2371,8 +2382,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 局部诺特
+          pstn: before
       refs: {}
     0ba202dd:
       root:
@@ -2422,8 +2433,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 约化
+          pstn: before
       refs: {}
     0f230357:
       root:
@@ -2431,8 +2442,8 @@
           atom: integral
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: ganzes
+          pstn: before
         EN:
           atom: integral
           pstn: before
@@ -2473,8 +2484,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 整
+          pstn: before
       refs: {}
     12da03ba:
       root:
@@ -2482,8 +2493,8 @@
           atom: separat
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: separiertes
+          pstn: before
         EN:
           atom: separated
           pstn: before
@@ -2524,8 +2535,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 分离
+          pstn: before
       refs: {}
     1b9c048b:
       root:
@@ -2575,8 +2586,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 不可约
+          pstn: before
       refs: {}
     '0902028a':
       root:
@@ -2626,8 +2637,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 正则
+          pstn: before
       refs: {}
     271a0557:
       root:
@@ -2676,8 +2687,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 有限型
+          pstn: before
       refs: {}
   refs:
     wikidata: Q1155772
@@ -2780,8 +2791,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 一致
+          pstn: before
       refs: {}
     2a2a05a9:
       root:
@@ -2831,8 +2842,8 @@
           atom: ''
           pstn: ''
         ZH:
-          atom: ''
-          pstn: ''
+          atom: 拟一致
+          pstn: before
       refs: {}
   refs:
     wikidata: Q595298
@@ -2944,8 +2955,8 @@
           atom: normal
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: normale
+          pstn: before
         EN:
           atom: normal
           pstn: before
@@ -3019,8 +3030,8 @@
           atom: abeliano
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: アーベル
+          pstn: before
         KO:
           atom: 아벨
           pstn: before
@@ -3070,8 +3081,8 @@
           atom: commutativo
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 可換
+          pstn: before
         KO:
           atom: 가환
           pstn: before
@@ -3121,8 +3132,8 @@
           atom: finito
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 有限
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -3172,8 +3183,8 @@
           atom: ciclico
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 巡回
+          pstn: before
         KO:
           atom: 순환
           pstn: before
@@ -3223,8 +3234,8 @@
           atom: di Galois
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: ガロア
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -3267,7 +3278,7 @@
       atom: فضای توپولوژیک
       gend: ''
     FI:
-      atom: ''
+      atom: topologinen avaruus
       gend: ''
     FR:
       atom: espace topologique
@@ -3291,7 +3302,7 @@
       atom: топологи́ческое простра́нство
       gend: средний
     TR:
-      atom: ''
+      atom: topolojik uzay
       gend: ''
     ZH:
       atom: 拓扑空间
@@ -3408,6 +3419,9 @@
         CA:
           atom: commutatiu
           pstn: after
+        DE:
+          atom: kommutativer
+          pstn: before
         EN:
           atom: commutative
           pstn: before
@@ -3457,8 +3471,8 @@
           atom: no commutatiu
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: nichtkommutativer
+          pstn: before
         EN:
           atom: noncommutative
           pstn: before
@@ -3759,6 +3773,112 @@
           atom: ''
           pstn: ''
       refs: {}
+    '0906028b':
+      root:
+        CA:
+          atom: ''
+          pstn: ''
+        DE:
+          atom: einfacher
+          pstn: before
+        EN:
+          atom: simple
+          pstn: before
+        ES:
+          atom: simple
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ساده
+          pstn: after
+        FI:
+          atom: yksinkertainen
+          pstn: before
+        FR:
+          atom: simple
+          pstn: after
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: 단순
+          pstn: before
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: simples
+          pstn: after
+        RU:
+          atom: простой
+          pstn: before
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: 單
+          pstn: before
+      refs:
+        wikidata: Q956233
+      verified: false
+    175c0439:
+      root:
+        CA:
+          atom: ''
+          pstn: ''
+        DE:
+          atom: Halbeinfacher
+          pstn: before
+        EN:
+          atom: semisimple
+          pstn: before
+        ES:
+          atom: semisimple
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: نیم-ساده
+          pstn: after
+        FI:
+          atom: uoliyksinkertainen
+          pstn: before
+        FR:
+          atom: semi-simple
+          pstn: after
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: 반단순
+          pstn: before
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: полупростой
+          pstn: before
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: 半單
+          pstn: before
+      refs:
+        wikidata: Q1485102
+      verified: false
   refs:
     wikidata: Q18848
 '06120205':
@@ -4024,8 +4144,8 @@
           atom: cartesiana
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: kartesische
+          pstn: before
         EN:
           atom: cartesian
           pstn: before
@@ -4075,8 +4195,8 @@
           atom: localment cartesiana
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: lokal kartesische
+          pstn: before
         EN:
           atom: locally cartesian
           pstn: before
@@ -4150,8 +4270,8 @@
           atom: abeliana
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: アーベル
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4177,8 +4297,8 @@
           atom: aditiva
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: additive
+          pstn: before
         EN:
           atom: additive
           pstn: before
@@ -4201,8 +4321,8 @@
           atom: additiva
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 加法
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4228,8 +4348,8 @@
           atom: completa
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: vollständige
+          pstn: before
         EN:
           atom: complete
           pstn: before
@@ -4279,8 +4399,8 @@
           atom: cocompleta
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: kovollständige
+          pstn: before
         EN:
           atom: cocomplete
           pstn: before
@@ -4330,8 +4450,8 @@
           atom: finitament presentable
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: endlich präsentierbare
+          pstn: before
         EN:
           atom: finitely presentable
           pstn: before
@@ -4381,8 +4501,8 @@
           atom: localment finitament presentable
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: lokal endlich präsentierbare
+          pstn: before
         EN:
           atom: locally finitely presentable
           pstn: before
@@ -4426,6 +4546,59 @@
           atom: ''
           pstn: ''
       refs: {}
+    '06440212':
+      root:
+        CA:
+          atom: model
+          pstn: after
+        DE:
+          atom: Modell
+          pstn: before
+          join: true
+        EN:
+          atom: model
+          pstn: before
+        ES:
+          atom: modelo
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ''
+          pstn: ''
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: modèle
+          pstn: after
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: モデル
+          pstn: before
+        KO:
+          atom: 모형
+          pstn: before
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: ''
+          pstn: ''
+      refs:
+        wikidata: Q1941896
   refs:
     wikidata: Q719395
 '029a014d':
@@ -4509,8 +4682,8 @@
           atom: vuoto
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 空
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4560,8 +4733,8 @@
           atom: non vuoto
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 空でない
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4611,8 +4784,8 @@
           atom: aperto
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 開
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4662,8 +4835,8 @@
           atom: chiuso
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 閉
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4713,8 +4886,8 @@
           atom: chiuso-aperto
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 開かつ閉
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4764,8 +4937,8 @@
           atom: numerabile
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 可算
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4815,8 +4988,8 @@
           atom: innumerabile
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 非可算
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4866,8 +5039,8 @@
           atom: infinito
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 無限
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4917,8 +5090,8 @@
           atom: finito
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 有限
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -4968,8 +5141,8 @@
           atom: definibile
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 決定可能な
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5019,8 +5192,8 @@
           atom: transitivo
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 推移的
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5070,8 +5243,8 @@
           atom: misurabile
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 可測
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5223,8 +5396,8 @@
           atom: cofinale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 共終
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5301,8 +5474,9 @@
           atom: complementari
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: Komplementär
+          pstn: before
+          join: true
         EN:
           atom: complementary
           pstn: before
@@ -5325,8 +5499,8 @@
           atom: ''
           pstn: ''
         JA:
-          atom: ''
-          pstn: ''
+          atom: 補
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5405,8 +5579,8 @@
           atom: suau
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: glatte
+          pstn: before
         EN:
           atom: smooth
           pstn: before
@@ -5456,8 +5630,8 @@
           atom: compacta
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: kompakte
+          pstn: before
         EN:
           atom: compact
           pstn: before
@@ -5507,8 +5681,8 @@
           atom: connexa
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: zusammenhängende
+          pstn: before
         EN:
           atom: connected
           pstn: before
@@ -5847,8 +6021,8 @@
           atom: tensoriale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: テンソル
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -5877,7 +6051,7 @@
           atom: kartesisches
           pstn: before
         EN:
-          atom: Cartesian
+          atom: cartesian
           pstn: before
         ES:
           atom: cartesiano
@@ -5898,8 +6072,8 @@
           atom: cartesiano
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 直
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -6239,8 +6413,8 @@
           atom: alternada
           pstn: after
         DE:
-          atom: ''
-          pstn: ''
+          atom: alternierende
+          pstn: before
         EN:
           atom: alternating
           pstn: before
@@ -6467,8 +6641,8 @@
           atom: di Fourier
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: フーリエ
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -6518,8 +6692,8 @@
           atom: di Laurent
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: ローラン
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -6620,8 +6794,8 @@
           atom: di potenze
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: べき
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -6883,7 +7057,7 @@
       atom: chiusura
       gend: femminile
     JA:
-      atom: ''
+      atom: 閉包
       gend: ''
     KO:
       atom: ''
@@ -7096,7 +7270,7 @@
       atom: variabile
       gend: femminile
     JA:
-      atom: ''
+      atom: 変数
       gend: ''
     KO:
       atom: ''
@@ -7149,7 +7323,7 @@
       atom: elemento
       gend: maschile
     JA:
-      atom: ''
+      atom: 元
       gend: ''
     KO:
       atom: ''
@@ -7563,8 +7737,8 @@
           atom: diagonale
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 対角
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -7614,8 +7788,8 @@
           atom: trasposta
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 転置
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -7665,8 +7839,8 @@
           atom: quadrata
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 正方
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -7716,8 +7890,8 @@
           atom: nulla
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 零
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -7767,8 +7941,8 @@
           atom: nulla
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 零
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -8081,8 +8255,8 @@
           atom: adiacente
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 隣り合う
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -8234,8 +8408,8 @@
           atom: opposto
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 同位
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -8591,8 +8765,8 @@
           atom: al centro
           pstn: after
         JA:
-          atom: ''
-          pstn: ''
+          atom: 中心
+          pstn: before
         KO:
           atom: ''
           pstn: ''
@@ -8958,7 +9132,7 @@
       atom: asse
       gend: maschile
     JA:
-      atom: ''
+      atom: 軸
       gend: ''
     KO:
       atom: ''
@@ -9164,7 +9338,7 @@
       atom: argomento
       gend: maschile
     JA:
-      atom: ''
+      atom: 偏角
       gend: ''
     KO:
       atom: ''
@@ -9270,7 +9444,7 @@
       atom: arco
       gend: maschile
     JA:
-      atom: ''
+      atom: 弧
       gend: ''
     KO:
       atom: ''
@@ -9429,7 +9603,7 @@
       atom: membro
       gend: maschile
     JA:
-      atom: ''
+      atom: 元
       gend: ''
     KO:
       atom: ''
@@ -9482,7 +9656,7 @@
       atom: consequente
       gend: maschile
     JA:
-      atom: ''
+      atom: 結論
       gend: ''
     KO:
       atom: ''
@@ -9535,7 +9709,7 @@
       atom: faccia
       gend: femminile
     JA:
-      atom: ''
+      atom: 面
       gend: ''
     KO:
       atom: ''
@@ -9800,7 +9974,7 @@
       atom: valore
       gend: maschile
     JA:
-      atom: ''
+      atom: 値
       gend: ''
     KO:
       atom: ''
@@ -10008,7 +10182,7 @@
       atom: relazione
       gend: femminile
     JA:
-      atom: ''
+      atom: 関係
       gend: ''
     KO:
       atom: ''
@@ -10061,7 +10235,7 @@
       atom: classe
       gend: femminile
     JA:
-      atom: ''
+      atom: クラス
       gend: ''
     KO:
       atom: ''
@@ -10114,7 +10288,7 @@
       atom: distribuzione
       gend: femminile
     JA:
-      atom: ''
+      atom: 超関数
       gend: ''
     KO:
       atom: ''
@@ -10326,7 +10500,7 @@
       atom: uguaglianza
       gend: femminile
     JA:
-      atom: ''
+      atom: 等式
       gend: ''
     KO:
       atom: ''
@@ -10379,7 +10553,7 @@
       atom: esponenziazione
       gend: femminile
     JA:
-      atom: ''
+      atom: べき乗
       gend: ''
     KO:
       atom: ''
@@ -10485,7 +10659,7 @@
       atom: potenza
       gend: femminile
     JA:
-      atom: ''
+      atom: べき
       gend: ''
     KO:
       atom: ''
@@ -10909,7 +11083,7 @@
       atom: volume
       gend: maschile
     JA:
-      atom: ''
+      atom: 体積
       gend: ''
     KO:
       atom: ''
@@ -10962,7 +11136,7 @@
       atom: limitato
       gend: maschile
     JA:
-      atom: ''
+      atom: 境界
       gend: ''
     KO:
       atom: ''
@@ -10982,9 +11156,217 @@
     ZH:
       atom: ''
       gend: ''
-  adjs: {}
+  adjs:
+    '069a022d':
+      root:
+        CA:
+          atom: superior
+          pstn: after
+        DE:
+          atom: ''
+          pstn: ''
+        EN:
+          atom: upper
+          pstn: before
+        ES:
+          atom: superior
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ''
+          pstn: ''
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: ''
+          pstn: ''
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: ''
+          pstn: ''
+      refs:
+        wikidata: Q42866132
+    067e022a:
+      root:
+        CA:
+          atom: inferior
+          pstn: after
+        DE:
+          atom: ''
+          pstn: ''
+        EN:
+          atom: lower
+          pstn: before
+        ES:
+          atom: inferior
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ''
+          pstn: ''
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: ''
+          pstn: ''
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: ''
+          pstn: ''
+      refs:
+        wikidata: Q12254923
+    1a230466:
+      root:
+        CA:
+          atom: mínima superior
+          pstn: after
+        DE:
+          atom: ''
+          pstn: ''
+        EN:
+          atom: least upper
+          pstn: before
+        ES:
+          atom: mínima superior
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ''
+          pstn: ''
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: ''
+          pstn: ''
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: ''
+          pstn: ''
+      refs:
+        wikidata: Q215071
+    2a7305a9:
+      root:
+        CA:
+          atom: màxima inferior
+          pstn: after
+        DE:
+          atom: ''
+          pstn: ''
+        EN:
+          atom: greatest lower
+          pstn: before
+        ES:
+          atom: máxima inferior
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: ''
+          pstn: ''
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: ''
+          pstn: ''
+        IT:
+          atom: ''
+          pstn: ''
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: ''
+          pstn: ''
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: ''
+          pstn: ''
+      refs:
+        wikidata: Q1199948
   refs:
-    wikidata: Q28154044
+    wikidata: Q13222579
 15d9040e:
   root:
     CA:
@@ -11038,3 +11420,1455 @@
   adjs: {}
   refs:
     wikidata: Q1183559
+0fc0037e:
+  root:
+    CA:
+      atom: topologia
+      gend: femení
+    DE:
+      atom: Topologie
+      gend: "?"
+    EN:
+      atom: topology
+      gend: "?"
+    ES:
+      atom: topología
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: topologie
+      gend: "?"
+    IT:
+      atom: topologia
+      gend: "?"
+    JA:
+      atom: 位相幾何学
+      gend: ''
+    KO:
+      atom: ''
+      gend: ''
+    PL:
+      atom: topologią
+      gend: "?"
+    PT:
+      atom: topologia
+      gend: "?"
+    RU:
+      atom: топология
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 拓樸
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q18786106
+  verified: false
+065f0210:
+  root:
+    CA:
+      atom: traça
+      gend: femení
+    DE:
+      atom: Spur
+      gend: "?"
+    EN:
+      atom: trace
+      gend: "?"
+    ES:
+      atom: traza
+      gend: femenino
+    EU:
+      atom: aztarna
+      gend: "?"
+    FA:
+      atom: اثر
+      gend: ''
+    FI:
+      atom: Jälki
+      gend: "?"
+    FR:
+      atom: trace
+      gend: "?"
+    IT:
+      atom: traccia
+      gend: "?"
+    JA:
+      atom: 跡
+      gend: ''
+    KO:
+      atom: 대각합
+      gend: "?"
+    PL:
+      atom: ślad
+      gend: "?"
+    PT:
+      atom: traço
+      gend: "?"
+    RU:
+      atom: след
+      gend: "?"
+    TR:
+      atom: ilkköşegen toplamı
+      gend: ''
+    ZH:
+      atom: 跡
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q321102
+  verified: false
+380a069e:
+  root:
+    CA:
+      atom: compactificació
+      gend: femení
+    DE:
+      atom: Kompaktifizierung
+      gend: "?"
+    EN:
+      atom: compactification
+      gend: "?"
+    ES:
+      atom: compactificación
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: فشرده سازی
+      gend: "?"
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: compactification
+      gend: "?"
+    IT:
+      atom: Compattificazione
+      gend: "?"
+    JA:
+      atom: コンパクト化
+      gend: "?"
+    KO:
+      atom: ''
+      gend: ''
+    PL:
+      atom: uzwarcenie
+      gend: "?"
+    PT:
+      atom: compactificação
+      gend: "?"
+    RU:
+      atom: компактификация
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 紧化
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q546145
+  verified: false
+12a703c7:
+  root:
+    CA:
+      atom: dimensió
+      gend: femení
+    DE:
+      atom: Dimension
+      gend: "?"
+    EN:
+      atom: dimension
+      gend: "?"
+    ES:
+      atom: dimensión
+      gend: femenino
+    EU:
+      atom: Dimentsio
+      gend: "?"
+    FA:
+      atom: فضای ان بعدی
+      gend: "?"
+    FI:
+      atom: ulottuvuus
+      gend: "?"
+    FR:
+      atom: dimension
+      gend: ''
+    IT:
+      atom: dimensione
+      gend: "?"
+    JA:
+      atom: 次元
+      gend: ''
+    KO:
+      atom: 차원
+      gend: "?"
+    PL:
+      atom: wymiar
+      gend: "?"
+    PT:
+      atom: dimensão
+      gend: "?"
+    RU:
+      atom: размерность
+      gend: "?"
+    TR:
+      atom: boyut
+      gend: ''
+    ZH:
+      atom: 維度
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q4440864
+  verified: false
+'06090209':
+  root:
+    CA:
+      atom: fibra
+      gend: femení
+    DE:
+      atom: Faser
+      gend: "?"
+    EN:
+      atom: fiber
+      gend: "?"
+    ES:
+      atom: fibra
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: تار
+      gend: "?"
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: fibre
+      gend: "?"
+    IT:
+      atom: fibra
+      gend: "?"
+    JA:
+      atom: ファイバー
+      gend: "?"
+    KO:
+      atom: ''
+      gend: ''
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: ''
+      gend: ''
+    RU:
+      atom: слой
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 纖維
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q1640811
+  verified: false
+3eec06a2:
+  root:
+    CA:
+      atom: gènere
+      gend: masculí
+    DE:
+      atom: Geschlecht
+      gend: "?"
+    EN:
+      atom: genus
+      gend: "?"
+    ES:
+      atom: género
+      gend: masculino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: گونا
+      gend: "?"
+    FI:
+      atom: genus
+      gend: "?"
+    FR:
+      atom: genre
+      gend: "?"
+    IT:
+      atom: genere
+      gend: "?"
+    JA:
+      atom: 種数
+      gend: "?"
+    KO:
+      atom: 곡면 종수
+      gend: "?"
+    PL:
+      atom: genus
+      gend: "?"
+    PT:
+      atom: género
+      gend: "?"
+    RU:
+      atom: род поверхности
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 亏格
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q28517129
+  verified: false
+061b0206:
+  root:
+    CA:
+      atom: garba
+      gend: femení
+    DE:
+      atom: Gerbe
+      gend: "?"
+    EN:
+      atom: gerbe
+      gend: "?"
+    ES:
+      atom: gavilla
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: gerbe
+      gend: "?"
+    IT:
+      atom: ''
+      gend: ''
+    JA:
+      atom: ジャーブ
+      gend: "?"
+    KO:
+      atom: 제르브
+      gend: "?"
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: ''
+      gend: ''
+    RU:
+      atom: ''
+      gend: ''
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: ''
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q118705
+  verified: false
+17dc0445:
+  root:
+    CA:
+      atom: polinomi
+      gend: masculí
+    DE:
+      atom: Polynom
+      gend: "?"
+    EN:
+      atom: polynomial
+      gend: "?"
+    ES:
+      atom: polinomio
+      gend: masculino
+    EU:
+      atom: polinomio
+      gend: "?"
+    FA:
+      atom: چندجمله ای
+      gend: "?"
+    FI:
+      atom: polynomi
+      gend: "?"
+    FR:
+      atom: polynôme
+      gend: "?"
+    IT:
+      atom: polinomio
+      gend: "?"
+    JA:
+      atom: 多項式
+      gend: ''
+    KO:
+      atom: 다항식
+      gend: "?"
+    PL:
+      atom: wielomian
+      gend: "?"
+    PT:
+      atom: polinómio
+      gend: "?"
+    RU:
+      atom: многочлен
+      gend: "?"
+    TR:
+      atom: polinom
+      gend: ''
+    ZH:
+      atom: 多項式
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q43260
+  verified: false
+1f3e04b7:
+  root:
+    CA:
+      atom: espai de mòduls
+      gend: masculí
+    DE:
+      atom: Modulraum
+      gend: "?"
+    EN:
+      atom: moduli space
+      gend: "?"
+    ES:
+      atom: espacio de módulos
+      gend: masculino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: espace de modules
+      gend: "?"
+    IT:
+      atom: ''
+      gend: ''
+    JA:
+      atom: モジュライ空間
+      gend: "?"
+    KO:
+      atom: 모듈러스 공간
+      gend: "?"
+    PL:
+      atom: przestrzeń moduli
+      gend: "?"
+    PT:
+      atom: ''
+      gend: ''
+    RU:
+      atom: пространство модулей
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 模空间
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q845677
+  verified: false
+0f180352:
+  root:
+    CA:
+      atom: orbifold
+      gend: "?"
+    DE:
+      atom: Orbifaltigkeit
+      gend: "?"
+    EN:
+      atom: orbifold
+      gend: "?"
+    ES:
+      atom: orbifold
+      gend: "?"
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: orbifold
+      gend: "?"
+    IT:
+      atom: orbifold
+      gend: "?"
+    JA:
+      atom: 軌道体
+      gend: "?"
+    KO:
+      atom: 오비폴드
+      gend: "?"
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: orbivariedade
+      gend: "?"
+    RU:
+      atom: орбифолд
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 軌形
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q40460
+  verified: false
+78d409c6:
+  root:
+    CA:
+      atom: singularitat
+      gend: femení
+    DE:
+      atom: Definitionslücke
+      gend: "?"
+    EN:
+      atom: singularity
+      gend: "?"
+    ES:
+      atom: singularidad
+      gend: femenino
+    EU:
+      atom: Singulartasun
+      gend: "?"
+    FA:
+      atom: تکینگی
+      gend: "?"
+    FI:
+      atom: Singulariteetti
+      gend: "?"
+    FR:
+      atom: singularité
+      gend: "?"
+    IT:
+      atom: singolarità
+      gend: "?"
+    JA:
+      atom: 特異点
+      gend: "?"
+    KO:
+      atom: 특이점
+      gend: "?"
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: singularidade
+      gend: "?"
+    RU:
+      atom: особенность
+      gend: "?"
+    TR:
+      atom: tekillik
+      gend: ''
+    ZH:
+      atom: 奇点
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q863349
+  verified: false
+165503f8:
+  root:
+    CA:
+      atom: explosió
+      gend: femení
+    DE:
+      atom: ''
+      gend: ''
+    EN:
+      atom: blow-up
+      gend: "?"
+    ES:
+      atom: explosión
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: éclatement
+      gend: "?"
+    IT:
+      atom: ''
+      gend: ''
+    JA:
+      atom: 爆発
+      gend: "?"
+    KO:
+      atom: 부풀리기
+      gend: "?"
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: explosão
+      gend: "?"
+    RU:
+      atom: раздутие
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 拉開
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q1036595
+  verified: false
+2cac05f4:
+  root:
+    CA:
+      atom: representació
+      gend: femení
+    DE:
+      atom: ''
+      gend: ''
+    EN:
+      atom: representation
+      gend: ''
+    ES:
+      atom: representación
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: نمایش
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: ''
+      gend: ''
+    IT:
+      atom: ''
+      gend: ''
+    JA:
+      atom: 表現
+      gend: "?"
+    KO:
+      atom: 군의
+      gend: ''
+    PL:
+      atom: reprezentacja
+      gend: "?"
+    PT:
+      atom: representação
+      gend: "?"
+    RU:
+      atom: представление
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 表示
+      gend: "?"
+  adjs:
+    0677022e:
+      root:
+        CA:
+          atom: de grup
+          pstn: after
+        DE:
+          atom: Gruppen
+          pstn: before
+          join: true
+        EN:
+          atom: group
+          pstn: before
+        ES:
+          atom: de grupo
+          pstn: after
+        EU:
+          atom: ''
+          pstn: ''
+        FA:
+          atom: گروه
+          pstn: after
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: de groupe
+          pstn: after
+        IT:
+          atom: dei gruppi
+          pstn: after
+        JA:
+          atom: 群の
+          pstn: before
+        KO:
+          atom: 표현
+          pstn: after
+        PL:
+          atom: grupy
+          pstn: after
+        PT:
+          atom: de grupo
+          pstn: after
+        RU:
+          atom: группы
+          pstn: after
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: 群
+          pstn: before
+      refs:
+        wikidata: Q1055807
+    1b9c048b:
+      root:
+        CA:
+          atom: irreduïble
+          pstn: after
+        DE:
+          atom: irreduzibles
+          pstn: before
+        EN:
+          atom: irreducible
+          pstn: before
+        ES:
+          atom: irreducible
+          pstn: after
+        EU:
+          atom: irreduzible
+          pstn: after
+        FA:
+          atom: تقلیل ناپذیر
+          pstn: after
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: irréductible
+          pstn: after
+        IT:
+          atom: irriducibile
+          pstn: after
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: irredutível
+          pstn: after
+        RU:
+          atom: неприводи́мая
+          pstn: before
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: 不可约
+          pstn: before
+      refs: {}
+  refs:
+    wikidata: Q2905654
+  verified: false
+ecdc0d84:
+  root:
+    CA:
+      atom: caràcter
+      gend: masculí
+    DE:
+      atom: Charakter
+      gend: "?"
+    EN:
+      atom: character
+      gend: ''
+    ES:
+      atom: carácter
+      gend: masculino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: کاراکتر
+      gend: "?"
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: caractère
+      gend: "?"
+    IT:
+      atom: carattere
+      gend: "?"
+    JA:
+      atom: 指標
+      gend: ''
+    KO:
+      atom: 지표
+      gend: "?"
+    PL:
+      atom: character
+      gend: "?"
+    PT:
+      atom: carácter
+      gend: "?"
+    RU:
+      atom: характер
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 特徵標
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q600043
+  verified: false
+0f6c0357:
+  root:
+    CA:
+      atom: subespai
+      gend: masculí
+    DE:
+      atom: Unterraum
+      gend: "?"
+    EN:
+      atom: subspace
+      gend: ''
+    ES:
+      atom: subespacio
+      gend: masculino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: sous-espace
+      gend: "?"
+    IT:
+      atom: sottospazio
+      gend: "?"
+    JA:
+      atom: 部分空間
+      gend: ''
+    KO:
+      atom: ''
+      gend: ''
+    PL:
+      atom: podprzestrzeń
+      gend: "?"
+    PT:
+      atom: subespaço
+      gend: "?"
+    RU:
+      atom: подпространство
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: ''
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q91328142
+  verified: false
+46d40760:
+  root:
+    CA:
+      atom: sèrie de composició
+      gend: femení
+    DE:
+      atom: ''
+      gend: ''
+    EN:
+      atom: composition series
+      gend: "?"
+    ES:
+      atom: serie de composición
+      gend: femenino
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: suite de composition
+      gend: "?"
+    IT:
+      atom: serie di composizione
+      gend: "?"
+    JA:
+      atom: 組成列
+      gend: "?"
+    KO:
+      atom: 조성열
+      gend: "?"
+    PL:
+      atom: Ciąg kompozycyjny
+      gend: "?"
+    PT:
+      atom: série de composição
+      gend: "?"
+    RU:
+      atom: ''
+      gend: ''
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 合成列
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q2525646
+  verified: false
+0bba02f6:
+  root:
+    CA:
+      atom: ínfim
+      gend: masculí
+    DE:
+      atom: Infimum
+      gend: "?"
+    EN:
+      atom: infimum
+      gend: ''
+    ES:
+      atom: ínfimo
+      gend: masculino
+    EU:
+      atom: beheren
+      gend: "?"
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: infimum
+      gend: ''
+    FR:
+      atom: infimum
+      gend: "?"
+    IT:
+      atom: estremo inferiore
+      gend: "?"
+    JA:
+      atom: 下限
+      gend: ''
+    KO:
+      atom: 최대하계
+      gend: ''
+    PL:
+      atom: infimum
+      gend: "?"
+    PT:
+      atom: ínfimo
+      gend: "?"
+    RU:
+      atom: инфимум
+      gend: ''
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 最大下界
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q1199948
+  verified: false
+0fdf037f:
+  root:
+    CA:
+      atom: suprem
+      gend: masculí
+    DE:
+      atom: Supremum
+      gend: "?"
+    EN:
+      atom: supremum
+      gend: ''
+    ES:
+      atom: supremo
+      gend: masculino
+    EU:
+      atom: goren
+      gend: "?"
+    FA:
+      atom: کوچک‌ترین کران بالا
+      gend: ''
+    FI:
+      atom: supremum
+      gend: ''
+    FR:
+      atom: supremum
+      gend: "?"
+    IT:
+      atom: estremo superiore
+      gend: "?"
+    JA:
+      atom: 上限
+      gend: ''
+    KO:
+      atom: 최소상계
+      gend: ''
+    PL:
+      atom: supremum
+      gend: "?"
+    PT:
+      atom: supremo
+      gend: "?"
+    RU:
+      atom: супремум
+      gend: ''
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 最小上界
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q215071
+  verified: false
+260c0572:
+  root:
+    CA:
+      atom: contradicció
+      gend: femení
+    DE:
+      atom: Kontradiktion
+      gend: "?"
+    EN:
+      atom: contradiction
+      gend: ''
+    ES:
+      atom: contradicción
+      gend: femenino
+    EU:
+      atom: kontraesan
+      gend: "?"
+    FA:
+      atom: تناقض
+      gend: ''
+    FI:
+      atom: ristiriitaisuus
+      gend: ''
+    FR:
+      atom: contradiction
+      gend: "?"
+    IT:
+      atom: contraddizione
+      gend: "?"
+    JA:
+      atom: 矛盾
+      gend: ''
+    KO:
+      atom: 모순
+      gend: ''
+    PL:
+      atom: sprzeczność
+      gend: "?"
+    PT:
+      atom: contradição
+      gend: "?"
+    RU:
+      atom: противоречие
+      gend: "?"
+    TR:
+      atom: çelişki
+      gend: ''
+    ZH:
+      atom: 矛盾
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q363948
+  verified: false
+623b08b3:
+  root:
+    CA:
+      atom: reducció a l'absurd
+      gend: femení
+    DE:
+      atom: Reductio ad absurdum
+      gend: "?"
+    EN:
+      atom: proof by contradiction
+      gend: ''
+    ES:
+      atom: prueba por contradicción
+      gend: femenino
+    EU:
+      atom: reductio ad absurdum
+      gend: "?"
+    FA:
+      atom: برهان خلف
+      gend: ''
+    FI:
+      atom: epäsuora todistus
+      gend: ''
+    FR:
+      atom: raisonnement par l'absurde
+      gend: "?"
+    IT:
+      atom: dimostrazione per assurdo
+      gend: "?"
+    JA:
+      atom: 背理法
+      gend: ''
+    KO:
+      atom: 귀류법
+      gend: ''
+    PL:
+      atom: dowód nie wprost
+      gend: "?"
+    PT:
+      atom: prova por contradição
+      gend: "?"
+    RU:
+      atom: доказательство от противного
+      gend: "?"
+    TR:
+      atom: Reductio ad absurdum
+      gend: ''
+    ZH:
+      atom: 反證法
+      gend: ''
+  adjs: {}
+  refs:
+    wikidata: Q184899
+  verified: false
+164303fe:
+  root:
+    CA:
+      atom: ''
+      gend: ''
+    DE:
+      atom: ''
+      gend: "?"
+    EN:
+      atom: group ring
+      gend: "?"
+    ES:
+      atom: anillo de grupo
+      gend: "?"
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: algèbre d'un groupe fini
+      gend: "?"
+    IT:
+      atom: ''
+      gend: ''
+    JA:
+      atom: 群環
+      gend: "?"
+    KO:
+      atom: 군환
+      gend: "?"
+    PL:
+      atom: ''
+      gend: ''
+    PT:
+      atom: anel de grupo
+      gend: "?"
+    RU:
+      atom: групповое кольцо
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 群環
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q2602722
+  verified: false
+2c7005db:
+  root:
+    CA:
+      atom: correspondència
+      gend: "?"
+    DE:
+      atom: Korrespondenz
+      gend: "?"
+    EN:
+      atom: correspondence
+      gend: "?"
+    ES:
+      atom: correspondencia
+      gend: "?"
+    EU:
+      atom: korrespondentzia
+      gend: "?"
+    FA:
+      atom: ''
+      gend: ''
+    FI:
+      atom: ''
+      gend: ''
+    FR:
+      atom: correspondance
+      gend: "?"
+    IT:
+      atom: corrispondenza
+      gend: "?"
+    JA:
+      atom: 対応
+      gend: "?"
+    KO:
+      atom: 대응
+      gend: "?"
+    PL:
+      atom: korespondencja
+      gend: "?"
+    PT:
+      atom: correspondência
+      gend: "?"
+    RU:
+      atom: соответствие
+      gend: "?"
+    TR:
+      atom: ''
+      gend: ''
+    ZH:
+      atom: 對應
+      gend: "?"
+  adjs:
+    125203b6:
+      root:
+        CA:
+          atom: bijectiva
+          pstn: after
+        DE:
+          atom: bijektive
+          pstn: before
+        EN:
+          atom: bijective
+          pstn: before
+        ES:
+          atom: biyectiva
+          pstn: after
+        EU:
+          atom: bijektibo
+          pstn: after
+        FA:
+          atom: دوسویی
+          pstn: after
+        FI:
+          atom: ''
+          pstn: ''
+        FR:
+          atom: bijective
+          pstn: after
+        IT:
+          atom: biettiva
+          pstn: after
+        JA:
+          atom: ''
+          pstn: ''
+        KO:
+          atom: ''
+          pstn: ''
+        PL:
+          atom: ''
+          pstn: ''
+        PT:
+          atom: bijetiva
+          pstn: after
+        RU:
+          atom: ''
+          pstn: ''
+        TR:
+          atom: ''
+          pstn: ''
+        ZH:
+          atom: 双射
+          pstn: before
+      refs:
+        wikidata: Q180907
+  refs:
+    wikidata: Q1322856
+  verified: false
+1b3a049c:
+  root:
+    CA:
+      atom: vector propi
+      gend: "?"
+    DE:
+      atom: Eigenvektor
+      gend: "?"
+    EN:
+      atom: eigenvector
+      gend: "?"
+    ES:
+      atom: vector propio
+      gend: "?"
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: بردار ویژه
+      gend: "?"
+    FI:
+      atom: ominaisvektori
+      gend: "?"
+    FR:
+      atom: vecteur propre
+      gend: "?"
+    IT:
+      atom: autovettore
+      gend: "?"
+    JA:
+      atom: 固有ベクトル
+      gend: "?"
+    KO:
+      atom: 고유벡터
+      gend: "?"
+    PL:
+      atom: wektor własny
+      gend: "?"
+    PT:
+      atom: autovector
+      gend: "?"
+    RU:
+      atom: собственный вектор
+      gend: "?"
+    TR:
+      atom: özvektör
+      gend: "?"
+    ZH:
+      atom: 特征向量
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q3555174
+  verified: false
+16a10426:
+  root:
+    CA:
+      atom: valor propi
+      gend: "?"
+    DE:
+      atom: Eigenwert
+      gend: "?"
+    EN:
+      atom: eigenvalue
+      gend: "?"
+    ES:
+      atom: valor propio
+      gend: "?"
+    EU:
+      atom: ''
+      gend: ''
+    FA:
+      atom: مقدار ویژه
+      gend: "?"
+    FI:
+      atom: Ominaisarvo
+      gend: "?"
+    FR:
+      atom: valeur propre
+      gend: "?"
+    IT:
+      atom: autovalore
+      gend: "?"
+    JA:
+      atom: 固有値
+      gend: "?"
+    KO:
+      atom: 고윳값
+      gend: "?"
+    PL:
+      atom: wartości własne
+      gend: "?"
+    PT:
+      atom: valor próprio
+      gend: "?"
+    RU:
+      atom: собственное значение
+      gend: "?"
+    TR:
+      atom: özdeğer
+      gend: "?"
+    ZH:
+      atom: 特征值
+      gend: "?"
+  adjs: {}
+  refs:
+    wikidata: Q3553768
+  verified: false
