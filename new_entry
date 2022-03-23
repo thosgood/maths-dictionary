@@ -33,7 +33,7 @@ for arg in ARGV
   "refs": {
     "wikidata": "#{arg}"
   },
-  "verified": "false"
+  "verified": false
 },
 `
   output.push(entry)
