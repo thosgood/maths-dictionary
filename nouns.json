@@ -1691,7 +1691,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1047547"
+        }
       },
       "0bb002ea": {
         "root": {
