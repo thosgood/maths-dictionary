@@ -1739,6 +1739,29 @@
       "ZH": { "atom": "範疇", "gend": "" }
     },
     "adjs": {
+      "129203bb": {
+        "root": {
+          "CA": { "atom": "cartesiana", "pstn": "after" },
+          "DE": { "atom": "kartesische", "pstn": "before" },
+          "EN": { "atom": "cartesian", "pstn": "before" },
+          "ES": { "atom": "cartesiana", "pstn": "after" },
+          "EU": { "atom": "kartesiar", "pstn": "after" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "cartésienne", "pstn": "after" },
+          "IT": { "atom": "cartesiana", "pstn": "after" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "", "pstn": "" },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "", "pstn": "" }
+        },
+        "refs": {
+          "wikidata": "Q18205845"
+        }
+      },
       "0b0e02cd": {
         "root": {
           "CA": { "atom": "abeliana", "pstn": "after" },
