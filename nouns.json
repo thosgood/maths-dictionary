@@ -1739,48 +1739,6 @@
       "ZH": { "atom": "範疇", "gend": "" }
     },
     "adjs": {
-      "129203bb": {
-        "root": {
-          "CA": { "atom": "cartesiana", "pstn": "after" },
-          "DE": { "atom": "kartesische", "pstn": "before" },
-          "EN": { "atom": "cartesian", "pstn": "before" },
-          "ES": { "atom": "cartesiana", "pstn": "after" },
-          "EU": { "atom": "kartesiar", "pstn": "after" },
-          "FA": { "atom": "", "pstn": "" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "cartésienne", "pstn": "after" },
-          "IT": { "atom": "cartesiana", "pstn": "after" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "", "pstn": "" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      },
-      "3cd006cb": {
-        "root": {
-          "CA": { "atom": "localment cartesiana", "pstn": "after" },
-          "DE": { "atom": "lokal kartesische", "pstn": "before" },
-          "EN": { "atom": "locally cartesian", "pstn": "before" },
-          "ES": { "atom": "localmente cartesiana", "pstn": "after" },
-          "EU": { "atom": "lokalki kartesiar", "pstn": "after" },
-          "FA": { "atom": "", "pstn": "" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "localement cartésienne", "pstn": "after" },
-          "IT": { "atom": "localmente cartesiana", "pstn": "after" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "", "pstn": "" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      },
       "0b0e02cd": {
         "root": {
           "CA": { "atom": "abeliana", "pstn": "after" },
@@ -5619,6 +5577,31 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q3553768"
+    },
+    "verified": false
+  },
+  "06520220": {
+    "root": {
+      "CA": { "atom": "Límit", "gend": "?" },
+      "DE": { "atom": "Limes", "gend": "?" },
+      "EN": { "atom": "limit", "gend": "" },
+      "ES": { "atom": "límite", "gend": "?" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "حد", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "limite", "gend": "féminin" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "極限", "gend": "?" },
+      "KO": { "atom": "극한", "gend": "?" },
+      "PL": { "atom": "granica", "gend": "?" },
+      "PT": { "atom": "limite", "gend": "?" },
+      "RU": { "atom": "Предел", "gend": "" },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "极限", "gend": "" }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1322614"
     },
     "verified": false
   }
