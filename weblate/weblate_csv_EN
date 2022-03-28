@@ -3,13 +3,15 @@ require 'json'
 require 'csv'
 
 # Load the nouns.json file
-data = JSON.parse(File.read('../nouns.json'))
+file = JSON.parse(File.read('../nouns.json'))
 
 # These are the headers that Weblate expects in the uploaded CSV
 headers = "location,source,target,id,fuzzy,context,translator_comments,developer_comments"
 # example = ",abelian category,abelian category,,FALSE,0ebe035f/0b0e02cd,,https://www.wikidata.org/wiki/Q318737"
 
-data.each do |k,v|
+csv_data = []
+
+file.each do |k,v|
   location = ''
   source = v["root"]["EN"]["atom"]
   target = v["root"]["EN"]["atom"]
@@ -21,5 +23,7 @@ data.each do |k,v|
   unless v["refs"]["wikidata"].nil?
     developer_comments = "https://www.wikidata.org/wiki/#{v["refs"]["wikidata"]}"
   end
-  p ([location,source,target,id,fuzzy,context,translator_comments,developer_comments].join(','))
+  csv_data.append([location,source,target,id,fuzzy,context,translator_comments,developer_comments])
 end
+
+File.write("weblate_EN.csv", csv_data.map(&:to_csv).join)
