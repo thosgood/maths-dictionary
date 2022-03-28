@@ -24,6 +24,7 @@ for arg in ARGV
         entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "" }`)
       else
         entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
+      end
       found.push(lang)
     else
       entries.push(%`"#{lang}": { "atom": "", "gend": "" }`)
