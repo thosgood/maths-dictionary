@@ -52,16 +52,16 @@ $(document).ready(function() {
             ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${data["wikidata"]}">${data["wikidata"]}</a>`;
           };
           if (data["mathworld"]) {
-            ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${data["mathworld"]}.html">MathWorld</a>`;
+            ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${data["mathworld"]}.html">[MathWorld]</a>`;
           };
           if (data["eom"]) {
-            ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
+            ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">[EoM]</a>`;
           };
           if (data["nlab"]) {
-            ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${data["nlab"]}">nLab</a>`;
+            ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${data["nlab"]}">[nLab]</a>`;
           };
           if (data["pm"]) {
-            ref += `<a class="ref pm" href="https://planetmath.org/${data["pm"]}">PlanetMath</a>`;
+            ref += `<a class="ref pm" href="https://planetmath.org/${data["pm"]}">[PlanetMath]</a>`;
           };
           return ref;
         } else {
@@ -184,16 +184,16 @@ $(document).ready(function() {
           ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${adj["refs"]["wikidata"]}">${adj["refs"]["wikidata"]}</a>`;
         };
         if (adj["refs"]["mathworld"]) {
-          ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${adj["refs"]["mathworld"]}.html">MathWorld</a>`;
+          ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${adj["refs"]["mathworld"]}.html">[MathWorld]</a>`;
         };
         if (adj["refs"]["eom"]) {
-          ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${adj["refs"]["eom"]}">EoM</a>`;
+          ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${adj["refs"]["eom"]}">[EoM]</a>`;
         };
         if (adj["refs"]["nlab"]) {
-          ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${adj["refs"]["nlab"]}">nLab</a>`;
+          ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${adj["refs"]["nlab"]}">[nLab]</a>`;
         };
         if (adj["refs"]["pm"]) {
-          ref += `<a class="ref pm" href="https://planetmath.org/${adj["refs"]["pm"]}">PlanetMath</a>`;
+          ref += `<a class="ref pm" href="https://planetmath.org/${adj["refs"]["pm"]}">[PlanetMath]</a>`;
         };
         adjRef = ref;
       } else {
