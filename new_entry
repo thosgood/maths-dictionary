@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-require "adler32"
+require 'adler32'
 require 'net/http'
 require 'uri'
 require 'json'
