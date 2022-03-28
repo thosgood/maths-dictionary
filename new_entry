@@ -8,6 +8,8 @@ output = []
 found = []
 # to-do: grab these from languages.json
 languages = ["CA", "DE", "EN", "ES", "EU", "FA", "FI", "FR", "IT", "JA", "KO", "PL", "PT", "RU", "TR", "ZH"]
+# to-do: grab these from languages.json (those with/without gender)
+genderFree = ["EN", "EU", "FA", "FI", "JA", "KO", "TR", "ZH"]
 
 for arg in ARGV
   entries = []
@@ -18,7 +20,10 @@ for arg in ARGV
     item = json["entities"][arg]["labels"]
     unless item[lang.downcase].nil?
       atom = item[lang.downcase]["value"]
-      entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
+      if genderFree.include? lang
+        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "" }`)
+      else
+        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
       found.push(lang)
     else
       entries.push(%`"#{lang}": { "atom": "", "gend": "" }`)
