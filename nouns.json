@@ -1665,7 +1665,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q603880"
+        }
       },
       "533c07e7": {
         "root": {
@@ -1709,7 +1711,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q2997817"
+        }
       }
     },
     "refs": {
