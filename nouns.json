@@ -1548,7 +1548,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q942423"
+        }
       },
       "12b903c2": {
         "root": {
@@ -1569,7 +1571,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q2716519"
+        }
       },
       "0906028b": {
         "root": {
@@ -1592,13 +1596,12 @@
         },
         "refs": {
           "wikidata": "Q956233"
-        },
-        "verified": false
+        }
       },
       "175c0439": {
         "root": {
           "CA": { "atom": "", "pstn": "" },
-          "DE": { "atom": "Halbeinfacher", "pstn": "before" },
+          "DE": { "atom": "halbeinfacher", "pstn": "before" },
           "EN": { "atom": "semisimple", "pstn": "before" },
           "ES": { "atom": "semisimple", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
@@ -1616,8 +1619,7 @@
         },
         "refs": {
           "wikidata": "Q1485102"
-        },
-        "verified": false
+        }
       }
     },
     "refs": {
