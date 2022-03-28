@@ -57,6 +57,12 @@ $(document).ready(function() {
           if (data["eom"]) {
             ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${data["eom"]}">EoM</a>`;
           };
+          if (data["nlab"]) {
+            ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${data["nlab"]}">nLab</a>`;
+          };
+          if (data["pm"]) {
+            ref += `<a class="ref pm" href="https://planetmath.org/${data["pm"]}">PlanetMath</a>`;
+          };
           return ref;
         } else {
           return "n/a";
@@ -182,6 +188,12 @@ $(document).ready(function() {
         };
         if (adj["refs"]["eom"]) {
           ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${adj["refs"]["eom"]}">EoM</a>`;
+        };
+        if (adj["refs"]["nlab"]) {
+          ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${adj["refs"]["nlab"]}">nLab</a>`;
+        };
+        if (adj["refs"]["pm"]) {
+          ref += `<a class="ref pm" href="https://planetmath.org/${adj["refs"]["pm"]}">PlanetMath</a>`;
         };
         adjRef = ref;
       } else {
