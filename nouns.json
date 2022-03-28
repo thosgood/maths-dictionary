@@ -1828,7 +1828,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q4370335"
+        }
       },
       "16da042c": {
         "root": {
@@ -1849,7 +1851,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q47007889"
+        }
       },
       "552f081a": {
         "root": {
@@ -1891,7 +1895,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "nlab": "locally+finitely+presentable+category"
+        }
       },
       "06440212": {
         "root": {
@@ -1960,7 +1966,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q226183"
+        }
       },
       "11cd03a8": {
         "root": {
@@ -1981,7 +1989,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q10533491"
+        }
       },
       "044801b3": {
         "root": {
@@ -2002,7 +2012,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q213363"
+        }
       },
       "08b7027b": {
         "root": {
@@ -2023,7 +2035,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q320357"
+        }
       },
       "08b80282": {
         "root": {
@@ -2044,7 +2058,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q320369"
+        }
       },
       "12ee03be": {
         "root": {
@@ -2065,7 +2081,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q66707394"
+        }
       },
       "1c4304a1": {
         "root": {
@@ -2086,7 +2104,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1128796"
+        }
       },
       "0f030357": {
         "root": {
@@ -2107,7 +2127,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q205140"
+        }
       },
       "08b70280": {
         "root": {
@@ -2128,7 +2150,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q272404"
+        }
       },
       "1202039b": {
         "root": {
@@ -2149,7 +2173,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q2895824"
+        }
       },
       "17b9044a": {
         "root": {
@@ -2170,7 +2196,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q671944"
+        }
       },
       "16e50422": {
         "root": {
@@ -2191,7 +2219,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q3054889"
+        }
       },
       "0ee90356": {
         "root": {
@@ -2212,7 +2242,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q485312"
+        }
       },
       "1773043c": {
         "root": {
@@ -2275,7 +2307,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1528401"
+        }
       },
       "261a0581": {
         "root": {
@@ -2526,7 +2560,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1163016"
+        }
       },
       "1172039b": {
         "root": {
@@ -2547,7 +2583,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q173740"
+        }
       }
     },
     "refs": {
@@ -2581,7 +2619,7 @@
           "EN": { "atom": "direct", "pstn": "before" },
           "ES": { "atom": "directa", "pstn": "after" },
           "EU": { "atom": "zuzen", "pstn": "after" },
-          "FA": { "atom": "", "pstn": "" },
+          "FA": { "atom": "مستقیم", "pstn": "after" },
           "FI": { "atom": "", "pstn": "" },
           "FR": { "atom": "directe", "pstn": "after" },
           "IT": { "atom": "diretta", "pstn": "after" },
@@ -2593,7 +2631,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q13582243"
+        }
       }
     },
     "refs": {
@@ -2687,7 +2727,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q438842"
+        }
       },
       "172c043c": {
         "root": {
@@ -2708,7 +2750,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1211057"
+        }
       },
       "5e8108a0": {
         "root": {
@@ -2729,49 +2773,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
-      },
-      "044e01b0": {
-        "root": {
-          "CA": { "atom": "temporal", "pstn": "after" },
-          "DE": { "atom": "", "pstn": "" },
-          "EN": { "atom": "time", "pstn": "before" },
-          "ES": { "atom": "temporal", "pstn": "after" },
-          "EU": { "atom": "", "pstn": "" },
-          "FA": { "atom": "", "pstn": "" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "", "pstn": "" },
-          "IT": { "atom": "", "pstn": "" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "", "pstn": "" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
-      },
-      "26120565": {
-        "root": {
-          "CA": { "atom": "cronològica", "pstn": "after" },
-          "DE": { "atom": "", "pstn": "" },
-          "EN": { "atom": "chronological", "pstn": "before" },
-          "ES": { "atom": "cronológica", "pstn": "after" },
-          "EU": { "atom": "kronologiko", "pstn": "after" },
-          "FA": { "atom": "", "pstn": "" },
-          "FI": { "atom": "", "pstn": "" },
-          "FR": { "atom": "", "pstn": "" },
-          "IT": { "atom": "cronologica", "pstn": "after" },
-          "JA": { "atom": "", "pstn": "" },
-          "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "", "pstn": "" },
-          "PT": { "atom": "", "pstn": "" },
-          "RU": { "atom": "", "pstn": "" },
-          "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
-        },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q91134251"
+        }
       },
       "0b1302dd": {
         "root": {
@@ -2792,7 +2796,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q179467"
+        }
       },
       "0af102dc": {
         "root": {
@@ -2813,7 +2819,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q425432"
+        }
       },
       "1152039d": {
         "root": {
@@ -2834,7 +2842,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q1882442"
+        }
       },
       "0692022e": {
         "root": {
@@ -2855,7 +2865,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q206925"
+        }
       },
       "085b027c": {
         "root": {
@@ -2876,7 +2888,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q131187"
+        }
       }
     },
     "refs": {
@@ -3115,7 +3129,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q185813"
+        }
       },
       "0bfd02fd": {
         "root": {
@@ -3136,7 +3152,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q338057"
+        }
       },
       "0efc036b": {
         "root": {
@@ -3157,7 +3175,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q185813"
+        }
       }
     },
     "refs": {
@@ -3203,7 +3223,9 @@
           "TR": { "atom": "", "pstn": "" },
           "ZH": { "atom": "", "pstn": "" }
         },
-        "refs": {}
+        "refs": {
+          "wikidata": "Q230848"
+        }
       }
     },
     "refs": {
