@@ -8,8 +8,9 @@ file = JSON.parse(File.read('../nouns.json'))
 # These are the headers that Weblate expects in the uploaded CSV
 headers = "location,source,target,id,fuzzy,context,translator_comments,developer_comments"
 # example = ",abelian category,abelian category,,FALSE,0ebe035f/0b0e02cd,,https://www.wikidata.org/wiki/Q318737"
+# example = "","category","catégorie","","False","0ebe035f","féminin","https://www.wikidata.org/wiki/Q719395"
 
-csv_data = []
+csv_data_EN = []
 
 def generate_row (key, value, parent_key = nil, parent_value = nil)
   location = ''
@@ -37,12 +38,12 @@ end
 
 
 file.each do |k,v|
-  csv_data.append(generate_row k, v)
+  csv_data_EN.append(generate_row k, v)
   unless v["adjs"].nil?
     v["adjs"].each do |l,w|
-      csv_data.append(generate_row l, w, k, v)
+      csv_data_EN.append(generate_row l, w, k, v)
     end
   end
 end
 
-File.write("weblate_EN.csv", csv_data.map(&:to_csv).join)
+File.write("weblate_EN.csv", csv_data_EN.map(&:to_csv).join)
