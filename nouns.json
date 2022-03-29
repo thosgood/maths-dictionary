@@ -1904,7 +1904,7 @@
           "CA": { "atom": "model", "pstn": "after" },
           "DE": { "atom": "Modell", "pstn": "before", "join": true },
           "EN": { "atom": "model", "pstn": "before" },
-          "ES": { "atom": "de modelo", "pstn": "after" },
+          "ES": { "atom": "modelo", "pstn": "after" },
           "EU": { "atom": "", "pstn": "" },
           "FA": { "atom": "", "pstn": "" },
           "FI": { "atom": "", "pstn": "" },

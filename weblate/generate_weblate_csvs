@@ -36,6 +36,7 @@ def generate_row (key, value, parent_key = nil, parent_value = nil)
   unless value["refs"]["wikidata"].nil?
     developer_comments = "https://www.wikidata.org/wiki/#{value["refs"]["wikidata"]}"
   end
+  # TO-DO: return a hash of all languages
   return [location,source,target,id,fuzzy,context,translator_comments,developer_comments]
 end
 
