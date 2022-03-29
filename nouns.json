@@ -4982,167 +4982,161 @@
   },
   "0fc0037e": {
     "root": {
-      "CA": { "atom": "topologia", "gend": "femení" },
-      "DE": { "atom": "Topologie", "gend": "?" },
+      "CA": { "atom": "topologia", "gend": "femení", "vrfd": false },
+      "DE": { "atom": "Topologie", "gend": "?", "vrfd": false },
       "EN": { "atom": "topology", "gend": "" },
       "ES": { "atom": "topología", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "topologie", "gend": "?" },
-      "IT": { "atom": "topologia", "gend": "?" },
-      "JA": { "atom": "位相幾何学", "gend": "" },
+      "FR": { "atom": "topologie", "gend": "?", "vrfd": false },
+      "IT": { "atom": "topologia", "gend": "?", "vrfd": false },
+      "JA": { "atom": "位相幾何学", "gend": "", "vrfd": false },
       "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "topologią", "gend": "?" },
-      "PT": { "atom": "topologia", "gend": "?" },
-      "RU": { "atom": "топология", "gend": "?" },
+      "PL": { "atom": "topologią", "gend": "?", "vrfd": false },
+      "PT": { "atom": "topologia", "gend": "?", "vrfd": false },
+      "RU": { "atom": "топология", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "拓樸", "gend": "" }
+      "ZH": { "atom": "拓樸", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q18786106"
-    },
-    "verified": false
+    }
   },
   "065f0210": {
     "root": {
       "CA": { "atom": "traça", "gend": "femení" },
-      "DE": { "atom": "Spur", "gend": "?" },
+      "DE": { "atom": "Spur", "gend": "?", "vrfd": false },
       "EN": { "atom": "trace", "gend": "" },
       "ES": { "atom": "traza", "gend": "femenino" },
       "EU": { "atom": "aztarna", "gend": "" },
-      "FA": { "atom": "اثر", "gend": "" },
-      "FI": { "atom": "Jälki", "gend": "" },
-      "FR": { "atom": "trace", "gend": "?" },
-      "IT": { "atom": "traccia", "gend": "?" },
-      "JA": { "atom": "跡", "gend": "" },
-      "KO": { "atom": "대각합", "gend": "" },
-      "PL": { "atom": "ślad", "gend": "?" },
-      "PT": { "atom": "traço", "gend": "?" },
-      "RU": { "atom": "след", "gend": "?" },
-      "TR": { "atom": "ilkköşegen toplamı", "gend": "" },
-      "ZH": { "atom": "跡", "gend": "" }
+      "FA": { "atom": "اثر", "gend": "", "vrfd": false },
+      "FI": { "atom": "Jälki", "gend": "", "vrfd": false },
+      "FR": { "atom": "trace", "gend": "?", "vrfd": false },
+      "IT": { "atom": "traccia", "gend": "?", "vrfd": false },
+      "JA": { "atom": "跡", "gend": "", "vrfd": false },
+      "KO": { "atom": "대각합", "gend": "", "vrfd": false },
+      "PL": { "atom": "ślad", "gend": "?", "vrfd": false },
+      "PT": { "atom": "traço", "gend": "?", "vrfd": false },
+      "RU": { "atom": "след", "gend": "?", "vrfd": false },
+      "TR": { "atom": "ilkköşegen toplamı", "gend": "", "vrfd": false },
+      "ZH": { "atom": "跡", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q321102"
-    },
-    "verified": false
+    }
   },
   "380a069e": {
     "root": {
       "CA": { "atom": "compactificació", "gend": "femení" },
-      "DE": { "atom": "Kompaktifizierung", "gend": "?" },
+      "DE": { "atom": "Kompaktifizierung", "gend": "?", "vrfd": false },
       "EN": { "atom": "compactification", "gend": "" },
       "ES": { "atom": "compactificación", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "فشرده سازی", "gend": "" },
+      "FA": { "atom": "فشرده سازی", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "compactification", "gend": "féminin" },
-      "IT": { "atom": "Compattificazione", "gend": "?" },
-      "JA": { "atom": "コンパクト化", "gend": "" },
+      "IT": { "atom": "compattificazione", "gend": "?", "vrfd": false },
+      "JA": { "atom": "コンパクト化", "gend": "", "vrfd": false },
       "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "uzwarcenie", "gend": "?" },
-      "PT": { "atom": "compactificação", "gend": "?" },
-      "RU": { "atom": "компактификация", "gend": "?" },
+      "PL": { "atom": "uzwarcenie", "gend": "?", "vrfd": false },
+      "PT": { "atom": "compactificação", "gend": "?", "vrfd": false },
+      "RU": { "atom": "компактификация", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "紧化", "gend": "" }
+      "ZH": { "atom": "紧化", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q546145"
-    },
-    "verified": false
+    }
   },
   "12a703c7": {
     "root": {
       "CA": { "atom": "dimensió", "gend": "femení" },
-      "DE": { "atom": "Dimension", "gend": "?" },
+      "DE": { "atom": "Dimension", "gend": "?", "vrfd": false },
       "EN": { "atom": "dimension", "gend": "" },
       "ES": { "atom": "dimensión", "gend": "femenino" },
-      "EU": { "atom": "Dimentsio", "gend": "" },
-      "FA": { "atom": "فضای ان بعدی", "gend": "" },
-      "FI": { "atom": "ulottuvuus", "gend": "" },
+      "EU": { "atom": "dimentsio", "gend": "", "vrfd": false },
+      "FA": { "atom": "فضای ان بعدی", "gend": "", "vrfd": false },
+      "FI": { "atom": "ulottuvuus", "gend": "", "vrfd": false },
       "FR": { "atom": "dimension", "gend": "féminin" },
-      "IT": { "atom": "dimensione", "gend": "?" },
-      "JA": { "atom": "次元", "gend": "" },
-      "KO": { "atom": "차원", "gend": "" },
-      "PL": { "atom": "wymiar", "gend": "?" },
-      "PT": { "atom": "dimensão", "gend": "?" },
-      "RU": { "atom": "размерность", "gend": "?" },
-      "TR": { "atom": "boyut", "gend": "" },
-      "ZH": { "atom": "維度", "gend": "" }
+      "IT": { "atom": "dimensione", "gend": "?", "vrfd": false },
+      "JA": { "atom": "次元", "gend": "", "vrfd": false },
+      "KO": { "atom": "차원", "gend": "", "vrfd": false },
+      "PL": { "atom": "wymiar", "gend": "?", "vrfd": false },
+      "PT": { "atom": "dimensão", "gend": "?", "vrfd": false },
+      "RU": { "atom": "размерность", "gend": "?", "vrfd": false },
+      "TR": { "atom": "boyut", "gend": "", "vrfd": false },
+      "ZH": { "atom": "維度", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q4440864"
-    },
-    "verified": false
+    }
   },
   "06090209": {
     "root": {
       "CA": { "atom": "fibra", "gend": "femení" },
-      "DE": { "atom": "Faser", "gend": "?" },
+      "DE": { "atom": "Faser", "gend": "?", "vrfd": false },
       "EN": { "atom": "fibre", "gend": "" },
       "ES": { "atom": "fibra", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "تار", "gend": "" },
+      "FA": { "atom": "تار", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "fibre", "gend": "féminin" },
-      "IT": { "atom": "fibra", "gend": "?" },
-      "JA": { "atom": "ファイバー", "gend": "" },
+      "IT": { "atom": "fibra", "gend": "?", "vrfd": false },
+      "JA": { "atom": "ファイバー", "gend": "", "vrfd": false },
       "KO": { "atom": "", "gend": "" },
       "PL": { "atom": "", "gend": "" },
       "PT": { "atom": "", "gend": "" },
-      "RU": { "atom": "слой", "gend": "?" },
+      "RU": { "atom": "слой", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "纖維", "gend": "" }
+      "ZH": { "atom": "纖維", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q1640811"
-    },
-    "verified": false
+    }
   },
   "3eec06a2": {
     "root": {
       "CA": { "atom": "gènere", "gend": "masculí" },
-      "DE": { "atom": "Geschlecht", "gend": "?" },
+      "DE": { "atom": "Geschlecht", "gend": "?", "vrfd": false },
       "EN": { "atom": "genus", "gend": "" },
       "ES": { "atom": "género", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "گونا", "gend": "" },
+      "FA": { "atom": "گونا", "gend": "", "vrfd": false },
       "FI": { "atom": "genus", "gend": "" },
-      "FR": { "atom": "genre", "gend": "?" },
-      "IT": { "atom": "genere", "gend": "?" },
-      "JA": { "atom": "種数", "gend": "" },
-      "KO": { "atom": "곡면 종수", "gend": "" },
-      "PL": { "atom": "genus", "gend": "?" },
-      "PT": { "atom": "género", "gend": "?" },
-      "RU": { "atom": "род поверхности", "gend": "?" },
+      "FR": { "atom": "genre", "gend": "?", "vrfd": false },
+      "IT": { "atom": "genere", "gend": "?", "vrfd": false },
+      "JA": { "atom": "種数", "gend": "", "vrfd": false },
+      "KO": { "atom": "곡면 종수", "gend": "", "vrfd": false },
+      "PL": { "atom": "genus", "gend": "?", "vrfd": false },
+      "PT": { "atom": "género", "gend": "?", "vrfd": false },
+      "RU": { "atom": "род поверхности", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "亏格", "gend": "" }
+      "ZH": { "atom": "亏格", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q28517129"
-    },
-    "verified": false
+    }
   },
   "061b0206": {
     "root": {
       "CA": { "atom": "garba", "gend": "femení" },
-      "DE": { "atom": "Gerbe", "gend": "?" },
+      "DE": { "atom": "Gerbe", "gend": "?", "vrfd": false },
       "EN": { "atom": "gerbe", "gend": "" },
-      "ES": { "atom": "gavilla", "gend": "femenino" },
+      "ES": { "atom": "gavilla", "gend": "femenino", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "gerbe", "gend": "?" },
+      "FR": { "atom": "gerbe", "gend": "?", "vrfd": false },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "ジャーブ", "gend": "" },
-      "KO": { "atom": "제르브", "gend": "" },
+      "JA": { "atom": "ジャーブ", "gend": "", "vrfd": false },
+      "KO": { "atom": "제르브", "gend": "", "vrfd": false },
       "PL": { "atom": "", "gend": "" },
       "PT": { "atom": "", "gend": "" },
       "RU": { "atom": "", "gend": "" },
@@ -5152,38 +5146,36 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q118705"
-    },
-    "verified": false
+    }
   },
   "17dc0445": {
     "root": {
       "CA": { "atom": "polinomi", "gend": "masculí" },
-      "DE": { "atom": "Polynom", "gend": "?" },
+      "DE": { "atom": "Polynom", "gend": "?", "vrfd": false },
       "EN": { "atom": "polynomial", "gend": "" },
       "ES": { "atom": "polinomio", "gend": "masculino" },
       "EU": { "atom": "polinomio", "gend": "" },
-      "FA": { "atom": "چندجمله ای", "gend": "" },
+      "FA": { "atom": "چندجمله ای", "gend": "", "vrfd": false },
       "FI": { "atom": "polynomi", "gend": "" },
-      "FR": { "atom": "polynôme", "gend": "?" },
-      "IT": { "atom": "polinomio", "gend": "?" },
-      "JA": { "atom": "多項式", "gend": "" },
-      "KO": { "atom": "다항식", "gend": "" },
-      "PL": { "atom": "wielomian", "gend": "?" },
-      "PT": { "atom": "polinómio", "gend": "?" },
-      "RU": { "atom": "многочлен", "gend": "?" },
-      "TR": { "atom": "polinom", "gend": "" },
-      "ZH": { "atom": "多項式", "gend": "" }
+      "FR": { "atom": "polynôme", "gend": "?", "vrfd": false },
+      "IT": { "atom": "polinomio", "gend": "?", "vrfd": false },
+      "JA": { "atom": "多項式", "gend": "", "vrfd": false },
+      "KO": { "atom": "다항식", "gend": "", "vrfd": false },
+      "PL": { "atom": "wielomian", "gend": "?", "vrfd": false },
+      "PT": { "atom": "polinómio", "gend": "?", "vrfd": false },
+      "RU": { "atom": "многочлен", "gend": "?", "vrfd": false },
+      "TR": { "atom": "polinom", "gend": "", "vrfd": false },
+      "ZH": { "atom": "多項式", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q43260"
-    },
-    "verified": false
+    }
   },
   "1f3e04b7": {
     "root": {
       "CA": { "atom": "espai de mòduls", "gend": "masculí" },
-      "DE": { "atom": "Modulraum", "gend": "?" },
+      "DE": { "atom": "Modulraum", "gend": "?", "vrfd": false },
       "EN": { "atom": "moduli space", "gend": "" },
       "ES": { "atom": "espacio de módulos", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
@@ -5191,69 +5183,66 @@
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "espace de modules", "gend": "masculin" },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "モジュライ空間", "gend": "" },
-      "KO": { "atom": "모듈러스 공간", "gend": "" },
-      "PL": { "atom": "przestrzeń moduli", "gend": "?" },
+      "JA": { "atom": "モジュライ空間", "gend": "", "vrfd": false },
+      "KO": { "atom": "모듈러스 공간", "gend": "", "vrfd": false },
+      "PL": { "atom": "przestrzeń moduli", "gend": "?", "vrfd": false },
       "PT": { "atom": "", "gend": "" },
-      "RU": { "atom": "пространство модулей", "gend": "?" },
+      "RU": { "atom": "пространство модулей", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "模空间", "gend": "" }
+      "ZH": { "atom": "模空间", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q845677"
-    },
-    "verified": false
+    }
   },
   "0f180352": {
     "root": {
-      "CA": { "atom": "orbifold", "gend": "?" },
-      "DE": { "atom": "Orbifaltigkeit", "gend": "?" },
+      "CA": { "atom": "orbifold", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Orbifaltigkeit", "gend": "?", "vrfd": false },
       "EN": { "atom": "orbifold", "gend": "" },
-      "ES": { "atom": "orbifold", "gend": "?" },
+      "ES": { "atom": "orbifold", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "orbifold", "gend": "?" },
-      "IT": { "atom": "orbifold", "gend": "?" },
-      "JA": { "atom": "軌道体", "gend": "" },
-      "KO": { "atom": "오비폴드", "gend": "" },
+      "FR": { "atom": "orbifold", "gend": "?", "vrfd": false },
+      "IT": { "atom": "orbifold", "gend": "?", "vrfd": false },
+      "JA": { "atom": "軌道体", "gend": "", "vrfd": false },
+      "KO": { "atom": "오비폴드", "gend": "", "vrfd": false },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "orbivariedade", "gend": "?" },
-      "RU": { "atom": "орбифолд", "gend": "?" },
+      "PT": { "atom": "orbivariedade", "gend": "?", "vrfd": false },
+      "RU": { "atom": "орбифолд", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "軌形", "gend": "" }
+      "ZH": { "atom": "軌形", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q40460"
-    },
-    "verified": false
+    }
   },
   "78d409c6": {
     "root": {
       "CA": { "atom": "singularitat", "gend": "femení" },
-      "DE": { "atom": "Definitionslücke", "gend": "?" },
+      "DE": { "atom": "Definitionslücke", "gend": "?", "vrfd": false },
       "EN": { "atom": "singularity", "gend": "" },
       "ES": { "atom": "singularidad", "gend": "femenino" },
-      "EU": { "atom": "Singulartasun", "gend": "" },
-      "FA": { "atom": "تکینگی", "gend": "" },
-      "FI": { "atom": "Singulariteetti", "gend": "" },
-      "FR": { "atom": "singularité", "gend": "?" },
-      "IT": { "atom": "singolarità", "gend": "?" },
-      "JA": { "atom": "特異点", "gend": "" },
-      "KO": { "atom": "특이점", "gend": "" },
+      "EU": { "atom": "singulartasun", "gend": "" },
+      "FA": { "atom": "تکینگی", "gend": "", "vrfd": false },
+      "FI": { "atom": "singulariteetti", "gend": "" },
+      "FR": { "atom": "singularité", "gend": "?", "vrfd": false },
+      "IT": { "atom": "singolarità", "gend": "?", "vrfd": false },
+      "JA": { "atom": "特異点", "gend": "", "vrfd": false },
+      "KO": { "atom": "특이점", "gend": "", "vrfd": false },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "singularidade", "gend": "?" },
-      "RU": { "atom": "особенность", "gend": "?" },
-      "TR": { "atom": "tekillik", "gend": "" },
-      "ZH": { "atom": "奇点", "gend": "" }
+      "PT": { "atom": "singularidade", "gend": "?", "vrfd": false },
+      "RU": { "atom": "особенность", "gend": "?", "vrfd": false },
+      "TR": { "atom": "tekillik", "gend": "", "vrfd": false },
+      "ZH": { "atom": "奇点", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q863349"
-    },
-    "verified": false
+    }
   },
   "165503f8": {
     "root": {
@@ -5264,21 +5253,20 @@
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "éclatement", "gend": "?" },
+      "FR": { "atom": "éclatement", "gend": "?", "vrfd": false },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "爆発", "gend": "" },
-      "KO": { "atom": "부풀리기", "gend": "" },
+      "JA": { "atom": "爆発", "gend": "", "vrfd": false },
+      "KO": { "atom": "부풀리기", "gend": "", "vrfd": false },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "explosão", "gend": "?" },
-      "RU": { "atom": "раздутие", "gend": "?" },
+      "PT": { "atom": "explosão", "gend": "?", "vrfd": false },
+      "RU": { "atom": "раздутие", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "拉開", "gend": "" }
+      "ZH": { "atom": "拉開", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q1036595"
-    },
-    "verified": false
+    }
   },
   "2cac05f4": {
     "root": {
@@ -5287,17 +5275,17 @@
       "EN": { "atom": "representation", "gend": "" },
       "ES": { "atom": "representación", "gend": "femenino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "نمایش", "gend": "" },
+      "FA": { "atom": "نمایش", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "représentation", "gend": "féminin" },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "表現", "gend": "" },
-      "KO": { "atom": "군의", "gend": "" },
-      "PL": { "atom": "reprezentacja", "gend": "?" },
-      "PT": { "atom": "representação", "gend": "?" },
-      "RU": { "atom": "представление", "gend": "?" },
+      "JA": { "atom": "表現", "gend": "", "vrfd": false },
+      "KO": { "atom": "군의", "gend": "", "vrfd": false },
+      "PL": { "atom": "reprezentacja", "gend": "?", "vrfd": false },
+      "PT": { "atom": "representação", "gend": "?", "vrfd": false },
+      "RU": { "atom": "представление", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "表示", "gend": "" }
+      "ZH": { "atom": "表示", "gend": "", "vrfd": false }
     },
     "adjs": {
       "0677022e": {
@@ -5349,58 +5337,55 @@
     },
     "refs": {
       "wikidata": "Q2905654"
-    },
-    "verified": false
+    }
   },
   "ecdc0d84": {
     "root": {
       "CA": { "atom": "caràcter", "gend": "masculí" },
-      "DE": { "atom": "Charakter", "gend": "?" },
+      "DE": { "atom": "Charakter", "gend": "?", "vrfd": false },
       "EN": { "atom": "character", "gend": "" },
       "ES": { "atom": "carácter", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "کاراکتر", "gend": "" },
+      "FA": { "atom": "کاراکتر", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "caractère", "gend": "masculin" },
-      "IT": { "atom": "carattere", "gend": "?" },
-      "JA": { "atom": "指標", "gend": "" },
-      "KO": { "atom": "지표", "gend": "" },
-      "PL": { "atom": "character", "gend": "?" },
-      "PT": { "atom": "carácter", "gend": "?" },
-      "RU": { "atom": "характер", "gend": "?" },
+      "IT": { "atom": "carattere", "gend": "?", "vrfd": false },
+      "JA": { "atom": "指標", "gend": "", "vrfd": false },
+      "KO": { "atom": "지표", "gend": "", "vrfd": false },
+      "PL": { "atom": "character", "gend": "?", "vrfd": false },
+      "PT": { "atom": "carácter", "gend": "?", "vrfd": false },
+      "RU": { "atom": "характер", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "特徵標", "gend": "" }
+      "ZH": { "atom": "特徵標", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q600043"
-    },
-    "verified": false
+    }
   },
   "0f6c0357": {
     "root": {
       "CA": { "atom": "subespai", "gend": "masculí" },
-      "DE": { "atom": "Unterraum", "gend": "?" },
+      "DE": { "atom": "Unterraum", "gend": "?", "vrfd": false },
       "EN": { "atom": "subspace", "gend": "" },
       "ES": { "atom": "subespacio", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "sous-espace", "gend": "?" },
-      "IT": { "atom": "sottospazio", "gend": "?" },
-      "JA": { "atom": "部分空間", "gend": "" },
+      "FR": { "atom": "sous-espace", "gend": "?", "vrfd": false },
+      "IT": { "atom": "sottospazio", "gend": "?", "vrfd": false },
+      "JA": { "atom": "部分空間", "gend": "", "vrfd": false },
       "KO": { "atom": "", "gend": "" },
-      "PL": { "atom": "podprzestrzeń", "gend": "?" },
-      "PT": { "atom": "subespaço", "gend": "?" },
-      "RU": { "atom": "подпространство", "gend": "?" },
+      "PL": { "atom": "podprzestrzeń", "gend": "?", "vrfd": false },
+      "PT": { "atom": "subespaço", "gend": "?", "vrfd": false },
+      "RU": { "atom": "подпространство", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "", "gend": "" }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q91328142"
-    },
-    "verified": false
+    }
   },
   "46d40760": {
     "root": {
@@ -5411,165 +5396,159 @@
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "suite de composition", "gend": "?" },
-      "IT": { "atom": "serie di composizione", "gend": "?" },
-      "JA": { "atom": "組成列", "gend": "" },
-      "KO": { "atom": "조성열", "gend": "" },
-      "PL": { "atom": "Ciąg kompozycyjny", "gend": "?" },
-      "PT": { "atom": "série de composição", "gend": "?" },
+      "FR": { "atom": "suite de composition", "gend": "?", "vrfd": false },
+      "IT": { "atom": "serie di composizione", "gend": "?", "vrfd": false },
+      "JA": { "atom": "組成列", "gend": "", "vrfd": false },
+      "KO": { "atom": "조성열", "gend": "", "vrfd": false },
+      "PL": { "atom": "ciąg kompozycyjny", "gend": "?", "vrfd": false },
+      "PT": { "atom": "série de composição", "gend": "?", "vrfd": false },
       "RU": { "atom": "", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "合成列", "gend": "" }
+      "ZH": { "atom": "合成列", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q2525646"
-    },
-    "verified": false
+    }
   },
   "0bba02f6": {
     "root": {
       "CA": { "atom": "ínfim", "gend": "masculí" },
-      "DE": { "atom": "Infimum", "gend": "?" },
+      "DE": { "atom": "Infimum", "gend": "?", "vrfd": false },
       "EN": { "atom": "infimum", "gend": "" },
       "ES": { "atom": "ínfimo", "gend": "masculino" },
       "EU": { "atom": "beheren", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "infimum", "gend": "" },
-      "FR": { "atom": "infimum", "gend": "?" },
-      "IT": { "atom": "estremo inferiore", "gend": "?" },
-      "JA": { "atom": "下限", "gend": "" },
-      "KO": { "atom": "최대하계", "gend": "" },
-      "PL": { "atom": "infimum", "gend": "?" },
-      "PT": { "atom": "ínfimo", "gend": "?" },
-      "RU": { "atom": "инфимум", "gend": "" },
+      "FR": { "atom": "infimum", "gend": "?", "vrfd": false },
+      "IT": { "atom": "estremo inferiore", "gend": "?", "vrfd": false },
+      "JA": { "atom": "下限", "gend": "", "vrfd": false },
+      "KO": { "atom": "최대하계", "gend": "", "vrfd": false },
+      "PL": { "atom": "infimum", "gend": "?", "vrfd": false },
+      "PT": { "atom": "ínfimo", "gend": "?", "vrfd": false },
+      "RU": { "atom": "инфимум", "gend": "", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "最大下界", "gend": "" }
+      "ZH": { "atom": "最大下界", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q1199948"
-    },
-    "verified": false
+    }
   },
   "0fdf037f": {
     "root": {
       "CA": { "atom": "suprem", "gend": "masculí" },
-      "DE": { "atom": "Supremum", "gend": "?" },
+      "DE": { "atom": "Supremum", "gend": "?", "vrfd": false },
       "EN": { "atom": "supremum", "gend": "" },
       "ES": { "atom": "supremo", "gend": "masculino" },
       "EU": { "atom": "goren", "gend": "" },
-      "FA": { "atom": "کوچک‌ترین کران بالا", "gend": "" },
+      "FA": { "atom": "کوچک‌ترین کران بالا", "gend": "", "vrfd": false },
       "FI": { "atom": "supremum", "gend": "" },
-      "FR": { "atom": "supremum", "gend": "?" },
-      "IT": { "atom": "estremo superiore", "gend": "?" },
-      "JA": { "atom": "上限", "gend": "" },
-      "KO": { "atom": "최소상계", "gend": "" },
-      "PL": { "atom": "supremum", "gend": "?" },
-      "PT": { "atom": "supremo", "gend": "?" },
-      "RU": { "atom": "супремум", "gend": "" },
+      "FR": { "atom": "supremum", "gend": "?", "vrfd": false },
+      "IT": { "atom": "estremo superiore", "gend": "?", "vrfd": false },
+      "JA": { "atom": "上限", "gend": "", "vrfd": false },
+      "KO": { "atom": "최소상계", "gend": "", "vrfd": false },
+      "PL": { "atom": "supremum", "gend": "?", "vrfd": false },
+      "PT": { "atom": "supremo", "gend": "?", "vrfd": false },
+      "RU": { "atom": "супремум", "gend": "", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "最小上界", "gend": "" }
+      "ZH": { "atom": "最小上界", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q215071"
-    },
-    "verified": false
+    }
   },
   "260c0572": {
     "root": {
       "CA": { "atom": "contradicció", "gend": "femení" },
-      "DE": { "atom": "Kontradiktion", "gend": "?" },
+      "DE": { "atom": "Kontradiktion", "gend": "?", "vrfd": false },
       "EN": { "atom": "contradiction", "gend": "" },
       "ES": { "atom": "contradicción", "gend": "femenino" },
       "EU": { "atom": "kontraesan", "gend": "" },
-      "FA": { "atom": "تناقض", "gend": "" },
+      "FA": { "atom": "تناقض", "gend": "", "vrfd": false },
       "FI": { "atom": "ristiriitaisuus", "gend": "" },
       "FR": { "atom": "contradiction", "gend": "féminin" },
-      "IT": { "atom": "contraddizione", "gend": "?" },
-      "JA": { "atom": "矛盾", "gend": "" },
-      "KO": { "atom": "모순", "gend": "" },
-      "PL": { "atom": "sprzeczność", "gend": "?" },
-      "PT": { "atom": "contradição", "gend": "?" },
-      "RU": { "atom": "противоречие", "gend": "?" },
-      "TR": { "atom": "çelişki", "gend": "" },
-      "ZH": { "atom": "矛盾", "gend": "" }
+      "IT": { "atom": "contraddizione", "gend": "?", "vrfd": false },
+      "JA": { "atom": "矛盾", "gend": "", "vrfd": false },
+      "KO": { "atom": "모순", "gend": "", "vrfd": false },
+      "PL": { "atom": "sprzeczność", "gend": "?", "vrfd": false },
+      "PT": { "atom": "contradição", "gend": "?", "vrfd": false },
+      "RU": { "atom": "противоречие", "gend": "?", "vrfd": false },
+      "TR": { "atom": "çelişki", "gend": "", "vrfd": false },
+      "ZH": { "atom": "矛盾", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q363948"
-    },
-    "verified": false
+    }
   },
   "623b08b3": {
     "root": {
       "CA": { "atom": "reducció a l'absurd", "gend": "femení" },
-      "DE": { "atom": "Reductio ad absurdum", "gend": "?" },
+      "DE": { "atom": "Reductio ad absurdum", "gend": "?", "vrfd": false },
       "EN": { "atom": "proof by contradiction", "gend": "" },
       "ES": { "atom": "prueba por contradicción", "gend": "femenino" },
       "EU": { "atom": "reductio ad absurdum", "gend": "" },
-      "FA": { "atom": "برهان خلف", "gend": "" },
-      "FI": { "atom": "epäsuora todistus", "gend": "" },
-      "FR": { "atom": "raisonnement par l'absurde", "gend": "?" },
-      "IT": { "atom": "dimostrazione per assurdo", "gend": "?" },
-      "JA": { "atom": "背理法", "gend": "" },
-      "KO": { "atom": "귀류법", "gend": "" },
-      "PL": { "atom": "dowód nie wprost", "gend": "?" },
-      "PT": { "atom": "prova por contradição", "gend": "?" },
-      "RU": { "atom": "доказательство от противного", "gend": "?" },
-      "TR": { "atom": "Reductio ad absurdum", "gend": "" },
-      "ZH": { "atom": "反證法", "gend": "" }
+      "FA": { "atom": "برهان خلف", "gend": "", "vrfd": false },
+      "FI": { "atom": "epäsuora todistus", "gend": "", "vrfd": false },
+      "FR": { "atom": "raisonnement par l'absurde", "gend": "?", "vrfd": false },
+      "IT": { "atom": "dimostrazione per assurdo", "gend": "?", "vrfd": false },
+      "JA": { "atom": "背理法", "gend": "", "vrfd": false },
+      "KO": { "atom": "귀류법", "gend": "", "vrfd": false },
+      "PL": { "atom": "dowód nie wprost", "gend": "?", "vrfd": false },
+      "PT": { "atom": "prova por contradição", "gend": "?", "vrfd": false },
+      "RU": { "atom": "доказательство от противного", "gend": "?", "vrfd": false },
+      "TR": { "atom": "reductio ad absurdum", "gend": "" },
+      "ZH": { "atom": "反證法", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q184899"
-    },
-    "verified": false
+    }
   },
   "164303fe": {
     "root": {
       "CA": { "atom": "", "gend": "" },
       "DE": { "atom": "", "gend": "" },
       "EN": { "atom": "group ring", "gend": "" },
-      "ES": { "atom": "anillo de grupo", "gend": "?" },
+      "ES": { "atom": "anillo de grupo", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "algèbre d'un groupe", "gend": "féminin" },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "群環", "gend": "" },
-      "KO": { "atom": "군환", "gend": "" },
+      "JA": { "atom": "群環", "gend": "", "vrfd": false },
+      "KO": { "atom": "군환", "gend": "", "vrfd": false },
       "PL": { "atom": "", "gend": "" },
-      "PT": { "atom": "anel de grupo", "gend": "?" },
-      "RU": { "atom": "групповое кольцо", "gend": "?" },
+      "PT": { "atom": "anel de grupo", "gend": "?", "vrfd": false },
+      "RU": { "atom": "групповое кольцо", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "群環", "gend": "" }
+      "ZH": { "atom": "群環", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q2602722"
-    },
-    "verified": false
+    }
   },
   "2c7005db": {
     "root": {
-      "CA": { "atom": "correspondència", "gend": "?" },
-      "DE": { "atom": "Korrespondenz", "gend": "?" },
+      "CA": { "atom": "correspondència", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Korrespondenz", "gend": "?", "vrfd": false },
       "EN": { "atom": "correspondence", "gend": "" },
-      "ES": { "atom": "correspondencia", "gend": "?" },
+      "ES": { "atom": "correspondencia", "gend": "?", "vrfd": false },
       "EU": { "atom": "korrespondentzia", "gend": "" },
       "FA": { "atom": "", "gend": "" },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "correspondance", "gend": "féminin" },
-      "IT": { "atom": "corrispondenza", "gend": "?" },
-      "JA": { "atom": "対応", "gend": "" },
-      "KO": { "atom": "대응", "gend": "" },
-      "PL": { "atom": "korespondencja", "gend": "?" },
-      "PT": { "atom": "correspondência", "gend": "?" },
-      "RU": { "atom": "соответствие", "gend": "?" },
+      "IT": { "atom": "corrispondenza", "gend": "?", "vrfd": false },
+      "JA": { "atom": "対応", "gend": "", "vrfd": false },
+      "KO": { "atom": "대응", "gend": "", "vrfd": false },
+      "PL": { "atom": "korespondencja", "gend": "?", "vrfd": false },
+      "PT": { "atom": "correspondência", "gend": "?", "vrfd": false },
+      "RU": { "atom": "соответствие", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "對應", "gend": "" }
+      "ZH": { "atom": "對應", "gend": "", "vrfd": false }
     },
     "adjs": {
       "125203b6": {
@@ -5598,107 +5577,150 @@
     },
     "refs": {
       "wikidata": "Q1322856"
-    },
-    "verified": false
+    }
   },
   "1b3a049c": {
     "root": {
-      "CA": { "atom": "vector propi", "gend": "?" },
-      "DE": { "atom": "Eigenvektor", "gend": "?" },
+      "CA": { "atom": "vector propi", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Eigenvektor", "gend": "?", "vrfd": false },
       "EN": { "atom": "eigenvector", "gend": "" },
-      "ES": { "atom": "vector propio", "gend": "?" },
+      "ES": { "atom": "vector propio", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "بردار ویژه", "gend": "" },
-      "FI": { "atom": "ominaisvektori", "gend": "" },
-      "FR": { "atom": "vecteur propre", "gend": "?" },
-      "IT": { "atom": "autovettore", "gend": "?" },
-      "JA": { "atom": "固有ベクトル", "gend": "" },
-      "KO": { "atom": "고유벡터", "gend": "" },
-      "PL": { "atom": "wektor własny", "gend": "?" },
-      "PT": { "atom": "autovector", "gend": "?" },
-      "RU": { "atom": "собственный вектор", "gend": "?" },
-      "TR": { "atom": "özvektör", "gend": "" },
-      "ZH": { "atom": "特征向量", "gend": "" }
+      "FA": { "atom": "بردار ویژه", "gend": "", "vrfd": false },
+      "FI": { "atom": "ominaisvektori", "gend": "", "vrfd": false },
+      "FR": { "atom": "vecteur propre", "gend": "?", "vrfd": false },
+      "IT": { "atom": "autovettore", "gend": "?", "vrfd": false },
+      "JA": { "atom": "固有ベクトル", "gend": "", "vrfd": false },
+      "KO": { "atom": "고유벡터", "gend": "", "vrfd": false },
+      "PL": { "atom": "wektor własny", "gend": "?", "vrfd": false },
+      "PT": { "atom": "autovector", "gend": "?", "vrfd": false },
+      "RU": { "atom": "собственный вектор", "gend": "?", "vrfd": false },
+      "TR": { "atom": "özvektör", "gend": "", "vrfd": false },
+      "ZH": { "atom": "特征向量", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q3555174"
-    },
-    "verified": false
+    }
   },
   "16a10426": {
     "root": {
-      "CA": { "atom": "valor propi", "gend": "?" },
-      "DE": { "atom": "Eigenwert", "gend": "?" },
+      "CA": { "atom": "valor propi", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Eigenwert", "gend": "?", "vrfd": false },
       "EN": { "atom": "eigenvalue", "gend": "" },
-      "ES": { "atom": "valor propio", "gend": "?" },
+      "ES": { "atom": "valor propio", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "مقدار ویژه", "gend": "" },
-      "FI": { "atom": "Ominaisarvo", "gend": "" },
-      "FR": { "atom": "valeur propre", "gend": "?" },
-      "IT": { "atom": "autovalore", "gend": "?" },
-      "JA": { "atom": "固有値", "gend": "" },
-      "KO": { "atom": "고윳값", "gend": "" },
-      "PL": { "atom": "wartości własne", "gend": "?" },
-      "PT": { "atom": "valor próprio", "gend": "?" },
-      "RU": { "atom": "собственное значение", "gend": "?" },
-      "TR": { "atom": "özdeğer", "gend": "" },
-      "ZH": { "atom": "特征值", "gend": "" }
+      "FA": { "atom": "مقدار ویژه", "gend": "", "vrfd": false },
+      "FI": { "atom": "ominaisarvo", "gend": "", "vrfd": false },
+      "FR": { "atom": "valeur propre", "gend": "?", "vrfd": false },
+      "IT": { "atom": "autovalore", "gend": "?", "vrfd": false },
+      "JA": { "atom": "固有値", "gend": "", "vrfd": false },
+      "KO": { "atom": "고윳값", "gend": "", "vrfd": false },
+      "PL": { "atom": "wartości własne", "gend": "?", "vrfd": false },
+      "PT": { "atom": "valor próprio", "gend": "?", "vrfd": false },
+      "RU": { "atom": "собственное значение", "gend": "?", "vrfd": false },
+      "TR": { "atom": "özdeğer", "gend": "", "vrfd": false },
+      "ZH": { "atom": "特征值", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q3553768"
-    },
-    "verified": false
+    }
   },
   "06520220": {
     "root": {
-      "CA": { "atom": "Límit", "gend": "?" },
-      "DE": { "atom": "Limes", "gend": "?" },
+      "CA": { "atom": "límit", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Limes", "gend": "?", "vrfd": false },
       "EN": { "atom": "limit", "gend": "" },
-      "ES": { "atom": "límite", "gend": "?" },
+      "ES": { "atom": "límite", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "حد", "gend": "" },
+      "FA": { "atom": "حد", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "limite", "gend": "féminin" },
       "IT": { "atom": "", "gend": "" },
-      "JA": { "atom": "極限", "gend": "" },
-      "KO": { "atom": "극한", "gend": "" },
-      "PL": { "atom": "granica", "gend": "?" },
-      "PT": { "atom": "limite", "gend": "?" },
-      "RU": { "atom": "Предел", "gend": "" },
+      "JA": { "atom": "極限", "gend": "", "vrfd": false },
+      "KO": { "atom": "극한", "gend": "", "vrfd": false },
+      "PL": { "atom": "granica", "gend": "?", "vrfd": false },
+      "PT": { "atom": "limite", "gend": "?", "vrfd": false },
+      "RU": { "atom": "предел", "gend": "" },
       "TR": { "atom": "", "gend": "" },
-      "ZH": { "atom": "极限", "gend": "" }
+      "ZH": { "atom": "极限", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q1322614"
-    },
-    "verified": false
+    }
   },
   "17270409": {
     "root": {
-      "CA": { "atom": "àlgebra de Lie", "gend": "?" },
-      "DE": { "atom": "Lie-Algebra", "gend": "?" },
+      "CA": { "atom": "àlgebra de Lie", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Lie-Algebra", "gend": "?", "vrfd": false },
       "EN": { "atom": "Lie algebra", "gend": "" },
-      "ES": { "atom": "álgebra de Lie", "gend": "?" },
+      "ES": { "atom": "álgebra de Lie", "gend": "?", "vrfd": false },
       "EU": { "atom": "", "gend": "" },
-      "FA": { "atom": "جبر لی", "gend": "" },
+      "FA": { "atom": "جبر لی", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
       "FR": { "atom": "algèbre de Lie", "gend": "féminin" },
-      "IT": { "atom": "algebra di Lie", "gend": "?" },
-      "JA": { "atom": "リー環", "gend": "" },
-      "KO": { "atom": "리 대수", "gend": "" },
-      "PL": { "atom": "algebra Liego", "gend": "?" },
-      "PT": { "atom": "álgebra de Lie", "gend": "?" },
-      "RU": { "atom": "алгебра Ли", "gend": "?" },
-      "TR": { "atom": "Lie işlemcisi", "gend": "" },
-      "ZH": { "atom": "李代數", "gend": "" }
+      "IT": { "atom": "algebra di Lie", "gend": "?", "vrfd": false },
+      "JA": { "atom": "リー環", "gend": "", "vrfd": false },
+      "KO": { "atom": "리 대수", "gend": "", "vrfd": false },
+      "PL": { "atom": "algebra Liego", "gend": "?", "vrfd": false },
+      "PT": { "atom": "álgebra de Lie", "gend": "?", "vrfd": false },
+      "RU": { "atom": "алгебра Ли", "gend": "?", "vrfd": false },
+      "TR": { "atom": "Lie işlemcisi", "gend": "", "vrfd": false },
+      "ZH": { "atom": "李代數", "gend": "", "vrfd": false }
     },
     "adjs": {},
     "refs": {
       "wikidata": "Q664495"
+    }
+  },
+  "08bc027b": {
+    "root": {
+      "CA": { "atom": "", "gend": "" },
+      "DE": { "atom": "", "gend": "" },
+      "EN": { "atom": "bundle", "gend": "", "vrfd": false },
+      "ES": { "atom": "", "gend": "" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "", "gend": "" },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "", "gend": "" },
+      "IT": { "atom": "", "gend": "" },
+      "JA": { "atom": "束", "gend": "", "vrfd": false },
+      "KO": { "atom": "", "gend": "" },
+      "PL": { "atom": "", "gend": "" },
+      "PT": { "atom": "", "gend": "" },
+      "RU": { "atom": "расслоение", "gend": "?", "vrfd": false },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "", "gend": "" }
     },
-    "verified": false
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1047307"
+    }
+  },
+  "1dde04a3": {
+    "root": {
+      "CA": { "atom": "fibrat", "gend": "?", "vrfd": false },
+      "DE": { "atom": "Faserbündel", "gend": "?", "vrfd": false },
+      "EN": { "atom": "fibre bundle", "gend": "" },
+      "ES": { "atom": "fibrado", "gend": "?", "vrfd": false },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "کلاف تاری", "gend": "", "vrfd": false },
+      "FI": { "atom": "", "gend": "" },
+      "FR": { "atom": "fibré", "gend": "?", "vrfd": false },
+      "IT": { "atom": "fibrato", "gend": "?", "vrfd": false },
+      "JA": { "atom": "ファイバー束", "gend": "", "vrfd": false },
+      "KO": { "atom": "올다발", "gend": "", "vrfd": false },
+      "PL": { "atom": "wiązka włóknista", "gend": "?", "vrfd": false },
+      "PT": { "atom": "fibrado", "gend": "?", "vrfd": false },
+      "RU": { "atom": "локально тривиальное расслоение", "gend": "?", "vrfd": false },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "纤维丛", "gend": "", "vrfd": false }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q1154996"
+    }
   }
 }
