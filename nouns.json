@@ -1983,7 +1983,7 @@
           "IT": { "atom": "non vuoto", "pstn": "after" },
           "JA": { "atom": "空でない", "pstn": "before" },
           "KO": { "atom": "", "pstn": "" },
-          "PL": { "atom": "niepusty", "pstn": "before" },
+          "PL": { "atom": "niepusty", "pstn": "after" },
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },

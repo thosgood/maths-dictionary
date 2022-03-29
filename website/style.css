@@ -126,7 +126,7 @@ table.dataTable thead .sorting_desc:after {
 }
 
 #table span.unverified {
-  background: rgba(174,48,48,0.7);
+  background: rgba(174,48,48,0.4);
 }
 
 
