@@ -11,19 +11,32 @@ headers = "location,source,target,id,fuzzy,context,translator_comments,developer
 
 csv_data = []
 
-file.each do |k,v|
+def generate_row (k, v, pre = nil)
   location = ''
   source = v["root"]["EN"]["atom"]
   target = v["root"]["EN"]["atom"]
   id = ''
   fuzzy = 'FALSE'
-  context = k
+  context = pre.nil? ? k : "#{pre}/#{k}"
   translator_comments = ''
   developer_comments = ''
   unless v["refs"]["wikidata"].nil?
     developer_comments = "https://www.wikidata.org/wiki/#{v["refs"]["wikidata"]}"
   end
-  csv_data.append([location,source,target,id,fuzzy,context,translator_comments,developer_comments])
+  return [location,source,target,id,fuzzy,context,translator_comments,developer_comments]
+end
+
+
+file.each do |k,v|
+  csv_data.append(generate_row k, v)
+  # TO-DO: fix adjectives
+  #        you can't just use the same thing, because the string has to contain
+  #        the root atom as well! i.e. you'll need to use "pstn"
+  # unless v["adjs"].nil?
+  #   v["adjs"].each do |l,w|
+  #     csv_data.append(generate_row l, w, k)
+  #   end
+  # end
 end
 
 File.write("weblate_EN.csv", csv_data.map(&:to_csv).join)
