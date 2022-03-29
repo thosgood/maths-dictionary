@@ -15,6 +15,8 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ### Dictionary
 
+***maybe...* there shouldn't be any adjectives; everything should be its own entry; "adjectives" could link back to their "root"**
+
 - should be a way to indicate that there is no space between a noun and its adjective (e.g. Modellkategorie in DE)
     + **use the `"join": Bool` key for adjectives** (e.g. `0ebe035f/06440212`)
 - support for multiple atoms
