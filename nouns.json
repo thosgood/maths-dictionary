@@ -5679,7 +5679,7 @@
     "root": {
       "CA": { "atom": "", "gend": "" },
       "DE": { "atom": "", "gend": "" },
-      "EN": { "atom": "bundle", "gend": "", "vrfd": false },
+      "EN": { "atom": "bundle", "gend": "" },
       "ES": { "atom": "", "gend": "" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "", "gend": "" },

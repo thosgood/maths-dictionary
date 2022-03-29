@@ -208,20 +208,22 @@ $(document).ready(function() {
       $.each(visibleLangs, function(i, lang) {
         var content = ""
         var adjective = adj["root"][lang]
-        if (typeof adjective === "undefined" || adjective["atom"] === "") {
-          content += "</td>";
-          return true;
-        };
+        // if (typeof adjective === "undefined" || adjective["atom"] === "") {
+        //   return true;
+        // };
         emptyAdjRow = false;
         var dir = langs[lang]["direction"];
         var pstn = adjective["pstn"]
         if ((pstn === "after" && dir === "LTR") || (pstn === "before" && dir === "RTL")) {
-          content+="___ "
+          content += "___ "
         };
         content += adjective["atom"];
         if ((pstn === "before" && dir === "LTR") || (pstn === "after" && dir === "RTL")) {
-          content+=" ___"
+          content += " ___"
         };
+        // if (content.length === 0) {
+        //   content = "n/a"
+        // };
         var adjRowEntry = document.createElement("td");
         adjRowEntry.appendChild(document.createTextNode(content));
         adjRow.appendChild(adjRowEntry);
