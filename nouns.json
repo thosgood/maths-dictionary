@@ -5701,19 +5701,19 @@
   },
   "1dde04a3": {
     "root": {
-      "CA": { "atom": "fibrat", "gend": "?", "vrfd": false },
+      "CA": { "atom": "fibrat", "gend": "masculí" },
       "DE": { "atom": "Faserbündel", "gend": "?", "vrfd": false },
       "EN": { "atom": "fibre bundle", "gend": "" },
-      "ES": { "atom": "fibrado", "gend": "?", "vrfd": false },
+      "ES": { "atom": "fibrado", "gend": "masculino" },
       "EU": { "atom": "", "gend": "" },
       "FA": { "atom": "کلاف تاری", "gend": "", "vrfd": false },
       "FI": { "atom": "", "gend": "" },
-      "FR": { "atom": "fibré", "gend": "?", "vrfd": false },
-      "IT": { "atom": "fibrato", "gend": "?", "vrfd": false },
+      "FR": { "atom": "fibré", "gend": "masculin" },
+      "IT": { "atom": "fibrato", "gend": "maschile" },
       "JA": { "atom": "ファイバー束", "gend": "", "vrfd": false },
       "KO": { "atom": "올다발", "gend": "", "vrfd": false },
       "PL": { "atom": "wiązka włóknista", "gend": "?", "vrfd": false },
-      "PT": { "atom": "fibrado", "gend": "?", "vrfd": false },
+      "PT": { "atom": "fibrado", "gend": "masculino" },
       "RU": { "atom": "локально тривиальное расслоение", "gend": "?", "vrfd": false },
       "TR": { "atom": "", "gend": "" },
       "ZH": { "atom": "纤维丛", "gend": "", "vrfd": false }
@@ -5721,6 +5721,30 @@
     "adjs": {},
     "refs": {
       "wikidata": "Q1154996"
+    }
+  },
+  "249d052e": {
+    "root": {
+      "CA": { "atom": "fibrat vectorial", "gend": "masculí" },
+      "DE": { "atom": "Vektorbündel", "gend": "?", "vrfd": false },
+      "EN": { "atom": "vector bundle", "gend": "" },
+      "ES": { "atom": "fibrado vectorial", "gend": "masculino" },
+      "EU": { "atom": "", "gend": "" },
+      "FA": { "atom": "کلاف برداری", "gend": "", "vrfd": false },
+      "FI": { "atom": "vektorikimppu", "gend": "", "vrfd": false },
+      "FR": { "atom": "fibré vectoriel", "gend": "masculin" },
+      "IT": { "atom": "fibrato vettoriale", "gend": "maschile" },
+      "JA": { "atom": "ベクトル束", "gend": "", "vrfd": false },
+      "KO": { "atom": "벡터 다발", "gend": "", "vrfd": false },
+      "PL": { "atom": "wiązka wektorowa", "gend": "?", "vrfd": false },
+      "PT": { "atom": "fibrado vectorial", "gend": "masculino" },
+      "RU": { "atom": "векторное расслоение", "gend": "?", "vrfd": false },
+      "TR": { "atom": "", "gend": "" },
+      "ZH": { "atom": "向量丛", "gend": "", "vrfd": false }
+    },
+    "adjs": {},
+    "refs": {
+      "wikidata": "Q658429"
     }
   }
 }
