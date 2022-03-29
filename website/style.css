@@ -74,8 +74,6 @@ body {
   font-size: 10pt;
 }
 
-/* TO-DO: unverified cells highlighted a different colour */
-
 
 
 /* The dictionary table (interactivity) */
@@ -125,6 +123,10 @@ table.dataTable thead .sorting_desc:after {
 #table span.gender {
   padding-left: 8px;
   font-style: italic;
+}
+
+#table span.unverified {
+  background: rgba(174,48,48,0.7);
 }
 
 
