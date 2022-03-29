@@ -108,12 +108,12 @@ table.dataTable thead .sorting_desc:after {
   cursor: pointer;
 }
 
-#table tr.expandable td:after {
+#table tr.expandable:after {
   float: right;
   content: "+";
 }
 
-#table tr.expanded td:after {
+#table tr.expanded:after {
   float: right;
   content: "-";
 }
@@ -121,6 +121,10 @@ table.dataTable thead .sorting_desc:after {
 
 
 /* The dictionary table (typography) */
+
+#table tr td.RTL {
+  text-align: right;
+}
 
 #table tr.noun td {
   text-align: left;

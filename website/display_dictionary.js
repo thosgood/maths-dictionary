@@ -2,6 +2,7 @@ var langs = {};
 var dict = {};
 var languageCodes = [];
 var visibleLangs = [];
+var RTLLangs = [];
 
 var updateVisibleLangs = function(){
   visibleLangs = [];
@@ -16,13 +17,15 @@ $(document).ready(function() {
   // generate language_selectors from languages
   $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
     langs = json;
+    // TO-DO: set RTLLangs from json data
+    RTLLangs = ["FA"];
     // Get all language codes
     languageCodes = Object.keys(langs);
 
     var i = 1;
     $.each(json, function(code, data){
       var html = `<li><input type="checkbox" id="${code}" name="${code}" data-column="${i}"`
-      // EN is checked by default
+      // EN and FR are checked by default
       if (code == "EN" || code == "FR"){
         html += "checked"
       }
@@ -90,6 +93,11 @@ $(document).ready(function() {
             string = `<span class="unverified">${string}</span>`;
           };
           return string;
+        },
+        "createdCell": function (td, cellData, rowData, row, col) {
+          if ( RTLLangs.includes(language) ) {
+            $(td).addClass('RTL')
+          }
         }
       }
       // At first, only show English and French
@@ -225,6 +233,9 @@ $(document).ready(function() {
         //   content = "n/a"
         // };
         var adjRowEntry = document.createElement("td");
+        if (dir === "RTL") {
+          adjRowEntry.classList.add('RTL');
+        };
         adjRowEntry.appendChild(document.createTextNode(content));
         adjRow.appendChild(adjRowEntry);
       });
