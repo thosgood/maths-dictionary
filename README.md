@@ -32,6 +32,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 - make language header row sticky at top
 - **search should also search through adjectives**
+- "expand all nouns" button
 
 
 ## Existing dictionary resources
