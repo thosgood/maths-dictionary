@@ -130,8 +130,6 @@ $(document).ready(function() {
       }
       else {
         // Open this row
-        // TODO: switch to using `row.add`
-        //      (https://datatables.net/reference/api/row.add())
         row.child( showAdjectives(row.data()) ).show();
         tr.addClass('expanded');
       }
@@ -170,16 +168,17 @@ $(document).ready(function() {
 
   // add rows for adjectives
   var showAdjectives = function (data) {
+    // TO-DO: adjectives should be sorted if the current column is sorted
     var adjRows = [];
 
-    // TODO: adjectives should be sorted if the current column is sorted
     if (typeof data["adjs"] === "undefined" || data["adjs"] === {}) {
       return false;
     };
 
     $.each(data["adjs"], function(a, adj) {
-      var adjRow = `<tr class="adjective">`;
-      adjRow += "<td>";
+      var adjRow = document.createElement("tr");
+      adjRow.classList.add('adjective');
+      var adjRowRef = document.createElement("td");
       var adjRef = "";
       if (typeof adj["refs"] !== "undefined" || adj["refs"] !== {}) {
         var ref = "";
@@ -202,34 +201,39 @@ $(document).ready(function() {
       } else {
         adjRef = "n/a";
       };
-      adjRow += adjRef;
-      adjRow += "</td>";
+      adjRowRef.innerHTML = adjRef;
+      adjRow.appendChild(adjRowRef);
       var emptyAdjRow = true;
 
       $.each(visibleLangs, function(i, lang) {
-        adjRow += "<td>";
+        var content = ""
         var adjective = adj["root"][lang]
         if (typeof adjective === "undefined" || adjective["atom"] === "") {
-          adjRow += "</td>";
+          content += "</td>";
           return true;
         };
         emptyAdjRow = false;
         var dir = langs[lang]["direction"];
         var pstn = adjective["pstn"]
         if ((pstn === "after" && dir === "LTR") || (pstn === "before" && dir === "RTL")) {
-          adjRow+="___ "
+          content+="___ "
         };
-        adjRow += adjective["atom"];
+        content += adjective["atom"];
         if ((pstn === "before" && dir === "LTR") || (pstn === "after" && dir === "RTL")) {
-          adjRow+=" ___"
+          content+=" ___"
         };
-        adjRow += "</td>";
+        var adjRowEntry = document.createElement("td");
+        adjRowEntry.appendChild(document.createTextNode(content));
+        adjRow.appendChild(adjRowEntry);
       });
 
-      adjRow += "</tr>";
       if (!emptyAdjRow) {
         adjRows.push(adjRow);
       }
+    });
+
+    adjRows.forEach((row, index) => {
+      (index % 2 == 0) ? row.classList.add('even') : row.classList.add('odd')
     });
 
     return adjRows;

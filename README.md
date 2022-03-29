@@ -30,10 +30,8 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ### Website
 
-- sort out the way that rows are added (in the website) for adjectives
-    + **use `row.add()`?**
 - make language header row sticky at top
-- search should also search through adjectives
+- **search should also search through adjectives**
 - LTR/RTL should be reflected in `text-align` in the css
 
 

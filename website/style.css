@@ -66,6 +66,13 @@ body {
   background-color: #f2f2f2;
 }
 
+#table tr.adjective.even {
+  background-color: #d0d0d0;
+}
+#table tr.adjective.odd {
+  background-color: #e0e0e0;
+}
+
 #table tr:hover {
   background-color: #a3c7f3;
 }
