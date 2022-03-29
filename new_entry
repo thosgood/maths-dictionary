@@ -21,9 +21,9 @@ for arg in ARGV
     unless item[lang.downcase].nil?
       atom = item[lang.downcase]["value"]
       if genderFree.include? lang
-        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "" }`)
+        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "", "vrfd": false }`)
       else
-        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?" }`)
+        entries.push(%`"#{lang}": { "atom": "#{atom}", "gend": "?", "vrfd": false }`)
       end
       found.push(lang)
     else
@@ -38,8 +38,7 @@ for arg in ARGV
   "adjs": {},
   "refs": {
     "wikidata": "#{arg}"
-  },
-  "verified": false
+  }
 },
 `
   output.push(entry)
