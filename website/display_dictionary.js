@@ -80,11 +80,14 @@ $(document).ready(function() {
         "searchable": false,
         "title": language,
         "data": "root." + language,
-        "render": function( data, type, row) {
+        "render": function( data, type, row ) {
           var string = ""
           string += data["atom"];
           if (data["gend"] != "") {
             string += `<span class="gender">(${data["gend"][0]})</span>`;
+          };
+          if (data["vrfd"] == false) {
+            string = `<span class="unverified">${string}</span>`;
           };
           return string;
         }
