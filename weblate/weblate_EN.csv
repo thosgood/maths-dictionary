@@ -1,31 +1,128 @@
 "",number,number,"",FALSE,08f9028a,"",https://www.wikidata.org/wiki/Q11563
+"",natural number,natural number,"",FALSE,08f9028a/0beb02f8,"",https://www.wikidata.org/wiki/Q21199
+"",positive number,positive number,"",FALSE,08f9028a/0fac0374,"",https://www.wikidata.org/wiki/Q3176558
+"",negative number,negative number,"",FALSE,08f9028a/0ee60354,"",https://www.wikidata.org/wiki/Q200227
+"",rational number,rational number,"",FALSE,08f9028a/0f38035b,"",https://www.wikidata.org/wiki/Q1244890
+"",complex number,complex number,"",FALSE,08f9028a/0bbd02f9,"",https://www.wikidata.org/wiki/Q11567
+"",real number,real number,"",FALSE,08f9028a/042901a5,"",https://www.wikidata.org/wiki/Q12916
+"",even number,even number,"",FALSE,08f9028a/078701c7,"",https://www.wikidata.org/wiki/Q13366104
+"",odd number,odd number,"",FALSE,08f9028a/027c0138,"",https://www.wikidata.org/wiki/Q13366129
 "",function,function,"",FALSE,0f450367,"",https://www.wikidata.org/wiki/Q11348
+"",injective function,injective function,"",FALSE,0f450367/12b903c2,"",https://www.wikidata.org/wiki/Q182003
+"",surjective function,surjective function,"",FALSE,0f450367/17c40445,"",https://www.wikidata.org/wiki/Q229102
+"",bijective function,bijective function,"",FALSE,0f450367/125203b6,"",https://www.wikidata.org/wiki/Q180907
+"",partial function,partial function,"",FALSE,0f450367/0bd002ee,"",https://www.wikidata.org/wiki/Q1756942
+"",continuous function,continuous function,"",FALSE,0f450367/17850458,"",https://www.wikidata.org/wiki/Q170058
+"",holomorphic function,holomorphic function,"",FALSE,0f450367/1c1904a5,"",https://www.wikidata.org/wiki/Q207476
+"",differentiable function,differentiable function,"",FALSE,0f450367/2acf05b5,"",https://www.wikidata.org/wiki/Q783507
+"",linear function,linear function,"",FALSE,0f450367/08b6027c,"",https://www.wikidata.org/wiki/Q207643
+"",monotone function,monotone function,"",FALSE,0f450367/0f960370,"",https://www.wikidata.org/wiki/Q194404
 "",map,map,"",FALSE,027c013f,"",https://www.wikidata.org/wiki/Q11348
 "",derivative,derivative,"",FALSE,16f30434,"",https://www.wikidata.org/wiki/Q29175
+"",partial derivative,partial derivative,"",FALSE,16f30434/0bd002ee,"",https://www.wikidata.org/wiki/Q186475
 "",cover,cover,"",FALSE,064e0220,"",https://www.wikidata.org/wiki/Q331481
+"",open cover,open cover,"",FALSE,064e0220/044801b3,"",https://www.wikidata.org/wiki/Q41509136
 "",algebra,algebra,"",FALSE,0b3802cf,"",https://www.wikidata.org/wiki/Q1000660
+"",free algebra,free algebra,"",FALSE,0b3802cf/042101a3,"",https://www.wikidata.org/wiki/Q5500180
+"",finitely generated algebra,finitely generated algebra,"",FALSE,0b3802cf/44a90734,"",https://www.wikidata.org/wiki/Q2835968
+"",Boolean algebra,Boolean algebra,"",FALSE,0b3802cf/0aa902c1,"",https://www.wikidata.org/wiki/Q4973304
+"",exterior algebra,exterior algebra,"",FALSE,0b3802cf/0f7c0373,"",https://www.wikidata.org/wiki/Q1196652
+"",symmetric algebra,symmetric algebra,"",FALSE,0b3802cf/13b903de,"",https://www.wikidata.org/wiki/Q1052674
+"",tensor algebra,tensor algebra,"",FALSE,0b3802cf/0918029c,"",https://www.wikidata.org/wiki/Q2296021
+"",term algebra,term algebra,"",FALSE,0b3802cf/045401b9,"",https://www.wikidata.org/wiki/Q21998744
+"",heterogenous algebra,heterogenous algebra,"",FALSE,0b3802cf/1a940474,"",https://www.wikidata.org/wiki/Q1616174
 "",tiling,tiling,"",FALSE,08f90288,"",https://www.wikidata.org/wiki/Q214856
 "",embedding,embedding,"",FALSE,120c03a0,"",https://www.wikidata.org/wiki/Q980509
 "",scheme,scheme,"",FALSE,08b50276,"",https://www.wikidata.org/wiki/Q1155772
+"",affine scheme,affine scheme,"",FALSE,08b50276/085e026a,"",https://www.wikidata.org/wiki/Q91435997
+"",connected scheme,connected scheme,"",FALSE,08b50276/12a103b4,"",https://www.wikidata.org/wiki/Q1491995
+"",Noetherian scheme,Noetherian scheme,"",FALSE,08b50276/15ed040e,"",https://www.wikidata.org/wiki/Q3475675
+"",locally Noetherian scheme,locally Noetherian scheme,"",FALSE,08b50276/433b071e,"",""
+"",reduced scheme,reduced scheme,"",FALSE,08b50276/0ba202dd,"",""
+"",integral scheme,integral scheme,"",FALSE,08b50276/0f230357,"",""
+"",separated scheme,separated scheme,"",FALSE,08b50276/12da03ba,"",""
+"",irreducible scheme,irreducible scheme,"",FALSE,08b50276/1b9c048b,"",https://www.wikidata.org/wiki/Q1673182
+"",normal scheme,normal scheme,"",FALSE,08b50276/0902028a,"",https://www.wikidata.org/wiki/Q7051829
+"",quasi-compact scheme,quasi-compact scheme,"",FALSE,08b50276/24950538,"",""
+"",scheme of finite type,scheme of finite type,"",FALSE,08b50276/271a0557,"",""
 "",sheaf,sheaf,"",FALSE,063b0208,"",https://www.wikidata.org/wiki/Q595298
+"",coherent sheaf,coherent sheaf,"",FALSE,063b0208/0ed90359,"",https://www.wikidata.org/wiki/Q906907
+"",quasi-coherent sheaf,quasi-coherent sheaf,"",FALSE,063b0208/2a2a05a9,"",https://www.wikidata.org/wiki/Q61040808
 "",group,group,"",FALSE,0677022e,"",https://www.wikidata.org/wiki/Q83478
+"",reduced group,reduced group,"",FALSE,0677022e/0ba202dd,"",""
+"",normal group,normal group,"",FALSE,0677022e/0902028a,"",https://www.wikidata.org/wiki/Q743179
+"",abelian group,abelian group,"",FALSE,0677022e/0b0e02cd,"",https://www.wikidata.org/wiki/Q181296
+"",commutative group,commutative group,"",FALSE,0677022e/1c0b04af,"",https://www.wikidata.org/wiki/Q181296
+"",finite group,finite group,"",FALSE,0677022e/08b70280,"",https://www.wikidata.org/wiki/Q1057968
+"",cyclic group,cyclic group,"",FALSE,0677022e/08ba0278,"",https://www.wikidata.org/wiki/Q245462
+"",Galois group,Galois group,"",FALSE,0677022e/07d70260,"",https://www.wikidata.org/wiki/Q730384
 "",topological space,topological space,"",FALSE,3f1206ca,"",https://www.wikidata.org/wiki/Q179899
 "",vector space,vector space,"",FALSE,1f8004c0,"",https://www.wikidata.org/wiki/Q125977
 "",ring,ring,"",FALSE,044a01b1,"",https://www.wikidata.org/wiki/Q161172
+"",commutative ring,commutative ring,"",FALSE,044a01b1/1c0b04af,"",https://www.wikidata.org/wiki/Q858656
+"",noncommutative ring,noncommutative ring,"",FALSE,044a01b1/2cdd05fa,"",https://www.wikidata.org/wiki/Q7049224
 "",module,module,"",FALSE,08eb0287,"",https://www.wikidata.org/wiki/Q18848
+"",finitely generated module,finitely generated module,"",FALSE,08eb0287/44a90734,"",https://www.wikidata.org/wiki/Q1340572
+"",free module,free module,"",FALSE,08eb0287/042101a3,"",https://www.wikidata.org/wiki/Q1292333
+"",projective module,projective module,"",FALSE,08eb0287/1773043c,"",https://www.wikidata.org/wiki/Q942423
+"",injective module,injective module,"",FALSE,08eb0287/12b903c2,"",https://www.wikidata.org/wiki/Q2716519
+"",simple module,simple module,"",FALSE,08eb0287/0906028b,"",https://www.wikidata.org/wiki/Q956233
+"",semisimple module,semisimple module,"",FALSE,08eb0287/175c0439,"",https://www.wikidata.org/wiki/Q1485102
 "",field,field,"",FALSE,06120205,"",https://www.wikidata.org/wiki/Q190109
+"",finite field,finite field,"",FALSE,06120205/08b70280,"",https://www.wikidata.org/wiki/Q603880
+"",algebraically closed field,algebraically closed field,"",FALSE,06120205/533c07e7,"",https://www.wikidata.org/wiki/Q1047547
+"",perfect field,perfect field,"",FALSE,06120205/0bb002ea,"",https://www.wikidata.org/wiki/Q2997817
 "",category,category,"",FALSE,0ebe035f,"",https://www.wikidata.org/wiki/Q719395
+"",cartesian category,cartesian category,"",FALSE,0ebe035f/129203bb,"",https://www.wikidata.org/wiki/Q18205845
+"",abelian category,abelian category,"",FALSE,0ebe035f/0b0e02cd,"",https://www.wikidata.org/wiki/Q318737
+"",additive category,additive category,"",FALSE,0ebe035f/0e8d034b,"",https://www.wikidata.org/wiki/Q4681343
+"",complete category,complete category,"",FALSE,0ebe035f/0f13035a,"",https://www.wikidata.org/wiki/Q4370335
+"",cocomplete category,cocomplete category,"",FALSE,0ebe035f/16da042c,"",https://www.wikidata.org/wiki/Q47007889
+"",finitely presentable category,finitely presentable category,"",FALSE,0ebe035f/552f081a,"",""
+"",locally finitely presentable category,locally finitely presentable category,"",FALSE,0ebe035f/a11d0b2a,"",""
+"",model category,model category,"",FALSE,0ebe035f/06440212,"",https://www.wikidata.org/wiki/Q1941896
 "",set,set,"",FALSE,029a014d,"",https://www.wikidata.org/wiki/Q36161
+"",empty set,empty set,"",FALSE,029a014d/06630230,"",https://www.wikidata.org/wiki/Q226183
+"",non-empty set,non-empty set,"",FALSE,029a014d/11cd03a8,"",https://www.wikidata.org/wiki/Q10533491
+"",open set,open set,"",FALSE,029a014d/044801b3,"",https://www.wikidata.org/wiki/Q213363
+"",closed set,closed set,"",FALSE,029a014d/08b7027b,"",https://www.wikidata.org/wiki/Q320357
+"",clopen set,clopen set,"",FALSE,029a014d/08b80282,"",https://www.wikidata.org/wiki/Q320369
+"",countable set,countable set,"",FALSE,029a014d/12ee03be,"",https://www.wikidata.org/wiki/Q66707394
+"",uncountable set,uncountable set,"",FALSE,029a014d/1c4304a1,"",https://www.wikidata.org/wiki/Q1128796
+"",infinite set,infinite set,"",FALSE,029a014d/0f030357,"",https://www.wikidata.org/wiki/Q205140
+"",finite set,finite set,"",FALSE,029a014d/08b70280,"",https://www.wikidata.org/wiki/Q272404
+"",definable set,definable set,"",FALSE,029a014d/1202039b,"",https://www.wikidata.org/wiki/Q2895824
+"",transitive set,transitive set,"",FALSE,029a014d/17b9044a,"",https://www.wikidata.org/wiki/Q671944
+"",measurable set,measurable set,"",FALSE,029a014d/16e50422,"",https://www.wikidata.org/wiki/Q3054889
+"",analytic set,analytic set,"",FALSE,029a014d/0ee90356,"",https://www.wikidata.org/wiki/Q485312
+"",projective set,projective set,"",FALSE,029a014d/1773043c,"",""
+"",cofinal set,cofinal set,"",FALSE,029a014d/0b7002dd,"",""
+"",stationary set,stationary set,"",FALSE,029a014d/17a9044f,"",https://www.wikidata.org/wiki/Q1528401
+"",complementary set,complementary set,"",FALSE,029a014d/261a0581,"",""
 "",manifold,manifold,"",FALSE,0ed9034b,"",https://www.wikidata.org/wiki/Q203920
+"",smooth manifold,smooth manifold,"",FALSE,0ed9034b/0932029b,"",""
+"",compact manifold,compact manifold,"",FALSE,0ed9034b/0b9402e8,"",""
+"",connected manifold,connected manifold,"",FALSE,0ed9034b/12a103b4,"",""
 "",curve,curve,"",FALSE,066f0226,"",https://www.wikidata.org/wiki/Q161973
 "",surface,surface,"",FALSE,0c0a02ea,"",https://www.wikidata.org/wiki/Q484298
 "",proof,proof,"",FALSE,068e0227,"",https://www.wikidata.org/wiki/Q11538
 "",functor,functor,"",FALSE,0bed0302,"",https://www.wikidata.org/wiki/Q864475
 "",product,product,"",FALSE,0c170302,"",https://www.wikidata.org/wiki/Q919107
+"",tensor product,tensor product,"",FALSE,0c170302/0918029c,"",https://www.wikidata.org/wiki/Q1163016
+"",cartesian product,cartesian product,"",FALSE,0c170302/1172039b,"",https://www.wikidata.org/wiki/Q173740
 "",sum,sum,"",FALSE,02b30156,"",https://www.wikidata.org/wiki/Q218005
+"",direct sum,direct sum,"",FALSE,02b30156/089c027c,"",https://www.wikidata.org/wiki/Q13582243
 "",morphism,morphism,"",FALSE,0f830370,"",https://www.wikidata.org/wiki/Q1948412
 "",abscissa,abscissa,"",FALSE,0ea3034a,"",https://www.wikidata.org/wiki/Q515874
 "",series,series,"",FALSE,08f1028c,"",https://www.wikidata.org/wiki/Q170198
+"",alternating series,alternating series,"",FALSE,08f1028c/1b8f049a,"",https://www.wikidata.org/wiki/Q438842
+"",convergent series,convergent series,"",FALSE,08f1028c/172c043c,"",https://www.wikidata.org/wiki/Q1211057
+"",absolutely convergent series,absolutely convergent series,"",FALSE,08f1028c/5e8108a0,"",https://www.wikidata.org/wiki/Q91134251
+"",Fourier series,Fourier series,"",FALSE,08f1028c/0b1302dd,"",https://www.wikidata.org/wiki/Q179467
+"",Laurent series,Laurent series,"",FALSE,08f1028c/0af102dc,"",https://www.wikidata.org/wiki/Q425432
+"",Maclaurin series,Maclaurin series,"",FALSE,08f1028c/1152039d,"",https://www.wikidata.org/wiki/Q1882442
+"",power series,power series,"",FALSE,08f1028c/0692022e,"",https://www.wikidata.org/wiki/Q206925
+"",Taylor series,Taylor series,"",FALSE,08f1028c/085b027c,"",https://www.wikidata.org/wiki/Q131187
 "",acnode,acnode,"",FALSE,086d026b,"",https://www.wikidata.org/wiki/Q844451
 "",addition,addition,"",FALSE,0e88034d,"",https://www.wikidata.org/wiki/Q32043
 "",adherence,adherence,"",FALSE,120b03a0,"",https://www.wikidata.org/wiki/Q320346
@@ -35,19 +132,44 @@
 "",height,height,"",FALSE,088c027a,"",https://www.wikidata.org/wiki/Q208826
 "",variable,variable,"",FALSE,0eff0347,"",https://www.wikidata.org/wiki/Q50701
 "",element,element,"",FALSE,0b7e02eb,"",https://www.wikidata.org/wiki/Q379825
+"",neutral element,neutral element,"",FALSE,0b7e02eb/0c0402fc,"",https://www.wikidata.org/wiki/Q185813
+"",inverse element,inverse element,"",FALSE,0b7e02eb/0bfd02fd,"",https://www.wikidata.org/wiki/Q338057
+"",identity element,identity element,"",FALSE,0b7e02eb/0efc036b,"",https://www.wikidata.org/wiki/Q185813
 "",algorithm,algorithm,"",FALSE,12b403c8,"",https://www.wikidata.org/wiki/Q8366
+"",Euclidean algorithm,Euclidean algorithm,"",FALSE,12b403c8/1157038b,"",https://www.wikidata.org/wiki/Q230848
 "",width,width,"",FALSE,06780221,"",https://www.wikidata.org/wiki/Q35059
 "",matrix,matrix,"",FALSE,08e90296,"",https://www.wikidata.org/wiki/Q44337
+"",diagonal matrix,diagonal matrix,"",FALSE,08e90296/0e840340,"",https://www.wikidata.org/wiki/Q332791
+"",transpose matrix,transpose matrix,"",FALSE,08e90296/137f03e0,"",https://www.wikidata.org/wiki/Q223683
+"",square matrix,square matrix,"",FALSE,08e90296/092d0292,"",https://www.wikidata.org/wiki/Q2739329
+"",null matrix,null matrix,"",FALSE,08e90296/045f01bc,"",https://www.wikidata.org/wiki/Q338028
+"",zero matrix,zero matrix,"",FALSE,08e90296/046e01c1,"",https://www.wikidata.org/wiki/Q338028
+"",triangular matrix,triangular matrix,"",FALSE,08e90296/1766043a,"",https://www.wikidata.org/wiki/Q506265
 "",maximum,maximum,"",FALSE,0be202ff,"",https://www.wikidata.org/wiki/Q10578722
 "",minimum,minimum,"",FALSE,0be002fd,"",https://www.wikidata.org/wiki/Q10585806
 "",logarithm,logarithm,"",FALSE,12db03c8,"",https://www.wikidata.org/wiki/Q11197
 "",angle,angle,"",FALSE,06140208,"",https://www.wikidata.org/wiki/Q11352
+"",adjacent angle,adjacent angle,"",FALSE,06140208/0e38033b,"",https://www.wikidata.org/wiki/Q11064478
+"",supplementary angle,supplementary angle,"",FALSE,06140208/2753059a,"",https://www.wikidata.org/wiki/Q1409132
+"",dihedral angle,dihedral angle,"",FALSE,06140208/0e84033e,"",https://www.wikidata.org/wiki/Q911907
+"",opposite angle,opposite angle,"",FALSE,06140208/0faf0374,"",https://www.wikidata.org/wiki/Q10906396
+"",inscribed angle,inscribed angle,"",FALSE,06140208/12d303b4,"",https://www.wikidata.org/wiki/Q10344427
+"",obtuse angle,obtuse angle,"",FALSE,06140208/09040293,"",https://www.wikidata.org/wiki/Q2802178
+"",complementary angle,complementary angle,"",FALSE,06140208/261a0581,"",https://www.wikidata.org/wiki/Q864413
+"",solid angle,solid angle,"",FALSE,06140208/067a021c,"",https://www.wikidata.org/wiki/Q208476
+"",trihedral angle,trihedral angle,"",FALSE,06140208/130903c0,"",""
+"",central angle,central angle,"",FALSE,06140208/0b9402ea,"",https://www.wikidata.org/wiki/Q1094399
+"",acute angle,acute angle,"",FALSE,06140208/06220213,"",https://www.wikidata.org/wiki/Q3250296
+"",right angle,right angle,"",FALSE,06140208/065c021f,"",https://www.wikidata.org/wiki/Q210
 "",symmetry,symmetry,"",FALSE,0feb038b,"",https://www.wikidata.org/wiki/Q2431134
 "",multiple,multiple,"",FALSE,0fa0036d,"",https://www.wikidata.org/wiki/Q1055293
 "",antilogarithm,antilogarithm,"",FALSE,260a0574,"",https://www.wikidata.org/wiki/Q577570
 "",similarity,similarity,"",FALSE,17510448,"",https://www.wikidata.org/wiki/Q254465
 "",apothem,apothem,"",FALSE,0bb802ef,"",https://www.wikidata.org/wiki/Q508490
 "",axis,axis,"",FALSE,043501b6,"",https://www.wikidata.org/wiki/Q508490
+"",coordinate axis,coordinate axis,"",FALSE,043501b6/16f20429,"",https://www.wikidata.org/wiki/Q1783819
+"",real axis,real axis,"",FALSE,043501b6/042901a5,"",""
+"",imaginary axis,imaginary axis,"",FALSE,043501b6/127803c2,"",""
 "",argument,argument,"",FALSE,0f140364,"",https://www.wikidata.org/wiki/Q508490
 "",arithmetic,arithmetic,"",FALSE,1700042b,"",https://www.wikidata.org/wiki/Q11205
 "",arc,arc,"",FALSE,026d0137,"",https://www.wikidata.org/wiki/Q147572
@@ -61,6 +183,8 @@
 "",axonometry,axonometry,"",FALSE,178e0457,"",https://www.wikidata.org/wiki/Q56519998
 "",area,area,"",FALSE,0409019a,"",https://www.wikidata.org/wiki/Q11500
 "",value,value,"",FALSE,066a021e,"",https://www.wikidata.org/wiki/Q2912517
+"",numeric value,numeric value,"",FALSE,066a021e/0c0702f4,"",https://www.wikidata.org/wiki/Q10388960
+"",absolute value,absolute value,"",FALSE,066a021e/0ef70360,"",https://www.wikidata.org/wiki/Q120812
 "",equivalence,equivalence,"",FALSE,1bd60493,"",https://www.wikidata.org/wiki/Q220433
 "",relation,relation,"",FALSE,0f1f035f,"",https://www.wikidata.org/wiki/Q203066
 "",class,class,"",FALSE,06200217,"",https://www.wikidata.org/wiki/Q217594
@@ -82,6 +206,10 @@
 "",binomial,binomial,"",FALSE,0ed3034c,"",https://www.wikidata.org/wiki/Q193623
 "",volume,volume,"",FALSE,09430299,"",https://www.wikidata.org/wiki/Q39297
 "",bound,bound,"",FALSE,064a0219,"",https://www.wikidata.org/wiki/Q13222579
+"",upper bound,upper bound,"",FALSE,064a0219/069a022d,"",https://www.wikidata.org/wiki/Q42866132
+"",lower bound,lower bound,"",FALSE,064a0219/067e022a,"",https://www.wikidata.org/wiki/Q12254923
+"",least upper bound,least upper bound,"",FALSE,064a0219/1a230466,"",https://www.wikidata.org/wiki/Q215071
+"",greatest lower bound,greatest lower bound,"",FALSE,064a0219/2a7305a9,"",https://www.wikidata.org/wiki/Q1199948
 "",decahedron,decahedron,"",FALSE,15d9040e,"",https://www.wikidata.org/wiki/Q1183559
 "",topology,topology,"",FALSE,0fc0037e,"",https://www.wikidata.org/wiki/Q18786106
 "",trace,trace,"",FALSE,065f0210,"",https://www.wikidata.org/wiki/Q321102
@@ -96,6 +224,8 @@
 "",singularity,singularity,"",FALSE,78d409c6,"",https://www.wikidata.org/wiki/Q863349
 "",blow-up,blow-up,"",FALSE,165503f8,"",https://www.wikidata.org/wiki/Q1036595
 "",representation,representation,"",FALSE,2cac05f4,"",https://www.wikidata.org/wiki/Q2905654
+"",group representation,group representation,"",FALSE,2cac05f4/0677022e,"",https://www.wikidata.org/wiki/Q1055807
+"",irreducible representation,irreducible representation,"",FALSE,2cac05f4/1b9c048b,"",https://www.wikidata.org/wiki/Q13690522
 "",character,character,"",FALSE,ecdc0d84,"",https://www.wikidata.org/wiki/Q600043
 "",subspace,subspace,"",FALSE,0f6c0357,"",https://www.wikidata.org/wiki/Q91328142
 "",composition series,composition series,"",FALSE,46d40760,"",https://www.wikidata.org/wiki/Q2525646
@@ -105,6 +235,7 @@
 "",proof by contradiction,proof by contradiction,"",FALSE,623b08b3,"",https://www.wikidata.org/wiki/Q184899
 "",group ring,group ring,"",FALSE,164303fe,"",https://www.wikidata.org/wiki/Q2602722
 "",correspondence,correspondence,"",FALSE,2c7005db,"",https://www.wikidata.org/wiki/Q1322856
+"",bijective correspondence,bijective correspondence,"",FALSE,2c7005db/125203b6,"",https://www.wikidata.org/wiki/Q180907
 "",eigenvector,eigenvector,"",FALSE,1b3a049c,"",https://www.wikidata.org/wiki/Q3555174
 "",eigenvalue,eigenvalue,"",FALSE,16a10426,"",https://www.wikidata.org/wiki/Q3553768
 "",limit,limit,"",FALSE,06520220,"",https://www.wikidata.org/wiki/Q1322614
