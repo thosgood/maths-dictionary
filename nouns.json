@@ -406,7 +406,7 @@
           "PT": { "atom": "linear", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "线性", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q207643"
@@ -429,7 +429,7 @@
           "PT": { "atom": "monótono", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "单调", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q194404"
@@ -597,7 +597,7 @@
           "PT": { "atom": "livre", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "自由", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q5500180"
@@ -620,7 +620,7 @@
           "PT": { "atom": "finitamente gerada", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "有限生成", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q2835968"
@@ -643,7 +643,7 @@
           "PT": { "atom": "booliana", "pstn": "after" },
           "RU": { "atom": "булевой", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "布尔", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q4973304"
@@ -666,7 +666,7 @@
           "PT": { "atom": "exterior", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "外", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q1196652"
@@ -712,7 +712,7 @@
           "PT": { "atom": "tensorial", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "张量", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q2296021"
@@ -1241,7 +1241,7 @@
           "PT": { "atom": "abeliano", "pstn": "after" },
           "RU": { "atom": "а́белева", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "阿贝尔", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q181296"
@@ -1264,7 +1264,7 @@
           "PT": { "atom": "comutativo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "交换", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q181296"
@@ -1287,7 +1287,7 @@
           "PT": { "atom": "finito", "pstn": "after" },
           "RU": { "atom": "коне́чная", "pstn": "before" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "有限", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q1057968"
@@ -1310,7 +1310,7 @@
           "PT": { "atom": "cíclico", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "循环", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q245462"
@@ -1333,7 +1333,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "伽罗瓦", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q730384"
@@ -1429,7 +1429,7 @@
           "PT": { "atom": "comutativo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "交换", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q858656"
@@ -1452,7 +1452,7 @@
           "PT": { "atom": "não comutativo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "非交换", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q7049224"
@@ -1500,7 +1500,7 @@
           "PT": { "atom": "finitamente gerado", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "有限生成", "pstn": "before "}
         },
         "refs": {
           "wikidata": "Q1340572"
