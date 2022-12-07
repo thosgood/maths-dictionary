@@ -689,7 +689,7 @@
           "PT": { "atom": "simétrica", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "对称", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q1052674"
@@ -1523,7 +1523,7 @@
           "PT": { "atom": "livre", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "自由", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q1292333"
@@ -1546,7 +1546,7 @@
           "PT": { "atom": "projetivo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "投射", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q942423"
@@ -1569,7 +1569,7 @@
           "PT": { "atom": "injetivo", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "单射", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q2716519"
@@ -1663,7 +1663,7 @@
           "PT": { "atom": "finito", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "有限", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q603880"
@@ -1686,7 +1686,7 @@
           "PT": { "atom": "algebricamente fechado", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "代数闭", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q1047547"
@@ -1709,7 +1709,7 @@
           "PT": { "atom": "perfeito", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "完美", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q2997817"
@@ -1757,7 +1757,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "笛卡尔", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q18205845"
@@ -1780,7 +1780,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "阿贝尔", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q318737"
@@ -1826,7 +1826,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "完备", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q4370335"
@@ -1849,7 +1849,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "余完备", "pstn": "before" }
         },
         "refs": {
           "wikidata": "Q47007889"
