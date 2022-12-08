@@ -1987,7 +1987,7 @@
           "PT": { "atom": "", "pstn": "" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "非空", "pstn":"before" }
         },
         "refs": {
           "wikidata": "Q10533491"
@@ -2374,7 +2374,7 @@
           "PT": { "atom": "suave", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "光滑", "pstn":"before" }
         },
         "refs" : {}
       },
@@ -2395,7 +2395,7 @@
           "PT": { "atom": "compacta", "pstn": "after" },
           "RU": { "atom": "", "pstn": "" },
           "TR": { "atom": "", "pstn": "" },
-          "ZH": { "atom": "", "pstn": "" }
+          "ZH": { "atom": "紧", "pstn":"before" }
         },
         "refs" : {}
       },

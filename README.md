@@ -53,3 +53,4 @@ This dictionary is only as good as its entries, and for this there are many peop
 - [https://www.emaths.co.uk/index.php/teacher-resources/other-resources/english-as-an-additional-language-eal/category/russian](https://www.emaths.co.uk/index.php/teacher-resources/other-resources/english-as-an-additional-language-eal/category/russian)
 - [https://dict.tu-chemnitz.de/de-en/lists/math.html](https://dict.tu-chemnitz.de/de-en/lists/math.html)
 - [https://courses.dcs.wisc.edu/wp/readinggerman/](https://courses.dcs.wisc.edu/wp/readinggerman/)
+- [http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf](http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf)
