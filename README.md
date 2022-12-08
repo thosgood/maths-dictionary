@@ -54,3 +54,4 @@ This dictionary is only as good as its entries, and for this there are many peop
 - [https://dict.tu-chemnitz.de/de-en/lists/math.html](https://dict.tu-chemnitz.de/de-en/lists/math.html)
 - [https://courses.dcs.wisc.edu/wp/readinggerman/](https://courses.dcs.wisc.edu/wp/readinggerman/)
 - [http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf](http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf)
+- [https://math.uni.lu/dictionary/wordlists.html](https://math.uni.lu/dictionary/wordlists.html)
