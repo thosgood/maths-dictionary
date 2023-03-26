@@ -1921,6 +1921,29 @@
         "refs": {
           "wikidata": "Q1941896"
         }
+      },
+      "210e0505": {
+        "root": {
+          "CA": { "atom": "", "pstn": "" },
+          "DE": { "atom": "triangulierte", "pstn": "before" },
+          "EN": { "atom": "triangulated", "pstn": "before" },
+          "ES": { "atom": "", "pstn": "" },
+          "EU": { "atom": "", "pstn": "" },
+          "FA": { "atom": "", "pstn": "" },
+          "FI": { "atom": "", "pstn": "" },
+          "FR": { "atom": "triangulée", "pstn": "after" },
+          "IT": { "atom": "", "pstn": "" },
+          "JA": { "atom": "", "pstn": "" },
+          "KO": { "atom": "삼각 분할", "pstn": "before", "vrfd": false },
+          "PL": { "atom": "", "pstn": "" },
+          "PT": { "atom": "", "pstn": "" },
+          "RU": { "atom": "", "pstn": "" },
+          "TR": { "atom": "", "pstn": "" },
+          "ZH": { "atom": "三角", "pstn": "before", "vrfd": false }
+        },
+        "refs": {
+          "wikidata": "Q7840150"
+        }
       }
     },
     "refs": {
