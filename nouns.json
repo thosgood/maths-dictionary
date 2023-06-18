@@ -1585,7 +1585,7 @@
           "FA": { "atom": "ساده", "pstn": "after" },
           "FI": { "atom": "yksinkertainen", "pstn": "before" },
           "FR": { "atom": "simple", "pstn": "after" },
-          "IT": { "atom": "", "pstn": "" },
+          "IT": { "atom": "semplice", "pstn": "after" },
           "JA": { "atom": "", "pstn": "" },
           "KO": { "atom": "단순", "pstn": "before" },
           "PL": { "atom": "", "pstn": "" },
