@@ -117,7 +117,7 @@ $(document).ready(function() {
       "pageLength": 10,
       "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ],
       // "pagingType": "numbers",
-      "order": [[ 0, "asc" ]],
+      "order": [[ 3, "asc" ]],
     })// closing DataTable
 
 
