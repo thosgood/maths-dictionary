@@ -33,7 +33,7 @@ $(document).on("click", "#start", function() {
 
   targetLang = $("#to_language").val();
 
-  targetLangHasGend = (languages[targetLang]["genders"] === undefined) ? false : true;
+  targetLangHasGend = (languages[targetLang]["genders"].length === 0) ? false : true;
   targetLangDirection = languages[targetLang]["direction"]
 
   $.each(dict, function(i, item) {
@@ -48,37 +48,6 @@ $(document).on("click", "#start", function() {
           };
         };
       });
-    } else if (targetAtom !== "") {
-      // now do adjectives...
-      if (!jQuery.isEmptyObject(item["adjs"])) {
-        $.each(item["adjs"], function(a, adj) {
-          var entry = { "type": "adjective",
-                        "id": `${i}/${a}`,
-                        "noun": item,
-                        "existing": {} };
-          var targetAtom = "";
-          if (adj[targetLang] !== undefined) {
-            var targetAtom = adj[targetLang]["atom"];
-          }
-          if (targetAtom === "") {
-            $.each(sourceLangs, function(l, lang) {
-              // only add adjectives that already have the noun translated
-              if (adj[lang] !== undefined) {
-                var sourceAtom = adj[lang]["atom"];
-                var sourcePosition = adj[lang]["pstn"];
-                if (sourceAtom !== "") {
-                  entry["existing"][lang] = {};
-                  entry["existing"][lang]["atom"] = sourceAtom;
-                  entry["existing"][lang]["pstn"] = sourcePosition;
-                };
-              };
-            });
-          };
-          if (!jQuery.isEmptyObject(entry["existing"])) {
-            needingTranslation.push(entry);  
-          };
-        });
-      };
     };
 
     if (!jQuery.isEmptyObject(entry["existing"])) {
@@ -164,31 +133,20 @@ var saveCurrentAnswer = function(input,type) {
   var answer = {};
   var success = false;
   answer["atom"] = input.val();
-  if (type === "noun" && targetLangHasGend) {
+  console.log(targetLangHasGend);
+  if (targetLangHasGend) {
     answer["gend"] = $("input[name=gender]:checked").val();
     if (answer["atom"] !== "" && answer["gend"] !== undefined) {
       submission[input.attr("name")] = answer;
       success = true;
     }
-  } else if (type == "noun" && !targetLangHasGend) { 
+  } else { 
     if (answer["atom"] !== "") {
       submission[input.attr("name")] = answer;
       success = true;
     }
-  } else if (type === "adjective") {
-    var positionArrow = $("input[name=position]:checked").val();
-    if (targetLangDirection === "LTR" && positionArrow === "leftarrow"
-        || targetLangDirection === "RTL" && positionArrow === "rightarrow") {
-      answer["pstn"] = "before";
-    } else if (targetLangDirection === "LTR" && positionArrow === "rightarrow"
-        || targetLangDirection === "RTL" && positionArrow === "leftarrow") {
-      answer["pstn"] = "after";
-    };
-    if (answer["atom"] !== "" && answer["pstn"] !== undefined) {
-      submission[input.attr("name")] = answer;
-      success = true;
-    }
   };
+  console.log(input)
   console.log(submission[input.attr("name")]);
   return success;
 };
@@ -237,64 +195,6 @@ var updateQuestionCard = function(number) {
     $("#position_selection").css("display", "none");
     $("#corresponding_noun").css("display", "none");
     
-    $("#current_question_number").html(`${number}`);
-
-    if (number == 1) {
-      $("button#previous").prop("disabled", true);
-    } else {
-      $("button#previous").prop("disabled", false);
-    };
-    var totalQuestionNumber = parseInt($("#total_question_number").text());
-    if (number == totalQuestionNumber) {
-      $("button#next").prop("disabled", true);
-    } else {
-      $("button#next").prop("disabled", false);
-    };
-  } else if (question["type"] === "adjective") {
-    var foreignContent = [];
-    $.each(question["existing"], function(u, unknown) {
-      compoundId = id.split("/")
-      var ref = dict[compoundId[0]]["adjs"][compoundId[1]]["refs"]["wikidata"];
-      var link = "";
-      if (typeof ref !== undefined) {
-        link = `</br>(<a href="https://www.wikidata.org/wiki/${ref}" target="_blank">${ref}</a>)`
-      }
-      var foreignWord = "";
-      if (unknown["pstn"] === "before" && targetLangDirection === "LTR"
-          || unknown["pstn"] === "after" && targetLangDirection === "RTL") {
-        foreignWord =`<span class="unknown">${unknown["atom"]} ${question["noun"][u]["atom"]}<span class="tooltip">${u}${link}</span></span>`;
-      } else if (unknown["pstn"] === "after" && targetLangDirection === "LTR"
-                 || unknown["pstn"] === "before" && targetLangDirection === "RTL") {
-        foreignWord =`<span class="unknown">${question["noun"][u]["atom"]} ${unknown["atom"]}<span class="tooltip">${u}${link}</span></span>`;
-      }
-      foreignContent.push(foreignWord);
-    });
-    
-    $("#foreign").html(foreignContent.join(" / "));
-    $("#question_input").attr("name", id);
-    $("#corresponding_noun").html(question["noun"][targetLang]["atom"]);
-
-    if (submission[id] !== undefined) {
-      $("#question_input").val(submission[id]["atom"]);
-      if (submission[id]["pstn"] !== undefined) {
-        if (targetLangDirection === "LTR" && submission[id]["pstn"] === "before"
-            || targetLangDirection === "RTL" && submission[id]["pstn"] === "after") {
-          $(`input#leftarrow`).prop("checked", true);
-        } else if (targetLangDirection === "LTR" && submission[id]["pstn"] === "after"
-            || targetLangDirection === "RTL" && submission[id]["pstn"] === "before") {
-          $(`input#rightarrow`).prop("checked", true);
-        };
-      }
-    } else {
-      $("#question_input").val("");
-      $("input[name='position']").prop("checked", false);
-    };
-
-    $("#question_input").css("display", "none");
-    $("#gender_selection").css("display", "none");
-    $("#position_selection").css("display", "block");
-    $("#corresponding_noun").css("display", "inline");
-
     $("#current_question_number").html(`${number}`);
 
     if (number == 1) {
