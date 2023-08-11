@@ -15,16 +15,9 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ### Dictionary
 
-***maybe...* there shouldn't be any adjectives; everything should be its own entry; "adjectives" could link back to their "root"**
-
-- should be a way to indicate that there is no space between a noun and its adjective (e.g. Modellkategorie in DE)
-    + **use the `"join": Bool` key for adjectives** (e.g. `0ebe035f/06440212`)
+- regenerate hash keys for all ex-adjectives
 - support for multiple atoms
     + e.g. regional variations, or just synonyms
-- a way to inherit adjectives from another entry!
-    + e.g. give a list of hashes of adjectives that "group" should inherit from "ring"
-    + **but** should also have "general" fallback, e.g. if I want to write "differentiable stack", then I can modify "stack" (or literally anything!) by "function.differentiable", i.e. coercion
-        * this would give a "hm we can't guarantee anything" warning
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - think about verbs...
@@ -33,8 +26,6 @@ This dictionary is only as good as its entries, and for this there are many peop
 ### Website
 
 - make language header row sticky at top
-- **search should also search through adjectives**
-- "expand all nouns" button
 
 
 ## Existing dictionary resources

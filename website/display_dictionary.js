@@ -15,7 +15,7 @@ var updateVisibleLangs = function(){
 $(document).ready(function() {
 
   // generate language_selectors from languages
-  $.getJSON("https://thosgood.com/maths-dictionary/languages.json", function(json) {
+  $.getJSON("https://thosgood.com/maths-dictionary/data/languages.json", function(json) {
     langs = json;
     // TO-DO: set RTLLangs from json data
     RTLLangs = ["FA"];
@@ -36,7 +36,7 @@ $(document).ready(function() {
     updateVisibleLangs();
   });
 
-  $.getJSON("https://thosgood.com/maths-dictionary/nouns.json", function(json) {
+  $.getJSON("https://thosgood.com/maths-dictionary/data/nouns.json", function(json) {
     // convert the dict as an array
     var data = Object.values(json);
 

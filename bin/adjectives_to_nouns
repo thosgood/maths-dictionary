@@ -1,0 +1,77 @@
+#!/usr/bin/ruby
+require 'json'
+require 'adler32'
+
+
+# 1. Load the file and set some variables
+
+$nouns = JSON.parse(File.read('../data/nouns.json'))
+
+$output = {}
+
+
+# 2. The main method
+
+def generate_entry (key, value, parent_key = nil, parent_value = nil)
+  entry = {}
+  # This checks if an entry is a noun (by seeing that it has no parent)
+  if parent_key.nil?
+    # The entry should be exactly the same as what was previously stored in
+    # the "root" key, plus the data stored in the "refs" key
+    entry = value["root"]
+    entry["refs"] = value["refs"]
+    # The hash will stay the same
+    entry_hash = key
+  # Otherwise we are dealing with an adjective
+  else
+    # We need to make sure that we concatenate the adjective with the noun
+    # (note that ruby automatically takes care of RTL/LTR when doing this)
+    # and we also need to inherit the gender
+    value["root"].each do |lang,lang_entry|
+      entry[lang] = {}
+      noun_adj_seperator = ""
+      unless ["JA", "KO", "ZH"].include? lang
+        noun_adj_seperator = " "
+      end
+      case lang_entry["pstn"]
+        when 'before'
+          entry[lang]["atom"] = lang_entry["atom"] + noun_adj_seperator + parent_value["root"][lang]["atom"]
+        when 'after'
+          entry[lang]["atom"] = parent_value["root"][lang]["atom"] + noun_adj_seperator + lang_entry["atom"]
+        # It might be the case that there was no entry for this language, so we
+        # need to then just record the empty string
+        else
+          entry[lang]["atom"] = ""
+      end
+      entry[lang]["gend"] = parent_value["root"][lang]["gend"]
+    end
+    # TO-DO: inherit gender
+    # The refs stay the same
+    unless value["refs"].nil?
+      entry["refs"] = value["refs"]
+    end
+    # For now, we'll just concatenate hashes and deal with this later...
+    entry_hash = "#{parent_key}/#{key}"
+  end
+  return { entry_hash => entry }
+end
+
+
+# 3. Actually run through the imported json file
+
+$nouns.each do |k,v|
+  # Add the entry for each noun
+  $output.merge!(generate_entry k, v)
+  # If that noun has adjectives, call generate_entry but notify it that
+  # it's receiving an adjective by giving it the parent key-value pair
+  unless v["adjs"].nil?
+    v["adjs"].each do |l,w|
+      $output.merge!(generate_entry l, w, k, v)
+    end
+  end
+end
+
+
+# 4. Write to a new file
+
+File.write("flat.json", JSON.pretty_generate($output))
