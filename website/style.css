@@ -114,7 +114,8 @@ table.dataTable thead .sorting_desc:after {
   font-style: italic;
 }
 
-#table span.unverified {
+#table span.unverified,
+span.unverified {
   background: rgba(174,48,48,0.4);
 }
 
