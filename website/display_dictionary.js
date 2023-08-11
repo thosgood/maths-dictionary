@@ -82,7 +82,7 @@ $(document).ready(function() {
         "visible": false,
         "searchable": false,
         "title": language,
-        "data": "root." + language,
+        "data": language,
         "render": function( data, type, row ) {
           var string = ""
           string += data["atom"];
@@ -118,30 +118,7 @@ $(document).ready(function() {
       "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ],
       // "pagingType": "numbers",
       "order": [[ 0, "asc" ]],
-      // add expandable class if adjs
-      "createdRow": function( row, data, dataIndex ) {
-        if (!($.isEmptyObject(data.adjs))){
-          $(row).addClass("expandable")
-        }
-      }
     })// closing DataTable
-
-
-    $('#table').on("click", "tr.expandable", function() {
-      // see https://datatables.net/examples/api/row_details.html
-      var tr = $(this).closest('tr');
-      var row = table.row( tr );
-      if ( row.child.isShown() ) {
-        // This row is already open - close it
-        row.child.hide();
-        tr.removeClass('expanded');
-      }
-      else {
-        // Open this row
-        row.child( showAdjectives(row.data()) ).show();
-        tr.addClass('expanded');
-      }
-    });// closing on click
 
 
     // toggle table columns on click
@@ -156,12 +133,6 @@ $(document).ready(function() {
       // set visibleLangs
       updateVisibleLangs()
 
-      // unexpand expanded rows
-      table.rows().every( function () {
-        this.child.hide()
-      });
-      $('.expanded').removeClass('expanded').addClass('expandable');
-
       //this will toggle the column's searchability
       //https://datatables.net/forums/discussion/comment/167155/#Comment_167155
       let columnsettings = table.settings()[0].aoColumns[colId];
@@ -174,82 +145,5 @@ $(document).ready(function() {
   });// closing the getJSON
 
 
-  // add rows for adjectives
-  var showAdjectives = function (data) {
-    // TO-DO: adjectives should be sorted if the current column is sorted
-    var adjRows = [];
-
-    if (typeof data["adjs"] === "undefined" || data["adjs"] === {}) {
-      return false;
-    };
-
-    $.each(data["adjs"], function(a, adj) {
-      var adjRow = document.createElement("tr");
-      adjRow.classList.add('adjective');
-      var adjRowRef = document.createElement("td");
-      var adjRef = "";
-      if (typeof adj["refs"] !== "undefined" || adj["refs"] !== {}) {
-        var ref = "";
-        if (adj["refs"]["wikidata"]) {
-          ref += `<a class="ref wikidata" href="https://www.wikidata.org/wiki/${adj["refs"]["wikidata"]}">${adj["refs"]["wikidata"]}</a>`;
-        };
-        if (adj["refs"]["mathworld"]) {
-          ref += `<a class="ref mathworld" href="https://mathworld.wolfram.com/${adj["refs"]["mathworld"]}.html">[MathWorld]</a>`;
-        };
-        if (adj["refs"]["eom"]) {
-          ref += `<a class="ref eom" href="https://encyclopediaofmath.org/wiki/${adj["refs"]["eom"]}">[EoM]</a>`;
-        };
-        if (adj["refs"]["nlab"]) {
-          ref += `<a class="ref nlab" href="https://ncatlab.org/nlab/show/${adj["refs"]["nlab"]}">[nLab]</a>`;
-        };
-        if (adj["refs"]["pm"]) {
-          ref += `<a class="ref pm" href="https://planetmath.org/${adj["refs"]["pm"]}">[PlanetMath]</a>`;
-        };
-        adjRef = ref;
-      } else {
-        adjRef = "n/a";
-      };
-      adjRowRef.innerHTML = adjRef;
-      adjRow.appendChild(adjRowRef);
-      var emptyAdjRow = true;
-
-      $.each(visibleLangs, function(i, lang) {
-        var content = ""
-        var adjective = adj["root"][lang]
-        // if (typeof adjective === "undefined" || adjective["atom"] === "") {
-        //   return true;
-        // };
-        emptyAdjRow = false;
-        var dir = langs[lang]["direction"];
-        var pstn = adjective["pstn"]
-        if ((pstn === "after" && dir === "LTR") || (pstn === "before" && dir === "RTL")) {
-          content += "___ "
-        };
-        content += adjective["atom"];
-        if ((pstn === "before" && dir === "LTR") || (pstn === "after" && dir === "RTL")) {
-          content += " ___"
-        };
-        // if (content.length === 0) {
-        //   content = "n/a"
-        // };
-        var adjRowEntry = document.createElement("td");
-        if (dir === "RTL") {
-          adjRowEntry.classList.add('RTL');
-        };
-        adjRowEntry.appendChild(document.createTextNode(content));
-        adjRow.appendChild(adjRowEntry);
-      });
-
-      if (!emptyAdjRow) {
-        adjRows.push(adjRow);
-      }
-    });
-
-    adjRows.forEach((row, index) => {
-      (index % 2 == 0) ? row.classList.add('even') : row.classList.add('odd')
-    });
-
-    return adjRows;
-  };
 
 })

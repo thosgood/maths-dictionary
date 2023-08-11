@@ -1916,7 +1916,7 @@
       "gend": "feminino"
     },
     "RU": {
-      "atom": "булевой ",
+      "atom": "",
       "gend": ""
     },
     "TR": {
@@ -4716,7 +4716,7 @@
       "gend": ""
     },
     "FI": {
-      "atom": "yksinkertainen ",
+      "atom": "",
       "gend": ""
     },
     "FR": {
@@ -4785,7 +4785,7 @@
       "gend": ""
     },
     "FI": {
-      "atom": "uoliyksinkertainen ",
+      "atom": "",
       "gend": ""
     },
     "FR": {
@@ -14104,7 +14104,7 @@
       "gend": "femminile"
     },
     "JA": {
-      "atom": " 順序対",
+      "atom": "順序対",
       "gend": ""
     },
     "KO": {
@@ -15766,7 +15766,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "Gruppen ",
+      "atom": "",
       "gend": ""
     },
     "EN": {
@@ -15794,7 +15794,7 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": " dei gruppi",
+      "atom": "",
       "gend": ""
     },
     "JA": {
@@ -15835,7 +15835,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "irreduzibles ",
+      "atom": "",
       "gend": ""
     },
     "EN": {
@@ -15847,7 +15847,7 @@
       "gend": "femenino"
     },
     "EU": {
-      "atom": " irreduzible",
+      "atom": "",
       "gend": ""
     },
     "FA": {
@@ -15863,7 +15863,7 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": " irriducibile",
+      "atom": "",
       "gend": ""
     },
     "JA": {
@@ -16618,7 +16618,7 @@
       "gend": ""
     },
     "FA": {
-      "atom": " دوسویی",
+      "atom": "",
       "gend": ""
     },
     "FI": {

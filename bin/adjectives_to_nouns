@@ -5,7 +5,7 @@ require 'adler32'
 
 # 1. Load the file and set some variables
 
-$nouns = JSON.parse(File.read('../data/nouns.json'))
+$nouns = JSON.parse(File.read('../data/old_nouns.json'))
 
 $output = {}
 
@@ -43,6 +43,13 @@ def generate_entry (key, value, parent_key = nil, parent_value = nil)
         else
           entry[lang]["atom"] = ""
       end
+      # ...but if the parent noun didn't have a translation (which is somehow
+      # the case for some adjectives?!) then make sure you don't just keep the
+      # adjective translation
+      if parent_value["root"][lang]["atom"].empty?
+        entry[lang]["atom"] = ""
+      end
+      # Finally, inherit the gender
       entry[lang]["gend"] = parent_value["root"][lang]["gend"]
     end
     # TO-DO: inherit gender
@@ -74,4 +81,4 @@ end
 
 # 4. Write to a new file
 
-File.write("flat.json", JSON.pretty_generate($output))
+File.write("nouns.json", JSON.pretty_generate($output))
