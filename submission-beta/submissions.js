@@ -38,11 +38,11 @@ $(document).on("click", "#start", function() {
 
   $.each(dict, function(i, item) {
     var entry = { "type": "noun", "id": i, "existing": {} };
-    var targetAtom = item["root"][targetLang]["atom"]
+    var targetAtom = item[targetLang]["atom"]
     if (targetAtom === "") {
       $.each(sourceLangs, function(l, lang) {
-        if (typeof item["root"][lang] !== undefined) {
-          var sourceAtom = item["root"][lang]["atom"];
+        if (typeof item[lang] !== undefined) {
+          var sourceAtom = item[lang]["atom"];
           if (sourceAtom !== "") {
             entry["existing"][lang] = sourceAtom;
           };
@@ -54,18 +54,18 @@ $(document).on("click", "#start", function() {
         $.each(item["adjs"], function(a, adj) {
           var entry = { "type": "adjective",
                         "id": `${i}/${a}`,
-                        "noun": item["root"],
+                        "noun": item,
                         "existing": {} };
           var targetAtom = "";
-          if (adj["root"][targetLang] !== undefined) {
-            var targetAtom = adj["root"][targetLang]["atom"];
+          if (adj[targetLang] !== undefined) {
+            var targetAtom = adj[targetLang]["atom"];
           }
           if (targetAtom === "") {
             $.each(sourceLangs, function(l, lang) {
               // only add adjectives that already have the noun translated
-              if (adj["root"][lang] !== undefined) {
-                var sourceAtom = adj["root"][lang]["atom"];
-                var sourcePosition = adj["root"][lang]["pstn"];
+              if (adj[lang] !== undefined) {
+                var sourceAtom = adj[lang]["atom"];
+                var sourcePosition = adj[lang]["pstn"];
                 if (sourceAtom !== "") {
                   entry["existing"][lang] = {};
                   entry["existing"][lang]["atom"] = sourceAtom;
