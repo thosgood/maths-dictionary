@@ -3,6 +3,8 @@
 As part of an ongoing project on categorical translation, I'm organising an open-source multilingual dictionary of mathematical terminology.
 You can see the live website version at https://thosgood.com/maths-dictionary/ .
 
+![JSON validator](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+
 
 ## Contributors
 
