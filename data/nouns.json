@@ -4692,7 +4692,7 @@
   },
   "08eb0287/0906028b": {
     "CA": {
-      "atom": "",
+      "atom": "mòdul simple",
       "gend": "masculí"
     },
     "DE": {
@@ -4761,7 +4761,7 @@
   },
   "08eb0287/175c0439": {
     "CA": {
-      "atom": "",
+      "atom": "mòdul semisimple",
       "gend": "masculí"
     },
     "DE": {
@@ -5726,7 +5726,7 @@
   },
   "0ebe035f/210e0505": {
     "CA": {
-      "atom": "",
+      "atom": "categoria triangulada",
       "gend": "femení"
     },
     "DE": {
@@ -5738,7 +5738,7 @@
       "gend": ""
     },
     "ES": {
-      "atom": "",
+      "atom": "categoría triangulada",
       "gend": "femenino"
     },
     "EU": {
@@ -14759,8 +14759,7 @@
   "0fc0037e": {
     "CA": {
       "atom": "topologia",
-      "gend": "femení",
-      "vrfd": false
+      "gend": "femení"
     },
     "DE": {
       "atom": "Topologie",
@@ -15455,9 +15454,8 @@
   },
   "0f180352": {
     "CA": {
-      "atom": "orbifold",
-      "gend": "?",
-      "vrfd": false
+      "atom": "orbitat",
+      "gend": "femení"
     },
     "DE": {
       "atom": "Orbifaltigkeit",
@@ -15469,9 +15467,8 @@
       "gend": ""
     },
     "ES": {
-      "atom": "orbifold",
-      "gend": "?",
-      "vrfd": false
+      "atom": "orbidad",
+      "gend": "femenino"
     },
     "EU": {
       "atom": "",
@@ -16444,8 +16441,8 @@
   },
   "164303fe": {
     "CA": {
-      "atom": "",
-      "gend": ""
+      "atom": "anell de grup",
+      "gend": "masculí"
     },
     "DE": {
       "atom": "",
@@ -16457,8 +16454,7 @@
     },
     "ES": {
       "atom": "anillo de grupo",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculino"
     },
     "EU": {
       "atom": "",
@@ -16520,8 +16516,7 @@
   "2c7005db": {
     "CA": {
       "atom": "correspondència",
-      "gend": "?",
-      "vrfd": false
+      "gend": "femení"
     },
     "DE": {
       "atom": "Korrespondenz",
@@ -16534,8 +16529,7 @@
     },
     "ES": {
       "atom": "correspondencia",
-      "gend": "?",
-      "vrfd": false
+      "gend": "femenino"
     },
     "EU": {
       "atom": "korrespondentzia",
@@ -16668,8 +16662,7 @@
   "1b3a049c": {
     "CA": {
       "atom": "vector propi",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculí"
     },
     "DE": {
       "atom": "Eigenvektor",
@@ -16682,8 +16675,7 @@
     },
     "ES": {
       "atom": "vector propio",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculino"
     },
     "EU": {
       "atom": "",
@@ -16750,8 +16742,7 @@
   "16a10426": {
     "CA": {
       "atom": "valor propi",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculí"
     },
     "DE": {
       "atom": "Eigenwert",
@@ -16764,8 +16755,7 @@
     },
     "ES": {
       "atom": "valor propio",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculino"
     },
     "EU": {
       "atom": "",
@@ -16832,8 +16822,7 @@
   "06520220": {
     "CA": {
       "atom": "límit",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculí"
     },
     "DE": {
       "atom": "Limes",
@@ -16846,8 +16835,7 @@
     },
     "ES": {
       "atom": "límite",
-      "gend": "?",
-      "vrfd": false
+      "gend": "masculino"
     },
     "EU": {
       "atom": "",
@@ -16910,8 +16898,7 @@
   "17270409": {
     "CA": {
       "atom": "àlgebra de Lie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "femení"
     },
     "DE": {
       "atom": "Lie-Algebra",
@@ -16924,8 +16911,7 @@
     },
     "ES": {
       "atom": "álgebra de Lie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "femenino"
     },
     "EU": {
       "atom": "",
@@ -16990,8 +16976,8 @@
   },
   "08bc027b": {
     "CA": {
-      "atom": "",
-      "gend": ""
+      "atom": "farcell",
+      "gend": "masculí"
     },
     "DE": {
       "atom": "",
