@@ -44,7 +44,6 @@ $(document).ready(function() {
     var columnsConf = [];
 
     var refsCol = {
-      // TOOD: fix adjective rows; remove width from `style.css`
       "width": "100px",
       "title": "Reference",
       "data": "refs",

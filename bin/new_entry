@@ -11,6 +11,8 @@ languages = ["CA", "DE", "EN", "ES", "EU", "FA", "FI", "FR", "IT", "JA", "KO", "
 # to-do: grab these from languages.json (those with/without gender)
 genderFree = ["EN", "EU", "FA", "FI", "JA", "KO", "TR", "ZH"]
 
+# Takes wikidata tags as arguments, so use as e.g.
+# ./new_entry Q595364
 for arg in ARGV
   entries = []
   uri = URI.parse("https://www.wikidata.org/wiki/Special:EntityData/#{arg}.json")
@@ -32,10 +34,7 @@ for arg in ARGV
   end
   key = Adler32.checksum (json["entities"][arg]["labels"]["en"]["value"])
   entry = %`"#{key}": {
-  "root": {
-#{entries.map {|l| "    #{l}"}.join(",\n")}
-  },
-  "adjs": {},
+#{entries.map {|l| "  #{l}"}.join(",\n")}
   "refs": {
     "wikidata": "#{arg}"
   }
