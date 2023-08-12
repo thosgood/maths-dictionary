@@ -21,3 +21,4 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v2.2.0 # replace with the latest version
         with:
           comment: "true" # enable comment mode
+          files: "./data/nouns.json"
