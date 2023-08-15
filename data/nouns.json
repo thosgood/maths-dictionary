@@ -14439,8 +14439,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "majorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14508,8 +14508,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "minorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14577,7 +14577,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne supérieure",
       "gend": "féminin"
     },
     "IT": {
@@ -14646,7 +14646,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne inférieure",
       "gend": "féminin"
     },
     "IT": {
