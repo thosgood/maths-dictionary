@@ -8507,7 +8507,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "série de Maclaurin",
       "gend": "féminin"
     },
     "IT": {
@@ -8714,8 +8714,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom": "point isolé",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "punto isolato",
@@ -14439,8 +14439,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "majorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14508,8 +14508,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "minorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14577,7 +14577,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne supérieure",
       "gend": "féminin"
     },
     "IT": {
@@ -14646,7 +14646,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne inférieure",
       "gend": "féminin"
     },
     "IT": {
