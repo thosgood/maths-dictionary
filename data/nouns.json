@@ -2188,7 +2188,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "álgebra de termos",
       "gend": "feminino"
     },
     "RU": {
@@ -2257,7 +2257,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "álgebra heterogênea",
       "gend": "feminino"
     },
     "RU": {
@@ -3358,7 +3358,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "feixe coerente",
       "gend": "masculino"
     },
     "RU": {
@@ -3427,7 +3427,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "feixe quase-coerente",
       "gend": "masculino"
     },
     "RU": {
@@ -3565,7 +3565,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "grupo reduzido",
       "gend": "masculino"
     },
     "RU": {
@@ -3978,7 +3978,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "grupo de Galois",
       "gend": "masculino"
     },
     "RU": {
@@ -4807,7 +4807,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "módulo semisimple",
       "gend": "masculino"
     },
     "RU": {
@@ -5221,7 +5221,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria cartesiana",
       "gend": "feminino"
     },
     "RU": {
@@ -5290,7 +5290,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria abeliana",
       "gend": "feminino"
     },
     "RU": {
@@ -5359,7 +5359,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria aditiva",
       "gend": "feminino"
     },
     "RU": {
@@ -5428,7 +5428,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria completa",
       "gend": "feminino"
     },
     "RU": {
@@ -5497,7 +5497,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria cocompleta",
       "gend": "feminino"
     },
     "RU": {
@@ -5566,7 +5566,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria finitamente apresentável",
       "gend": "feminino"
     },
     "RU": {
@@ -5634,7 +5634,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria localmente finitamente apresentável",
       "gend": "feminino"
     },
     "RU": {
@@ -5703,7 +5703,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria modelo",
       "gend": "feminino"
     },
     "RU": {
@@ -5772,7 +5772,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "categoria triangulada",
       "gend": "feminino"
     },
     "RU": {
@@ -5911,7 +5911,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto vazio",
       "gend": "masculino"
     },
     "RU": {
@@ -5980,7 +5980,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto não vazio",
       "gend": "masculino"
     },
     "RU": {
@@ -6049,7 +6049,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto aberto",
       "gend": "masculino"
     },
     "RU": {
@@ -6118,7 +6118,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto fechado",
       "gend": "masculino"
     },
     "RU": {
@@ -6187,7 +6187,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto clopen",
       "gend": "masculino"
     },
     "RU": {
@@ -6256,7 +6256,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto enumerável",
       "gend": "masculino"
     },
     "RU": {
@@ -6325,7 +6325,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto não enumerável",
       "gend": "masculino"
     },
     "RU": {
@@ -6394,7 +6394,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto infinito",
       "gend": "masculino"
     },
     "RU": {
@@ -6463,7 +6463,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto finito",
       "gend": "masculino"
     },
     "RU": {
@@ -6532,7 +6532,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto definível",
       "gend": "masculino"
     },
     "RU": {
@@ -6601,7 +6601,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto transitivo",
       "gend": "masculino"
     },
     "RU": {
@@ -6670,7 +6670,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto mensurável",
       "gend": "masculino"
     },
     "RU": {
@@ -6739,7 +6739,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto analítico ",
       "gend": "masculino"
     },
     "RU": {
@@ -6808,7 +6808,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto projetivo",
       "gend": "masculino"
     },
     "RU": {
@@ -6876,7 +6876,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto cofinal",
       "gend": "masculino"
     },
     "RU": {
@@ -6944,7 +6944,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto estacionário",
       "gend": "masculino"
     },
     "RU": {
@@ -7013,7 +7013,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "conjunto complementar",
       "gend": "masculino"
     },
     "RU": {
@@ -7699,7 +7699,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "produto tensorial",
       "gend": "masculino"
     },
     "RU": {
@@ -7768,7 +7768,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
+      "atom": "produto cartesiano",
       "gend": "masculino"
     },
     "RU": {
@@ -7906,7 +7906,7 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
+      "atom": "soma direta",
       "gend": "feminino"
     },
     "RU": {
