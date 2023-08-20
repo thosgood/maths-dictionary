@@ -2075,7 +2075,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "Tensor Algebra",
+      "atom": "Tensoralgebra",
       "gend": "feminin"
     },
     "EN": {
@@ -2144,7 +2144,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Termalgebra",
       "gend": "feminin"
     },
     "EN": {
@@ -2213,7 +2213,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "Heterogene Algebra",
+      "atom": "heterogene Algebra",
       "gend": "feminin"
     },
     "EN": {
@@ -3176,7 +3176,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Schema vom endlichen Typ",
       "gend": "neutral"
     },
     "EN": {
@@ -6900,7 +6900,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "stationäre Menge",
       "gend": "feminin"
     },
     "EN": {
@@ -6969,7 +6969,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Komplementär Menge",
+      "atom": "komplementäre Menge",
       "gend": "feminin"
     },
     "EN": {
@@ -7655,7 +7655,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Tensor Produkt",
+      "atom": "Tensorprodukt",
       "gend": "neutral"
     },
     "EN": {
@@ -8000,8 +8000,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Abszisse",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "abscissa",
@@ -8207,7 +8207,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "konvergente Reihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8276,7 +8276,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "absolut konvergente Reihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8345,7 +8345,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Fourierreihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8414,7 +8414,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Laurentreihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8483,7 +8483,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Maclaurin-Reihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8507,7 +8507,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "série de Maclaurin",
       "gend": "féminin"
     },
     "IT": {
@@ -8552,7 +8552,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Potenzreihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8621,7 +8621,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Taylorreihe",
       "gend": "feminin"
     },
     "EN": {
@@ -8714,8 +8714,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom": "point isolé",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "punto isolato",
@@ -9312,7 +9312,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "neutrales Element",
       "gend": "neutral"
     },
     "EN": {
@@ -9381,7 +9381,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "inverses Element",
       "gend": "neutral"
     },
     "EN": {
@@ -9450,7 +9450,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Einselement",
       "gend": "neutral"
     },
     "EN": {
@@ -9588,7 +9588,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Algorithmus Euklidischer",
+      "atom": "Euklidischer Algorithmus",
       "gend": "maskulin"
     },
     "EN": {
@@ -9795,7 +9795,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Diagonalmatrix",
       "gend": "feminin"
     },
     "EN": {
@@ -9864,7 +9864,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "transponierte Matrix",
       "gend": "feminin"
     },
     "EN": {
@@ -9933,7 +9933,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "quadratische Matrix",
       "gend": "feminin"
     },
     "EN": {
@@ -10002,7 +10002,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Nullmatrix",
       "gend": "feminin"
     },
     "EN": {
@@ -10071,7 +10071,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Nullmatrix",
       "gend": "feminin"
     },
     "EN": {
@@ -10140,7 +10140,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "Dreiecksmatrix",
       "gend": "feminin"
     },
     "EN": {
@@ -10485,7 +10485,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "anliegender Winkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10554,7 +10554,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Supplement Winkel",
+      "atom": "Ergänzungswinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10623,7 +10623,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Diederwinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10692,7 +10692,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Gegenwinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10761,7 +10761,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Umfangswinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10830,7 +10830,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "stumpfer Winkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10899,7 +10899,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Komplementwinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -10968,7 +10968,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Raumwinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -11105,7 +11105,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Mittelpunktswinkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -11174,7 +11174,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "spitzer Winkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -11243,7 +11243,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "rechter Winkel",
       "gend": "maskulin"
     },
     "EN": {
@@ -11381,8 +11381,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Vielfaches",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "multiple",
@@ -11450,8 +11450,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Antilogarithmus",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "antilogarithm",
@@ -11588,8 +11588,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Apothema",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "apothem",
@@ -11657,8 +11657,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Achse",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "axis",
@@ -11726,8 +11726,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Koordinatenachse",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "coordinate axis",
@@ -11795,8 +11795,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "reelle Achse",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "real axis",
@@ -11863,8 +11863,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "imaginäre Achse",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "imaginary axis",
@@ -12069,8 +12069,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Bogen",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "arc",
@@ -12138,8 +12138,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Asymmetrie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "asymmetry",
@@ -12276,7 +12276,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Mitglied",
+      "atom": "Element",
       "gend": "neutral"
     },
     "EN": {
@@ -12414,8 +12414,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Seite",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "face",
@@ -12621,8 +12621,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Axonometrie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "axonometry",
@@ -12828,7 +12828,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Zahlenwert",
       "gend": "maskulin"
     },
     "EN": {
@@ -12897,7 +12897,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
+      "atom": "Betrag",
       "gend": "maskulin"
     },
     "EN": {
@@ -13311,8 +13311,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Baryzentrum",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "barycenter",
@@ -13518,8 +13518,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Potenzieren",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "exponentiation",
@@ -13587,8 +13587,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Basis",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "base",
@@ -13656,8 +13656,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Potenz",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "power",
@@ -13863,7 +13863,7 @@
       "gend": "masculino"
     },
     "DE": {
-      "atom": "Multiplikator",
+      "atom": "Multiplikand",
       "gend": "maskulin"
     },
     "EN": {
@@ -13932,8 +13932,8 @@
       "gend": "masculino"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Multiplikator",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "multiplier",
@@ -14070,7 +14070,7 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "Geordnetes Paar",
+      "atom": "geordnetes Paar",
       "gend": "neutral"
     },
     "EN": {
@@ -14208,8 +14208,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Binom",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "binomial",
@@ -14415,7 +14415,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "obere Schranke",
       "gend": "feminin"
     },
     "EN": {
@@ -14439,8 +14439,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "majorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14484,7 +14484,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "untere Schranke",
       "gend": "feminin"
     },
     "EN": {
@@ -14508,8 +14508,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom": "minorant",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -14553,7 +14553,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "kleinste untere Schranke",
       "gend": "feminin"
     },
     "EN": {
@@ -14577,7 +14577,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne supérieure",
       "gend": "féminin"
     },
     "IT": {
@@ -14622,7 +14622,7 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
+      "atom": "größte untere Schranke",
       "gend": "feminin"
     },
     "EN": {
@@ -14646,7 +14646,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
+      "atom": "borne inférieure",
       "gend": "féminin"
     },
     "IT": {
@@ -14691,8 +14691,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Dekaeder",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "decahedron",
@@ -14761,8 +14761,7 @@
     },
     "DE": {
       "atom": "Topologie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "topology",
@@ -14837,8 +14836,7 @@
     },
     "DE": {
       "atom": "Spur",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "trace",
@@ -14917,8 +14915,7 @@
     },
     "DE": {
       "atom": "Kompaktifizierung",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "compactification",
@@ -14994,8 +14991,7 @@
     },
     "DE": {
       "atom": "Dimension",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "dimension",
@@ -15075,8 +15071,7 @@
     },
     "DE": {
       "atom": "Faser",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "fibre",
@@ -15150,8 +15145,7 @@
     },
     "DE": {
       "atom": "Geschlecht",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "genus",
@@ -15229,8 +15223,7 @@
     },
     "DE": {
       "atom": "Gerbe",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "gerbe",
@@ -15302,8 +15295,7 @@
     },
     "DE": {
       "atom": "Polynom",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "polynomial",
@@ -15382,8 +15374,7 @@
     },
     "DE": {
       "atom": "Modulraum",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "moduli space",
@@ -15457,8 +15448,7 @@
     },
     "DE": {
       "atom": "Orbifaltigkeit",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "orbifold",
@@ -15532,9 +15522,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "Definitionslücke",
-      "gend": "?",
-      "vrfd": false
+      "atom": "Singularität",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "singularity",
@@ -15611,8 +15600,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Aufblasung",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "blow-up",
@@ -15685,8 +15674,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Darstellung",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "representation",
@@ -15761,8 +15750,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Gruppendarstellung",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "group representation",
@@ -15830,8 +15819,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "irreduzible Darstellung",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "irreducible representation",
@@ -15900,8 +15889,7 @@
     },
     "DE": {
       "atom": "Charakter",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "character",
@@ -15978,8 +15966,7 @@
     },
     "DE": {
       "atom": "Unterraum",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "subspace",
@@ -16052,8 +16039,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Kompositionsreihe",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "composition series",
@@ -16128,8 +16115,7 @@
     },
     "DE": {
       "atom": "Infimum",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "infimum",
@@ -16206,8 +16192,7 @@
     },
     "DE": {
       "atom": "Supremum",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "supremum",
@@ -16285,8 +16270,7 @@
     },
     "DE": {
       "atom": "Kontradiktion",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "contradiction",
@@ -16364,9 +16348,8 @@
       "gend": "femení"
     },
     "DE": {
-      "atom": "Reductio ad absurdum",
-      "gend": "?",
-      "vrfd": false
+      "atom": "Widerspruchsbeweis",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "proof by contradiction",
@@ -16443,8 +16426,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Gruppenring",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "group ring",
@@ -16518,8 +16501,7 @@
     },
     "DE": {
       "atom": "Korrespondenz",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "correspondence",
@@ -16664,8 +16646,7 @@
     },
     "DE": {
       "atom": "Eigenvektor",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "eigenvector",
@@ -16744,8 +16725,7 @@
     },
     "DE": {
       "atom": "Eigenwert",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "eigenvalue",
@@ -16824,8 +16804,7 @@
     },
     "DE": {
       "atom": "Limes",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "limit",
@@ -16900,8 +16879,7 @@
     },
     "DE": {
       "atom": "Lie-Algebra",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "Lie algebra",
@@ -16978,8 +16956,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Bündel",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "bundle",
@@ -17050,8 +17028,7 @@
     },
     "DE": {
       "atom": "Faserbündel",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "fibre bundle",
@@ -17126,8 +17103,7 @@
     },
     "DE": {
       "atom": "Vektorbündel",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "vector bundle",
