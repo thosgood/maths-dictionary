@@ -12856,8 +12856,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "valor numérico",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -12925,8 +12925,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "valor absoluto",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -12994,8 +12994,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "equivalência",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13063,8 +13063,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "relação",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13132,8 +13132,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "classe",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13201,8 +13201,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "distribuição",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13270,8 +13270,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "variância",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13339,8 +13339,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "baricentro",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -13408,8 +13408,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "vetor",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -13477,8 +13477,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "igualdade",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13546,8 +13546,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "exponenciação",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13615,8 +13615,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "base",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13684,8 +13684,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "potência",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -13753,8 +13753,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "expoente",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -13822,8 +13822,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fator",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -13960,8 +13960,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "multiplicador",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14029,8 +14029,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "multiplicação",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -14098,8 +14098,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "par ordenado",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14167,8 +14167,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "união",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -14236,8 +14236,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "binómio",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14305,8 +14305,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "volume",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14374,8 +14374,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "quota",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -14443,8 +14443,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "quota superior",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -14512,8 +14512,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "quota inferior",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -14581,8 +14581,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "supremo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14650,8 +14650,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "ínfimo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -14719,8 +14719,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "dodecaedro",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -15404,8 +15404,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "espaço de módulos",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "пространство модулей",
