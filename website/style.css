@@ -1,6 +1,10 @@
 body {
   font: 300 1rem Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
+  min-width: 700px;
+  max-width: 65%;
+  margin: 0 auto;
+  padding: 1em 2em;
 }
 
 
@@ -10,7 +14,7 @@ body {
 #language_selectors_container {
   /*height: 100px;*/
   /*width: 450px;*/
-  width: 60%;
+/*  width: 60%;*/
   margin: 2em auto;
   text-align: left;
 }
@@ -43,7 +47,8 @@ body {
 
 #table_wrapper {
   display: inline-block;
-  width: 65%;
+  margin: 2em 0;
+/*  width: 65%;*/
 }
 
 #table {
