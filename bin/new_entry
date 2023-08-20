@@ -34,11 +34,11 @@ for arg in ARGV
   end
   key = Adler32.checksum (json["entities"][arg]["labels"]["en"]["value"])
   entry = %`"#{key}": {
-#{entries.map {|l| "  #{l}"}.join(",\n")}
+#{entries.map {|l| "  #{l}"}.join(",\n")},
   "refs": {
     "wikidata": "#{arg}"
   }
-},
+}
 `
   output.push(entry)
 end
