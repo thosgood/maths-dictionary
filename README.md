@@ -20,6 +20,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 - regenerate hash keys for all ex-adjectives
 - support for multiple atoms
     + e.g. regional variations, or just synonyms
+- ruby characters for JA/ZH?
 - add plurals of nouns (and thus adjectives)
     + will also need cases... (for e.g. `DE`)
 - think about verbs...
