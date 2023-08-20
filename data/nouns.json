@@ -19264,7 +19264,7 @@
       "vrfd": false
     },
     "PL": {
-      "atom": "Koprodukt włóknisty",
+      "atom": "koprodukt włóknisty",
       "gend": "?",
       "vrfd": false
     },
@@ -19273,7 +19273,7 @@
       "gend": ""
     },
     "RU": {
-      "atom": "Кодекартов квадрат",
+      "atom": "кодекартов квадрат",
       "gend": "?",
       "vrfd": false
     },
@@ -19341,7 +19341,7 @@
       "vrfd": false
     },
     "PL": {
-      "atom": "Produkt włóknisty",
+      "atom": "produkt włóknisty",
       "gend": "?",
       "vrfd": false
     },
@@ -19401,7 +19401,7 @@
       "gend": ""
     },
     "FR": {
-      "atom": "Image réciproque",
+      "atom": "image réciproque",
       "gend": "?",
       "vrfd": false
     },
@@ -19484,7 +19484,7 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "Limite inverso",
+      "atom": "limite inverso",
       "gend": "?",
       "vrfd": false
     },
@@ -19498,7 +19498,7 @@
       "gend": ""
     },
     "PL": {
-      "atom": "Granica odwrotna",
+      "atom": "granica odwrotna",
       "gend": "?",
       "vrfd": false
     },
@@ -19563,7 +19563,7 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "Limite diretto",
+      "atom": "limite diretto",
       "gend": "?",
       "vrfd": false
     },
@@ -19601,6 +19601,2144 @@
     },
     "refs": {
       "wikidata": "Q906015"
+    }
+  },
+  "2af20594": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "simpliziale Menge",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "simplicial set",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "conjunto simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "ensemble simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "schema simpliciale",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "単体的集合",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "단체 집합",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "conjunto simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "cимплициальное множество",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "单纯集合",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1467124"
+    }
+  },
+  "0f3a034f": {
+    "CA": {
+      "atom": "prefeix",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Prägarbe",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "presheaf",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "prehaz",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "esilyhde",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "préfaisceau",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "前層",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "준층",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "presnop",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "pré-feixe",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "предпучок",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "預層",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q7241077"
+    }
+  },
+  "37380654": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "simplicial space",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "فضای سیمپلکسی",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "",
+      "gend": ""
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "",
+      "gend": ""
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q16872732"
+    }
+  },
+  "45310740": {
+    "CA": {
+      "atom": "complex simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Simplizialkomplex",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "simplicial complex",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "complejo simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "مجتمع سادکی",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "complexe simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "complesso simpliciale",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "複体",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "단체 복합체",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "Kompleks symplicjalny",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "complexo simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "симплициальный комплекс",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "单纯复形",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q994399"
+    }
+  },
+  "36fa0681": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "simplex category",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "categoría simplicial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "catégorie simpliciale",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "単体圏",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "단체 범주",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "categoria dos simplexos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "cимплициальная категория",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "单纯范畴",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q10906333"
+    }
+  },
+  "1b160491": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Kofaserung",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "cofibration",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "cofibration",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "閉包含写像",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "korozwłóknienie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "корасслоение",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "上纤维化",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1048949"
+    }
+  },
+  "127d03bf": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Faserung",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "fibration",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "fibration",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "ファイブレーション",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "올뭉치",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "",
+      "gend": ""
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "纤维化",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q493941"
+    }
+  },
+  "807009fa": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "weak homotopy equivalence",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "",
+      "gend": ""
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "弱同値",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "słaba homotopijna równoważność",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "equivalência homotópica fraca",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "слабая гомотопическая эквивалентность",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q20878207"
+    }
+  },
+  "56cb0832": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Homotopieäquivalenz",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "homotopy equivalence",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "equivalencia homotópica",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "équivalence d'homotopie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "ホモトピー同値",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "호모토피 동치",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "equivalência homotópica",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "гомотопическая эквивалентность",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q1626409"
+    }
+  },
+  "0f800380": {
+    "CA": {
+      "atom": "homotopia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Homotopie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "homotopy",
+      "gend": "",
+      "vrfd": false
+    },
+    "ES": {
+      "atom": "homotopía",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "homotopia",
+      "gend": "",
+      "vrfd": false
+    },
+    "FA": {
+      "atom": "هم‌جایی",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "homotopia",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "homotopie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "omotopia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "ホモトピー",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "호모토피",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "homotopia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "homotopia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "гомотопия",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "homotopi",
+      "gend": "",
+      "vrfd": false
+    },
+    "ZH": {
+      "atom": "同倫",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q746083"
+    }
+  },
+  "3eaf070b": {
+    "CA": {
+      "atom": "quasi-isomorfisme",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Quasiisomorphismus",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "quasi-isomorphism",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "cuasi-isomorfismo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "quasi-isomorphisme",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "quasi-isomorfismo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "擬同型",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "quase isomorfismo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "квази-изоморфизм",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "拟同构",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q3413378"
+    }
+  },
+  "17150441": {
+    "CA": {
+      "atom": "cohomologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Kohomologie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "cohomology",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "cohomología",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "کوهمولوژی",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "kohomologia",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "cohomologie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "coomologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "コホモロジー",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "코호몰로지",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "coomologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "когомологии",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "上同調",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1198376"
+    }
+  },
+  "0f4e036f": {
+    "CA": {
+      "atom": "homologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Homologie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "homology",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "homología",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "homologia",
+      "gend": "",
+      "vrfd": false
+    },
+    "FA": {
+      "atom": "همولوژی",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "homologia",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "homologie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "omologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "ホモロジー",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "호몰로지",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "homologia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "гомологии",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "homoloji",
+      "gend": "",
+      "vrfd": false
+    },
+    "ZH": {
+      "atom": "同调",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1144780"
+    }
+  },
+  "22cd051c": {
+    "CA": {
+      "atom": "complex de cadenes",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Kettenkomplex",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "chain complex",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "complejo de cadenas",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "complexe différentiel",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "complesso di catene",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "鎖複体",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "사슬 복합체",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "kompleks łańcuchowy",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "complexo de cadeias",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "цепной комплекс",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "链复形",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1143328"
+    }
+  },
+  "2b5b05b6": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "homotopy class",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "",
+      "gend": ""
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "classe de homotopia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "гомотопический класс",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q91773244"
+    }
+  },
+  "26200562": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Homotopietyp",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "homotopy type",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "type d'homotopie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "гомотопический тип",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q91772173"
+    }
+  },
+  "0f84036a": {
+    "CA": {
+      "atom": "grupoide",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Gruppoid",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "groupoid",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "grupoide",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "گروهواره",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "groupoïde",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "gruppoide",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "亜群",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "준군",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "grupoide",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "группоид",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "grupoid",
+      "gend": "",
+      "vrfd": false
+    },
+    "ZH": {
+      "atom": "广群",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1196038"
+    }
+  },
+  "1cad04a4": {
+    "CA": {
+      "atom": "grupoide de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "Lie groupoid",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "grupoide de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "groupoïde de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "リー亜群",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "리 준군",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "группоид Ли",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "李群胚",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q6543824"
+    }
+  },
+  "209904e4": {
+    "CA": {
+      "atom": "algebroide de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Lie-Algebroid",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "Lie algebroid",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "algebroide de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "algébroïde de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "リー亜代数",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "리 준대수",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "algebroide de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "алгеброид Ли",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "李代数胚",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q6543810"
+    }
+  },
+  "17400417": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Lie-Klammer",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "Lie bracket",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "corchete de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "crochet de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "prodotto di Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "nawias Liego",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "colchete de Lie",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "скобка Ли",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q91911596"
+    }
+  },
+  "1fd404ee": {
+    "CA": {
+      "atom": "diferencial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Differential",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "differential",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "diferencial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "Funktion differentiaali",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "différentielle",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "differenziale",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "関数の微分",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "미분소",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "Różniczka",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "diferencial",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "Дифференциал",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "微分",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q750432"
+    }
+  },
+  "3e1206f1": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Randoperator",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "boundary operator",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "opérateur de bord",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "граничный оператор",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78322378"
+    }
+  },
+  "4d3b07c3": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Korandoperator",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "coboundary operator",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "opérateur de cobord",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "кограничный оператор",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78322695"
+    }
+  },
+  "2eae05ee": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Kokettenkomplex",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "cochain complex",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "complexe de cochaînes",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "complesso di cocatene",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "коцепной комплекс",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78271410"
+    }
+  },
+  "16dc0437": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Korand",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "coboundary",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "cobord",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "кограница",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78321178"
+    }
+  },
+  "0f150365": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "boundary",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "bord",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "граница",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78323465"
+    }
+  },
+  "05f70204": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Kokette",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "chain",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "cadena",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "chaîne",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "catena",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "チェイン",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "사슬",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "cadeia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "цепь",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "链",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q4504468"
+    }
+  },
+  "0b4802d6": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Kokette",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "cochain",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "cocadena",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "cochaîne",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "cocatena",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "cocadeia",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "коцепь",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q78320522"
     }
   }
 }
