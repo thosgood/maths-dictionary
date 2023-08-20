@@ -6739,7 +6739,7 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "conjunto analítico ",
+      "atom": "conjunto analítico",
       "gend": "masculino"
     },
     "RU": {
@@ -8389,8 +8389,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série de Fourier",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8458,8 +8458,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série de Laurent",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8527,8 +8527,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série de Maclaurin",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8665,8 +8665,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série de Taylor",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8734,8 +8734,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "ponto isolado",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -8803,8 +8803,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "adição",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8872,8 +8872,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fecho",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -8941,8 +8941,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fecho",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9010,8 +9010,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "funtor adjunto",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9149,8 +9149,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "altura",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9218,8 +9218,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "variável",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9287,8 +9287,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "elemento",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9356,8 +9356,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "elemento neutro",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9425,8 +9425,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "elemento inverso",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9494,8 +9494,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "elemento identidade",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9563,8 +9563,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "algoritmo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9632,8 +9632,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "algoritmo de Euclides",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -9701,8 +9701,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "largura",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9770,8 +9770,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9839,8 +9839,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz diagonal",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9908,8 +9908,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz transposta",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -9977,8 +9977,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz quadrada",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -10046,8 +10046,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz nula",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -10115,8 +10115,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz nula",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -10184,8 +10184,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "matriz triangular",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -10253,8 +10253,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "máximo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -10322,8 +10322,8 @@
       "gend": "nijaki"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "mínimo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -10391,8 +10391,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "logaritmo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -10460,8 +10460,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "ângulo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
