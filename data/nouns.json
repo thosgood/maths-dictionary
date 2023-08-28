@@ -16789,8 +16789,7 @@
     },
     "DE": {
       "atom": "Limes",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "limit",
@@ -17309,8 +17308,7 @@
     },
     "DE": {
       "atom": "Gruppenschema",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "group scheme",
@@ -17384,8 +17382,7 @@
     },
     "DE": {
       "atom": "reduktive Gruppe",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "reductive group",
@@ -17460,8 +17457,7 @@
     },
     "DE": {
       "atom": "lineare algebraische Gruppe",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "linear algebraic group",
@@ -17534,8 +17530,7 @@
     },
     "DE": {
       "atom": "algebraische Gruppe",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "algebraic group",
@@ -17615,8 +17610,7 @@
     },
     "DE": {
       "atom": "algebraische Varietät",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "algebraic variety",
@@ -17697,9 +17691,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "Reflektive Unterkategorie",
-      "gend": "?",
-      "vrfd": false
+      "atom": "reflektive Unterkategorie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "reflective subcategory",
@@ -17917,8 +17910,7 @@
     },
     "DE": {
       "atom": "Lemma von Yoneda",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "Yoneda lemma",
@@ -17997,8 +17989,7 @@
     },
     "DE": {
       "atom": "Homomorphismus",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "homomorphism",
@@ -18159,8 +18150,7 @@
     },
     "DE": {
       "atom": "Monade",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "monad",
@@ -18240,8 +18230,7 @@
     },
     "DE": {
       "atom": "natürliche Transformation",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "natural transformation",
@@ -18321,8 +18310,7 @@
     },
     "DE": {
       "atom": "Monoid",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "monoid",
@@ -18478,8 +18466,7 @@
     },
     "DE": {
       "atom": "Kleisli-Kategorie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "Kleisli category",
@@ -18552,8 +18539,7 @@
     },
     "DE": {
       "atom": "Operade",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "operad",
@@ -18700,8 +18686,7 @@
     },
     "DE": {
       "atom": "Kegel",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "cone",
@@ -18772,8 +18757,7 @@
     },
     "DE": {
       "atom": "Abbildungskegel",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "mapping cone",
@@ -18846,8 +18830,7 @@
     },
     "DE": {
       "atom": "Homotopie-Faser",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "homotopy fiber",
@@ -18919,8 +18902,7 @@
     },
     "DE": {
       "atom": "Abbildungszylinder",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "mapping cylinder",
@@ -18993,8 +18975,7 @@
     },
     "DE": {
       "atom": "derivierte Kategorie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "derived category",
@@ -19069,8 +19050,7 @@
     },
     "DE": {
       "atom": "Homotopie-Kategorie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "homotopy category",
@@ -19145,8 +19125,7 @@
     },
     "DE": {
       "atom": "Kolimes",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "colimit",
@@ -19220,8 +19199,7 @@
     },
     "DE": {
       "atom": "Pushout",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "pushout",
@@ -19297,8 +19275,7 @@
     },
     "DE": {
       "atom": "Faserprodukt",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "pullback",
@@ -19376,8 +19353,7 @@
     },
     "DE": {
       "atom": "Rücktransport",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "pullback",
@@ -19532,8 +19508,7 @@
     },
     "DE": {
       "atom": "filtrierter Kolimes",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "direct limit",
@@ -19610,8 +19585,7 @@
     },
     "DE": {
       "atom": "simpliziale Menge",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "simplicial set",
@@ -19689,8 +19663,7 @@
     },
     "DE": {
       "atom": "Prägarbe",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "presheaf",
@@ -19839,8 +19812,7 @@
     },
     "DE": {
       "atom": "Simplizialkomplex",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "simplicial complex",
@@ -19995,8 +19967,7 @@
     },
     "DE": {
       "atom": "Kofaserung",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "cofibration",
@@ -20070,8 +20041,7 @@
     },
     "DE": {
       "atom": "Faserung",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "fibration",
@@ -20217,8 +20187,7 @@
     },
     "DE": {
       "atom": "Homotopieäquivalenz",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "homotopy equivalence",
@@ -20294,8 +20263,7 @@
     },
     "DE": {
       "atom": "Homotopie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "homotopy",
@@ -20379,8 +20347,7 @@
     },
     "DE": {
       "atom": "Quasiisomorphismus",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "quasi-isomorphism",
@@ -20457,8 +20424,7 @@
     },
     "DE": {
       "atom": "Kohomologie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "cohomology",
@@ -20538,8 +20504,7 @@
     },
     "DE": {
       "atom": "Homologie",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "homology",
@@ -20621,8 +20586,7 @@
     },
     "DE": {
       "atom": "Kettenkomplex",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "chain complex",
@@ -20771,8 +20735,7 @@
     },
     "DE": {
       "atom": "Homotopietyp",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "homotopy type",
@@ -20844,8 +20807,7 @@
     },
     "DE": {
       "atom": "Gruppoid",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "groupoid",
@@ -21001,8 +20963,7 @@
     },
     "DE": {
       "atom": "Lie-Algebroid",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "Lie algebroid",
@@ -21078,8 +21039,7 @@
     },
     "DE": {
       "atom": "Lie-Klammer",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "Lie bracket",
@@ -21155,8 +21115,7 @@
     },
     "DE": {
       "atom": "Differential",
-      "gend": "?",
-      "vrfd": false
+      "gend": "neutral"
     },
     "EN": {
       "atom": "differential",
@@ -21235,8 +21194,7 @@
     },
     "DE": {
       "atom": "Randoperator",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "boundary operator",
@@ -21307,8 +21265,7 @@
     },
     "DE": {
       "atom": "Korandoperator",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "coboundary operator",
@@ -21379,8 +21336,7 @@
     },
     "DE": {
       "atom": "Kokettenkomplex",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "cochain complex",
@@ -21452,8 +21408,7 @@
     },
     "DE": {
       "atom": "Korand",
-      "gend": "?",
-      "vrfd": false
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "coboundary",
@@ -21594,9 +21549,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "Kokette",
-      "gend": "?",
-      "vrfd": false
+      "atom": "Kette",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "chain",
@@ -21673,8 +21627,7 @@
     },
     "DE": {
       "atom": "Kokette",
-      "gend": "?",
-      "vrfd": false
+      "gend": "feminin"
     },
     "EN": {
       "atom": "cochain",
