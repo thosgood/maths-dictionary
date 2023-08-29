@@ -8953,8 +8953,8 @@
       "gend": "masculí"
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "adjungierter Funktor",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "adjoint",
@@ -17167,8 +17167,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "linksadjungierter Funktor",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "left adjoint",
@@ -17237,8 +17237,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "rechtsadjungierter Funktor",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "right adjoint",
@@ -17765,8 +17765,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "volle Unterkategorie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "full subcategory",
@@ -17834,8 +17834,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Unterkategorie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "subcategory",
@@ -18390,8 +18390,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "kleine Kategorie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "small category",
@@ -19429,8 +19429,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "inverser Limes",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "inverse limit",
@@ -19740,8 +19740,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "simplizialer Raum",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "simplicial space",
@@ -19890,8 +19890,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "simpliziale Kategorie",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "simplex category",
@@ -20113,8 +20113,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "schwache Homotopieäquivalenz",
+      "gend": "feminin"
     },
     "EN": {
       "atom": "weak homotopy equivalence",
@@ -20886,8 +20886,8 @@
       "vrfd": false
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Lie-Gruppoid",
+      "gend": "neutral"
     },
     "EN": {
       "atom": "Lie groupoid",
@@ -21478,8 +21478,8 @@
       "gend": ""
     },
     "DE": {
-      "atom": "",
-      "gend": ""
+      "atom": "Rand",
+      "gend": "maskulin"
     },
     "EN": {
       "atom": "boundary",
