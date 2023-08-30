@@ -8031,8 +8031,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"abscissa",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "",
@@ -8100,8 +8100,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"série",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "",
@@ -8238,8 +8238,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"série convergente",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "",
@@ -8307,8 +8307,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"série absolutamente convergente",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "",
@@ -17212,8 +17212,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"adjunto à esquerda ",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "",
@@ -17282,8 +17282,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"adjunto à direita ",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "",
@@ -17429,8 +17429,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"grupo redutivo",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "редуктивная группа",
@@ -17739,8 +17739,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"subcategoria refletiva",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "Отражающая подкатегория",
@@ -17809,8 +17809,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"subcategoria completa",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "",
@@ -19022,8 +19022,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"categoria derivada",
+      "gend":"feminino"
     },
     "RU": {
       "atom": "производная категория",
@@ -19247,8 +19247,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"pushout",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "кодекартов квадрат",
@@ -19557,8 +19557,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"limite direto",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "индуктивный предел",
@@ -19785,8 +19785,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"espaço simplicial",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "",
@@ -20934,8 +20934,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom":"grupoide de Lie",
+      "gend":"masculino"
     },
     "RU": {
       "atom": "группоид Ли",
