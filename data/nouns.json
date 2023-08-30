@@ -8031,8 +8031,8 @@
       "gend": "żeński"
     },
     "PT": {
-      "atom":"abscissa",
-      "gend":"feminino"
+      "atom": "abscissa",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8100,8 +8100,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom":"série",
-      "gend":"feminino"
+      "atom": "série",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8238,8 +8238,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom":"série convergente",
-      "gend":"feminino"
+      "atom": "série convergente",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8307,8 +8307,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom":"série absolutamente convergente",
-      "gend":"feminino"
+      "atom": "série absolutamente convergente",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -17212,8 +17212,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"adjunto à esquerda ",
-      "gend":"masculino"
+      "atom": "adjunto à esquerda ",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -17282,8 +17282,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"adjunto à direita ",
-      "gend":"masculino"
+      "atom": "adjunto à direita ",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -17429,8 +17429,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"grupo redutivo",
-      "gend":"masculino"
+      "atom": "grupo redutivo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "редуктивная группа",
@@ -17739,8 +17739,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom":"subcategoria refletiva",
-      "gend":"feminino"
+      "atom": "subcategoria refletiva",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "Отражающая подкатегория",
@@ -17809,8 +17809,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"subcategoria completa",
-      "gend":"feminino"
+      "atom": "subcategoria completa",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -19022,8 +19022,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"categoria derivada",
-      "gend":"feminino"
+      "atom": "categoria derivada",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "производная категория",
@@ -19247,8 +19247,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom":"pushout",
-      "gend":"masculino"
+      "atom": "pushout",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "кодекартов квадрат",
@@ -19557,8 +19557,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"limite direto",
-      "gend":"masculino"
+      "atom": "limite direto",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "индуктивный предел",
@@ -19785,8 +19785,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"espaço simplicial",
-      "gend":"masculino"
+      "atom": "espaço simplicial",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -20934,8 +20934,8 @@
       "gend": ""
     },
     "PT": {
-      "atom":"grupoide de Lie",
-      "gend":"masculino"
+      "atom": "grupoide de Lie",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "группоид Ли",
@@ -21692,6 +21692,638 @@
     },
     "refs": {
       "wikidata": "Q78320522"
+    }
+  },
+  "06a60236": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "topos",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "トポス",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "토포스",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "топос",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "拓撲斯",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q2143621"
+    }
+  },
+  "43b0072d": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Grothendieck-Topos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "Grothendieck topos",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "topos de Grothendieck",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "topos de Grothendieck",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "グロタンディークトポス",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "그로텐디크 토포스",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "topos de Grothendieck",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "",
+      "gend": ""
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q106548123"
+    }
+  },
+  "1ec304a6": {
+    "CA": {
+      "atom": "espai anellat",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "geringter Raum",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "ringed space",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "espacio anillado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "فضای حلقه‌ای",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "espace annelé",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "spazio anellato",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "環付き空間",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "환 달린 공간",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "espaço anelado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "окольцованное пространство",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "賦環空間",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q168344"
+    }
+  },
+  "523107b6": {
+    "CA": {
+      "atom": "espai localment anellat",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "lokal geringter Raum",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "locally ringed space",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "espacio localmente anillado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "فضاهای موضعاً حلقه‌ای",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "espace localement annelé",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "spazio localmente anellato",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "局所環付き空間",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "국소환 달린 공간",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "espaço localmente anelado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "локально окольцованное пространство",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q91438488"
+    }
+  },
+  "5ccd0844": {
+    "CA": {
+      "atom": "conjunt parcialment ordenat",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "teilweise geordnete Menge",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "partially ordered set",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "conjunto parcialmente ordenado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "partzialki ordenatutako multzo",
+      "gend": "",
+      "vrfd": false
+    },
+    "FA": {
+      "atom": "مجموعه جزئاً مرتب",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "osittain järjestetty joukko",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "ensemble partiellement ordonné",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "insieme parzialmente ordinato",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "半順序集合",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "부분순서",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "zbiór częściowo uporządkowany",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "conjunto parcialmente ordenado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "частично упорядоченное множество",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "偏序集合",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q474715"
+    }
+  },
+  "0bbb02e7": {
+    "CA": {
+      "atom": "reticle",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Verband",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "lattice",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "retículo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "توری",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "hila",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "treillis",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "reticolo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "束",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "격자",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "krata",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "reticulado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "решётка",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "格",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q595364"
+    }
+  },
+  "0bbb02e8": {
+    "CA": {
+      "atom": "Xarxa",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Gitter",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "lattice",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "red",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "توری",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "réseau",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "reticolo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "格子",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "격자",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "Punkt kratowy",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "retículo",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "решётка",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "晶格",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q1096885"
+    }
+  },
+  "0bbb02e9": {
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "",
+      "gend": ""
+    },
+    "EN": {
+      "atom": "lattice",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "",
+      "gend": ""
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "réseau",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "局所コンパクト群における格子",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "reticulado",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "решётка",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "离散格子",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q6497088"
     }
   }
 }
