@@ -8733,7 +8733,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "",
+      "atom": "孤立点",
       "gend": ""
     },
     "refs": {
@@ -10528,7 +10528,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "",
+      "atom": "邻补角",
       "gend": ""
     },
     "refs": {
@@ -11216,7 +11216,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "",
+      "atom": "锐角",
       "gend": ""
     },
     "refs": {
@@ -12937,7 +12937,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "",
+      "atom": "绝对值",
       "gend": ""
     },
     "refs": {
@@ -15935,7 +15935,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "特徵標",
+      "atom": "特征标",
       "gend": "",
       "vrfd": false
     },
@@ -17678,8 +17678,7 @@
     },
     "ZH": {
       "atom": "代数簇",
-      "gend": "",
-      "vrfd": false
+      "gend": ""
     },
     "refs": {
       "wikidata": "Q648995"
@@ -20026,7 +20025,7 @@
       "gend": ""
     },
     "ZH": {
-      "atom": "上纤维化",
+      "atom": "余纤维化",
       "gend": "",
       "vrfd": false
     },
@@ -20650,8 +20649,7 @@
     },
     "ZH": {
       "atom": "链复形",
-      "gend": "",
-      "vrfd": false
+      "gend": ""
     },
     "refs": {
       "wikidata": "Q1143328"
@@ -21613,8 +21611,7 @@
     },
     "ZH": {
       "atom": "链",
-      "gend": "",
-      "vrfd": false
+      "gend": ""
     },
     "refs": {
       "wikidata": "Q4504468"
