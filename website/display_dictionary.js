@@ -100,7 +100,7 @@ $(document).ready(function() {
         }
       }
       // At first, only show English and French
-      if (language == "EN" || language == "FR") {
+      if (language == "EN" || language == "FA" || language == "FR") {
         conf["visible"] = true;
         conf["searchable"] = true;
       }
