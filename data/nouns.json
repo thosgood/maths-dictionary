@@ -2237,8 +2237,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": "féminin"
+      "atom":"algèbre hétérogène",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -17191,8 +17191,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"adjoint à gauche",
+      "gend":"masculin"
     },
     "IT": {
       "atom": "",
@@ -17261,8 +17261,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"adjoint à droite",
+      "gend":"masculin"
     },
     "IT": {
       "atom": "",
@@ -17480,8 +17480,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"groupe algébrique linéaire",
+      "gend":"masculin"
     },
     "IT": {
       "atom": "",
@@ -17715,8 +17715,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"sous-catégorie réflexive",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -17788,8 +17788,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"sous-catégorie pleine",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -17858,8 +17858,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"sous-catégorie",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -18708,8 +18708,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"cône",
+      "gend":"masculin"
     },
     "IT": {
       "atom": "",
@@ -19072,8 +19072,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"catégorie homotopique",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -19764,8 +19764,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"espace simplicial",
+      "gend":"masculin"
     },
     "IT": {
       "atom": "",
@@ -20136,8 +20136,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"équivalence faible d'homotopie",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
@@ -20685,8 +20685,8 @@
       "gend": ""
     },
     "FR": {
-      "atom": "",
-      "gend": ""
+      "atom":"classe d'homotopie",
+      "gend":"féminin"
     },
     "IT": {
       "atom": "",
