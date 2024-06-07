@@ -22405,45 +22405,154 @@
     }
   },
   "250f0536": {
-  "CA": { "atom": "cos", "gend": "?", "vrfd": false },
-  "DE": { "atom": "Divisionsring", "gend": "?", "vrfd": false },
-  "EN": { "atom": "division ring", "gend": "" },
-  "ES": { "atom": "anillo de división", "gend": "?", "vrfd": false },
-  "EU": { "atom": "", "gend": "" },
-  "FA": { "atom": "حلقه تقسیم", "gend": "", "vrfd": false },
-  "FI": { "atom": "", "gend": "" },
-  "FR": { "atom": "anneau à division", "gend": "?", "vrfd": false },
-  "IT": { "atom": "", "gend": ""},
-  "JA": { "atom": "斜体", "gend": "", "vrfd": false },
-  "KO": { "atom": "나눗셈환", "gend": "", "vrfd": false },
-  "PL": { "atom": "pierścień z dzieleniem", "gend": "?", "vrfd": false },
-  "PT": { "atom": "anel com divisão", "gend": "?", "vrfd": false },
-  "RU": { "atom": "тело", "gend": "?", "vrfd": false },
-  "TR": { "atom": "", "gend": "" },
-  "ZH": { "atom": "除环", "gend": "", "vrfd": false },
-  "refs": {
-    "wikidata": "Q650741"
+    "CA": {
+      "atom": "cos",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Divisionsring",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "division ring",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "anillo de división",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "حلقه تقسیم",
+      "gend": "",
+      "vrfd": false
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "anneau à division",
+      "gend": "?",
+      "vrfd": false
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "斜体",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "나눗셈환",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "pierścień z dzieleniem",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "anel com divisão",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "тело",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "除环",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q650741"
+    }
   },
   "158103df": {
-  "CA": { "atom": "", "gend": "" },
-  "DE": { "atom": "Schiefkörper", "gend": "?", "vrfd": false },
-  "EN": { "atom": "skew field", "gend": "" },
-  "ES": { "atom": "cuerpo torcido", "gend": "?", "vrfd": false },
-  "EU": { "atom": "", "gend": "" },
-  "FA": { "atom": "", "gend": "" },
-  "FI": { "atom": "", "gend": "" },
-  "FR": { "atom": "corps gauche", "gend": "masculin" },
-  "IT": { "atom": "", "gend": ""},
-  "JA": { "atom": "", "gend": "" },
-  "KO": { "atom": "", "gend": "" },
-  "PL": { "atom": "", "gend": "" },
-  "PT": { "atom": "", "gend": "" },
-  "RU": { "atom": "", "gend": "" },
-  "TR": { "atom": "", "gend": "" },
-  "ZH": { "atom": "", "gend": "" },
-  "refs": {
-    "wikidata": "Q650741"
+    "CA": {
+      "atom": "",
+      "gend": ""
+    },
+    "DE": {
+      "atom": "Schiefkörper",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "skew field",
+      "gend": ""
+    },
+    "ES": {
+      "atom": "cuerpo torcido",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "",
+      "gend": ""
+    },
+    "FR": {
+      "atom": "corps gauche",
+      "gend": "masculin"
+    },
+    "IT": {
+      "atom": "",
+      "gend": ""
+    },
+    "JA": {
+      "atom": "",
+      "gend": ""
+    },
+    "KO": {
+      "atom": "",
+      "gend": ""
+    },
+    "PL": {
+      "atom": "",
+      "gend": ""
+    },
+    "PT": {
+      "atom": "",
+      "gend": ""
+    },
+    "RU": {
+      "atom": "",
+      "gend": ""
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "",
+      "gend": ""
+    },
+    "refs": {
+      "wikidata": "Q650741"
+    }
   }
-}
-
 }
