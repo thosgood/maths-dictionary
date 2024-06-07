@@ -2237,8 +2237,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"algèbre hétérogène",
-      "gend":"féminin"
+      "atom": "algèbre hétérogène",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -17191,8 +17191,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"adjoint à gauche",
-      "gend":"masculin"
+      "atom": "adjoint à gauche",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -17261,8 +17261,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"adjoint à droite",
-      "gend":"masculin"
+      "atom": "adjoint à droite",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -17480,8 +17480,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"groupe algébrique linéaire",
-      "gend":"masculin"
+      "atom": "groupe algébrique linéaire",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -17715,8 +17715,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"sous-catégorie réflexive",
-      "gend":"féminin"
+      "atom": "sous-catégorie réflexive",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -17788,8 +17788,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"sous-catégorie pleine",
-      "gend":"féminin"
+      "atom": "sous-catégorie pleine",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -17858,8 +17858,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"sous-catégorie",
-      "gend":"féminin"
+      "atom": "sous-catégorie",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -18708,8 +18708,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"cône",
-      "gend":"masculin"
+      "atom": "cône",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -19072,8 +19072,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"catégorie homotopique",
-      "gend":"féminin"
+      "atom": "catégorie homotopique",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -19764,8 +19764,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"espace simplicial",
-      "gend":"masculin"
+      "atom": "espace simplicial",
+      "gend": "masculin"
     },
     "IT": {
       "atom": "",
@@ -20136,8 +20136,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"équivalence faible d'homotopie",
-      "gend":"féminin"
+      "atom": "équivalence faible d'homotopie",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -20685,8 +20685,8 @@
       "gend": ""
     },
     "FR": {
-      "atom":"classe d'homotopie",
-      "gend":"féminin"
+      "atom": "classe d'homotopie",
+      "gend": "féminin"
     },
     "IT": {
       "atom": "",
@@ -22321,6 +22321,87 @@
     },
     "refs": {
       "wikidata": "Q6497088"
+    }
+  },
+  "2a6d058a": {
+    "CA": {
+      "atom": "espai revestiment",
+      "gend": "?",
+      "vrfd": false
+    },
+    "DE": {
+      "atom": "Überlagerung",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EN": {
+      "atom": "covering space",
+      "gend": "",
+      "vrfd": false
+    },
+    "ES": {
+      "atom": "espacio recubridor",
+      "gend": "?",
+      "vrfd": false
+    },
+    "EU": {
+      "atom": "",
+      "gend": ""
+    },
+    "FA": {
+      "atom": "",
+      "gend": ""
+    },
+    "FI": {
+      "atom": "Peitekuvaus",
+      "gend": "",
+      "vrfd": false
+    },
+    "FR": {
+      "atom": "revêtement",
+      "gend": "masculin"
+    },
+    "IT": {
+      "atom": "rivestimento",
+      "gend": "?",
+      "vrfd": false
+    },
+    "JA": {
+      "atom": "被覆空間",
+      "gend": "",
+      "vrfd": false
+    },
+    "KO": {
+      "atom": "피복 공간",
+      "gend": "",
+      "vrfd": false
+    },
+    "PL": {
+      "atom": "przestrzeń nakrywająca",
+      "gend": "?",
+      "vrfd": false
+    },
+    "PT": {
+      "atom": "cobertura",
+      "gend": "?",
+      "vrfd": false
+    },
+    "RU": {
+      "atom": "накрытие",
+      "gend": "?",
+      "vrfd": false
+    },
+    "TR": {
+      "atom": "",
+      "gend": ""
+    },
+    "ZH": {
+      "atom": "覆疊空間",
+      "gend": "",
+      "vrfd": false
+    },
+    "refs": {
+      "wikidata": "Q332648"
     }
   }
 }
