@@ -57,7 +57,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "sayı",
       "gend": ""
     },
     "ZH": {
@@ -126,7 +126,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "doğal sayı",
       "gend": ""
     },
     "ZH": {
@@ -195,7 +195,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "pozitif sayı",
       "gend": ""
     },
     "ZH": {
@@ -264,7 +264,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "negatif sayı",
       "gend": ""
     },
     "ZH": {
@@ -333,7 +333,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "rasyonel sayı",
       "gend": ""
     },
     "ZH": {
@@ -402,7 +402,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "kompleks sayı",
       "gend": ""
     },
     "ZH": {
@@ -471,7 +471,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "gerçel sayı",
       "gend": ""
     },
     "ZH": {
@@ -540,7 +540,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "çift sayı",
       "gend": ""
     },
     "ZH": {
@@ -609,7 +609,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "tek sayı",
       "gend": ""
     },
     "ZH": {
@@ -678,7 +678,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -747,7 +747,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "birebir fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -816,7 +816,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "örten fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1023,7 +1023,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "sürekli fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1092,7 +1092,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "holomorfik fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1161,7 +1161,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "türevlenebilir fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1230,7 +1230,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "doğrusal fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1299,7 +1299,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "monoton fonksiyon",
       "gend": ""
     },
     "ZH": {
@@ -1368,7 +1368,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "eşleme",
       "gend": ""
     },
     "ZH": {
@@ -1437,7 +1437,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "türev",
       "gend": ""
     },
     "ZH": {
@@ -1506,7 +1506,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "kısmi türev",
       "gend": ""
     },
     "ZH": {
@@ -1575,7 +1575,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "örtü",
       "gend": ""
     },
     "ZH": {
@@ -1644,7 +1644,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "açık örtü",
       "gend": ""
     },
     "ZH": {
@@ -1713,7 +1713,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "cebir",
       "gend": ""
     },
     "ZH": {
@@ -1782,7 +1782,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "serbest cebir",
       "gend": ""
     },
     "ZH": {
@@ -2058,7 +2058,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "simetrik cebir",
       "gend": ""
     },
     "ZH": {
@@ -2127,7 +2127,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "tensör cebri",
       "gend": ""
     },
     "ZH": {
@@ -2403,7 +2403,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "gömme",
       "gend": ""
     },
     "ZH": {
@@ -2473,7 +2473,7 @@
       "gend": "женский"
     },
     "TR": {
-      "atom": "",
+      "atom": "şema",
       "gend": ""
     },
     "ZH": {
@@ -2542,7 +2542,7 @@
       "gend": "женский"
     },
     "TR": {
-      "atom": "",
+      "atom": "afin şema",
       "gend": ""
     },
     "ZH": {
@@ -2680,7 +2680,7 @@
       "gend": "женский"
     },
     "TR": {
-      "atom": "",
+      "atom": "nöteryen şema",
       "gend": ""
     },
     "ZH": {
@@ -3088,7 +3088,7 @@
       "gend": "женский"
     },
     "TR": {
-      "atom": "",
+      "atom": "normal şema",
       "gend": ""
     },
     "ZH": {
@@ -11557,7 +11557,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "benzerlik",
       "gend": ""
     },
     "ZH": {
@@ -13899,7 +13899,7 @@
       "gend": ""
     },
     "TR": {
-      "atom": "",
+      "atom": "çarpılan",
       "gend": ""
     },
     "ZH": {
@@ -18049,7 +18049,7 @@
       "vrfd": false
     },
     "TR": {
-      "atom": "",
+      "atom": "homomorfizma",
       "gend": ""
     },
     "ZH": {
@@ -20483,7 +20483,7 @@
       "vrfd": false
     },
     "TR": {
-      "atom": "",
+      "atom": "kohomoloji",
       "gend": ""
     },
     "ZH": {
@@ -21094,7 +21094,7 @@
       "vrfd": false
     },
     "TR": {
-      "atom": "",
+      "atom": "Lie braket",
       "gend": ""
     },
     "ZH": {

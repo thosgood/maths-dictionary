@@ -10,7 +10,7 @@ You can see the live website version at https://thosgood.com/maths-dictionary/ .
 
 This dictionary is only as good as its entries, and for this there are many people to thank. Below is a list (in chronological order) of people who have contributed towards this project.
 
-> TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro, Natasha Crepeau, Caio Oliveira, Nowras Ali, Maciek Ogrodnik, Matteo Capucci, Jone Uria Albizuri, Ralph Sarkis, Clément Spaier, Jordan Emme, Phil Pützstück, Lucas Viana, Louis Loiseau, Daniele Palombi, Bartosz Milewski, Dariush Moshiri, Hamid reza Khajoei, 李昊达, Özgür Esentepe, Shota, Sven-Ole Behrend, Lukas Graf, Byeongsu Yu, Manuel Hinz, Markus, Zhixuan Yang, Ísabel Pirsic, ruth, Cihan Bahran, ならずもの, Heiko Braun, Yiqi Xu, Carlo Perrone, Max Horn, Christopher Nicol, Valeria de Paiva, Zhiyu Zhang, Xia Jiazhen, Béranger Seguin.
+> TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro, Natasha Crepeau, Caio Oliveira, Nowras Ali, Maciek Ogrodnik, Matteo Capucci, Jone Uria Albizuri, Ralph Sarkis, Clément Spaier, Jordan Emme, Phil Pützstück, Lucas Viana, Louis Loiseau, Daniele Palombi, Bartosz Milewski, Dariush Moshiri, Hamid reza Khajoei, 李昊达, Özgür Esentepe, Shota, Sven-Ole Behrend, Lukas Graf, Byeongsu Yu, Manuel Hinz, Markus, Zhixuan Yang, Ísabel Pirsic, ruth, Cihan Bahran, ならずもの, Heiko Braun, Yiqi Xu, Carlo Perrone, Max Horn, Christopher Nicol, Valeria de Paiva, Zhiyu Zhang, Xia Jiazhen, Béranger Seguin, Mert Akdenizli.
 
 
 ## To-do
