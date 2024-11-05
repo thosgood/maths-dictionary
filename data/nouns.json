@@ -8169,8 +8169,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série alternada",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -8583,8 +8583,8 @@
       "gend": "męski"
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "série de potencias",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -15101,8 +15101,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibra",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "слой",
@@ -15253,8 +15253,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "gerbe",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "",
@@ -16990,8 +16990,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibrado",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "расслоение",
@@ -18873,8 +18873,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibra homotópica",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "гомотопический слой",
@@ -20012,8 +20012,8 @@
       "vrfd": false
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "cofibração",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "корасслоение",
@@ -20086,8 +20086,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibração",
+      "gend": "feminino"
     },
     "RU": {
       "atom": "",
@@ -20777,8 +20777,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "tipo de homotopia",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "гомотопический тип",
@@ -21236,8 +21236,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "operador bordo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "граничный оператор",
@@ -21307,8 +21307,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "operador cobordo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "кограничный оператор",
@@ -21379,8 +21379,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "complexo em cocadeia",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "коцепной комплекс",
@@ -21450,8 +21450,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "cobordo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "кограница",
@@ -21521,8 +21521,8 @@
       "gend": ""
     },
     "PT": {
-      "atom": "",
-      "gend": ""
+      "atom": "bordo",
+      "gend": "masculino"
     },
     "RU": {
       "atom": "граница",
