@@ -11,10 +11,10 @@ var submission = {};
 
 
 $(document).ready(function() {
-  $.getJSON("https://thosgood.com/maths-dictionary/data/nouns.json", function(json) {
+  $.getJSON("https://thosgood.net/maths-dictionary/data/nouns.json", function(json) {
     dict = json;
   });
-  $.getJSON("https://thosgood.com/maths-dictionary/data/languages.json", function(json) {
+  $.getJSON("https://thosgood.net/maths-dictionary/data/languages.json", function(json) {
     languages = json;
   });
 });
