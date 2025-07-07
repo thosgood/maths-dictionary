@@ -28,7 +28,7 @@ This dictionary is only as good as its entries, and for this there are many peop
 
 ### Website
 
-- make language header row sticky at top
+- N/A
 
 
 ## Existing dictionary resources
