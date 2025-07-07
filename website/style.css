@@ -87,7 +87,9 @@ body {
 /* The dictionary table (interactivity) */
 
 table.dataTable thead {
-  cursor: pointer; 
+  position: sticky;
+  top: 0px;
+  cursor: pointer;
 }
 
 table.dataTable thead .sorting_asc:after {
