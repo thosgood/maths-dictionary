@@ -1,7 +1,10 @@
 # Maths Dictionary
 
-As part of an ongoing project on categorical translation, I'm organising an open-source multilingual dictionary of mathematical terminology.
-You can see the live website version at https://thosgood.net/maths-dictionary/ .
+This repository hosts an open-source community-driven multilingual dictionary of mathematical terminology.
+It's growing slowly, and will one day hopefully outgrow its current format.
+Please do get in touch if you'd like to either contribute or just chat.
+
+You can see the live website version at [thosgood.net/maths-dictionary](https://thosgood.net/maths-dictionary/).
 
 [![JSON validation](https://github.com/thosgood/maths-dictionary/actions/workflows/main.yml/badge.svg)](https://github.com/thosgood/maths-dictionary/actions/workflows/main.yml)
 
@@ -10,30 +13,10 @@ You can see the live website version at https://thosgood.net/maths-dictionary/ .
 
 This dictionary is only as good as its entries, and for this there are many people to thank. Below is a list (in chronological order) of people who have contributed towards this project.
 
-> TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro, Natasha Crepeau, Caio Oliveira, Nowras Ali, Maciek Ogrodnik, Matteo Capucci, Jone Uria Albizuri, Ralph Sarkis, Clément Spaier, Jordan Emme, Phil Pützstück, Lucas Viana, Louis Loiseau, Daniele Palombi, Bartosz Milewski, Dariush Moshiri, Hamid reza Khajoei, 李昊达, Özgür Esentepe, Shota, Sven-Ole Behrend, Lukas Graf, Byeongsu Yu, Manuel Hinz, Markus, Zhixuan Yang, Ísabel Pirsic, ruth, Cihan Bahran, ならずもの, Heiko Braun, Yiqi Xu, Carlo Perrone, Max Horn, Christopher Nicol, Valeria de Paiva, Zhiyu Zhang, Xia Jiazhen, Béranger Seguin, Mert Akdenizli, Mateo Carmona, Daniel Teixeira, 秦宇轩 (QIN Yuxuan).
-
-
-## To-do
-
-### Dictionary
-
-- regenerate hash keys for all ex-adjectives
-- support for multiple atoms
-    + e.g. regional variations, or just synonyms
-- ruby characters for JA/ZH?
-- add plurals of nouns (and thus adjectives)
-    + will also need cases... (for e.g. `DE`)
-- think about verbs...
-
-
-### Website
-
-- N/A
+> TJF, Elena Badillo Goicoechea, Pedro Tamaroff, Enric Cosme Llópez, Dilan Demirtaş, Thibaut Benjamin, Fatimah Ahmadi, Övge, Samuel Lelièvre, Besnik Nuro, Natasha Crepeau, Caio Oliveira, Nowras Ali, Maciek Ogrodnik, Matteo Capucci, Jone Uria Albizuri, Ralph Sarkis, Clément Spaier, Jordan Emme, Phil Pützstück, Lucas Viana, Louis Loiseau, Daniele Palombi, Bartosz Milewski, Dariush Moshiri, Hamid reza Khajoei, 李昊达, Özgür Esentepe, Shota, Sven-Ole Behrend, Lukas Graf, Byeongsu Yu, Manuel Hinz, Markus, Zhixuan Yang, Ísabel Pirsic, ruth, Cihan Bahran, ならずもの, Heiko Braun, Yiqi Xu, Carlo Perrone, Max Horn, Christopher Nicol, Valeria de Paiva, Zhiyu Zhang, Xia Jiazhen, Béranger Seguin, Mert Akdenizli, Mateo Carmona, Daniel Teixeira, 秦宇轩 (QIN Yuxuan), Anna Borri.
 
 
 ## Existing dictionary resources
-
-(<https://www.freeformatter.com/json-escape.html> is useful)
 
 - [http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf](http://diposit.ub.edu/dspace/bitstream/2445/9703/6/matematiques2.pdf)
 - [https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf](https://www.cocentaina.es/upload/files/serveis-municipals/aviva/archivo1927.pdf)
@@ -49,3 +32,19 @@ This dictionary is only as good as its entries, and for this there are many peop
 - [https://courses.dcs.wisc.edu/wp/readinggerman/](https://courses.dcs.wisc.edu/wp/readinggerman/)
 - [http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf](http://euclid.mas.ucy.ac.cy/~georgios/bookfiles/dict1.pdf)
 - [https://math.uni.lu/dictionary/wordlists.html](https://math.uni.lu/dictionary/wordlists.html)
+
+
+
+## To-do
+
+(<https://www.freeformatter.com/json-escape.html> is useful)
+
+### Dictionary
+
+- regenerate hash keys for all ex-adjectives
+- support for multiple atoms
+    + e.g. regional variations, or just synonyms
+- ruby characters for JA/ZH?
+- add plurals of nouns (and thus adjectives)
+    + will also need cases... (for e.g. `DE`)
+- think about verbs...

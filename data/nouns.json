@@ -4785,7 +4785,7 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
+      "atom": "modulo semisemplice",
       "gend": "maschile"
     },
     "JA": {
@@ -5680,7 +5680,7 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
+      "atom": "categoria modello",
       "gend": "femminile"
     },
     "JA": {
@@ -5749,7 +5749,7 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
+      "atom": "categoria triangolata",
       "gend": "femminile"
     },
     "JA": {
@@ -6988,7 +6988,7 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
+      "atom": "insieme complementare",
       "gend": "maschile"
     },
     "JA": {
@@ -15385,8 +15385,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "spazio di moduli",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "モジュライ空間",
@@ -15612,8 +15612,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "scoppiamento",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "爆発",
@@ -15687,8 +15687,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "rappresentazione",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "表現",
@@ -15831,8 +15831,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "rappresentazione irriducibile",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "",
@@ -16434,12 +16434,12 @@
       "gend": ""
     },
     "FR": {
-      "atom": "algèbre d'un groupe",
-      "gend": "féminin"
-    },
-    "IT": {
       "atom": "",
       "gend": ""
+    },
+    "IT": {
+      "atom": "anello gruppo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "群環",
@@ -16973,8 +16973,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibrato",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "束",
@@ -17195,8 +17195,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "aggiunta sinistra",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "",
@@ -17265,8 +17265,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "aggiunta destra",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "",
@@ -17335,8 +17335,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "schema gruppo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "群スキーム",
@@ -17411,8 +17411,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "gruppo riduttivo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "簡約群",
@@ -17484,8 +17484,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "gruppo algebrico lineare",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "線形代数群",
@@ -17792,8 +17792,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "sottocategoria piena",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "",
@@ -17862,8 +17862,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "sottocategoria",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "包含函手",
@@ -18419,8 +18419,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "categoria piccola",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "小さい圏",
@@ -18712,8 +18712,8 @@
       "gend": "masculin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "cono",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "錐",
@@ -19003,8 +19003,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "categoria derivata",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "導来圏",
@@ -19153,8 +19153,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "colimite",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "",
@@ -19692,8 +19692,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "prefascio",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "前層",
@@ -19919,8 +19919,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "categoria simplesso",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "単体圏",
@@ -19994,8 +19994,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "cofibrazione",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "閉包含写像",
@@ -20068,8 +20068,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "fibrazione",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "ファイブレーション",
@@ -20140,8 +20140,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "equivalenza omotopica debole",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "弱同値",
@@ -20215,8 +20215,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "equivalenza omotopica",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "ホモトピー同値",
@@ -20689,8 +20689,8 @@
       "gend": "féminin"
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "classe di omotopia",
+      "gend": "femminile"
     },
     "JA": {
       "atom": "",
@@ -21220,8 +21220,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "operatore di bordo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "",
@@ -21291,8 +21291,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "operatore di cobordo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "",
@@ -21434,8 +21434,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "cobordo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "",
@@ -21505,8 +21505,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "bordo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "",
@@ -22284,8 +22284,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "reticolo",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "局所コンパクト群における格子",
@@ -22442,8 +22442,8 @@
       "vrfd": false
     },
     "IT": {
-      "atom": "",
-      "gend": ""
+      "atom": "anello di divisione",
+      "gend": "maschile"
     },
     "JA": {
       "atom": "斜体",
