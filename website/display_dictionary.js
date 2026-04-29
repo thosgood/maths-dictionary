@@ -99,8 +99,8 @@ $(document).ready(function() {
           }
         }
       }
-      // At first, only show English and French
-      if (language == "EN" || language == "FA" || language == "FR") {
+      // At first, only show CA, EN, EU, and FA
+      if (language == "CA" || language == "EN" || language == "EU" || language == "FA") {
         conf["visible"] = true;
         conf["searchable"] = true;
       }
